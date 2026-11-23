@@ -255,14 +255,13 @@
 - Requests are subject to both global and action-specific rate limits.
 - For more information, see the Rate Limits section.
 
-===== [26] Discord  (https://docs.discord.com/developers/reference)  src=24381ch sents=145
+===== [26] Discord  (https://docs.discord.com/developers/reference)  src=24289ch sents=143
 - Using basic authentication with credentials as the client ID and client secret found on the OAuth2 page of your app’s settings in the format client_id:client_secret as a Base64 encoded string.
 - Using an OAuth2 bearer token gained through the OAuth2 API.
 - For all authentication types, authentication is performed with the Authorization HTTP header in the format Authorization: TOKEN_TYPE TOKEN.Example Bot Token Authorization Header
-- Authorization: Bearer REDACTED_BEARER_TOKEN
-- Only applicable for OAuth2 API token endpoints.
-- Authorization: Bot REDACTED_BOT_TOKEN
 - Authorization: Basic REDACTED_BASIC_CREDENTIALS
+- Only applicable for OAuth2 API token endpoints.
+- API users that regularly hit and ignore rate limits will have their API keys revoked, and be blocked from the platform.
 - Sticker GIFs do not use the CDN base URL, and can be accessed at https://media.discordapp.net/stickers/<sticker_id>.gif.
 - Discord automatically refreshes attachment CDN URLs that appear within the client, so when your app receives a payload with a signed URL (like when you fetch a message), it will be valid.When passing CDN URLs into API fields, like url in an embed image object and avatar_url for webhooks, your app can pass the CDN URL without any parameters as the value and Discord will automatically render and refresh the URL.The standard CDN endpoints listed above are not signed, so they will not expire.
 - Any previously-added files that aren’t included will be removed.The description and is_spoiler fields of existing attachments can optionally be updated.Example Request Bodies (multipart/form-data)Note that these examples are small sections of an HTTP request to demonstrate behavior of this endpoint - client libraries will set their own form boundaries (boundary is just an example).

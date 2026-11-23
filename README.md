@@ -139,6 +139,11 @@ data/mcp_verified.json       MCP candidates and what answered
 discarded_synthetic/         the first attempt's fabricated dataset (kept, not cited)
 ```
 
+One saved page reproduces the example tokens Discord prints in its own docs (a bot token, a bearer token
+and a Basic header). Those three strings are replaced with `REDACTED_...` in `data/sources/26.txt` and
+`data/digest.*`, because GitHub's push protection refuses any repo containing them. No published quote
+contains any of them, so nothing on the page is affected.
+
 ## What changed from the first attempt
 
 The first version of this repo shipped a 100-row dataset whose "verbatim quotes" were typed into a
