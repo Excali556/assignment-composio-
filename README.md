@@ -70,7 +70,6 @@ scripts/resolve_access.py fetch pricing pages for apps whose docs are silent
 scripts/audit_sample.py   human re-read vs pass 1 -> corrections + accuracy
 scripts/patterns.py       aggregates -> data/stats.json
 scripts/build_page.py     render index.html from the data files
-scripts/composio_pipeline.py  optional: expose research_app() to a Composio agent
 ```
 
 The quality gate is what makes the corpus usable. A page only counts if it names the app, contains
@@ -108,6 +107,18 @@ after it. `run_all.py` enforces that; running the stages by hand in the wrong or
 MCP links and quietly changes the audit numbers. I hit exactly that bug during the build.
 
 Python 3.10+ and the system `curl` binary. No pip installs needed; see `requirements.txt`.
+
+## Deploying
+
+`index.html` is self-contained, so it goes to Vercel as a plain static site with no build step:
+
+```bash
+vercel --prod
+```
+
+`.vercelignore` keeps the upload to the page itself, and `vercel.json` turns on clean URLs. If you use
+the dashboard instead, pick any static preset and leave the build command empty. Once it is live,
+paste the URL into the "Live link" placeholder at the top of the page.
 
 ## Layout
 

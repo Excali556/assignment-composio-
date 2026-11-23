@@ -1,0 +1,16 @@
+# The deployable artefact is index.html alone. Everything else is research
+# source material that stays in the repo but does not need uploading.
+.env
+.env.example
+.freebuff/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+data/
+scripts/
+discarded_synthetic/
+apps.csv
+assignment.md
+README.md
+requirements.txt
