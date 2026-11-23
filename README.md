@@ -105,7 +105,8 @@ Stage order matters. `bind_evidence.py` rewrites `data/research.json`, so `mcp_c
 after it. `run_all.py` enforces that; running the stages by hand in the wrong order drops the verified
 MCP links and quietly changes the audit numbers. I hit exactly that bug during the build.
 
-Python 3.10+ and the system `curl` binary. No pip installs needed; see `requirements.txt`.
+Python 3.10+ and the system `curl` binary. There is nothing to install: the pipeline is standard
+library only, which is why there is no `requirements.txt`.
 
 ## Deploying
 

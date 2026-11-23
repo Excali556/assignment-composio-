@@ -1,6 +1,0 @@
-# Nothing to install. The research pipeline (fetch -> digest -> extract -> bind ->
-# verify -> page) runs on the Python 3.10+ standard library: urllib, html.parser,
-# json, re, argparse.
-#
-# It also calls the system `curl` binary as a second transport for pages that
-# reject urllib's TLS fingerprint.

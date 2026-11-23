@@ -10,7 +10,7 @@ __pycache__/
 data/
 scripts/
 discarded_synthetic/
-apps.csv
 assignment.md
 README.md
-requirements.txt
+*.txt
+*.csv
