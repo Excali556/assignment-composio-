@@ -269,7 +269,7 @@ HTML = f"""<!DOCTYPE html>
   <div class="byline">
     <span class="blank">Candidate name &mdash; add</span>
     <span class="blank">Live link &mdash; add deployment URL</span>
-    <span class="blank">Repo &mdash; add GitHub URL</span>
+    <a href="https://github.com/Excali556/assignment-composio-" target="_blank" rel="noopener">Source repo</a>
     <span class="blank">Fetched 2026-11-23</span>
   </div>
   <div class="stats">
