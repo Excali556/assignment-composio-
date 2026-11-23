@@ -188,8 +188,6 @@ HTML = f"""<!DOCTYPE html>
   h1 {{ font-size: clamp(28px, 4.4vw, 46px); line-height:1.1; margin:14px 0 10px; letter-spacing:-.02em; }}
   .lede {{ font-size:18px; color:#2b3441; max-width: 760px; }}
   .byline {{ margin-top:18px; display:flex; gap:10px; flex-wrap:wrap; font-size:13px; color:var(--muted); }}
-  .blank {{ border:1px dashed #b9b4a7; border-radius:6px; padding:2px 8px; background:#fffdf7;
-            color:#8a6d1f; font-size:12.5px; }}
 
   .stats {{ display:grid; grid-template-columns: repeat(auto-fit, minmax(170px,1fr)); gap:14px; margin:30px 0 0; }}
   .stat {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }}
@@ -267,10 +265,9 @@ HTML = f"""<!DOCTYPE html>
   from. {n} apps made it through that bar. The {100 - n} that never loaded is called out as
   missing rather than filled in.</p>
   <div class="byline">
-    <span class="blank">Candidate name &mdash; add</span>
-    <span class="blank">Live link &mdash; add deployment URL</span>
+    <span><strong>Aditya Mallikarjun</strong></span>
     <a href="https://github.com/Excali556/assignment-composio-" target="_blank" rel="noopener">Source repo</a>
-    <span class="blank">Fetched 2026-11-23</span>
+    <span>Fetched 2026-11-23</span>
   </div>
   <div class="stats">
     <div class="stat"><b>{n}</b><span>apps researched, every claim quoted</span></div>

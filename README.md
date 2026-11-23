@@ -11,8 +11,7 @@ Worth opening first:
 - `data/sources/<id>.txt` — the fetched page text, untouched. Every quote on the page is a substring
   of one of these files.
 
-Three fields at the top of the page are dashed placeholders: candidate name, live link, repo link.
-Those are yours to fill in before it goes anywhere.
+The page header carries the candidate name, a link to this repo and the date the pages were fetched.
 
 ## Where the numbers came from
 
@@ -117,8 +116,7 @@ vercel --prod
 ```
 
 `.vercelignore` keeps the upload to the page itself, and `vercel.json` turns on clean URLs. If you use
-the dashboard instead, pick any static preset and leave the build command empty. Once it is live,
-paste the URL into the "Live link" placeholder at the top of the page.
+the dashboard instead, pick any static preset and leave the build command empty.
 
 ## Layout
 
