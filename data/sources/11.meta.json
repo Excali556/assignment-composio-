@@ -1,0 +1,11 @@
+{
+  "id": 11,
+  "name": "Zendesk",
+  "requested_url": "https://developer.zendesk.com/api-reference.md",
+  "final_url": "https://developer.zendesk.com/api-reference.md",
+  "status": 200,
+  "chars": 87473,
+  "title": "",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:23+00:00"
+}

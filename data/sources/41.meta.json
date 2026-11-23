@@ -1,0 +1,11 @@
+{
+  "id": 41,
+  "name": "Shopify",
+  "requested_url": "https://shopify.dev/docs/api/admin",
+  "final_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+  "status": 200,
+  "chars": 17632,
+  "title": "GraphQL Admin API reference",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:49+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 45,
+  "name": "Magento (Adobe Commerce)",
+  "requested_url": "https://developer.adobe.com/commerce/webapi/rest/",
+  "final_url": "https://developer.adobe.com/commerce/webapi/rest/",
+  "status": 200,
+  "chars": 3787,
+  "title": "REST API Overview",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:50+00:00"
+}

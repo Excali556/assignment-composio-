@@ -1,0 +1,191 @@
+DOCUMENTATION
+
+/
+
+EN
+
+Language
+
+English
+
+Français
+
+Deutsch
+
+日本語
+
+한국어
+
+Português
+
+Get started
+
+Guides
+
+Developer
+
+Reference
+
+Release notes
+
+Tutorials
+
+Status
+
+For AI agents: documentation index at /llms.txt — fetch to discover all Snowflake documentation pages. Markdown version of this page: /en/developer-guide/sql-api/index.md
+
+Overview
+
+Snowflake Horizon Catalog
+
+Applications and tools for connecting to Snowflake
+
+Virtual warehouses
+
+Databases, Tables, & Views
+
+Data types
+
+Data Integration
+
+Snowflake Openflow
+
+Apache Iceberg™
+
+Apache Iceberg™ Tables
+
+Snowflake Open Catalog
+
+Zero-Copy Connectors
+
+About SAP® and Snowflake
+
+About Salesforce Data Cloud and Snowflake
+
+About Workday Live Data Query for Snowflake
+
+About Workday Data Cloud and Snowflake
+
+Data engineering
+
+Data loading
+
+Dynamic tables
+
+Streams and tasks
+
+Row timestamps
+
+DCM Projects
+
+Pipeline Builder
+
+dbt Projects on Snowflake
+
+Data Unloading
+
+Storage lifecycle policies
+
+Migrations
+
+Queries
+
+Collaboration
+
+Snowflake AI & ML
+
+Snowflake Postgres
+
+Alerts & Notifications
+
+Security
+
+Organizations & Accounts
+
+Business continuity & data recovery
+
+Performance optimization
+
+Cost & Billing
+
+Snowflake SQL API¶
+
+The Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database. You can use
+this API to develop custom applications and integrations that:
+
+Perform queries
+
+Manage your deployment (e.g. provision users and roles, create tables, etc.)
+
+The Snowflake SQL API provides operations that you can use to:
+
+Submit SQL statements for execution.
+
+Check the status of the execution of a statement.
+
+Cancel the execution of a statement.
+
+You can use this API to execute standard queries and most
+DDL and DML statements.
+See Limitations of the SQL API for the types of statements that are not supported.
+
+Introduction to the SQL API
+
+Get an overview of the API.
+
+About the SQL API endpoints
+
+Learn about the endpoints that make up the API.
+
+Authenticating to the server
+
+Use OAuth or Key Pair to authenticate with the Snowflake server.
+
+Submitting a request to execute SQL statements
+
+Set up and submit requests using an API endpoint.
+
+Handling responses
+
+Check request status and get results and other data after a request.
+
+Submitting multiple SQL statements in a single request
+
+Send multiple SQL statements in a single API request.
+
+Creating and calling stored procedures
+
+Create a stored procedure by specifying it in the body of a request.
+
+Using explicit transactions
+
+Execute SQL in a transaction by specifying the start, end, and statements in the transaction.
+
+Getting details about an error
+
+Retrieve error information.
+
+Canceling the execution of a SQL statement
+
+Cancel SQL statement execution.
+
+Snowflake SQL API reference
+
+Read details about the operations, objects, HTTP headers, and response codes for this API.
+
+Was this page helpful?
+YesNo
+
+Visit Snowflake
+
+Join the conversation
+
+Develop with Snowflake
+
+Share your feedback
+
+Read the latest on our blog
+
+Get your own certification
+
+Privacy NoticeSite TermsCookies Settings© 2026 Snowflake, Inc. All Rights Reserved.

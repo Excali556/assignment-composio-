@@ -1,0 +1,11 @@
+{
+  "id": 59,
+  "name": "Waterfall.io",
+  "requested_url": "https://docs.waterfall.io",
+  "final_url": "https://docs.waterfall.io/v1/introduction",
+  "status": 200,
+  "chars": 6673,
+  "title": "Waterfall API introduction - Waterfall.io API Documentation",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:58+00:00"
+}

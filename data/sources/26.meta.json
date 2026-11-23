@@ -1,0 +1,11 @@
+{
+  "id": 26,
+  "name": "Discord",
+  "requested_url": "https://discord.com/developers/docs/reference",
+  "final_url": "https://docs.discord.com/developers/reference",
+  "status": 200,
+  "chars": 24381,
+  "title": "API Reference - Documentation - Discord",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:31+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 74,
+  "name": "Jira",
+  "requested_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+  "final_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+  "status": 200,
+  "chars": 13805,
+  "title": "The Jira Cloud platform REST API",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:07+00:00"
+}

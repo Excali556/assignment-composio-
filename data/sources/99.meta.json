@@ -1,0 +1,11 @@
+{
+  "id": 99,
+  "name": "YouTube Transcript",
+  "requested_url": "https://transcriptapi.com/",
+  "final_url": "https://transcriptapi.com/",
+  "status": 200,
+  "chars": 14440,
+  "title": "YouTube Transcript API with Search, Channels & Playlists | TranscriptAPI",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:38+00:00"
+}

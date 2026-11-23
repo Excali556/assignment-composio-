@@ -1,0 +1,11 @@
+{
+  "id": 62,
+  "name": "Vercel",
+  "requested_url": "https://vercel.com/docs/rest-api",
+  "final_url": "https://vercel.com/docs/rest-api",
+  "status": 200,
+  "chars": 5016,
+  "title": "Vercel REST API Reference",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:58+00:00"
+}

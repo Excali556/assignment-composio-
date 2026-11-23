@@ -1,0 +1,11 @@
+{
+  "id": 37,
+  "name": "systeme.io",
+  "requested_url": "https://developer.systeme.io",
+  "final_url": "https://developer.systeme.io/reference/api",
+  "status": 200,
+  "chars": 14375,
+  "title": "Public API",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:49+00:00"
+}

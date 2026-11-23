@@ -1,0 +1,64 @@
+Title: Salesforce Developers
+
+URL Source: https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html
+
+Published Time: Fri, 20 Nov 2026 01:23:32 GMT
+
+Markdown Content:
+## Introduction to REST API
+
+REST API provides you with programmatic access to your data in Salesforce. The flexibility and scalability of REST API make it an excellent choice for integrating Salesforce into your applications and for performing complex operations on a large scale.
+
+Use this guide to set up your deployment environment and learn about advanced details regarding data access. However, understanding and using REST API requires basic familiarity with software development, web services, and the Salesforce user interface.
+
+If you want to get right to the action, the Quick Start guide covers the basics to get you up and running.
+
+If you’re looking for more context about Salesforce APIs, check out the list of links.
+
+Salesforce REST API is designed to work with Salesforce objects. See the [Object Reference for the Salesforce Platform](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) for an introduction and more information about Salesforce objects.
+
+*   **[About REST API](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-what-is-rest-api.html)**
+
+REST API is one of several web interfaces that you can use to access your Salesforce data without using the Salesforce user interface. With API access, you can perform operations and integrate Salesforce into your applications as you like.
+
+*   **[REST API Release Notes](https://developer.salesforce.com/docs/platform/api-rest/guide/rest-rns.html)**
+
+Use the Salesforce Release Notes to learn about the most recent updates and changes to REST API.
+
+*   **[Supported Editions and Required Permissions](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html)**
+
+To access your Salesforce org and data using the Salesforce API, you need both an org and a user with API access enabled. There’s more than one Salesforce Edition that supports API access and multiple ways to grant API permission to a user.
+
+*   **[REST Resources and Requests](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-resources.html)**
+
+REST API is based on the usage of resources—pieces of data in Salesforce, such as records, collections of records, query results, metadata, or API information. Each resource is exposed by a uniform resource identifier (URI) and is accessed by sending HTTP requests to the corresponding URI.
+
+*   **[REST API Architecture](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-architecture.html)**
+
+REST API follows the standard RESTful principles and characteristics.
+
+*   **[Authorization Through External Client Apps or Connected Apps and OAuth 2.0](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html)**
+
+For a client application to access REST API resources, it must be authorized as a safe visitor. To implement this authorization, use either an external client app or a connected app and an OAuth 2.0 authorization flow.
+
+*   **[Headers](https://developer.salesforce.com/docs/platform/api-rest/guide/headers.html)**
+
+REST API supports several standard and custom HTTP headers, including both request headers and response headers.
+
+*   **[Send REST Requests with cURL](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-curl.html)**
+
+The examples in this guide use the cURL tool to send HTTP requests that access, create, and manipulate resources in Salesforce. If you use a different tool to send requests, you can use the same elements from the cURL examples to send requests.
+
+*   **[Valid Date and DateTime Formats](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-valid-date-formats.html)**
+
+Specify the right format for `dateTime` and `date` fields.
+
+*   **[Status Codes and Error Responses](https://developer.salesforce.com/docs/platform/api-rest/guide/errorcodes.html)**
+
+*   **[API End-of-Life Policy](https://developer.salesforce.com/docs/platform/api-rest/guide/api-rest-eol.html)**
+
+See which REST API versions are supported, unsupported, or unavailable.
+
+**See Also**
+
+*   [Trailhead: Lightning Platform API Basics](https://trailhead.salesforce.com/content/learn/modules/api_basics)

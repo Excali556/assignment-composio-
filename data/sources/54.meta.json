@@ -1,0 +1,11 @@
+{
+  "id": 54,
+  "name": "MrScraper",
+  "requested_url": "https://docs.mrscraper.com/",
+  "final_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+  "status": 200,
+  "chars": 5795,
+  "title": "Overview | MrScraper Documentation",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:57+00:00"
+}

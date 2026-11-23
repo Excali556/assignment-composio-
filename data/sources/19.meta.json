@@ -1,0 +1,11 @@
+{
+  "id": 19,
+  "name": "Gorgias",
+  "requested_url": "https://developers.gorgias.com/reference/introduction",
+  "final_url": "https://developers.gorgias.com/reference/introduction",
+  "status": 200,
+  "chars": 5028,
+  "title": "Introduction",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:27+00:00"
+}

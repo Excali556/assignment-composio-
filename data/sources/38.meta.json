@@ -1,0 +1,11 @@
+{
+  "id": 38,
+  "name": "Pinterest",
+  "requested_url": "https://developers.pinterest.com/docs.md",
+  "final_url": "https://developers.pinterest.com/",
+  "status": 200,
+  "chars": 90165,
+  "title": "",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:59+00:00"
+}

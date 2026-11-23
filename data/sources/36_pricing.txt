@@ -1,0 +1,109 @@
+Skip to content
+An index of every page is at https://developers.klaviyo.com/llms.txt.
+
+Developers
+Home
+
+Guides
+
+API Reference
+
+Agents
+
+Search the docs
+
+v2026-10-15
+
+v2026-10-15Latest
+
+v2026-07-15
+
+v2026-04-15
+
+v2026-01-15
+
+v2025-10-15
+
+v2025-07-15
+
+v2025-04-15
+
+v2025-01-15
+
+Changelog
+
+Help Center
+
+Community
+
+We couldn't find that page
+
+The page may have been moved, renamed or removed.
+
+Browse the API reference
+
+If you're an agent, llms.txt lists every resource in the reference, with links to each endpoint's Markdown page.
+
+Power smarter digital relationships
+
+Sign up for our developer newsletter
+
+Get the latest API updates, product announcements, developer tool updates, and more sent right to your inbox.
+
+By entering your information and clicking “Sign up,” you consent to receive marketing emails (such as newsletters, blog posts, webinars, event invitations and new product updates) from Klaviyo from time to time. You can unsubscribe at any time by clicking on the “Unsubscribe” link at the bottom of our emails. For more information on how we process your personal information and what rights you have in this respect, please see our Privacy Policy.
+
+API docs
+
+API overview
+
+Events
+
+Profiles
+
+Lists
+
+Metrics
+
+Flows
+
+Resources
+
+Developer forum (opens in a new tab)
+
+Changelog
+
+SDK overview
+
+Help center (opens in a new tab)
+
+Contact us (opens in a new tab)
+
+About Klaviyo (opens in a new tab)
+
+Privacy Policy (opens in a new tab)
+
+Guides
+
+Get started
+
+Install SDKs
+
+Set up your AI agent
+
+For agents
+
+llms.txt
+
+llms-full.txt
+
+OpenAPI spec
+
+MCP server
+
+Agent skills
+
+Terms and Privacy (opens in a new tab)
+
+Trademarks (opens in a new tab)
+
+Security (opens in a new tab)

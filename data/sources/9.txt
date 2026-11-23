@@ -1,0 +1,427 @@
+Skip to content
+
+Copper Developer API
+
+Getting started
+
+Initializing search
+
+Copper Developer API
+
+Introduction
+
+Introduction
+
+Getting started
+
+Getting started
+
+Table of contents
+
+Changelog 🆕
+
+Domain Update ⚠️
+
+Change Policy
+
+Postman Resources
+
+Import the Collection
+
+Import and Use the Environment
+
+Authentication
+
+Authentication
+
+Overview
+
+OAuth2.0
+
+OAuth2.0
+
+Overview
+
+Quickstart Guide
+
+Documentation
+
+Requests
+
+Responses
+
+Search
+
+Paginating search results
+
+Best practices
+
+Embedded Apps
+
+Appendix
+
+Getting Support
+
+Change Policy
+
+Changelog
+
+Account and Users
+
+Account and Users
+
+Overview
+
+Fetch Account Details
+
+Fetch User by ID
+
+Fetch API User
+
+List Users
+
+Leads
+
+Leads
+
+Overview
+
+Fetch a Lead by ID
+
+Create a New Lead
+
+Bulk Create Leads
+
+Update a Lead
+
+Bulk Update Leads
+
+Delete a Lead
+
+UPSERT a Lead
+
+UPSERT a Lead (by custom field)
+
+Convert a Lead
+
+List Leads (Search)
+
+See a Lead's Activities
+
+List Customer Sources
+
+List Lead Statuses
+
+People
+
+People
+
+Overview
+
+Fetch a Person by ID
+
+Fetch a Person by Email
+
+Create a New Person
+
+Bulk Create People
+
+Update a Person
+
+Bulk Update People
+
+Delete a Person
+
+List People (Search)
+
+See a Person's Activities
+
+List Contact Types
+
+Companies
+
+Companies
+
+Overview
+
+Fetch a Company by ID
+
+Create a New Company
+
+Bulk Create Companies
+
+Update a Company
+
+Bulk Update Companies
+
+Delete a Company
+
+List Companies (Search)
+
+See a Company's Activities
+
+List Contact Types
+
+Opportunities
+
+Opportunities
+
+Overview
+
+Fetch an Opportunity by ID
+
+Create a New Opportunity
+
+Bulk Create Opportunities
+
+Update an Opportunity
+
+Delete an Opportunity
+
+List Opportunities (Search)
+
+List Customer Sources
+
+List Loss Reasons
+
+List Pipelines
+
+List Pipeline Stages
+
+List Stages in a Pipeline
+
+Projects
+
+Projects
+
+Overview
+
+Fetch a Project by ID
+
+Create a New Project
+
+Update a Project
+
+Delete a Project
+
+List Projects (Search)
+
+Tags
+
+Tags
+
+Overview
+
+List All Tags
+
+Tasks
+
+Tasks
+
+Overview
+
+Fetch a Task by ID
+
+Create a New Task
+
+Update a Task
+
+Delete a Task
+
+List Tasks (Search)
+
+Activities
+
+Activities
+
+Overview
+
+Fetch an Activity By ID
+
+Create a New Activity
+
+Bulk Create Activities
+
+Update an Activity
+
+Delete an Activity
+
+List Activities (Search)
+
+List Activity Types
+
+Custom Fields
+
+Custom Fields
+
+Overview
+
+Search Entity (Leads, People, etc) by Custom Field
+
+Receive Entity (Leads, People, etc) with Computed Custom Field Values
+
+Custom Activity Type
+
+Custom Activity Type
+
+Get Custom Activity Type
+
+List All Custom Activity Types
+
+Update an Existing Custom Activity Type
+
+Create a New Custom Activity Type
+
+Custom Field Definition
+
+Custom Field Definition
+
+Delete a Custom Field Definition
+
+List Custom Field Definitions
+
+Update an existing custom field definition
+
+Fetch a Custom Field Definition
+
+Create a new custom field definition
+
+Connect fields
+
+Connect fields
+
+Overview
+
+Updating records that have connect fields
+
+Delete a connection
+
+List the connections on specified entity
+
+List the connections on specified entity using custom field definition id
+
+Create a connection
+
+Field Layouts
+
+Field Layouts
+
+List Field Layout by Entity Type
+
+Related Items
+
+Related Items
+
+Overview
+
+View all records related to an Entity
+
+View all records of a given Entity Type related to an Entity
+
+Relate an existing record to an Entity
+
+Remove relationship between record and Entity
+
+File Upload
+
+File Upload
+
+Overview
+
+List attached files of an entity record
+
+Get metadata of a specific attached file
+
+Step 1: Get signed S3 URL
+
+Step 2: Upload your file to S3
+
+Step 3: Relate the uploaded file to a specific entity
+
+Delete a file
+
+Webhooks
+
+Webhooks
+
+Overview
+
+Create new subscription
+
+Update a subscription
+
+Delete subscription
+
+List all subscriptions
+
+View subscription by ID
+
+Webhook Notification Example
+
+Table of contents
+
+Changelog 🆕
+
+Domain Update ⚠️
+
+Change Policy
+
+Postman Resources
+
+Import the Collection
+
+Import and Use the Environment
+
+Copper Developer API¶
+
+The Copper Web API allows you to access and build your own applications that interact with Copper in more complex ways than the integrations we provide out of the box.
+
+The Copper Developer API ("Dev API") provides a RESTful interface with JSON-formatted responses to access most Copper resources. We are continuously working on expanding our API functionality, so stay tuned!
+
+Changelog 🆕¶
+
+We have added a public changelog, please click here.
+
+Domain Update ⚠️¶
+
+Please note that we've recently updated our domain to reflect an earlier application rebranding.
+
+Our developer api can be found at https://api.copper.com/developer_api/, previously it was at https://api.prosperworks.com/developer_api/.
+
+We are currently supporting auto-redirects for requests being made to the old domain and will continue to do so until early 2022.
+
+Please update your Dev API requests with the new domain as soon as possible.
+
+Change Policy¶
+
+Our Developer API Change Policy is available here.
+
+This policy defines how we will continue to support and maintain this Developer API going forward.
+
+Postman Resources¶
+
+To easily interact with the Copper Developer API, you may download our:
+
+Postman Collection
+
+Postman Environment
+
+Import the Collection¶
+
+To import the collection, open Postman and click Import, then select "Import From Link"
+
+Copy & Paste the following link and press the "Import" button:
+
+https://developer.copper.com/download/copper_postman_collection.json
+
+Import and Use the Environment¶
+
+To import the environment, open Postman and click Import, then select "Import From Link"
+
+Copy & Paste the following link and press the "Import" button:
+
+https://developer.copper.com/download/copper_postman_environment.json
+
+After importing the environment, set it as your active environment in the top right-hand corner:
+
+Copyright © Copper, Inc. All rights reserved.

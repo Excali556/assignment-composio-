@@ -1,0 +1,11 @@
+{
+  "id": 60,
+  "name": "Clay",
+  "requested_url": "https://developers.clay.com/quickstart",
+  "final_url": "https://developers.clay.com/quickstart",
+  "status": 200,
+  "chars": 2658,
+  "title": "Quickstart - Clay docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T15:44:16+00:00"
+}

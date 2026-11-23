@@ -1,0 +1,11 @@
+{
+  "id": 57,
+  "name": "Bright Data",
+  "requested_url": "https://docs.brightdata.com/api-reference/introduction",
+  "final_url": "https://docs.brightdata.com/api-reference/authentication",
+  "status": 200,
+  "chars": 10506,
+  "title": "Authentication - Bright Data Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:55+00:00"
+}

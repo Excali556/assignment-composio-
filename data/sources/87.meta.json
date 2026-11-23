@@ -1,0 +1,11 @@
+{
+  "id": 87,
+  "name": "Xero",
+  "requested_url": "https://developer.xero.com/docs.md",
+  "final_url": "https://developer.xero.com/docs.md",
+  "status": 404,
+  "chars": 113747,
+  "title": "",
+  "transport": "curl",
+  "fetched_at": "2026-11-23T14:30:29+00:00"
+}

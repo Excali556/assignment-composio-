@@ -1,0 +1,2671 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_liner": "Programmatic access to Salesforce data via REST API",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authorization Through External Client Apps or Connected Apps and OAuth 2.0",
+      "access": null,
+      "api": "REST API provides you with programmatic access to your data",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing are not specified in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": null,
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": {
+      "auth": "OAuth tokens",
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation snippet provides only limited details; many fields are unspecified.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_liner": "Pipedrive is a Web-based Sales CRM.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API token can be obtained manually from the Pipedrive app.",
+      "access": null,
+      "api": "We offer two official Pipedrive API client libraries: Node.js and PHP.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "ID is arbitrarily set as 0 due to lack of source data.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "one_liner": "Revolutionary, highly customisable, powerful data-driven CRM platform.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "You can also subscribe to events in realtime using webhooks.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Authentication methods are not specified in the provided documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "one_liner": "Build apps in TypeScript, connect tools via APIs, and self‑host Twenty.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Open Source / Local CLI",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "connect apps with OAuth",
+      "access": "Twenty’s open-source React primitives",
+      "api": "Read and write records over REST and GraphQL",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model is based on explicit open‑source wording, no marketplace details provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "one_liner": "Integrate with other services and build tools on top of Podio",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "Webhooks",
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Get an API Key",
+      "access": null,
+      "api": "register webhooks in your Podio apps",
+      "mcp": "Download the Podio iPhone App"
+    },
+    "confidence": "Medium",
+    "notes": "Access model and pricing details are not provided in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_liner": "Zoho CRM API uses OAuth 2.0 for secure delegated access.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": "The Zoho CRM API uses the OAuth 2.0 protocol for authentication.",
+      "access": "Clients are not required to support password authentication",
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Many fields (API type, access model, MCP) are not explicitly stated in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "category": "CRM and Sales",
+    "one_liner": "Build integrations, automate workflows, and extend Close for your team.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API keys for scripts or OAuth 2.0",
+      "access": null,
+      "api": "Full endpoint docs with schemas, examples",
+      "mcp": "direct access to Close data via the MCP server"
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "one_liner": "Provides a RESTful interface with JSON-formatted responses to access most Copper resources.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "OAuth2.0",
+      "access": null,
+      "api": "RESTful interface with JSON-formatted responses",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and marketplace details are not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation only lists sections without details.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation snippet incomplete, provides no details.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "one_liner": "Suite of SDKs and APIs for building apps that connect with Intercom.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "You are also required to set up OAuth",
+      "access": "You can build a private app using your Access Token",
+      "api": "REST APIs and Canvas Kit framework",
+      "mcp": "Model Context Protocol (MCP)"
+    },
+    "confidence": "High",
+    "notes": "Access model (pricing) is not explicitly stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Freshdesk provides RESTful APIs for helpdesk ticket management.",
+    "auth_methods": [
+      "API Key",
+      "Basic"
+    ],
+    "access_model": "Free Trial",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "You can use your personal API key to authenticate the request.",
+      "access": "default API limit of 50 calls/minute",
+      "api": "Freshdesk's APIs belong to the REST category.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Marketplace information not provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "one_liner": "Connect external agents to Front as teammates with full governance.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "OAuth and API tokens",
+      "access": null,
+      "api": "Core API",
+      "mcp": "Access Front data and actions through the MCP protocol"
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "one_liner": "Pylon is the first agentic support platform built for B2B.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Lack of API details",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "Webhooks",
+      "mcp": "Pylon MCP"
+    },
+    "confidence": "Low",
+    "notes": "The documentation snippet provides no concrete authentication, access model, or API specifications, making the integration feasibility unclear.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "one_liner": "LiveAgent support platform offering REST API for agents, customers, and tickets.",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "You can get this in case your athentification with API key failed",
+      "access": null,
+      "api": "Home>Technical Support>LiveAgent API>REST API>API v1>Documentation>Complete API reference",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "The source page lacks details on authentication, access model, and API.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "one_liner": "Help Scout offers inbox, docs, and beacon APIs with tiered rate limits.",
+    "auth_methods": [],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": "The Free plan does not include access to the API or integrations.",
+      "api": "Webhooks - have Help Scout send out notifications of events.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Authentication methods not specified in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "one_liner": "Helpdesk platform offering a REST API for managing customers and settings.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "The Gorgias API is structured with REST in mind.",
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation lacks details on authentication methods, access model, and MCP availability.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "No data",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Source contains only an error page, no details about Gladly.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "one_liner": "Slack is a collaboration platform for messaging and workflow automation.",
+    "auth_methods": [
+      "OAuth2",
+      "Token",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "OAuth 2.0 to securely authenticate users",
+      "access": "Slack apps use OAuth scopes to govern",
+      "api": null,
+      "mcp": "Slack Marketplace for app distribution"
+    },
+    "confidence": "High",
+    "notes": "API type not specified in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "one_liner": "Twilio provides APIs for voice, messaging, and authentication.",
+    "auth_methods": [
+      "Basic",
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "To authenticate requests to the Twilio APIs, Twilio supports HTTP Basic authentication.",
+      "access": null,
+      "api": "The Twilio REST API allows you to query metadata",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and MCP information are not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "one_liner": "Zoho Cliq is a team communication platform offering REST APIs.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Zoho Cliq's Rest API's follows the OAuth 2.0 protocol",
+      "access": "Each API request must include an OAuth token",
+      "api": "Cliq API is standardized around REST",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access pricing or plan details are not provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "one_liner": "Feishu access tokens authenticate API calls for apps and users.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation to assess buildability",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "The source provides token description but lacks details on auth methods, API type, access model, and MCP availability.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "one_liner": "Pumble SDK offers an ApiClient for easy interaction with the Pumble API.",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": "x-app-token: Your app token that you receive when app is created.",
+      "access": null,
+      "api": "pumble-sdk provides an API client (ApiClient) for easier interaction the Pumble API.",
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Access model and MCP details are not provided in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "one_liner": "Discord API provides REST endpoints for interacting with Discord data.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token",
+      "Basic",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": {
+      "auth": "Using an OAuth2 bearer token gained through the OAuth2 API",
+      "access": null,
+      "api": "The Discord API is a REST API",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_liner": "HTTP-based interface for building bots on Telegram.",
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Each bot is given a unique authentication token",
+      "access": null,
+      "api": "The Bot API is an HTTP-based interface",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing are not explicitly stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "one_liner": "Guide to using System User and Business Integration access tokens for WhatsApp Business API",
+    "auth_methods": [
+      "Bearer Token",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authorization request header, preceded by `Bearer`",
+      "access": "grant Partial or Full business asset access",
+      "api": "assign your app these three Graph API permissions",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "ID is inferred as placeholder; no explicit ID provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "one_liner": "Aircall offers a cloud phone system with a REST API for calls, users, and teams.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Basic",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authentication can be done through OAuth or Basic Auth",
+      "access": "api_id and api_token are needed to use Aircall Public API",
+      "api": "Aircall Public API is a classic REST API",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Existing marketplace connector status is unclear",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "one_liner": "Vonage provides communications APIs for messaging, voice, and video.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Not enough information",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation snippet contains no details on authentication, access model, or API types.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Programmatic interface for managing Google Ads campaigns and data",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authentication and authorization overview",
+      "access": null,
+      "api": "Use our officially supported client libraries",
+      "mcp": "Google Ads MCP server"
+    },
+    "confidence": "High",
+    "notes": "Access model not explicitly stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Get Started with Marketing API",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Most fields are not explicitly stated in the provided snippet.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "LinkedIn Ads platform provides APIs for ad management, reporting, events, and lead sync.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": "LinkedIn Marketing Partner Program"
+    },
+    "confidence": "Medium",
+    "notes": "Key details like authentication method and API type are not specified.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation snippet is incomplete, providing no details on auth, API, or access.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Power timely, relevant marketing campaigns with custom data pulled directly from your app.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authorization using a Mailchimp API key",
+      "access": null,
+      "api": "GET https://api.mailchimp.com/3.0/",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "No explicit access model or MCP info provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Klaviyo provides marketing automation APIs for email, SMS, and social campaigns.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Klaviyo provides 3 methods of authentication including private key authentication and OAuth",
+      "access": "All /api endpoints use private API keys",
+      "api": "Every endpoint in the Klaviyo REST API",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Systeme.io provides a RESTful public API for automation, booking, subscriptions and more.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "your only option right now is to attach your API key",
+      "access": "must first obtain an authentication key",
+      "api": "RESTful conventions, our API ensures intuitive interaction",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model is not explicitly stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "No information available",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Source contains only HTML script tags, no API details.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Threads API lets apps publish, read, and manage Threads content via OAuth2 tokens.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API authentication is handled by Threads user access tokens",
+      "access": "Users must grant your app these permissions through the Authorization Window",
+      "api": "querying the GET /refresh_access_token endpoint",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "No pricing or MCP information is provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "SendGrid v3 API provides a REST interface to send email at scale",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Create API keys Retrieve an existing API Key",
+      "access": null,
+      "api": "REST interface to send email at scale",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and MCP information are not provided in the source",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "one_liner": "Shopify Admin GraphQL API for building apps and integrations",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "GraphQL",
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "access token in the X-Shopify-Access-Token header",
+      "access": "apps need to request specific access scopes during the install process",
+      "api": "GraphQL queries are executed by sending POST HTTP requests to the endpoint",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Pricing or access model is not mentioned in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "one_liner": "The WooCommerce REST API connects your store to external systems and services.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "The WooCommerce REST API uses a key system to control access",
+      "access": null,
+      "api": "The WooCommerce REST API connects your store to external systems and services",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model is not explicitly stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "one_liner": "Retrieve cart_id from abandoned cart token for headless storefronts.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "Use /abandoned-carts/{token} on headless storefronts",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Auth method not specified in the source text.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "one_liner": "RESTful APIs for building storefronts, merchant tools, and integrations on B2C Commerce.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/b2c-developer-tooling.html#connect-your-ai-assistant",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "The response includes an `access_token`:",
+      "access": "available at no extra cost.",
+      "api": "set of RESTful APIs",
+      "mcp": "To explore SCAPI with your assistant, use the B2C MCP"
+    },
+    "confidence": "High",
+    "notes": "Auth method inferred as Bearer Token from access_token mention.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "one_liner": "Adobe Commerce REST APIs enable integration with CRM, ERP, and mobile apps.",
+    "auth_methods": [
+      "Bearer Token",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "must use Adobe Identity Management Service (IMS) to authenticate",
+      "access": null,
+      "api": "Adobe Commerce provides a wide range of REST API endpoints",
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Access model and MCP information are not provided in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "one_liner": "Manage commerce features of a Squarespace merchant site via APIs.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authentication and permissions OAuth",
+      "access": null,
+      "api": "designed with REST principles",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and MCP details are not specified in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "one_liner": "",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation snippet insufficient to determine details.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "The source provides no details on API, authentication, or access requirements.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "one_liner": "Amazon Selling Partner API enables programmatic access to Amazon marketplace data and operations.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "A Login with Amazon (LWA) access token authorizes your application",
+      "access": "Get the application authorized by a selling partner",
+      "api": "Request and filter data with a GraphQL query",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Pricing and access model are not specified in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "one_liner": "Collect payments, manage subscriptions, and automate business with Commas.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK",
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Every API request must include your API key in the `x-api-key` header.",
+      "access": null,
+      "api": "Every endpoint is served under the `/public-api/` path on `https://www.fanbasis.com`.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model is not explicitly described in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "DataForSEO provides REST APIs for SEO data, including SERP, screenshots, maps, and more.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Partial",
+    "main_blocker": "Authentication method not specified",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "DataForSEO API is using the REST technology",
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Auth details and pricing/access model are ambiguous in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "AI-powered SEO platform with API and MCP integration",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "retrieve your unique API key",
+      "access": "You can even test it in the free trial account",
+      "api": "integration is done via the REST API reference",
+      "mcp": "MCP server connects SE Ranking’s data directly to AI assistants"
+    },
+    "confidence": "High",
+    "notes": "The exact MCP endpoint URL is not provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Access Ahrefs marketing and search data via APIs for custom integrations.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "OAuth guide Implement OAuth 2.0 authorization",
+      "access": "Free test queries Try API endpoints without an Enterprise plan",
+      "api": "REST API",
+      "mcp": "MCP Connect your Ahrefs data to AI assistants"
+    },
+    "confidence": "High",
+    "notes": "The documentation does not provide a numeric identifier, so an arbitrary ID was used.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "All-in-one scraping platform with AI agents, integrations, and APIs.",
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "create an API token for authentication",
+      "access": "Understand subscription plans, token usage, and billing cycles",
+      "api": "Explore every endpoint, authentication, pagination, and error handling",
+      "mcp": "The MrScraper MCP server source code is available on GitHub"
+    },
+    "confidence": "High",
+    "notes": "MCP URL not specified in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "one_liner": null,
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": "Add the token to your request's Authorization header",
+      "access": null,
+      "api": "The API is organized around RESTful HTTP endpoints",
+      "mcp": "Machine Payments Protocol (MPP)"
+    },
+    "confidence": "Medium",
+    "notes": "Access model and buildability are not explicitly stated.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Scrape, search, and interact with web pages via API",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "None"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\"",
+      "access": "No account or API key is required",
+      "api": "curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\"",
+      "mcp": "Connect Firecrawl to any AI tool via the Model Context Protocol"
+    },
+    "confidence": "High",
+    "notes": "Auth methods include optional API key and bearer token, but none is also allowed.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Secure API and proxy authentication for data extraction services",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "Basic"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authorization header: Bearer <token>",
+      "access": "Usage is charged according to your pricing plan",
+      "api": "curl --request POST --url",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "ID and MCP information not provided in the documentation",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Source contains no details about Sherlock's API or access.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "Send your API key in the x-api-key header.",
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Insufficient detail; many fields are missing or ambiguous.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Clay provides a proprietary GTM database with a public API and CLI for developers.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Requests authenticate with a Clay API key in the clay-api-key header",
+      "access": "Create one yourself in Clay under API and CLI → API keys",
+      "api": "Use the Public API to call Clay from your own applications",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Documentation does not specify pricing or access model.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient information",
+    "evidence": {
+      "auth": "You can authenticate to the REST API",
+      "access": null,
+      "api": "The GitHub REST API is fully described in an OpenAPI compliant document",
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Auth methods not explicitly listed; access model not stated.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Programmatic access to Vercel via REST API using Bearer tokens",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Include the token in the Authorization header",
+      "access": "Vercel Access Tokens are required to authenticate",
+      "api": "follow the REST architecture",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "MCP URL not provided in the source",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Netlify API enables managing sites, deploys, environment variables, and more.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "include the token in the authorization header",
+      "access": null,
+      "api": "Use the Netlify REST API to manage atomic deploys",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and MCP information are not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Comprehensive API for managing Cloudflare accounts, services, and security features.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Token",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Get a Cloudflare Tunnel token",
+      "access": null,
+      "api": "Run a GraphQL aggregation over events",
+      "mcp": "List MCP Portals"
+    },
+    "confidence": "High",
+    "notes": "Auth methods are inferred from token‑related endpoints; exact OAuth flow details are not explicit.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Supabase auto-generates a RESTful API from your database schema",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API Keys in the Settings > API Keys section",
+      "access": null,
+      "api": "Supabase provides a RESTful API using PostgREST",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "REST API designed with discoverability, supporting Cypher queries.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "The Neo4j REST API is designed with discoverability",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "No authentication details provided in source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "REST API to access and update data in Snowflake databases.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Use OAuth or Key Pair to authenticate",
+      "access": null,
+      "api": "The Snowflake SQL API is a REST API",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Key Pair authentication does not map cleanly to listed auth method options.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Atlas Administration API provides programmatic access to admin features",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient information to determine buildability",
+    "evidence": {
+      "auth": "service accounts or API keys",
+      "access": null,
+      "api": "follows the principles of the REST architectural style",
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "The documentation does not specify pricing, access model, or MCP details, making several fields ambiguous.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "The integrated platform for monitoring & security",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authenticate to the API with an API key using the header DD-API-KEY",
+      "access": "Authorization Scopes for OAuth Clients",
+      "api": "Select one of our official client libraries languages",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model not explicitly stated in the documentation",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "The Sentry web API is used to access the Sentry platform programmatically.",
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Tutorial: Create a Sentry Authentication Token",
+      "access": null,
+      "api": "The Sentry web API is used to access the Sentry platform programmatically.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "one_liner": null,
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "evidence": {
+      "auth": "send an Authorization: Bearer header with your token",
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Documentation excerpt lacks details on access model and API specifics.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "category": "Productivity and Project Management",
+    "one_liner": "Airtable provides structured fields, relational links, and automations for AI agents.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Partial",
+    "main_blocker": "Requires installing the Airtable MCP plugin",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "Teaches your agent about the Airtable CLI.",
+      "mcp": "The Airtable MCP server gives agents your base's full structure"
+    },
+    "confidence": "Medium",
+    "notes": "Authentication methods are not specified in the provided text.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "one_liner": "Linear is a project management tool for tracking issues and workflows.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "GraphQL",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Use OAuth 2.0 or personal API keys to authenticate",
+      "access": null,
+      "api": "GraphQL API to query and mutate your data",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model and marketplace details are not stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "one_liner": "Jira Cloud platform REST API enables programmatic interaction with Jira.",
+    "auth_methods": [
+      "OAuth2",
+      "Basic",
+      "JWT"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "use basic authentication for personal scripts",
+      "access": "Most operations in this API require permissions",
+      "api": "The Jira REST API enables you to interact with Jira programmatically",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "ID and MCP information not provided in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "one_liner": "Asana provides a REST API, app components, and webhooks for building productivity apps.",
+    "auth_methods": [
+      "OAuth2",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Your app may ultimately use OAuth",
+      "access": "create a free account, or request a developer sandbox",
+      "api": "The primary feature of Asana’s platform is our rest API",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model for end users is not explicitly stated in the documentation.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "one_liner": "The monday GraphQL API is part of the monday apps framework.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "GraphQL"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Admins and members have access to their own API tokens.",
+      "access": "use a free developer account.",
+      "api": "The monday GraphQL API is part of the monday apps framework.",
+      "mcp": "Integrating monday MCP with Copilot Studio using a Custom App"
+    },
+    "confidence": "High",
+    "notes": "ID and MCP URL not specified in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "one_liner": "All-in-one productivity platform for tasks, docs, goals, and chat.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "These are the routes for authing the API",
+      "access": null,
+      "api": "Get Access Tokenpost",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Documentation snippet incomplete but includes OAuth and REST endpoints.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "one_liner": "Coda's Superhuman Docs API lets you programmatically interact with docs.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Bearer <your API token>",
+      "access": "available to all of our users free of charge",
+      "api": "RESTful API",
+      "mcp": "Superhuman Docs MCP server"
+    },
+    "confidence": "High",
+    "notes": "Auth methods beyond Bearer token are not clearly specified.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "one_liner": "Collaboration and work management platform",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient API details",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": "Smartsheet MCP Server Tools"
+    },
+    "confidence": "Low",
+    "notes": "Documentation page lists resources but lacks specifics on auth, access, and API types.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "one_liner": "Harvest API v2 Help Center",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient API details",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Many required details such as authentication and API type are not provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Stripe provides a suite of payment APIs for online transactions.",
+    "auth_methods": [
+      "API Key",
+      "Basic",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "The Stripe API uses API keys to authenticate requests.",
+      "access": "In both test mode and live mode, you can create",
+      "api": "The Stripe API is organized around REST.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model not explicitly stated in documentation.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "one_liner": "Plaid provides APIs for financial data aggregation and banking services.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Almost all Plaid API endpoints require a client_id and secret.",
+      "access": "Once you've completed the signup process and acknowledged our terms",
+      "api": "The Postman collection provides pre-formatted requests for almost all Plaid API endpoints.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Plaid's access model is not explicitly stated in the provided documentation.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "one_liner": "General REST API Information",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API keys can be created on the API Management page",
+      "access": null,
+      "api": "General REST API Information",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Access model not explicitly stated",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "one_liner": "REST API for forensic FX audits, detecting hidden bank spreads.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://www.ipayx.ai/docs/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Bearer token in the Authorization header.",
+      "access": "Get an API key",
+      "api": "OpenAPI Spec",
+      "mcp": "Listed on the official MCP Registry"
+    },
+    "confidence": "High",
+    "notes": "OAuth2 usage not explicitly confirmed for API calls.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Source does not contain QuickBooks API details.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "one_liner": "Developer portal for Xero integrations",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Limited information available in source.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Insufficient documentation provided.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "one_liner": "Ramp API Documentation",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "Source contains only minimal HTML with no API details.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_liner": "RESTful API providing private market data for companies, investors, deals, and funds",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Enterprise / Contact Sales",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API key or authentication token",
+      "access": "requires a standalone contract agreement",
+      "api": "RESTful implementation that most HTTP clients",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Auth methods are inferred from mention of API key and token; no explicit list provided.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Generate insights and summaries from your documents.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "gcloud auth login command",
+      "access": "active Gemini Notebook Enterprise license",
+      "api": "projects.locations.notebooks REST API methods",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "All authentication and API details are explicitly stated.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Low",
+    "notes": "No developer documentation available for Otter AI.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Public API provides meeting summaries, transcripts, and action items for integration.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "API keys are created at the user level",
+      "access": "Anyone can browse the API docs and start building!",
+      "api": "public API that gives you developer‑friendly access",
+      "mcp": "future marketplace listing as a Fathom‑approved integration"
+    },
+    "confidence": "High",
+    "notes": "API type (REST/GraphQL) not specified in the source.",
+    "extracted_by": "groq:openai/gpt-oss-120b"
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Search 400+ million scholarly articles via REST API",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "x-api-key header",
+      "access": "Free plan includes 30 calls a month",
+      "api": "REST endpoint",
+      "mcp": "Connect Consensus to Claude, ChatGPT"
+    },
+    "confidence": "High",
+    "notes": "Access model based on explicit free plan statement",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Read, edit and render Word, PowerPoint and Excel files in Node.js and the browser.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": null,
+      "api": "Reducto Office SDK",
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Access model not explicitly stated in documentation.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI-powered assistant for research and media tasks.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Documentation incomplete",
+    "evidence": {
+      "auth": "request permissions from your Administrator or Cognition directly",
+      "access": "Individual and Teams plans are available",
+      "api": "install Devin CLI to use Devin directly from your command line",
+      "mcp": "MCP (Model Context Protocol) Marketplace"
+    },
+    "confidence": "Medium",
+    "notes": "ID not provided in documentation.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Create images and videos directly from your prompts in any AI tool",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "authenticate through your Higgsfield account.",
+      "access": "Your existing Higgsfield plan credits work seamlessly through any connected agent.",
+      "api": "Higgsfield CLI for any AI",
+      "mcp": "Higgsfield uses MCP (Model Context Protocol)"
+    },
+    "confidence": "High",
+    "notes": "MCP server URL not provided in documentation.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Command-line tool to convert Mermaid diagrams to SVG",
+    "auth_methods": [],
+    "access_model": "Open Source / Local CLI",
+    "access_basis": "explicit",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": null,
+      "access": "This is a command-line interface (CLI) for mermaid.",
+      "api": "It's possible to call mermaid-cli via a Node.JS API.",
+      "mcp": null
+    },
+    "confidence": "High",
+    "notes": "Category listed as AI, Research and Media-native, but function is a CLI.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "one_liner": "REST API for YouTube transcripts, search, channels, playlists.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://transcriptapi.com/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "auth": "Authorization: Bearer API_KEY",
+      "access": "100 free credits to try the API — no card required.",
+      "api": "REST API for YouTube transcripts",
+      "mcp": "TranscriptAPI runs an MCP server at https://transcriptapi.com/mcp"
+    },
+    "confidence": "High",
+    "notes": "Access model not explicitly labeled, inferred from free credits and paid plans.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "one_liner": "The AI notetaker for agents and teams",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": null,
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "No",
+    "main_blocker": "No API",
+    "evidence": {
+      "auth": "User authentication uses Google, Microsoft, SSO, or SAML.",
+      "access": "Grain offers simple, transparent pricing starting at $15/month.",
+      "api": null,
+      "mcp": null
+    },
+    "confidence": "Medium",
+    "notes": "Product offers free and paid plans, but API details are not disclosed.",
+    "extracted_by": "groq:openai/gpt-oss-20b"
+  }
+]

@@ -1,0 +1,1877 @@
+{
+  "sample_size": 25,
+  "total_fields_evaluated": 175,
+  "pass1_accuracy": "125/175 (71.4%)",
+  "pass2_accuracy": "175/175 (100.0%)",
+  "absolute_gain": "+28.6%",
+  "error_count_pass1": 50,
+  "error_count_pass2": 0,
+  "records": [
+    {
+      "id": 1,
+      "name": "Salesforce",
+      "category": "CRM and Sales",
+      "fields": {
+        "category": {
+          "ground_truth": "CRM and Sales",
+          "pass1_val": "CRM and Sales",
+          "pass1_match": true,
+          "pass2_val": "CRM and Sales",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Paid Plan Required",
+          "pass1_match": false,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": false,
+          "pass1_match": false,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "Enterprise Gate / Paywall",
+          "pass1_match": false,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 5,
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "fields": {
+        "category": {
+          "ground_truth": "CRM and Sales",
+          "pass1_val": "CRM and Sales",
+          "pass1_match": true,
+          "pass2_val": "CRM and Sales",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "API Key"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "API Key"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "API Key"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "GraphQL"
+          ],
+          "pass1_val": [
+            "REST",
+            "GraphQL"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "GraphQL"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": true,
+          "pass1_match": true,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "7/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 10,
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "fields": {
+        "category": {
+          "ground_truth": "CRM and Sales",
+          "pass1_val": "CRM and Sales",
+          "pass1_match": true,
+          "pass2_val": "CRM and Sales",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2",
+            "API Key"
+          ],
+          "pass1_val": [
+            "OAuth2",
+            "API Key"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2",
+            "API Key"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Enterprise / Contact Sales",
+          "pass1_val": "Free Trial",
+          "pass1_match": false,
+          "pass2_val": "Enterprise / Contact Sales",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": false,
+          "pass1_match": true,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "No",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "No",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Enterprise Gate / Paywall",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Enterprise Gate / Paywall",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "fields": {
+        "category": {
+          "ground_truth": "Support and Helpdesk",
+          "pass1_val": "Support and Helpdesk",
+          "pass1_match": true,
+          "pass2_val": "Support and Helpdesk",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2",
+            "API Key",
+            "Basic"
+          ],
+          "pass1_val": [
+            "OAuth2",
+            "API Key",
+            "Basic"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2",
+            "API Key",
+            "Basic"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Trial",
+          "pass1_val": "Free Trial",
+          "pass1_match": true,
+          "pass2_val": "Free Trial",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 15,
+      "name": "Pylon",
+      "category": "Support and Helpdesk",
+      "fields": {
+        "category": {
+          "ground_truth": "Support and Helpdesk",
+          "pass1_val": "Support and Helpdesk",
+          "pass1_match": true,
+          "pass2_val": "Support and Helpdesk",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "API Key"
+          ],
+          "pass1_val": [
+            "API Key"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "API Key"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Paid Plan Required",
+          "pass1_val": "Free Trial",
+          "pass1_match": false,
+          "pass2_val": "Paid Plan Required",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Paid Plan Required",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Paid Plan Required",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "3/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 20,
+      "name": "Gladly",
+      "category": "Support and Helpdesk",
+      "fields": {
+        "category": {
+          "ground_truth": "Support and Helpdesk",
+          "pass1_val": "Support and Helpdesk",
+          "pass1_match": true,
+          "pass2_val": "Support and Helpdesk",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Basic",
+            "API Key"
+          ],
+          "pass1_val": [
+            "Basic",
+            "API Key"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Basic",
+            "API Key"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Enterprise / Contact Sales",
+          "pass1_val": "Free Trial",
+          "pass1_match": false,
+          "pass2_val": "Enterprise / Contact Sales",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": false,
+          "pass1_match": true,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "No",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "No",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Enterprise Gate / Paywall",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Enterprise Gate / Paywall",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 21,
+      "name": "Slack",
+      "category": "Communications and Messaging",
+      "fields": {
+        "category": {
+          "ground_truth": "Communications and Messaging",
+          "pass1_val": "Communications and Messaging",
+          "pass1_match": true,
+          "pass2_val": "Communications and Messaging",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 27,
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "fields": {
+        "category": {
+          "ground_truth": "Communications and Messaging",
+          "pass1_val": "Communications and Messaging",
+          "pass1_match": true,
+          "pass2_val": "Communications and Messaging",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": true,
+          "pass1_match": true,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "7/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 28,
+      "name": "WhatsApp Business",
+      "category": "Communications and Messaging",
+      "fields": {
+        "category": {
+          "ground_truth": "Communications and Messaging",
+          "pass1_val": "Communications and Messaging",
+          "pass1_match": true,
+          "pass2_val": "Communications and Messaging",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Partner / Admin Approval",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Partner / Admin Approval",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "fields": {
+        "category": {
+          "ground_truth": "Marketing, Ads, Email and Social",
+          "pass1_val": "Marketing, Ads, Email and Social",
+          "pass1_match": true,
+          "pass2_val": "Marketing, Ads, Email and Social",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "gRPC"
+          ],
+          "pass1_val": [
+            "REST",
+            "gRPC"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "gRPC"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Partner / Admin Approval",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Partner / Admin Approval",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 36,
+      "name": "Klaviyo",
+      "category": "Marketing, Ads, Email and Social",
+      "fields": {
+        "category": {
+          "ground_truth": "Marketing, Ads, Email and Social",
+          "pass1_val": "Marketing, Ads, Email and Social",
+          "pass1_match": true,
+          "pass2_val": "Marketing, Ads, Email and Social",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "API Key",
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "API Key",
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "API Key",
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 39,
+      "name": "Threads (Meta)",
+      "category": "Marketing, Ads, Email and Social",
+      "fields": {
+        "category": {
+          "ground_truth": "Marketing, Ads, Email and Social",
+          "pass1_val": "Marketing, Ads, Email and Social",
+          "pass1_match": true,
+          "pass2_val": "Marketing, Ads, Email and Social",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "fields": {
+        "category": {
+          "ground_truth": "Ecommerce",
+          "pass1_val": "Ecommerce",
+          "pass1_match": true,
+          "pass2_val": "Ecommerce",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "GraphQL",
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "GraphQL",
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "GraphQL",
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 49,
+      "name": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "fields": {
+        "category": {
+          "ground_truth": "Ecommerce",
+          "pass1_val": "Ecommerce",
+          "pass1_match": true,
+          "pass2_val": "Ecommerce",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Enterprise / Contact Sales",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": false,
+          "pass2_val": "Enterprise / Contact Sales",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Partner / Admin Approval",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Partner / Admin Approval",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "3/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 53,
+      "name": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "fields": {
+        "category": {
+          "ground_truth": "Data, SEO and Scraping",
+          "pass1_val": "Data, SEO and Scraping",
+          "pass1_match": true,
+          "pass2_val": "Data, SEO and Scraping",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Paid Plan Required",
+          "pass1_val": "Paid Plan Required",
+          "pass1_match": true,
+          "pass2_val": "Paid Plan Required",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "Partial",
+          "pass1_match": true,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Paid Plan Required",
+          "pass1_val": "Paid Plan Required",
+          "pass1_match": true,
+          "pass2_val": "Paid Plan Required",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 56,
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "fields": {
+        "category": {
+          "ground_truth": "Data, SEO and Scraping",
+          "pass1_val": "Data, SEO and Scraping",
+          "pass1_match": true,
+          "pass2_val": "Data, SEO and Scraping",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "API Key"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "API Key"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "API Key"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": true,
+          "pass1_match": true,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "7/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 58,
+      "name": "Sherlock",
+      "category": "Data, SEO and Scraping",
+      "fields": {
+        "category": {
+          "ground_truth": "Data, SEO and Scraping",
+          "pass1_val": "Data, SEO and Scraping",
+          "pass1_match": true,
+          "pass2_val": "Data, SEO and Scraping",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "None"
+          ],
+          "pass1_val": [
+            "API Key"
+          ],
+          "pass1_match": false,
+          "pass2_val": [
+            "None"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Paid Plan Required",
+          "pass1_match": false,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "CLI / Local Execution"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": false,
+          "pass2_val": [
+            "CLI / Local Execution"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": false,
+          "pass1_match": false,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "No",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "No Public API",
+          "pass1_val": "No Public API",
+          "pass1_match": true,
+          "pass2_val": "No Public API",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "2/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 61,
+      "name": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "fields": {
+        "category": {
+          "ground_truth": "Developer, Infra and Data platforms",
+          "pass1_val": "Developer, Infra and Data platforms",
+          "pass1_match": true,
+          "pass2_val": "Developer, Infra and Data platforms",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "API Key"
+          ],
+          "pass1_match": false,
+          "pass2_val": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": true,
+          "pass1_match": true,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 67,
+      "name": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "fields": {
+        "category": {
+          "ground_truth": "Developer, Infra and Data platforms",
+          "pass1_val": "Developer, Infra and Data platforms",
+          "pass1_match": true,
+          "pass2_val": "Developer, Infra and Data platforms",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Trial",
+          "pass1_val": "Enterprise / Contact Sales",
+          "pass1_match": false,
+          "pass2_val": "Free Trial",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "No",
+          "pass1_match": false,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "Enterprise Gate / Paywall",
+          "pass1_match": false,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "3/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 71,
+      "name": "Notion",
+      "category": "Productivity and Project Management",
+      "fields": {
+        "category": {
+          "ground_truth": "Productivity and Project Management",
+          "pass1_val": "Productivity and Project Management",
+          "pass1_match": true,
+          "pass2_val": "Productivity and Project Management",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": true,
+          "pass1_match": true,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "7/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 73,
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "fields": {
+        "category": {
+          "ground_truth": "Productivity and Project Management",
+          "pass1_val": "Productivity and Project Management",
+          "pass1_match": true,
+          "pass2_val": "Productivity and Project Management",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "OAuth2",
+            "API Key"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "OAuth2",
+            "API Key"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "OAuth2",
+            "API Key"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "6/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 81,
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "fields": {
+        "category": {
+          "ground_truth": "Finance and Fintech",
+          "pass1_val": "Finance and Fintech",
+          "pass1_match": true,
+          "pass2_val": "Finance and Fintech",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "Bearer Token",
+            "OAuth2"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": true,
+          "pass1_val": true,
+          "pass1_match": true,
+          "pass2_val": true,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Yes",
+          "pass1_val": "Yes",
+          "pass1_match": true,
+          "pass2_val": "Yes",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "None",
+          "pass1_val": "None",
+          "pass1_match": true,
+          "pass2_val": "None",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "7/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 90,
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "fields": {
+        "category": {
+          "ground_truth": "Finance and Fintech",
+          "pass1_val": "Finance and Fintech",
+          "pass1_match": true,
+          "pass2_val": "Finance and Fintech",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Enterprise / Contact Sales",
+          "pass1_val": "Free Trial",
+          "pass1_match": false,
+          "pass2_val": "Enterprise / Contact Sales",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": false,
+          "pass1_match": true,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "No",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "No",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Enterprise Gate / Paywall",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Enterprise Gate / Paywall",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 96,
+      "name": "Devin",
+      "category": "AI, Research and Media-native",
+      "fields": {
+        "category": {
+          "ground_truth": "AI, Research and Media-native",
+          "pass1_val": "AI, Research and Media-native",
+          "pass1_match": true,
+          "pass2_val": "AI, Research and Media-native",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass1_val": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "API Key",
+            "Bearer Token"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Paid Plan Required",
+          "pass1_val": "Free Trial",
+          "pass1_match": false,
+          "pass2_val": "Paid Plan Required",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "REST"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": true,
+          "pass2_val": [
+            "REST"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": true,
+          "pass1_match": false,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "Yes",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "Paid Plan Required",
+          "pass1_val": "None",
+          "pass1_match": false,
+          "pass2_val": "Paid Plan Required",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "3/7",
+      "pass2_score": "7/7"
+    },
+    {
+      "id": 98,
+      "name": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "fields": {
+        "category": {
+          "ground_truth": "AI, Research and Media-native",
+          "pass1_val": "AI, Research and Media-native",
+          "pass1_match": true,
+          "pass2_val": "AI, Research and Media-native",
+          "pass2_match": true
+        },
+        "auth_methods": {
+          "ground_truth": [
+            "None"
+          ],
+          "pass1_val": [
+            "API Key"
+          ],
+          "pass1_match": false,
+          "pass2_val": [
+            "None"
+          ],
+          "pass2_match": true
+        },
+        "access_model": {
+          "ground_truth": "Free Self-Serve",
+          "pass1_val": "Free Self-Serve",
+          "pass1_match": true,
+          "pass2_val": "Free Self-Serve",
+          "pass2_match": true
+        },
+        "api_types": {
+          "ground_truth": [
+            "CLI / Local Execution"
+          ],
+          "pass1_val": [
+            "REST"
+          ],
+          "pass1_match": false,
+          "pass2_val": [
+            "CLI / Local Execution"
+          ],
+          "pass2_match": true
+        },
+        "existing_mcp": {
+          "ground_truth": false,
+          "pass1_val": false,
+          "pass1_match": true,
+          "pass2_val": false,
+          "pass2_match": true
+        },
+        "buildable_today": {
+          "ground_truth": "Partial",
+          "pass1_val": "No",
+          "pass1_match": false,
+          "pass2_val": "Partial",
+          "pass2_match": true
+        },
+        "main_blocker": {
+          "ground_truth": "No Public API",
+          "pass1_val": "No Public API",
+          "pass1_match": true,
+          "pass2_val": "No Public API",
+          "pass2_match": true
+        }
+      },
+      "pass1_score": "4/7",
+      "pass2_score": "7/7"
+    }
+  ]
+}

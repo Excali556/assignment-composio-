@@ -1,0 +1,11 @@
+{
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "requested_url": "https://learn.microsoft.com/en-us/linkedin/marketing/overview",
+  "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/overview?view=li-lms-2026-11",
+  "status": 200,
+  "chars": 5797,
+  "title": "LinkedIn Marketing API - Overview - LinkedIn | Microsoft Learn",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:36+00:00"
+}

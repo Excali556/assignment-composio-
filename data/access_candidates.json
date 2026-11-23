@@ -1,0 +1,182 @@
+[
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "found": false
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "found": false
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "found": true,
+    "url": "https://developer.close.com/pricing",
+    "chars": 810,
+    "sentences": []
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "found": false
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "found": false
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "found": true,
+    "url": "https://www.twilio.com/en-us/pricing",
+    "chars": 16025,
+    "sentences": [
+      "Sign up for a free trial\u2014no credit card required.",
+      "Sign up for a free trial\u2014no credit card required.",
+      "Sign up for a free trial\u2014no credit card required"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "found": false
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "found": true,
+    "url": "https://developers.klaviyo.com/pricing",
+    "chars": 1680,
+    "sentences": []
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "found": true,
+    "url": "https://developers.pinterest.com/",
+    "chars": 1715,
+    "sentences": []
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "found": true,
+    "url": "https://www.twilio.com/en-us/pricing",
+    "chars": 16025,
+    "sentences": [
+      "Sign up for a free trial\u2014no credit card required.",
+      "Sign up for a free trial\u2014no credit card required.",
+      "Sign up for a free trial\u2014no credit card required"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "found": false
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "found": false
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "found": true,
+    "url": "https://gumroad.com/pricing",
+    "chars": 4050,
+    "sentences": []
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "found": true,
+    "url": "https://docs.brightdata.com/pricing",
+    "chars": 866,
+    "sentences": []
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "found": false
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "found": true,
+    "url": "https://vercel.com/pricing",
+    "chars": 16166,
+    "sentences": [
+      "Security collateral available for Pro and Enterprise plans.",
+      "Enterprise is for teams seeking greater performance, collaboration, and security.Contact our sales teamto learn more.",
+      "Yes, we offer custom invoicing for Enterprise customers.Contact our sales team to learn more."
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "found": true,
+    "url": "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans/",
+    "chars": 22266,
+    "sentences": [
+      "For credit-based billing details specific to Enterprise plans, see How credits work for enterprise plans.",
+      "You will only be charged for Git Contributors if you are on a Legacy Pro or Enterprise plan.",
+      "For legacy paid plans, metered features are priced based on your usage."
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "found": true,
+    "url": "https://www.cloudflare.com/plans/",
+    "chars": 18823,
+    "sentences": [
+      "Teams under 50 users or enterprise proof-of-concept tests.",
+      "Teams over 50 solving narrow SSE use cases without enterprise support.",
+      "Enterprise-grade reliability, security, and performance are the standard \u2014 without requiring specialized operational knowledge."
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "found": false
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "found": true,
+    "url": "https://developer.monday.com/",
+    "chars": 4752,
+    "sentences": [
+      "The first 100% open AI work platform to connect your enterprise data, automate any workflow, customize every surface, and turn any AI agent into a teammate."
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "found": false
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "found": true,
+    "url": "https://docs.ramp.com/pricing",
+    "chars": 842,
+    "sentences": []
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "found": true,
+    "url": "https://github.com/pricing",
+    "chars": 20824,
+    "sentences": [
+      "GitHub Advanced SecurityEnterprise-grade code security",
+      "Copilot for businessEnterprise-grade AI features",
+      "Premium SupportEnterprise-grade 24/7 support"
+    ]
+  }
+]

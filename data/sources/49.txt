@@ -1,0 +1,1397 @@
+For AI agents: the docs index is at https://developer-docs.amazon/sp-api/llms.txt. The index for every project on this site is at https://developer-docs.amazon/llms.txt. Append .md to any documentation page URL to get its markdown version.
+
+Jump to Content
+
+HomeDocumentationAPI ReferenceAnnouncementsModelsRelease NotesFAQGitHubVideosDeveloper HubAPI StatusSupport
+
+Documentation
+
+Developer HubAPI StatusSupport
+
+HomeDocumentationAPI ReferenceAnnouncementsModelsRelease NotesFAQGitHubVideos
+
+Connect to the SP-API
+
+Get Started
+
+Welcome to SP-API Documentation
+
+What is the Selling Partner API?
+
+Selling Partner API Onboarding Overview
+Onboarding as a Developer
+Step 1: Prepare for Registration
+
+Step 2: Create a Solution Provider Portal Account
+
+Step 3: Create a Developer Profile
+
+Step 4: Register a Sandbox Application
+
+Step 5: Make Your First Call to the SP-API Sandbox
+
+Step 6: Set up the Authorization Workflow
+
+Step 7: Register Your Production Application
+
+Step 8: Call the SP-API in Production
+
+Step 9: Test Your Application
+
+Step 10: List Your Application
+
+Onboarding as a Service Provider
+Step 1: Learn the Service Provider Registration and Permissions Workflow
+
+Step 2: Create a Solution Provider Portal Account for Your Company
+
+Step 3: Verify Your Identity
+
+Step 4: Complete the Service Profile for Your Company
+
+Step 5: Apply for Seller Central Roles
+
+Step 6: Invite Employees to Your Account
+
+Step 7: Connect With Sellers
+
+Step 8: List Your Service in the Service Provider Network
+
+Terminology
+
+Frequently Asked Questions
+SP-API General FAQ
+
+Solution Provider Portal FAQ
+
+Selling Partner Authorizations FAQ
+
+Changelog
+
+SP-API Release Notes
+
+SP-API Deprecation Schedule
+
+SP-API Product Metadata Updates
+
+Directories
+
+SP-API Models
+
+SP-API Seller Use Cases
+
+SP-API Vendor Use Cases
+
+Seller Central URLs
+
+Vendor Central URLs
+
+Registration
+
+SP-API Registration Overview
+Register as a Public SP-API Developer
+
+Register as a Private SP-API Developer
+
+Register as a Private SP-API Vendor
+
+Register as a Service Provider (Setup and Migration)
+
+Developer Registration Request Status
+
+Third-Party Provider Registration
+Third-Party Provider Signature Guidance
+
+Service Provider Registration and Role Approval Process Overview
+
+Understanding Seller Central Role Eligibility for Service Providers
+
+Website Guidelines for Public Developers and Service Providers
+
+User Permissions for Service Providers
+
+Register your Application
+
+Update your Application Information
+
+Rotate your Application's LWA Credentials
+LWA Credentials FAQ
+
+View your Application Information and Credentials
+
+Learn How Sellers Authorize Service Providers
+
+Selling Partner API Roles
+Role Mappings for SP-API Operations
+
+Role Mappings for SP-API Types
+
+Policies and Agreements
+
+About Facial Data
+
+Authorization
+
+Authorize Applications
+Authorize Public Applications
+Selling Partner Appstore Authorization Workflow
+
+Website Authorization Workflow
+
+Authorize Private Applications
+
+Reauthorize Applications
+
+Reactivate Authorizations
+
+Revoke Authorizations
+
+Authorization Limits
+
+Special Authorization Types
+Authorize your Application to Access Vendor Groups
+
+Authorization with the Restricted Data Token
+
+Integration
+
+Building Robust Amazon SP-API Applications
+
+SP-API SDKs
+Connect to the Selling Partner API Using a Generated C# SDK
+
+Connecting to the Selling Partner API Using a Generated Java SDK
+
+Tutorial: Automate your SP-API calls using C# SDK
+
+Tutorial: Automate your SP-API calls using Java SDK
+
+Tutorial: Automate your SP-API calls using JavaScript SDK for Node.js
+
+Tutorial: Automate your SP-API calls using Python SDK
+
+Tutorial: Automate your SP-API calls using a prebuilt C# SDK
+
+Tutorial: Automate your SP-API calls using prebuilt Java SDK
+
+Tutorial: Automate your SP-API calls using a prebuilt JavaScript SDK
+
+Tutorial: Automate your SP-API calls using prebuilt PHP SDK
+
+Tutorial: Automate your SP-API calls using a prebuilt Python SDK
+
+Delete an Application From Your Developer Account
+
+Calling the SP-API
+
+Configuration Details
+SP-API Endpoints
+
+Date and Time Formatting
+
+Grantless Operations
+
+Call Structure
+Connect to the SP-API
+
+Parse SP-API Responses
+
+Development Tools
+Selling Partner API Sandbox
+
+Using Postman for Selling Partner API Models
+
+Performance Management
+Usage Plans and Rate Limits
+
+Optimize Calls to the Selling Partner API
+
+Optimize Rate Limits for Application Workloads
+
+Store Identifiers
+
+Solution Provider Portal
+
+Manage Users in Solution Provider Portal
+
+Manage Your Business And Contact information in Solution Provider Portal
+
+Update Your Developer Profile in Solution Provider Portal
+
+Unify Your Developer Accounts
+
+Verify Your Identity in Solution Provider Portal
+
+API Usage Metrics in Solution Provider Portal
+
+Shop Direct
+
+What is Shop Direct?
+
+Create a Shop Direct Listing Without Variations
+
+Create a Shop Direct Listing With Variations
+
+Delete a Shop Direct Listing
+
+Get Authorization to Manage a Shop Direct merchant's Shop Direct Listings
+
+Troubleshoot Shop Direct Listing Errors
+
+Update a Shop Direct Listing
+
+Tutorials
+
+Tutorial: Test Selling Partner API Endpoints
+
+Tutorial: Automate your SP-API Calls Using a C# SDK
+
+Tutorial: Automate your SP-API Calls Using a Java SDK
+
+Tutorial: Automate your SP-API Calls Using a JavaScript SDK for Node.js
+
+Tutorial: Automate your SP-API Calls Using a Python SDK
+
+Tutorial: Automate your SP-API Calls using a prebuilt C# SDK
+
+Tutorial: Automate your SP-API Calls using prebuilt Java SDK
+
+Tutorial: Automate your SP-API Calls using a prebuilt JavaScript SDK
+
+Tutorial: Automate your SP-API Calls using prebuilt PHP SDK
+
+Tutorial: Automate your SP-API calls using a prebuilt Python SDK
+
+Tutorial: Authorize Multiple Vendor Central Accounts with a Single SP-API Application
+
+Tutorial: Retrieve Merchant Shipping Templates
+
+Tutorial: Grant the SP-API Permission to an Amazon SQS Queue
+
+Tutorial: Retrieve and Pass a Purchase Order Number to a Carrier
+
+Troubleshooting
+
+Troubleshoot SP-API Errors
+
+URL Encoding
+
+Resolve Common HTTP and Authorization Error Codes
+
+External Fulfillment Errors
+
+Listings Items API Issues Troubleshooting
+
+Selling Partner Appstore
+
+What is the Selling Partner Appstore?
+
+List Your App on the Selling Partner Appstore
+
+Edit Your Appstore Listing
+
+Check Listing Status
+
+Appstore Ratings and Reviews
+
+Press Releases and Promotions
+
+Service Provider Network
+
+List Your Service
+
+Security and Compliance
+
+SP-API Security and Compliance Overview
+
+Amazon Selling Partner API Guard Implementation Guide
+Architecture Overview
+Guard Components
+
+Guard Cost
+
+Guard Source Code
+
+Guard and Security
+
+Regional Guard Deployments
+Automated Guard Deployment
+
+AWS CloudFormation Template
+
+Update Guard
+
+Uninstall Guard
+
+Troubleshoot
+
+Guard Intellectual Property License
+
+Guard Legal Notice
+
+VAT Calculation Service
+Create and Upload Invoices
+
+Invoice Compliance and Correction
+
+Use Cases
+
+Error Handling
+
+Best Practices
+
+Launch Readiness Checklist
+
+Amazon Seller Data Access
+
+Best Practices
+Key Security Control Guidance
+
+Logging and Monitoring for Amazon SP-API Applications
+
+Network Protection Guidance
+
+Protect Amazon API Applications with Data Encryption
+
+Protect Amazon API Applications with Data Retention and Recovery
+
+Protect Amazon SP-API Applications with Incident Response
+
+Safeguarding Sensitive Credentials
+
+Vulnerability Management
+
+A+ Content API
+
+A+ Content API
+Create, edit, and publish A+ content
+
+Manage A+ content
+
+Create, Edit, and Retrieve A+ Media Assets
+
+A+ Content Examples
+
+A+ Content API Rate Limits
+
+A+ Premium Modules
+
+A+ Brand Story Modules
+
+A+ Content Troubleshooting Guide
+
+Action Items API
+
+Action Items API
+Dismiss an Action Item
+
+Create an Action Plan to Address an Action Item
+
+Action Plans API
+
+Action Plans API
+Create an Action Plan to Address an Action Item
+
+Amazon Warehousing and Distribution API
+
+Amazon Warehousing and Distribution API
+Create an inbound order for shipment
+
+Get inventory summaries
+
+Retrieve and filter inbound shipments
+
+Track an inbound shipment with expected and received SKU details
+
+Amazon Warehousing and Distribution API v2024-05-09 Reference
+
+App Integrations API
+
+App Integrations API
+Create and onboard an app notification template
+
+Sample sandbox notification templates
+
+Send an app notification
+
+Record app notification feedback
+
+Delete app notifications
+
+Application Management API
+
+Application Management API
+Set up credential rotation notifications
+
+Rotate your application's client secret
+
+Catalog Items API
+
+Catalog Items API
+Retrieve catalog item details
+
+Search catalog items
+
+Catalog Items API Rate Limits
+
+Catalog Items API v2022-04-01 Reference
+
+Customer Feedback API
+
+Customer Feedback API
+Get Feedback Insights for an ASIN
+
+Get Feedback Insights for a Browse Node
+
+Customer Feedback API Rate Limits
+
+Data Kiosk
+
+Data Kiosk API
+Request and filter data with a GraphQL query
+
+Verify that query processing is complete
+
+Data Kiosk Schema Explorer User Guide
+
+Data Kiosk Query Processing Finished Notification
+
+Building Data Kiosk workflows guide
+
+Vendor Analytics Dataset Use Case Guide
+
+Schedule Data Kiosk Queries
+
+Seller Analytics Dataset Use Case Guide
+
+Delivery by Amazon API
+
+Delivery by Amazon API
+Submit an invoice for Delivery by Amazon and Self Ship orders
+
+Check the invoice submission status for Delivery by Amazon and Self Ship orders
+
+Easy Ship API
+
+Easy Ship API
+Schedule an Easy Ship package
+
+Reschedule an Easy Ship package
+
+Check the status of an Easy Ship package
+
+Find order items that require serial numbers
+
+Get shipping labels, invoice, and warranty documents
+
+External Fulfillment
+
+External Fulfillment Inventory API
+Publish Location-Level Inventory
+
+Retrieve Location-Level Inventory
+
+External Fulfillment Returns API
+Retrieve Return Information
+
+External Fulfillment Shipping API
+Retrieve a List of Shipments
+
+Process a Shipment
+
+Handle Easy Ship Cross-Border Orders
+
+External Fulfillment Errors
+
+External Fulfillment APIs Rate Limits
+
+Fulfillment By Amazon (FBA)
+
+FBA Inventory API
+Get inventory summaries
+
+FBA Inventory Dynamic Sandbox Guide
+
+Feeds API
+
+Feeds API
+Submit a feed
+
+Feed Type Values
+Easy Ship Feed Type Values
+
+Fulfillment By Amazon Feed Type Values
+
+Invoicing Feed Type Values
+
+Listings Feed Type Values
+
+Order Feed Type Values
+
+Feeds JSON Schemas
+
+Feeds API Best Practices
+
+Feeds API FAQ
+
+Feeds API Rate Limits
+
+Finances
+
+Finances API
+Get the latest transactions
+
+Determine payment transactions
+
+Retrieve the amount and status of a payment
+
+Retrieve your current balance
+
+Retrieve the financial events that make up a financial event group
+
+List Transactions Associated with an Order
+
+Retrieve a balance
+
+Retrieve a financial summary
+
+Finances API v2024-06-19 Reference
+
+Transfers API
+Retrieve payment method details and initiate a payout
+
+Retrieve payouts
+
+Retrieve expected payouts
+
+Invoices API
+Retrieve invoice headers
+
+Get invoice details
+
+Finance Remittance API
+
+Finance Remittance API
+Retrieve remittance headers
+
+Retrieve payment line-item detail
+
+Reconcile payments to invoices
+
+Fulfillment Inbound API
+
+Fulfillment Inbound API
+Create an inbound shipment
+
+Create a shipment with an Amazon-partnered carrier (PCP)
+
+Create a shipment with a non-partnered carrier
+
+Inbound Shipments with the Pack Later workflow
+
+Ship Inventory to Amazon Fulfillment Centers in India
+
+Additional Functionality
+
+Fulfillment Inbound API FAQ
+
+Migrating Fulfillment Inbound workflows
+
+Fulfillment Inbound API Rate Limits
+
+Fulfillment Outbound API
+
+Fulfillment Outbound API
+Retrieve proof of delivery for a delivered package
+
+Retrieve a list of fulfillment orders
+
+Retrieve delivery tracking information
+
+Cancel a fulfillment order
+
+Retrieve a list of features
+
+Retrieve inventory eligible for Blank Box
+
+Retrieve Blank Box inventory for a specific SKU
+
+Create a Japan order with scheduled delivery and delivery time windows
+
+Create an MCF order for India
+
+Track a partially fulfilled order
+
+Create an order in hold status and then move it to shipped
+
+Track an order with an item's serial number
+
+Create an order with cross border fulfillment
+
+Create Orders with Unbranded Packaging and Block AMZL Services
+
+Get recipient details for attended deliveries
+
+Show the preview details of all ship speeds
+
+View order notifications with the Notifications API
+
+Create a return for an MCF order
+
+Get dynamic delivery offers
+
+Create a Japan order with delivery preferences
+
+Create a Japan order providing neighbor details in delivery preferences
+
+Create an MCF Order that Ships in Product Packaging
+
+Retrieve locker (delivery box) details for packages delivered in Japan
+
+Retrieve multi-shipment package tracking details
+
+FULFILLMENT_ORDER_STATUS Notification Migration Guide
+
+Fulfillment Outbound Workflow Guide
+Place a Fulfillment Order
+
+Set Up Real-Time Notifications
+
+Track Delivery and Handle Order Outcomes
+
+Fulfillment Outbound Dynamic Sandbox Guide
+
+Fulfillment Outbound API Migration Guide
+
+Fulfillment Outbound Troubleshooting Guide
+
+MCF Best Practices
+
+Fulfillment Outbound API Rate Limits
+
+Invoicing
+
+Invoices API (Brazil Only)
+Export invoice files
+
+Invoices API FAQ
+
+Listings
+
+Listings Items API
+Create or fully update a listing
+
+Merge a listing
+
+Retrieve details about a listing for single or multiple Amazon stores
+
+Preview errors before partially updating a listing
+
+Preview errors before creating or fully updating a listing
+
+Partially update a listing
+
+Submit media attributes
+
+Update prices for multiple Amazon stores
+
+Search for listings items by product identifier or other listings parameters
+
+Manage purchasable offer
+
+Submit modular titles
+
+Guidance for Complex Attributes
+
+Delete a listing
+
+Manage Listings Issues
+Listings Items API Issues Troubleshooting
+
+Listings Items API Rate Limits
+
+Listings Restrictions API
+Get listings restrictions for an item in the catalog
+
+Listings Restrictions API Rate Limits
+
+Manage Product Listings with the Selling Partner API
+
+Building Listings Management Workflows Guide
+
+Understanding Amazon listing status and seller-fulfilled inventory management
+
+Submit Listings data
+
+Manage Amazon Haul, Advanced Multiple-Offer, and Multiple-Fulfillment Use Cases
+
+Listings APIs FAQ
+
+Product Type Definitions API
+Search available Product Type Definitions
+
+Get Product Type Definition recommendations
+
+Get recommended browse nodes or item type keywords
+
+Retrieve a Product Type Definition
+
+Amazon Product Type Definitions Meta-Schema (v1)
+
+C# Example of Meta-Schema v1
+
+Javascript Example of Meta-Schema v1
+
+Java Example of Meta-Schema v1
+
+Product Type Definitions API Rate Limits
+
+Update prices for multiple marketplaces
+
+Merchant Fulfillment API
+
+Merchant Fulfillment API
+Fulfill seller-fulfilled Prime and non-Prime orders
+
+Cancel a shipment
+
+Manipulate shipping labels
+
+Include additional seller input data
+
+Subscribe to MFN notifications
+
+Messaging
+
+Messaging API
+Send a message
+
+Messaging Automations API
+Update or deactivate an automation configuration
+
+Notifications API
+
+Notifications API
+Create and Filter Notification Subscriptions
+
+Set up notifications using the Amazon EventBridge workflow
+
+Set up notifications using the Amazon Simple Queue Service workflow
+
+Notification Type Values
+
+Subscribe to the ORDER_CHANGE Notification
+
+Subscribe to shipment tracking notifications
+
+Orders API
+
+Orders API
+Access Orders PII
+
+Get orders with filtering criteria
+
+Get order information
+
+Get tax information
+
+Confirm the shipment status
+
+Review if an order contains regulated information
+
+Recognize which orders contain regulated information
+
+Get an order's regulated information
+
+Approve or reject a regulated order
+
+Provide additional verification details about a regulated order
+
+Provide an interim status update for a regulated order
+
+Get all Amazon Business orders
+
+Tutorial: Retrieve and Pass a Purchase Order Number to a Carrier
+
+Orders API Migration Guide
+
+Orders API Rate Limits
+
+Product Fees API
+
+Product Fees API
+Get product fee estimates for a specific SKU
+
+Get product fee estimates for a specific ASIN
+
+Get product fees for a batched set of up to 20 items
+
+Product Pricing API
+
+Product Pricing API
+Return a batch of FOEP data for a set of SKUs
+
+Retrieve a list of featured offers for a batch of up to 20 ASINs
+
+Product Pricing API and Notifications FAQ
+
+Price Adjustment Automation Workflows Guide
+
+Manage automated pricing rules with SP-API
+
+Promotions API
+
+Promotions API
+Search for promotions
+
+Get promotion item selection
+
+Get promotion details
+
+Replenishment API
+
+Replenishment API
+Get all of a selling partner's replenishment offers filtered by specific criteria
+
+Get replenishment business metrics for each of a selling partner's offers
+
+Get a selling partner's replenishment business metrics
+
+Reports API
+
+Reports API
+Request a report
+
+Schedule and retrieve reports
+
+Retrieve automatically generated reports
+
+Verify that report processing is complete
+
+Retrieve a report
+
+Report Type Values
+Payment Reports
+
+Analytics Reports
+
+Inventory Reports
+
+Order Reports
+
+Returns Reports
+
+Performance Reports
+
+Settlement Reports
+
+Fulfillment by Amazon (FBA) Reports
+
+Tax Reports
+
+Invoice Data Reports
+
+Browse Tree Reports
+
+Easy Ship Reports
+
+Amazon Business Reports
+
+B2B Product Opportunities Reports
+
+Regulatory Compliance Reports
+
+Reports JSON Schemas
+
+Reports API FAQ
+
+Sales API
+
+Sales API
+Receive sales performance information
+
+Seller Wallet API
+
+Seller Wallet API
+Retrieve Seller Wallet account details
+
+Retrieve transaction details
+
+Preview fees and initiate a transaction
+
+Manage transfer schedules for a Seller Waller account
+
+Seller Wallet API Rate Limits
+
+Sellers API
+
+Sellers API
+Get the account information of a seller
+
+Get the market participation of a seller
+
+Services API
+
+Services API
+Get Service Job Data
+
+Get service job appointment slots
+
+Set service job appointments and assigning appointment resources
+
+Close service jobs
+
+Manage resource capacity schedules and reservations
+
+Shipment Invoicing API
+
+Shipment Invoicing API
+Retrieve shipment information
+
+Submit a shipment invoice
+
+Shipping API
+
+Shipping API v2 Resources
+
+Shipping API v1 Reference
+
+Solicitations API
+
+Solicitations API
+Set up the Solicitations API
+
+Solicit feedback for an order
+
+Supply Sources API
+
+Supply Sources API
+Configure a new supply source
+
+Configure the status of an existing supply source
+
+Retrieve the details of a configured supply source
+
+Update an existing supply source
+
+Practice onboarding an end-to-end seller with one SKU
+
+Multi-Location Inventory Integration Guide
+
+Supply Sources API Rate Limits
+
+Support API
+
+Support API
+Retrieve and Review Selling Partner Support Cases
+
+Retrieve the Contact History for a Support Case
+
+Tokens API
+
+Tokens API
+Get authorization to access restricted report types with PII information
+
+Get authorization to access PII for bulk orders
+
+Get authorization to access PII for order items in an order
+
+Delegate authorization to access PII
+
+Get authorization to access shipment information for multiple shipments
+
+Tracking API
+
+Tracking API
+Track an external channel shipment
+
+Shipment milestone event subcodes
+
+Uploads API
+
+Uploads API
+Create an upload destination
+
+Vehicles API
+
+Vehicles API
+Provide fitment information on ASINs
+
+Vehicles API Rate Limits
+
+Vendor Direct Fulfillment APIs
+
+Vendor Direct Fulfillment Dynamic Sandbox Guide
+
+Vendor Direct Fulfillment Workflow Guide
+
+Vendor Direct Fulfillment Transaction Status API
+
+Vendor Direct Fulfillment Transaction Status API
+Get the transaction status
+
+Vendor Direct Fulfillment Inventory API
+
+Vendor Direct Fulfillment Inventory API
+Submit an inventory update
+
+Vendor Direct Fulfillment Orders API
+
+Vendor Direct Fulfillment Orders API
+Get a list of orders
+
+Get an order
+
+Submit an acknowledgement
+
+Vendor Direct Fulfillment Shipping API
+
+Vendor Direct Fulfillment Shipping API
+Submit shipping label requests
+
+Get shipping labels
+
+Create shipping labels
+
+Submit shipment confirmations
+
+Submit shipment status updates
+
+Get packing slips
+
+Get a packing slip
+
+Get customer invoices
+
+Get a customer invoice
+
+Create a container label
+
+Vendor Direct Fulfillment Payments API
+
+Vendor Direct Fulfillment Payments API
+Submit an invoice
+
+SP-API Bill-to-Party Addresses
+
+Vendor Retail Procurement Invoices API
+
+Vendor Retail Procurement Invoices API
+Submit credit notes
+
+Submit invoices
+
+Vendor Retail Procurement Orders API
+
+Vendor Retail Procurement Orders API
+Cancel and change orders
+
+Get purchase order status
+
+Retrieve purchase order
+
+Submit order acknowledgement
+
+SP-API Bill-to-Party Addresses
+
+Vendor Retail Procurement Shipments API
+
+Vendor Retail Procurement Shipments API
+Submit or update a shipment request
+
+Retrieve shipment details
+
+Retrieve shipment labels
+
+Submit shipment confirmation
+
+Vendor Retail Procurement Transaction Status API
+
+Vendor Retail Procurement Transaction Status API
+Get transaction status
+
+Powered by
+
+Connect to the SP-API
+
+How to connect to the SP-API.
+
+These instructions show you the steps to connect to the Selling Partner API (SP-API). For links to additional examples, refer to SP-API SDKs.
+
+Prerequisites
+
+Before your application can connect to SP-API, you must:
+
+Register the application. For details, refer to Registering your application.
+
+Get the application authorized by a selling partner or, if you're a private developer, authorize it yourself. For details, refer to Authorizing Selling Partner API applications.
+
+Step 1. Request a Login with Amazon access token
+
+A Login with Amazon (LWA) access token authorizes your application to take certain actions on behalf of a selling partner. An LWA access token expires one hour after it is issued.
+
+📘
+
+Note
+
+An LWA access token must be included in calls to all operations exceptrestricted operations, which return Personally Identifiable Information (PII). When calling restricted operations, instead of including an LWA access token, you include a Restricted Data Token (RDT). For information about getting RDTs and calling restricted operations, refer to the Tokens API Use Case Guide.
+
+To request an LWA access token, make a secure HTTP POST to the LWA authentication server (https://api.amazon.com/auth/o2/token) with the following parameters:
+
+Name
+
+Description
+
+Required
+
+grant_type
+
+The type of access grant requested. Values:
+
+- refresh_token. Use this for calling operations that require authorization from a selling partner. All operations that are not grantless operations require authorization from a selling partner. When specifying this value, include the refresh_token parameter.
+
+- client_credentials. Use this for calling grantless operations. When specifying this value, include the scope parameter.
+
+Yes
+
+refresh_token
+
+The LWA refresh token. Get this value when the selling partner authorizes your application. For more information, refer to Authorizing Selling Partner API applications.
+
+No. Include refresh_token for calling operations that require authorization from a selling partner. If you include refresh_token, do not include scope.
+
+scope
+
+The scope of the LWA authorization grant. Values:
+
+Notifications API: sellingpartnerapi::notifications
+
+Application Management API: sellingpartnerapi::client_credential:rotation
+
+Tracking API: sellingpartnerapi::shipments:track
+
+No. Include scope for calling a grantless operation. If you include scope, do not include refresh_token.
+
+client_id
+
+Get this value when you register your application. Refer to Viewing your developer information.
+
+Yes
+
+client_secret
+
+Get this value when you register your application. Refer to Viewing your developer information.
+
+Yes
+
+Example for calling an operation that requires selling partner authorization:
+
+HTTP
+
+POST /auth/o2/token HTTP/l.l
+Host: api.amazon.com
+Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+grant_type=refresh_token
+&refresh_token=Aztr|...
+&client_id=foodev
+&client_secret=Y76SDl2F
+
+Example for calling a grantless operation:
+
+HTTP
+
+POST /auth/o2/token HTTP/l.l
+Host: api.amazon.com
+Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+grant_type=client_credentials
+&scope=sellingpartnerapi::notifications
+&client_id=foodev
+&client_secret=Y76SDl2F
+
+⭐
+
+Tip
+
+To avoid getting an untrusted certificate authority (CA) error when calling the LWA authorization server, be sure to update your trust store so that your application trusts the LWA authorization server.
+
+A successful response includes the following values.
+
+Name
+
+Description
+
+access_token
+
+The LWA access token. Maximum size: 2048 bytes.
+
+token_type
+
+The type of token returned. Must be bearer.
+
+expires_in
+
+The number of seconds before the LWA access token becomes invalid.
+
+refresh_token
+
+The LWA refresh token that you submitted in the request. Maximum size: 2048 bytes.
+
+HTTP
+
+HTTP/l.l 200 OK
+Content-Type: application/json;charset UTF-8
+Cache-Control: no-store
+Pragma:no-cache
+{
+"access_token":"Atza|IQEBLjAsAhRmHjNgHpi0U-Dme37rR6CuUpSREXAMPLE",
+"token_type":"bearer",
+"expires_in":3600,
+"refresh_token":"Atzr|IQEBLzAtAhRPpMJxdwVz2Nn6f2y-tpJX2DeXEXAMPLE"
+}
+
+For more information, visit the Authorization Code Grant page in the Login with Amazon documentation.
+
+Step 2. Construct an SP-API URI
+
+An SP-API URI contains the following components.
+
+Name
+
+Description
+
+Example
+
+HTTP method
+
+The HTTP method.
+
+GET
+
+Endpoint
+
+An SP-API endpoint.
+
+https://sellingpartnerapi-na.amazon.com
+
+Path
+
+Resource location.
+
+/catalog/2022-04-01/items/{asin}
+
+Query string
+
+The query parameters.
+
+?marketplaceIds=ATVPDKIKX0DER
+
+Path parameter
+
+The path parameters.
+
+EXAMPLEASIN
+
+For example:
+
+HTTP
+
+GET https://sellingpartnerapi-na.amazon.com/catalog/2022-04-01/items/EXAMPLEASIN?marketplaceIds=ATVPDKIKX0DER
+
+Step 3. Add headers to the URI
+
+Add headers to the URI that you constructed in Step 2. Construct a Selling Partner API URI. Here are the HTTP headers to include in requests to the SP-API:
+
+Name
+
+Description
+
+host
+
+the Amazon store endpoint. Refer to SP-API endpoints.
+
+x-amz-access-token
+
+The LWA access token. Refer to Step 1. Request a Login with Amazon access token.
+
+Note about restricted operations. If you call a restricted operation, pass in an RDT here instead of an LWA access token. For information about getting RDTs and calling restricted operations, refer to the Tokens API Use Case Guide in the Tokens API Use Case Guide.
+
+x-amz-date
+
+The date and time of your request.
+
+user-agent
+
+Your application name, application version number, platform, and programming language. You must include a user-agent header in every request to the SP-API.
+
+• Maximum length: 500 characters.
+
+• Minimum required information: App name, version, and language.
+
+• Optional: You can add additional attributes separated by semicolons.How to assemble a user-agent headerConcatenate the following information:
+
+• Application name
+
+• Forward slash
+
+• Application version
+
+• Space
+
+• Opening parenthesis
+
+• Language name/value pair
+
+• Closing parentheses
+
+Escape the following characters with a blackslash:
+
+• Backslash.
+
+• Forward slash in the application name.
+
+• Opening parenthesis in the application version.
+
+• Equal sign in the attribute name.
+
+• Closing parenthesis and semicolon in attribute values.
+
+Examples:
+
+• AppId/AppVersionId (Language=LanguageNameAndOptionallyVersion)
+
+• MySellingTool/2.0 (Language=Java/1.8.0.221; Platform=Windows/10)
+
+• MyCompany/build16 (Language=Perl; Host=my.desktop.example.com)
+
+The following example shows how to call the SP-API with a URI and headers but no signing information:
+
+HTTP
+
+GET /catalog/2022-04-01/items/EXAMPLEASIN?marketplaceIds=ATVPDKIKX0DER HTTP/1.1
+host: sellingpartnerapi-na.amazon.com
+user-agent: My Selling Tool/2.0 (Language=Java/1.8.0.221;
+Platform=Windows/10)
+x-amz-access-token=Atza|IQEBLjAsAhRmHjNgHpi0U-Dme37rR6CuUpSREXAMPLE
+x-amz-date: 20190430T123600Z
+
+Updated2 months ago
+
+Call Structure
+
+Parse SP-API Responses
+
+Prerequisites
+
+Step 1. Request a Login with Amazon access token
+
+Step 2. Construct an SP-API URI
+
+Step 3. Add headers to the URI
+
+Policies and Agreements
+
+Privacy notice
+
+|
+
+Conditions of use

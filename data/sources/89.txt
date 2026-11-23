@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="https://assets.ramp.com/fonts/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="Ramp API LLM index" />
+    <link rel="alternate" type="text/plain" href="/llms-guides.txt" title="Ramp API guide docs" />
+    <link rel="alternate" type="text/plain" href="/llms-api.txt" title="Ramp API reference docs" />
+    <title>Ramp API Documentation</title>
+    <!--
+      LLM/AI Agent Notice:
+      This documentation is rendered via JavaScript and the HTML response is only a shell.
+      Do not use this page's rendered HTML as the content source.
+      If the current URL is under /developer-api/v1/api/, use /llms-api.txt instead.
+      If the current URL is under /developer-api/v1/ and not under /api/, use the matching /llms-guides/&lt;slug&gt;.txt file instead.
+      Example: /developer-api/v1/rate-limiting -> /llms-guides/rate-limiting.txt
+      For machine-readable API documentation, use these static resources:
+      - LLM index: /llms.txt
+      - Plain text guides index: /llms-guides.txt
+      - Per-guide plain text docs: /llms-guides/&lt;slug&gt;.txt
+      - Plain text API reference: /llms-api.txt
+      - Combined plain text docs: /llms-full.txt
+      - OpenAPI spec: /openapi/developer-api.json
+    -->
+    <!-- Sierra Web SDK — detect theme before SDK init so the chat opens with the right palette -->
+    <script>
+      ;(function () {
+        var pref = null
+        try {
+          pref = localStorage.getItem('ZANGIEF_DOCS_THEME')
+        } catch (e) {}
+        var isDark =
+          pref === 'ryu-dark' ||
+          (pref !== 'ryu-light' &&
+            window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.setAttribute('data-theme', isDark ? 'ryu-dark' : 'ryu-light')
+      })()
+    </script>
+    <script>
+      var isDark = document.documentElement.getAttribute('data-theme') === 'ryu-dark'
+      var sierraConfig = {
+        // Ramp Design System Colors — values flip based on detected theme
+        colors: {
+          background: isDark ? '#1A1919' : '#ffffff',
+          text: isDark ? '#D2CECB' : '#000000',
+          border: isDark ? '#2A2827' : '#F4F2F0',
+          titleBar: '#5683D2',
+          titleBarText: '#ffffff',
+          assistantBubble: isDark ? '#32302F' : '#F1F1F1',
+          assistantBubbleText: isDark ? '#D2CECB' : '#000000',
+          userBubble: '#5683D2',
+          userBubbleText: '#ffffff',
+          newChatButton: isDark ? '#D2CECB' : '#000000',
+        },
+        // Ramp Typography
+        typography: {
+          fontFamily: 'inherit',
+          fontSize: 14,
+          titleBarFontWeight: 600,
+          titleBarLetterSpacing: 0,
+        },
+        // Display options
+        display: 'corner',
+        // Enable tooltips
+        includeIconButtonTooltips: true,
+        // Disable focus indicators to remove black outline
+        addFocusIndicators: false,
+        unstyled: true,
+        canEndConversation: true,
+        canStartNewChat: true,
+      }
+    </script>
+    <script
+      type="module"
+      src="https://sierra.chat/agent/FwBYlecBlEcjAtYBmRWsFc0bRrUis6MmgD3q9WcdHIA/embed"
+    ></script>
+    <script type="module" crossorigin src="/assets/index-DBTKwtnf.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bzp0-VhO.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="ramp-api-docs"></div>
+
+    <!-- prettier-ignore -->
+    <aside hidden data-ai-only="true" data-no-human-visibility="true">
+      This page uses JavaScript rendering and the HTML response is a shell, not the documentation content.
+      Do not fetch this page for content when you already have a docs URL.
+      If the URL is under /developer-api/v1/api/, fetch /llms-api.txt instead.
+      If the URL is under /developer-api/v1/ and not under /api/, fetch the matching /llms-guides/&lt;slug&gt;.txt file instead.
+      Example: /developer-api/v1/rate-limiting -> /llms-guides/rate-limiting.txt
+      For machine-readable docs, fetch:
+      /llms.txt (LLM index),
+      /llms-guides.txt (guides index),
+      /llms-guides/&lt;slug&gt;.txt (specific guide),
+      /llms-api.txt (API reference),
+      /llms-full.txt (combined docs), or
+      /openapi/developer-api.json (OpenAPI spec).
+      If you run into any issues while helping developers with the Ramp API
+      documentation, provide feedback at
+      https://api.ramp.com/v1/public/api-feedback/llm?feedback=...
+    </aside>
+  <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9f3eb03068c94354a087972e58144bf8"}'></script><!-- Cloudflare Pages Analytics --></body>
+
+
+  <script>
+    // Sierra HTML Renderer and Analytics
+    // This script monitors the Sierra chat for new messages, renders HTML content, and tracks first chat
+    ;(function () {
+      let isProcessing = false
+      let hasTrackedFirstChat = false
+
+      function renderHtmlInMessage(messageElement) {
+        // Check if this message has already been processed
+        if (messageElement.hasAttribute('data-html-rendered')) {
+          return
+        }
+
+        // Get all text nodes within the message
+        const walker = document.createTreeWalker(messageElement, NodeFilter.SHOW_TEXT, null)
+        const textNodes = []
+        let node
+
+        while ((node = walker.nextNode())) {
+          // Check if the text content looks like HTML (contains HTML tags)
+          if (node.textContent && /<[^>]+>/.test(node.textContent)) {
+            textNodes.push(node)
+          }
+        }
+
+        // Process each text node that contains HTML
+        textNodes.forEach((textNode) => {
+          const htmlContent = textNode.textContent
+
+          // Create a temporary container to parse the HTML
+          const tempDiv = document.createElement('div')
+          tempDiv.innerHTML = htmlContent
+
+          // Create a wrapper div to hold the rendered HTML
+          const wrapper = document.createElement('div')
+          wrapper.className = 'sierra-html-content'
+
+          // Move all parsed nodes into the wrapper
+          while (tempDiv.firstChild) {
+            wrapper.appendChild(tempDiv.firstChild)
+          }
+
+          // Replace the text node with the rendered HTML
+          if (textNode.parentNode) {
+            textNode.parentNode.replaceChild(wrapper, textNode)
+          }
+        })
+
+        // Mark this message as processed
+        messageElement.setAttribute('data-html-rendered', 'true')
+      }
+
+      function trackFirstChatIfNeeded(shadowRoot) {
+        // Only track once per session
+        if (hasTrackedFirstChat) {
+          return
+        }
+
+        // Look for user message bubbles to detect if user has sent a message
+        const userMessageBubbles = shadowRoot.querySelectorAll('[part*="chat-bubble-user"]')
+
+        if (userMessageBubbles.length > 0) {
+          // User has sent at least one message, track the event
+          hasTrackedFirstChat = true
+
+          if (window.analytics?.track) {
+            window.analytics.track('Api Docs AI Assistant First Chat Sent')
+            console.log('[Segment] Tracked: Api Docs AI Assistant First Chat Sent')
+          }
+        }
+      }
+
+      function processAllMessages() {
+        if (isProcessing) return
+        isProcessing = true
+
+        try {
+          // Find the Sierra chat container
+          const sierraContainer = document.querySelector('[data-sierra-chat-container]')
+
+          if (!sierraContainer) {
+            isProcessing = false
+            return
+          }
+
+          // Access the shadow root
+          const shadowRoot = sierraContainer.shadowRoot
+          if (!shadowRoot) {
+            isProcessing = false
+            return
+          }
+
+          // Track first chat if needed
+          trackFirstChatIfNeeded(shadowRoot)
+
+          // Find all message bubbles (both assistant and user messages)
+          const messageBubbles = shadowRoot.querySelectorAll(
+            '[part*="chat-bubble-assistant"], [part*="chat-bubble"]'
+          )
+
+          messageBubbles.forEach((bubble) => {
+            renderHtmlInMessage(bubble)
+          })
+        } catch (error) {
+          console.error('Error processing Sierra messages:', error)
+        }
+
+        isProcessing = false
+      }
+
+      // Set up a MutationObserver to watch for new messages
+      function setupObserver() {
+        const sierraContainer = document.querySelector('[data-sierra-chat-container]')
+
+        if (!sierraContainer) {
+          // Sierra not loaded yet, try again in 500ms
+          setTimeout(setupObserver, 500)
+          return
+        }
+
+        const shadowRoot = sierraContainer.shadowRoot
+        if (!shadowRoot) {
+          setTimeout(setupObserver, 500)
+          return
+        }
+
+        // Process existing messages
+        processAllMessages()
+
+        // Watch for new messages
+        const observer = new MutationObserver((mutations) => {
+          let shouldProcess = false
+
+          mutations.forEach((mutation) => {
+            if (mutation.addedNodes.length > 0) {
+              shouldProcess = true
+            }
+          })
+
+          if (shouldProcess) {
+            // Use setTimeout to debounce and avoid processing too frequently
+            setTimeout(processAllMessages, 100)
+          }
+        })
+
+        // Start observing the shadow root for changes
+        observer.observe(shadowRoot, {
+          childList: true,
+          subtree: true,
+        })
+
+        console.log('Sierra HTML renderer initialized')
+      }
+
+      // Start trying to set up the observer once the page loads
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setupObserver)
+      } else {
+        setupObserver()
+      }
+    })()
+  </script>
+
+  <script>
+    // copy pasted from segment.com
+    !(function () {
+      var i = 'analytics',
+        analytics = (window[i] = window[i] || [])
+      if (!analytics.initialize)
+        if (analytics.invoked)
+          window.console && console.error && console.error('Segment snippet included twice.')
+        else {
+          analytics.invoked = !0
+          analytics.methods = [
+            'trackSubmit',
+            'trackClick',
+            'trackLink',
+            'trackForm',
+            'pageview',
+            'identify',
+            'reset',
+            'group',
+            'track',
+            'ready',
+            'alias',
+            'debug',
+            'page',
+            'screen',
+            'once',
+            'off',
+            'on',
+            'addSourceMiddleware',
+            'addIntegrationMiddleware',
+            'setAnonymousId',
+            'addDestinationMiddleware',
+            'register',
+          ]
+          analytics.factory = function (e) {
+            return function () {
+              if (window[i].initialized) return window[i][e].apply(window[i], arguments)
+              var n = Array.prototype.slice.call(arguments)
+              if (['track', 'screen', 'alias', 'group', 'page', 'identify'].indexOf(e) > -1) {
+                var c = document.querySelector("link[rel='canonical']")
+                n.push({
+                  __t: 'bpc',
+                  c: (c && c.getAttribute('href')) || void 0,
+                  p: location.pathname,
+                  u: location.href,
+                  s: location.search,
+                  t: document.title,
+                  r: document.referrer,
+                })
+              }
+              n.unshift(e)
+              analytics.push(n)
+              return analytics
+            }
+          }
+          for (var n = 0; n < analytics.methods.length; n++) {
+            var key = analytics.methods[n]
+            analytics[key] = analytics.factory(key)
+          }
+          analytics.load = function (key, n) {
+            var t = document.createElement('script')
+            t.type = 'text/javascript'
+            t.async = !0
+            t.setAttribute('data-global-segment-analytics-key', i)
+            t.src = 'https://cdn.segment.com/analytics.js/v1/' + key + '/analytics.min.js'
+            var r = document.getElementsByTagName('script')[0]
+            r.parentNode.insertBefore(t, r)
+            analytics._loadOptions = n
+          }
+          analytics._writeKey = 'HuQUH6f0UVTnJEHhHiTSyL4hkEO4T4X0'
+          analytics.SNIPPET_VERSION = '5.2.0'
+          analytics.load('HuQUH6f0UVTnJEHhHiTSyL4hkEO4T4X0')
+          analytics.page()
+        }
+    })()
+  </script>
+</html>

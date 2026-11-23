@@ -1,0 +1,272 @@
+{
+  "1": {
+    "name": "Salesforce",
+    "verified": [
+      {
+        "url": "https://github.com/salesforcecli/mcp",
+        "status": 200,
+        "chars": 29528
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/salesforcecli/mcp",
+        "status": 200,
+        "chars": 29528,
+        "ok": true
+      }
+    ]
+  },
+  "8": {
+    "name": "Close",
+    "verified": [],
+    "attempted": [
+      {
+        "url": "https://github.com/closeio/close-mcp",
+        "status": 404,
+        "chars": 2831,
+        "ok": false
+      }
+    ]
+  },
+  "14": {
+    "name": "Front",
+    "verified": [],
+    "attempted": [
+      {
+        "url": "https://github.com/frontapp/front-mcp",
+        "status": 404,
+        "chars": 2831,
+        "ok": false
+      }
+    ]
+  },
+  "21": {
+    "name": "Slack",
+    "verified": [
+      {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "status": 200,
+        "chars": 11567
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "status": 200,
+        "chars": 11567,
+        "ok": true
+      }
+    ]
+  },
+  "36": {
+    "name": "Klaviyo",
+    "verified": [
+      {
+        "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+        "status": 200,
+        "chars": 7633
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+        "status": 200,
+        "chars": 7633,
+        "ok": true
+      }
+    ]
+  },
+  "41": {
+    "name": "Shopify",
+    "verified": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+        "status": 200,
+        "chars": 3349
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+        "status": 200,
+        "chars": 3349,
+        "ok": true
+      }
+    ]
+  },
+  "56": {
+    "name": "Firecrawl",
+    "verified": [
+      {
+        "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+        "status": 200,
+        "chars": 81066
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+        "status": 200,
+        "chars": 81066,
+        "ok": true
+      }
+    ]
+  },
+  "57": {
+    "name": "Bright Data",
+    "verified": [
+      {
+        "url": "https://github.com/brightdata/brightdata-mcp",
+        "status": 200,
+        "chars": 26987
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/brightdata/brightdata-mcp",
+        "status": 200,
+        "chars": 26987,
+        "ok": true
+      }
+    ]
+  },
+  "61": {
+    "name": "GitHub",
+    "verified": [
+      {
+        "url": "https://github.com/github/github-mcp-server",
+        "status": 200,
+        "chars": 106510
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/github/github-mcp-server",
+        "status": 200,
+        "chars": 106510,
+        "ok": true
+      }
+    ]
+  },
+  "64": {
+    "name": "Cloudflare",
+    "verified": [
+      {
+        "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+        "status": 200,
+        "chars": 10267
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+        "status": 200,
+        "chars": 10267,
+        "ok": true
+      }
+    ]
+  },
+  "65": {
+    "name": "Supabase",
+    "verified": [
+      {
+        "url": "https://github.com/supabase/mcp",
+        "status": 200,
+        "chars": 11098
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/supabase-community/mcp-server-supabase",
+        "status": 200,
+        "chars": 11098,
+        "ok": true
+      }
+    ]
+  },
+  "71": {
+    "name": "Notion",
+    "verified": [
+      {
+        "url": "https://github.com/makenotion/notion-mcp-server",
+        "status": 200,
+        "chars": 18152
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/makenotion/notion-mcp-server",
+        "status": 200,
+        "chars": 18152,
+        "ok": true
+      }
+    ]
+  },
+  "73": {
+    "name": "Linear",
+    "verified": [],
+    "attempted": [
+      {
+        "url": "https://mcp.linear.app/mcp",
+        "status": 401,
+        "chars": 0,
+        "ok": false
+      }
+    ]
+  },
+  "74": {
+    "name": "Jira",
+    "verified": [],
+    "attempted": [
+      {
+        "url": "https://mcp.atlassian.com/v2/mcp",
+        "status": 401,
+        "chars": 25,
+        "ok": false
+      }
+    ]
+  },
+  "81": {
+    "name": "Stripe",
+    "verified": [
+      {
+        "url": "https://github.com/stripe/ai",
+        "status": 200,
+        "chars": 6235
+      }
+    ],
+    "attempted": [
+      {
+        "url": "https://github.com/stripe/agent-toolkit",
+        "status": 200,
+        "chars": 6235,
+        "ok": true
+      }
+    ]
+  },
+  "96": {
+    "name": "Devin",
+    "verified": [],
+    "attempted": [
+      {
+        "url": "https://docs.devin.ai/integrations/mcp",
+        "status": 404,
+        "chars": 1889,
+        "ok": false
+      }
+    ]
+  },
+  "99": {
+    "name": "YouTube Transcript",
+    "verified": [],
+    "attempted": [
+      {
+        "url": "https://transcriptapi.com/mcp",
+        "status": 401,
+        "chars": 301,
+        "ok": false
+      }
+    ]
+  }
+}

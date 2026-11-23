@@ -1,0 +1,11 @@
+{
+  "id": 8,
+  "name": "Close",
+  "requested_url": "https://developer.close.com/",
+  "final_url": "https://developer.close.com/",
+  "status": 200,
+  "chars": 2958,
+  "title": "Close Developer Platform | Close | Developer API Documentation",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:20+00:00"
+}

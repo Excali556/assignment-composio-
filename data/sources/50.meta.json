@@ -1,0 +1,12 @@
+{
+  "id": 50,
+  "name": "fanbasis",
+  "requested_url": "https://apidocs.fan/",
+  "final_url": "https://apidocs.fan/",
+  "status": 200,
+  "chars": 318061,
+  "title": "",
+  "transport": "proxy",
+  "rendered_via": "r.jina.ai",
+  "fetched_at": "2026-11-23T15:47:51+00:00"
+}

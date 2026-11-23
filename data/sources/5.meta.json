@@ -1,0 +1,11 @@
+{
+  "id": 5,
+  "name": "Twenty",
+  "requested_url": "https://twenty.com/developers",
+  "final_url": "https://docs.twenty.com/developers/introduction",
+  "status": 200,
+  "chars": 3068,
+  "title": "Build on Twenty - Twenty Documentation",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:19+00:00"
+}

@@ -1,0 +1,412 @@
+Skip to contentSkip to navigationSkip to topbar
+
+Twilio SendGrid Docs
+
+SendGrid v3 API Documentation
+
+Getting Started
+
+How to use the SendGrid V3 API
+
+AuthenticationAuthorizationErrorsOn Behalf OfRate LimitsRequestsResponses
+
+Mail Send
+
+Mail Send API OverviewMail SendErrors
+
+Cancel scheduled sends
+
+Cancel Schedule Sends API OverviewCreate a batch IDValidate batch IDRetrieve scheduled sendRetrieve all scheduled sendsUpdate a scheduled sendCancel or pause a scheduled sendDelete a cancellation or pause from a scheduled send
+
+Account Provisioning API
+
+Account Provisioning API Overview
+
+Account
+
+Account API OverviewCreate AccountList AccountsSingle Sign-OnDelete Account
+
+Account State
+
+Account State API OverviewGet Account StateUpdate Account State
+
+Offering
+
+Account Offerings API OverviewGet Account OfferingsList OfferingsUpdate Account Offerings
+
+IP Provisioning
+
+Account IP Provisioning API OverviewAdd IPsList IPsRemove IPs
+
+Deliverability
+
+Domain Authentication
+
+Domain Authenticate API OverviewAuthenticate a domainGet the default authenticationRetrieve an authenticated domainList all authenticated domainsAdd an IP to an authenticated domainRemove an IP from an authenticated domain.Validate a domain authentication.Update an authenticated domainDelete an authenticated domain.List the authenticated domain associated with a subuserList the authenticated domains for subusers with multiple associated domainsAssociate an authenticated domain with a subuserAssociate an authenticated domain with a subuser (up to five domains)Disassociate an authenticated domain from a subuserDisassociate an authenticated domain from a subuser with multiple domains
+
+E-Mail Address Validation
+
+Email Address Validation API OverviewValidate an emailRequest Bulk Email Address Validation Upload URLGet Bulk Email Address Validation JobsGet a Bulk Email Address Validation Job by ID
+
+IP Address
+
+IP Address API OverviewAdd IPsGet remaining IPs countRetrieve all assigned IPsRetrieve all IP addressesRetrieve all IP pools an IP address belongs to
+
+IP Address Management API
+
+IP Address Management API OverviewAdd a Twilio SendGrid IP addressGet details for an IP addressGet a list of all IP addresses on your accountUpdate details for an IP addressCreate an IP pool with a name and IP assignmentsGet details for an IP poolGet all IP pools that have associated IPsUpdate an IP pool nameDelete an IP poolAdd a batch of IPs to an IP poolGet IPs assigned to an IP poolDelete a batch of IPs from an IP poolAssign a batch of subusers to an IPGet a list of subusers assigned to an IPDelete a batch of subusers from an IP
+
+IP Pools
+
+IP Pools API OverviewCreate an IP poolRetrieve all IP poolsRetrieve all the IPs in a specified poolAdd an IP address to a poolRemove an IP address from a poolRename an IP poolDelete an IP pool
+
+IP Warmup
+
+IP Address Warmup API OverviewStart warming up an IP addressRetrieve the warmup status for a specific IP addressRetrieve all IPs currently in warmupStop warming up an IP address
+
+Link Branding
+
+Link Branding API OverviewCreate a branded linkValidate a branded linkRetrieve the default branded linkRetrieve a branded linkRetrieve all branded linksRetrieve a subuser's branded linkAssociate a branded link with a subuserDisassociate a branded link from a subuserUpdate a branded linkDelete a branded link
+
+Reverse DNS
+
+Reverse DNS API OverviewSet up reverse DNSValidate a reverse DNS recordRetrieve a reverse DNS recordRetrieve all reverse DNS recordsDelete a reverse DNS record
+
+Sender Verification
+
+Sender Verification API OverviewCreate Verified Sender RequestResend Verified Sender RequestVerify Sender RequestGet All Verified SendersEdit Verified SenderDelete Verified SenderCompleted StepsDomain Warn List
+
+SendGrid Engagement Quality API
+
+SendGrid Engagement Quality API OverviewGet Engagement Quality ScoresGet Subusers' Engagement Quality Scores
+
+Design Library
+
+Design Library API OverviewCreate DesignDuplicate DesignGet DesignList DesignsUpdate DesignDuplicate SendGrid Pre-built DesignGet SendGrid Pre-built DesignList SendGrid Pre-built DesignsDelete Design
+
+Email Activity
+
+Email Activity API OverviewFilter Messages by IDFilter All MessagesRequest a CSVDownload CSV
+
+Email Logs
+
+Email Logs API OverviewFilter Messages by IDFilter All Messages
+
+Event Tracking
+
+Tracking Settings
+
+Event Tracking API OverviewRetrieve Tracking SettingsRetrieve Click Track SettingsUpdate Click Tracking SettingsRetrieve Google Analytics SettingsUpdate Google Analytics SettingsGet Open Tracking SettingsUpdate Open Tracking SettingsRetrieve Subscription Tracking SettingsUpdate Subscription Tracking Settings
+
+Stats
+
+Statistics API OverviewRetrieve global email statisticsRetrieve email statistics by browser.Retrieve stats by a specific client type.Retrieve email statistics by client type.Retrieve email statistics by country and state/province.Retrieve email statistics by device type.Retrieve email statistics by mailbox provider.
+
+Webhooks
+
+Webhooks API OverviewCreate an Event WebhookTest Event Notification SettingsGet an Event WebhookGet All Event WebhooksToggle Signature Verification for an Event WebhookGet Signed Event Webhook's Public KeyUpdate an Event WebhookDelete an Event WebhookRetrieve Parse Webhook settingsRetrieves Inbound Parse Webhook statistics.
+
+Inbound Parse
+
+Inbound Parse API OverviewCreate a parse settingRetrieve a specific parse settingRetrieve all parse settingsUpdate a parse settingDelete a parse setting
+
+Securing Parse Webhooks
+
+Create a parse security policyUpdate a parse security policyRetrieve all parse security policiesRetrieve a specific parse security policyDelete a parse security policy
+
+Legacy Marketing Campaigns
+
+Campaigns API
+
+Legacy Campaigns API OverviewCreate a CampaignRetrieve a single campaignRetrieve all CampaignsUpdate a CampaignSend a CampaignSend a Test CampaignSchedule a CampaignView Scheduled Time of a CampaignUpdate a Scheduled CampaignUnschedule a Scheduled CampaignDelete a Campaign
+
+Categories
+
+Legacy Categories API OverviewRetrieve all categoriesRetrieve Email Statistics for CategoriesRetrieve sums of email stats for each category
+
+Contacts API - Custom Fields
+
+Legacy Custom Fields API OverviewCreate a Custom FieldRetrieve a Custom FieldRetrieve all custom fieldsRetrieve reserved fieldsDelete a Custom Field
+
+Contacts API - Lists
+
+Legacy Lists API OverviewCreate a ListRetrieve a single listRetrieve all listsAdd a Single Recipient to a ListAdd Multiple Recipients to a ListRetrieve all recipients on a ListDelete a Single Recipient from a Single ListUpdate a ListDelete a ListDelete Multiple lists
+
+Contacts API - Recipients
+
+Legacy Recipients API OverviewAdd recipientsGet Recipient Upload StatusRetrieve a single recipientRetrieve recipientsSearch recipientsRetrieve the lists that a recipient is onRetrieve a Count of RecipientsRetrieve the count of billable recipientsUpdate RecipientExport recipientsExport recipients statusGet all existing exportsDelete a RecipientDelete Recipients
+
+Contacts API - Segments
+
+Legacy Segments API OverviewCreate a SegmentRetrieve a segmentRetrieve all segmentsRetrieve recipients on a segmentDelete a segment
+
+Sender Identities API
+
+Legacy Sender Identities API OverviewCreate a Sender IdentityResend Sender Identity VerificationView a Sender IdentityGet all Sender IdentitiesUpdate a Sender IdentityDelete a Sender Identity
+
+New Marketing Campaigns
+
+Contacts
+
+Contacts API OverviewAdd or Update a ContactImport ContactsImport Contacts StatusGet a Contact by IDGet Batched Contacts by IDsGet Contacts by EmailsSearch ContactsGet Sample ContactsGet Total Contact CountExport ContactsExport Contacts StatusGet All Existing ExportsDelete ContactsDelete a Contact IdentifierGet Contacts by Identifiers
+
+Custom Fields
+
+Custom Fields API OverviewCreate Custom Field DefinitionGet All Field DefinitionsUpdate Custom Field DefinitionDelete Custom Field Definition
+
+Lists
+
+Lists API OverviewCreate ListGet a List by IDGet List Contact CountGet All ListsUpdate ListRemove Contacts from a ListDelete a list
+
+Marketing Campaign Stats
+
+Marketing Campaigns Statistics API OverviewGet Automation Stats by IDGet Automation Click Tracking Stats by IDGet All Automation StatsExport Automation StatsGet Single Send Stats by IDGet Single Send Click Tracking Stats by IDGet All Single Sends StatsExport Single Send Stats
+
+Segmenting Contacts
+
+Segments API OverviewGet Segment by IDGet List of SegmentsDelete Segment
+
+Segmenting Contacts V2
+
+Segments v2 API OverviewCreate SegmentGet Segment by IDGet List of SegmentsRefresh SegmentUpdate SegmentDelete segment
+
+Single Sends
+
+Single Sends API OverviewCreate Single SendDuplicate Single SendGet Single Send by IDGet Single Sends SearchGet All Single SendsGet All CategoriesUpdate Single SendSchedule Single SendDelete Single Send ScheduleDelete Single Send by IDBulk Delete Single Sends
+
+Integrations
+
+Create an IntegrationGet an Integration by IDGet All IntegrationsUpdate an IntegrationBulk Delete Integrations
+
+Senders
+
+Senders API OverviewCreate a SenderGet a list of all SendersGet a specific SenderUpdate a SenderDelete a SenderResend a Sender verification
+
+Send Test E-Mail
+
+Send a Test Marketing Email
+
+Security
+
+API Keys
+
+API Keys API OverviewCreate API keysRetrieve an existing API KeyRetrieve all API Keys belonging to the authenticated userUpdate API key nameUpdate API key name and scopesDelete API keys
+
+API Key permissions
+
+API Key Permissions API OverviewRetrieve a list of scopes for which this user has access.
+
+Enforced TLS
+
+Enforced TLS API OverviewRetrieve current Enforced TLS settings.Update Enforced TLS settings
+
+IP access management
+
+IP Access Management API OverviewRetrieve a specific allowed IPRetrieve a list of currently allowed IPsRetrieve all recent access attemptsAdd one or more IPs to the allow listRemove a specific IP from the allowed listRemove one or more IPs from the allow list
+
+Settings
+
+Alerts
+
+Alerts API OverviewCreate a new AlertRetrieve a specific alertRetrieve all alertsUpdate an alertDelete an alert
+
+Mail Settings
+
+Mail Settings API OverviewRetrieve all mail settingsRetrieve address whitelist mail settingsUpdate address whitelist mail settingsRetrieve bounce purge mail settingsUpdate bounce purge mail settingsRetrieve forward bounce mail settingsUpdate forward bounce mail settingsRetrieve forward spam mail settingsUpdate forward spam mail settingsRetrieve footer mail settingsUpdate footer mail settingsRetrieve legacy template mail settingsUpdate template mail settings
+
+Partner Settings
+
+Partner Settings API OverviewRetrieve a list of all partner settings
+
+Recipients' Data Erasure API
+
+Recipients' Data Erasure API OverviewErase Recipients' Email Data
+
+Subusers API
+
+Subusers API OverviewCreate SubuserRetrieve Subuser ReputationsList all SubusersEnable/Disable a SubuserEnable/Disable Website Access for a SubuserUpdate IPs assigned to a SubuserDelete a SubuserGet the Credits for a SubuserUpdate the Credits for a SubuserUpdate the remaining credits for a Subuser
+
+Subuser Statistics
+
+Subuser Statistics API OverviewRetrieve email statistics for your subuserRetrieve the monthly email statistics for a single subuserRetrieve monthly stats for all subusersRetrieve the totals for each email statistic metric for all subusers.
+
+Teammates
+
+Teammates API OverviewInvite teammateResend teammate inviteRetrieve specific teammateRetrieve all teammatesRetrieve all pending teammatesUpdate teammate's permissionsDelete teammateDelete pending teammateGet Teammate Subuser Access
+
+Users API
+
+Users API OverviewGet a user's account information.Retrieve your account email addressUpdate your account email addressRetrieve your credit balanceUpdate your passwordGet a user's profileUpdate a user's profileRetrieve your usernameUpdate your username
+
+Single Sign-On
+
+Single Sign-On Certificates
+
+SSO Certificates API OverviewCreate an SSO CertificateGet an SSO CertificateGet All SSO Certificates by IntegrationUpdate SSO CertificateDelete an SSO Certificate
+
+Single Sign-On Settings
+
+SSO Integrations API OverviewCreate an SSO IntegrationGet an SSO IntegrationGet All SSO IntegrationsUpdate an SSO IntegrationDelete an SSO Integration
+
+Single Sign-On Teammates
+
+SSO Teammates API OverviewCreate SSO TeammateEdit an SSO Teammate
+
+Suppression Management
+
+Blocks API
+
+Blocks API OverviewRetrieve a specific blockRetrieve all blocksDelete a specific blockDelete blocks
+
+Bounces API
+
+Bounces API OverviewRetrieve a BounceRetrieve bounces by specific classificationRetrieve bounce totals by classificationRetrieve all bouncesDelete a bounceDelete bounces
+
+Invalid E-Mails API
+
+Invalid Emails API OverviewRetrieve a specific invalid emailRetrieve all invalid emailsDelete a specific invalid emailDelete invalid emails
+
+Spam Reports API
+
+Spam Reports API OverviewRetrieve a specific spam reportRetrieve all spam reportsDelete a specific spam reportDelete spam reports
+
+Suppressions - Global Suppressions
+
+Global Suppressions API OverviewAdd recipient addresses to the global suppression group.Retrieve a Global SuppressionRetrieve all Global SuppressionsDelete a Global Suppression
+
+Suppressions - Suppressions
+
+Suppressions API OverviewAdd suppressions to a suppression groupRetrieve all suppression groups for an email addressRetrieve all suppressions for a suppression groupSearch for suppressions within a groupRetrieve all suppressionsDelete a suppression from a suppression group
+
+Suppressions - Unsubscribe Groups
+
+Unsubscribe Groups API OverviewCreate a new suppression groupGet information on a single suppression groupRetrieve all suppression groupsUpdate a suppression groupDelete a suppression group
+
+Templates
+
+Transactional Templates
+
+Templates API OverviewCreate a transactional template.Duplicate a transactional template.Retrieve a single transactional template.Retrieve paged transactional templates.Edit a transactional template.Delete a template.
+
+Transactional Templates Versions
+
+Templates Versions API OverviewCreate a new transactional template version.Activate a transactional template version.Retrieve a specific transactional template version.Edit a transactional template version.Delete a transactional template version.
+
+Search
+
+Search
+
+Log in
+
+Sign up
+
+Page tools
+Copy as markdown
+Useful for sharing or LLM
+
+Copy and view
+Copy as markdownView as markdown
+
+Open in assistant
+Open in ChatGPTOpen in ClaudeOpen in CursorOpen in Perplexity
+
+Build with AI
+
+Connect your AI agentInstall Twilio Skills
+
+Accelerate development with AI
+
+On this page
+Additional resources
+
+Onboarding guide
+
+Email API quickstarts
+
+SDKs and tools
+
+Looking for more inspiration?Visit the
+Developer Hub
+
+On this page
+
+Additional resources
+
+Onboarding guide
+
+Email API quickstarts
+
+SDKs and tools
+
+Copy as markdown
+
+Copy and view
+Copy as markdownView as markdown
+
+Open in assistant
+Open in ChatGPTOpen in ClaudeOpen in CursorOpen in Perplexity
+
+Build with AI
+Connect your AI agentInstall Twilio Skills
+
+SendGrid v3 API reference
+
+The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes.
+
+The SendGrid API endpoints allow you to integrate with your tech stack to send transactional emails, create marketing campaigns, manage your contacts, and monitor the health of your email statistics.
+
+This API reference provides complete documentation for every endpoint and operation. For an overview of using SendGrid APIs, see the Getting Started section.
+
+Additional resources
+
+Onboarding guide
+
+For a full-featured guide to ensure you build your email program on a solid foundation, see the Email API Onboarding guide.
+
+Email API quickstarts
+
+Jump to an email quickstart in your programming language of choice to implement the Mail Send API.
+
+C#
+
+Go
+
+Java
+
+Node.js
+
+PHP
+
+Python
+
+Ruby
+
+SDKs and tools
+
+See our open-source SDKs and tools to integrate with SendGrid.
+
+C#
+
+Go
+
+Java
+
+Node.js
+
+PHP
+
+Python
+
+Ruby
+
+OpenAPI specification
+
+Need some help?
+
+We all do sometimes; code is hard. Get help now from our support team, or lean on the wisdom of the crowd by browsing the SendGrid tag on Stack Overflow.
+
+Terms of service
+
+Privacy Policy
+
+Copyright © 2026 Twilio Inc.

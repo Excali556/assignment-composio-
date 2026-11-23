@@ -1,0 +1,11 @@
+{
+  "id": 49,
+  "name": "Amazon Selling Partner",
+  "requested_url": "https://developer-docs.amazon.com/sp-api/docs/connecting-to-the-selling-partner-api",
+  "final_url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+  "status": 200,
+  "chars": 27866,
+  "title": "Connect to the SP-API",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:51+00:00"
+}

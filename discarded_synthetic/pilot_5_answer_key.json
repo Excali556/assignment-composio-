@@ -1,0 +1,107 @@
+{
+  "github": {
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Code hosting and developer collaboration platform for Git version control, CI/CD, and project management.",
+    "auth_methods": ["OAuth2", "Bearer Token"],
+    "access_model": "Free Self-Serve",
+    "api_types": ["REST", "GraphQL", "Webhooks"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "auth_quote": "To authenticate with the GitHub REST API, you must provide a token in the Authorization header of your HTTP request. GitHub supports multiple types of tokens, primarily personal access tokens and OAuth tokens.",
+      "access_quote": "You can create personal access tokens for free in your GitHub account developer settings to authenticate API requests.",
+      "api_quote": "The GitHub REST API provides comprehensive endpoints to manage repositories, issues, pull requests, actions, and users."
+    },
+    "confidence": "High"
+  },
+  "salesforce": {
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_line_description": "Enterprise cloud-based customer relationship management (CRM) platform for sales, service, and marketing automation.",
+    "auth_methods": ["OAuth2"],
+    "access_model": "Free Self-Serve",
+    "api_types": ["REST", "GraphQL", "Webhooks"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/salesforcecli/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
+      "auth_quote": "To allow your external client application to communicate with the Salesforce REST API securely, you must configure an authorization mechanism using the OAuth 2.0 protocol.",
+      "access_quote": "Developer Edition environments provide a fully functional Salesforce platform environment intended specifically for testing and API development.",
+      "api_quote": "Salesforce REST API provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce."
+    },
+    "confidence": "High"
+  },
+  "sherlock": {
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Open-source Python command-line OSINT tool to hunt down social media accounts by username across hundreds of platforms.",
+    "auth_methods": ["None"],
+    "access_model": "Free Self-Serve",
+    "api_types": ["CLI / Local Execution"],
+    "api_breadth": "Limited",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/Burnsedia/sherlock-mcp",
+    "buildable_today": "Partial",
+    "main_blocker": "No Public API",
+    "evidence": {
+      "docs_url": "https://github.com/sherlock-project/sherlock",
+      "auth_quote": "Sherlock runs locally via Python CLI without requiring API credentials or user authentication.",
+      "access_quote": "Sherlock is open source licensed under the MIT License and available publicly on GitHub for anyone to clone and run.",
+      "api_quote": "Hunt down social media accounts by username across social networks using command line arguments."
+    },
+    "confidence": "High"
+  },
+  "telegram": {
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_line_description": "Cloud-based instant messaging platform featuring group chats, broadcast channels, and an HTTP Bot API.",
+    "auth_methods": ["API Key", "Bearer Token"],
+    "access_model": "Free Self-Serve",
+    "api_types": ["REST", "Webhooks"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/chigwell/telegram-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://core.telegram.org/bots/api",
+      "auth_quote": "Once successfully created, BotFather will reply with a confirmation message containing your HTTP API Token.",
+      "access_quote": "The Bot API is free for all developers and anyone can create bots using BotFather at no cost.",
+      "api_quote": "All queries to the Telegram Bot API must be served over HTTPS and structured using your token in the URL path."
+    },
+    "confidence": "High"
+  },
+  "pitchbook": {
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_line_description": "Financial market data and intelligence platform covering venture capital, private equity, and M&A transactions.",
+    "auth_methods": ["API Key", "Bearer Token"],
+    "access_model": "Enterprise / Contact Sales",
+    "api_types": ["REST"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "No",
+    "main_blocker": "Enterprise Gate / Paywall",
+    "evidence": {
+      "docs_url": "https://pitchbook.com/products/research-api",
+      "auth_quote": "PitchBook API authentication uses enterprise-provisioned API tokens issued upon execution of a direct data contract.",
+      "access_quote": "Because the API is an enterprise-tier offering that requires a separate standalone contract agreement and credit-based subscription, it cannot be purchased directly online.",
+      "api_quote": "PitchBook Direct Data solutions provide on-demand access to private and public capital market intelligence via REST API."
+    },
+    "confidence": "High"
+  }
+}

@@ -1,0 +1,167 @@
+Documentation Index
+
+Fetch the complete documentation index at:/llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+
+Assistant
+
+Responses are generated using AI and may contain mistakes.
+
+Twenty Documentation home page
+
+Getting Started
+
+User Guide
+
+Developers
+
+Log in
+
+Get started
+
+Get started
+
+Search...
+
+Navigation
+
+Developers
+
+Build on Twenty
+
+Search...
+
+⌘K
+
+Developers
+
+Developers
+
+Apps
+
+Getting Started
+
+Tutorial
+
+Config
+
+Data
+
+Logic
+
+Layout
+
+Operations
+
+API
+
+Overview
+
+Webhooks
+
+OAuth
+
+Self-Host
+
+Docker Compose
+
+Setup
+
+Securing your instance
+
+Upgrade guide
+
+Troubleshooting
+
+Contribute
+
+Local Setup
+
+Commands
+
+Style Guide
+
+UI Library
+
+Guides
+
+Primitives
+
+Components
+
+English
+
+Developers
+
+Build on Twenty
+
+Build apps in TypeScript, connect your tools through APIs, and host Twenty yourself.
+
+Why build on Twenty
+Most CRMs give developers an API and a few places to plug in. Twenty gives you the platform itself. Declare objects, server-side functions, React components and AI agents in plain TypeScript with the twenty-sdk, see each change sync to a local server as you save, and ship with the CLI.
+Manage your workspace with code. Objects, fields, views and page layouts live as TypeScript files in your repository, versioned and reviewed like any other change.
+
+The same SDK as Twenty’s own apps. Slack, Linear and Granola are apps built with the twenty-sdk, so you build with exactly what Twenty’s team uses.
+
+Plug into the core, not a sidebar. Your objects get the same tables and permissions as People and Companies. Your apps can bring conversations into Twenty’s messages, write to record timelines, and expose functions to workflows and AI agents.
+
+No ceiling. The core is open source and self-hostable. When an extension point is missing, change Twenty itself or contribute it back.
+
+Safe to experiment. Apps run sandboxed and only touch the data their role allows, whether your team or an AI agent wrote the code.
+
+Explore the developer docs
+Besides apps, the developer docs cover the API, self-hosting, contributing to Twenty and the UI library.
+
+Apps
+
+Build objects, logic, interfaces and AI agents as TypeScript apps, from quick start to publishing.
+
+API
+
+Read and write records over REST and GraphQL, get webhooks when records change, and connect apps with OAuth.
+
+Self-Host
+
+Run Twenty on your own infrastructure with Docker Compose, then secure and upgrade it.
+
+Contribute
+
+Set up the monorepo locally and help improve the open-source core.
+
+UI Library
+
+Twenty’s open-source React primitives, components, icons and theme tokens.
+
+GitHub
+
+Browse the source code, report issues and follow releases.
+
+Discord
+
+Ask questions and share what you build with the Twenty community.
+
+Was this page helpful?
+
+YesNo
+
+⌘I
+
+On this page
+Back to top
+Why build on Twenty
+
+Explore the developer docs
+
+Twenty Documentation home page
+githubdiscordlinkedinx
+
+twenty.com
+
+githubdiscordlinkedinx
+
+githubdiscordlinkedinx
+
+Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform

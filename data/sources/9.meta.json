@@ -1,0 +1,11 @@
+{
+  "id": 9,
+  "name": "Copper",
+  "requested_url": "https://developer.copper.com/",
+  "final_url": "https://developer.copper.com/",
+  "status": 200,
+  "chars": 5754,
+  "title": "Getting started - Copper Developer API",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:19+00:00"
+}

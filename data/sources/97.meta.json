@@ -1,0 +1,11 @@
+{
+  "id": 97,
+  "name": "higgsfield",
+  "requested_url": "https://higgsfield.ai/cli",
+  "final_url": "https://higgsfield.ai/cli",
+  "status": 200,
+  "chars": 8891,
+  "title": "Higgsfield CLI | AI Image & Video Generation for Any Agent",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:38+00:00"
+}

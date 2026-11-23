@@ -1,0 +1,11 @@
+{
+  "id": 31,
+  "name": "Google Ads",
+  "requested_url": "https://developers.google.com/google-ads/api/docs/start",
+  "final_url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+  "status": 200,
+  "chars": 12930,
+  "title": "Introduction to the Google Ads API \u00a0|\u00a0 Google for Developers Google Google",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:37+00:00"
+}

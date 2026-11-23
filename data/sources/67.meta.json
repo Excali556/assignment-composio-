@@ -1,0 +1,11 @@
+{
+  "id": 67,
+  "name": "Snowflake",
+  "requested_url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+  "final_url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+  "status": 200,
+  "chars": 3090,
+  "title": "Snowflake SQL API | Snowflake Documentation",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:01+00:00"
+}

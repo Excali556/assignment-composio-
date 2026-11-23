@@ -1,0 +1,11 @@
+{
+  "id": 68,
+  "name": "MongoDB Atlas",
+  "requested_url": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/",
+  "final_url": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/",
+  "status": 200,
+  "chars": 21405,
+  "title": "Atlas Administration API Reference - Atlas - MongoDB Docs arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right menu-vertical arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right arrow-right menu-vertical",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:03+00:00"
+}

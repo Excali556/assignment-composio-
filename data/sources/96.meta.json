@@ -1,0 +1,11 @@
+{
+  "id": 96,
+  "name": "Devin",
+  "requested_url": "https://docs.devin.ai/",
+  "final_url": "https://docs.devin.ai/get-started/devin-intro",
+  "status": 200,
+  "chars": 6879,
+  "title": "Introducing Devin - Devin Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:38+00:00"
+}

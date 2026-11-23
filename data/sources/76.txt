@@ -1,0 +1,361 @@
+For AI agents: the docs index is at https://developer.monday.com/api-reference/llms.txt. The index for every project on this site is at https://developer.monday.com/llms.txt. Append .md to any documentation page URL to get its markdown version.
+
+Jump to Content
+
+HomeGuidesAPI ReferenceChangelogBuild with AIPlaygroundApps DocsCommunityNeed Help?
+
+Guides
+
+Apps DocsCommunityNeed Help?
+
+HomeGuidesAPI ReferenceChangelogBuild with AIPlayground
+
+The basics
+
+About the monday API
+
+The basics
+
+Authentication
+
+Versioning
+
+Rate limits
+
+Idempotency
+
+Error handling
+
+Release notes
+Migrating the User entity: 2026-04 → 2026-10
+
+Migrating to version 2025-04
+
+Platform MCP overview
+Compatible MCP clients
+
+Integrate with the monday MCP server
+Authenticate with an API token
+
+Control MCP access with your own OAuth app
+Integrating monday MCP with Copilot Studio using a Custom App
+
+Integrating monday MCP with Claude using a Custom App
+
+Make your MCP integration publicly available
+
+Dynamic connectors
+
+Enterprise managed auth
+Set up enterprise-managed authorization for Claude
+
+Set up enterprise managed auth with Okta
+
+claude-ema-advanced-tab
+
+claude-ema-setup-modal
+
+copilot-studio-add-mcp-server
+
+Platform MCP tools
+Create Board (Platform MCP)
+
+Get Board Info (Platform MCP)
+
+Get Board Items (Platform MCP)
+
+Get Board Activity (Platform MCP)
+
+Board Insights (Platform MCP)
+
+Create Group (Platform MCP)
+
+Create Column (Platform MCP)
+
+Get Column Type Info (Platform MCP)
+
+Create Item (Platform MCP)
+
+Change Item Column Values (Platform MCP)
+
+Create Workspace (Platform MCP)
+
+Update Workspace (Platform MCP)
+
+List Workspaces (Platform MCP)
+
+Workspace Info (Platform MCP)
+
+Create Folder (Platform MCP)
+
+Update Folder (Platform MCP)
+
+Move Object (Platform MCP)
+
+Create Doc (Platform MCP)
+
+Update Doc (Platform MCP)
+
+Read Docs (Platform MCP)
+
+Create Dashboard (Platform MCP)
+
+Create Widget (Platform MCP)
+
+All Widgets Schema (Platform MCP)
+
+Create View (Platform MCP)
+
+Create Table View (Platform MCP)
+
+Update View (Platform MCP)
+
+Update Table View (Platform MCP)
+
+Create Form (Platform MCP)
+
+Get Form (Platform MCP)
+
+Update Form (Platform MCP)
+
+Form Questions Editor (Platform MCP)
+
+Create Form Submission (Platform MCP)
+
+Get User Context (Platform MCP)
+
+List Users and Teams (Platform MCP)
+
+Create Update (Platform MCP)
+
+Get Updates (Platform MCP)
+
+Create Notification (Platform MCP)
+
+Search (Platform MCP)
+
+Get Assets (Platform MCP)
+
+Get Asset Upload URL (Platform MCP)
+
+Finalize Asset Upload (Platform MCP)
+
+List Automations (Platform MCP)
+
+Manage Automations (Platform MCP)
+
+Create Automation (Platform MCP)
+
+Plan Workflow (Platform MCP)
+
+Create Workflow (Platform MCP)
+
+Update Workflow (Platform MCP)
+
+Publish Workflow (Platform MCP)
+
+Manage Agent (Platform MCP)
+
+Manage Agent Triggers (Platform MCP)
+
+Manage Agent Skills (Platform MCP)
+
+Manage Agent Knowledge (Platform MCP)
+
+Agent Catalog (Platform MCP)
+
+Get Notetaker Meetings (Platform MCP)
+
+Get Sprints Boards (Platform MCP)
+
+Get Sprints Metadata (Platform MCP)
+
+Get Sprint Summary (Platform MCP)
+
+Execute API Query (Platform MCP)
+
+Get GraphQL Schema (Platform MCP)
+
+Get Type Details (Platform MCP)
+
+Show Table (Platform MCP UI)
+
+Show Chart (Platform MCP UI)
+
+Show Battery (Platform MCP UI)
+
+Show Assign (Platform MCP UI)
+
+Platform MCP security
+
+Guides
+
+GraphQL overview
+
+Making your first request
+
+Querying board items
+
+Working with multi-level boards
+
+Changing column values
+
+Searching across your account
+
+Optimizing API usage
+
+Aggregating Board Data
+
+Validation Rules
+
+Importing items in bulk
+
+Connect a custom agent
+
+Working with the dependency column
+
+AI Skills
+
+Build on monday.com with AI
+
+Build an external agent
+Agent API key capabilities
+
+mcli - monday.com GraphQL CLI
+
+Portfolio Agent Skills
+Skill: Archive / Delete a Project
+
+Skill: Update Project Status
+
+Skill: List All Projects in a Portfolio
+
+Skill: Get Tasks Assigned to a Person Across Projects
+
+Skill: Get Project Status / Health
+
+Skill: Duplicate a Project
+
+Skill: Create a New Portfolio
+
+Skill: Connect a Project to a Portfolio
+
+Build monday agents with Make
+
+Connect to the Platform Agent over A2A
+
+Tools
+
+Developer Sandbox Account
+
+The Developer Center
+
+API analytics dashboard
+
+API playground
+
+Postman collection
+
+External APIs
+
+Developer AI assistant
+
+Apps MCP
+
+SDKs
+
+JavaScript SDK
+
+Python SDK
+
+Resources
+
+Get help
+
+Youtube
+
+monday.com help center
+
+API coverage gaps
+
+Models API
+
+Models API
+
+Getting started with the Models API
+
+Models API supported models
+
+Powered by
+
+The basics
+
+Read what the monday platform API can do, who can use it, and how it works
+
+Stop! Before you scroll...
+
+Get your answer faster.
+
+Ask our AI assistant any question about the monday API and get an instant answer.
+
+→
+
+Welcome to monday.com, a work OS where teams create and shape their own workflows in minutes, code-free. Our mission is to help teams outdo their best, fulfilling their potential, and collaborating more effectively.
+
+The monday GraphQL API is part of the monday apps framework. It is an application layer that allows apps to read and update data inside a monday.com account. It supports operations boards, items, column values, users, workspaces, and more.
+
+Why use the API?
+
+There are countless use cases for the API, including:
+
+Accessing board data to render a custom report inside a monday.com dashboard
+
+Creating a new item on a board when a record is created on another system
+
+Importing data from another source programmatically
+
+With the monday apps framework, developers can package their own web apps and integrations as native monday.com building blocks.
+
+Who can use the API?
+
+Admin, member, and guest users are all able to utilize the monday.com API.
+
+Admins and members have access to their own API tokens. Guests cannot access an API key but can utilize API features through other authentication methods, like OAuth or a shortLivedToken.
+
+Viewers, users who have been deactivated or disabled, users with unconfirmed emails, or users on student accounts cannot access the API.
+
+For building and testing apps or API integrations without touching production data, use a free developer account.
+
+What monday products does the API support?
+
+The platform API currently supports the monday work management, dev, sales CRM, and service products. It currently does not support Workforms.
+
+How does GraphQL work?
+
+The monday.com API is built with GraphQL, a flexible query language that allows you to return as much or as little data as you need. GraphQL is an application layer that parses the query you send it and returns (or changes) data accordingly. To learn more about the fundamental GraphQL components, check out our GraphQL overview!
+
+📘
+
+Join our developer community!
+
+We've created a community specifically for our devs where you can search through previous topics to find solutions, ask new questions, hear about new features and updates, and learn tips and tricks from other devs. Come join in on the fun! 😎
+
+Updatedabout 2 months ago
+
+Authentication
+
+Did this page help you?
+
+Yes
+
+No
+
+Copy Page
+
+Why use the API?
+
+Who can use the API?
+
+What monday products does the API support?
+
+How does GraphQL work?

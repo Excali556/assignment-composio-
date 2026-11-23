@@ -1,0 +1,1791 @@
+Skip to content
+This page is available as Markdown at https://developers.klaviyo.com/en/reference.md. An index of every page is at https://developers.klaviyo.com/llms.txt.
+
+Developers
+Home
+
+Guides
+
+API Reference
+
+Agents
+
+Search the docs
+
+v2026-10-15
+
+v2026-10-15Latest
+
+v2026-07-15
+
+v2026-04-15
+
+v2026-01-15
+
+v2025-10-15
+
+v2025-07-15
+
+v2025-04-15
+
+v2025-01-15
+
+Changelog
+
+Help Center
+
+Community
+
+Klaviyo API Reference
+
+Copy as Markdown
+
+View as MarkdownOpen this page as plain Markdown
+
+View OpenAPI specThe machine-readable definition this page is generated from
+
+Open in Claude↗(opens in a new tab)
+
+Open in ChatGPT↗(opens in a new tab)Ask ChatGPT about this page
+
+Open in Cursor↗(opens in a new tab)Ask Cursor about this page
+
+Every endpoint in the Klaviyo REST API, with its authentication, parameters, request and response bodies, and an example request. This reference covers API revision 2026-10-15.
+
+Jumpstart your Klaviyo API journey with our YouTube tutorials.
+
+Dive into Klaviyo's API tutorial playlist on YouTube, where we provide walkthroughs of some of our most popular Klaviyo API endpoints.
+
+Quickstart
+
+New Klaviyo developers: Check out our Get started with Klaviyo series to set up an account, obtain API credentials, and authenticate.
+
+Current Klaviyo developers:
+Install one of our new SDKs.
+
+Make test calls with the new API collection in our Postman workspace.
+
+To learn more, see below for an overview of the newly launched API features:
+Go into detail on the JSON API features supported by our new API surface.
+
+OpenAPI and Postman
+
+View the latest OpenAPI spec here.
+Import the spec into your favorite API tool, such as Postman, to start interacting with our new APIs right away.
+
+You can also navigate to our Postman Workspace, where you will find our latest collection of requests, along with the API definitions. You can get started by checking out our Postman collection guide.
+
+Authentication
+
+Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs). Read below for a quick overview of each method.
+
+Private key authentication
+
+All /api endpoints use private API keys with API key scopes to authenticate requests. If you do not use an API key for your requests, or if you use a key from the wrong account, your call will return an error. A 401 error indicates an invalid or missing API key.
+
+Private key authentication for /api endpoints is performed by setting the following request header:
+Copy
+Authorization: Klaviyo-API-Key your-private-api-key
+
+OAuth
+
+If you are a tech partner integrating with Klaviyo, we recommend using OAuth to authenticate your app. OAuth offers multiple benefits over a private key integration, including security, usability, and improved rate limits. Check out our guide on setting up OAuth.
+
+Public key authentication
+
+All /client endpoints are designed to only be called from publicly-browseable client-side environments and use public API keys to authorize and route requests. Your public API key is your 6-character company ID, also known as a site ID. We recommend using the Klaviyo object or our mobile SDKs for interacting with our client-side APIs.
+
+Public API keys are passed to /client endpoints using a query parameter:
+Copy
+curl --request POST \
+--url 'https://a.klaviyo.com/client/events/?company_id=COMPANY_ID'
+--header 'Content-Type: application/json'
+--data '{DATA}'
+
+Client endpoints are specifically designed to limit functionality to object creation of specific types of objects and do not respond with any potentially sensitive response data. For security reasons, this data must be accessed using private key endpoints only (i.e., /api).
+
+API key scopes
+
+Klaviyo's APIs support the use of API scopes, which allow you to restrict access for third parties using a private API key. Adding a scope helps you protect your and your customers’ data by limiting what third parties can access.
+
+You can add any of the following scopes to any new private API key in Klaviyo:
+
+Read-only
+Only allows third parties to view all data associated with the endpoint
+
+Full
+Allows third parties to create, delete, or make changes to anything associated with that endpoint (set by default)
+
+Custom
+Allows you to decide how much access to give the third party
+
+Note that you cannot add a scope to an existing private key. You also cannot edit a private API key after it’s been created. If you need to remove access to a key based on its current scope, delete it and then create a new key with the correct scope.
+
+For more information about the supported scopes for each endpoint and how to add a scope to an API key, please refer to the Authenticate API requests guide.
+
+Versioning and deprecation
+
+Check out our API versioning and deprecation policy to learn about how Klaviyo handles API versioning and support.
+
+Status codes and errors
+
+Every response will include an HTTP status code with more details on whether the request succeeded. Check out our guide on status codes and errors to learn more about status codes used by Klaviyo’s APIs and how to troubleshoot error responses.
+
+Rate limiting
+
+All new API endpoints are rate limited on a per-account basis, and use a fixed-window rate limiting algorithm with two distinct windows: burst (short) and steady (long). All API traffic will be subject to rate limits, and will receive HTTP 429 errors in the event either a burst or steady rate limit is reached.
+
+Each endpoint lists its burst and steady rate limits in our API reference documentation.
+
+JSON:API feature guides
+
+Relationships
+
+Klaviyo’s modern APIs offer powerful functionality via the relationships object, a thorough set of syntax offered by JSON:API for modeling relationships between resources. This syntax allows developers to efficiently query specific groups of related resources, eliminating the need to perform redundant queries.
+
+Check out our guide on JSON:API relationships for more information on how use, create, modify, and delete resource relationships.
+
+Filtering
+
+JSON:API’s general filtering syntax and its supported operations can be used across all new APIs. Please note that support for specific operators and fields is highly specific to each endpoint. You can refer to the filter query parameter in the API reference documentation for specific operator and field support.
+
+View our JSON:API filtering guide for a list of the filter operations and comparison literals.
+
+The filtering syntax for Klaviyo’s new APIs uses the ?filter query parameter for all endpoints that support filter operations.
+
+Sorting
+
+Where supported, sorting is handled using the ?sort query parameter followed by a field name. Reverse sorting is specified using a - prefix.
+
+Example
+
+GET /api/events/?sort=datetime sorts events by datetime ascending; GET /api/events/?sort=-datetime sorts by datetime descending.
+
+For more examples, view our JSON:API sorting guide.
+
+Sparse fieldsets
+
+Several endpoints support sparse fieldsets to allow developers to select only requested fields of resources, rather than having to retrieve entire resources (which may be very large).
+
+Sparse fieldsets are specified using the ?fields[TYPE]=field1,field2 query parameter, where TYPE is the resource type from which to select only field1 and field2. This also works for included resource types, e.g. ?fields[INCLUDED-TYPE]=field1,field2; however you also need to include that resource in your request, using the include query parameter for this to work.
+
+Examples:
+
+GET /api/events?fields[event]=metric_id,profile_id will retrieve only the metric_id and profile_id attributes for all events returned in the response.
+
+GET /api/events?fields[profile]=first_name,email&include=profile will retrieve all event fields and only the first_name and email attributes for included profile resource data.
+
+To learn more about sparse fieldsets, see our JSON:API sparse fieldsets guide.
+
+Pagination
+
+Our APIs support cursor-based pagination with the query parameter ?page[cursor].
+
+Paginated resource responses will contain a specific set of pagination cursor helper links in their top-level links object, like the following:
+jsonCopy
+{
+"data": [
+...
+],"links": {
+"next":"https://a.klaviyo.com/api/profiles/?page%5Bcursor%5D=bmV4dDo6aWQ6Ok43dW1iVw","prev":null,"self":"https://a.klaviyo.com/api/profiles"
+}
+}
+
+Use these links to navigate to next and previous pages.
+
+Datetimes
+
+Datetime formatting
+
+All datetimes across all new APIs in URLs, request, and response bodies must be formatted as ISO 8601 RFC 3339 datetime strings.
+Example:2023-01-16T23:20:50.52Z
+
+Beta APIs
+
+These endpoints are in beta at revision 2026-10-15. To call them, send the revision header 2026-10-15.pre. They may change before they're generally available.
+
+API Keys3 endpoints
+
+Applications16 endpoints
+
+Brands8 endpoints
+
+Custom Objects31 endpoints
+
+Customer Agent46 endpoints
+
+Events3 endpoints
+
+Forms6 endpoints
+
+Location Hub21 endpoints
+
+Profiles6 endpoints
+
+Reporting5 endpoints
+
+Sending Domains10 endpoints
+
+Service24 endpoints
+
+Browse by resource
+
+Accounts2 endpoints
+
+Billing2 endpoints
+
+Brands25 endpoints
+
+Campaigns59 endpoints
+
+Catalogs55 endpoints
+
+Conversations1 endpoint
+
+Coupons17 endpoints
+
+Custom Objects39 endpoints
+
+Data Privacy1 endpoint
+
+Events8 endpoints
+
+Flows22 endpoints
+
+Forms12 endpoints
+
+Images5 endpoints
+
+Lists13 endpoints
+
+Metrics24 endpoints
+
+Profiles38 endpoints
+
+Reporting7 endpoints
+
+Reviews3 endpoints
+
+Segments11 endpoints
+
+Tags26 endpoints
+
+Templates17 endpoints
+
+Text Messaging9 endpoints
+
+Tracking Settings3 endpoints
+
+Translations13 endpoints
+
+Web Feeds5 endpoints
+
+Webhooks7 endpoints
+
+Client12 endpoints
+
+API reference
+
+API Reference
+
+API overview
+
+Beta APIs
+
+API Keys
+
+GETGet API Keys
+
+GETGet API Key
+
+PATCHUpdate API Key
+
+Applications
+
+App Marketplace
+
+GETGet Client Applications
+
+GETGet Applications
+
+GETGet Client Application
+
+GETGet Application
+
+GETGet Application Installs
+
+GETGet Application Install
+
+DELETEDelete Application Install
+
+GETGet Install ID for Application
+
+GETGet Install for Application
+
+GETGet Application ID for Application Install
+
+GETGet Application for Application Install
+
+App Management
+
+POSTCreate Application
+
+PATCHUpdate Application
+
+DELETEDelete Application
+
+GETGet Install IDs for Application
+
+GETGet Installs for Application
+
+Brands
+
+GETGet Brand Fonts
+
+GETGet Brand Font
+
+POSTCreate Brand Font
+
+PATCHUpdate Brand Font
+
+DELETEDelete Brand Font
+
+GETGet Brand Form Defaults
+
+GETGet Brand Form Default
+
+PATCHUpdate Brand Form Default
+
+Custom Objects
+
+GETGet Data Sources
+
+GETGet Source Mapping
+
+PATCHUpdate Source Mapping
+
+GETGet Object Types
+
+GETGet Object Type
+
+POSTCreate Object Type
+
+DELETEDelete Object Type
+
+GETGet Object Schema
+
+POSTCreate Object Schema
+
+PATCHUpdate Object Schema
+
+GETGet Object Record
+
+GETGet Records for Object Type
+
+GETGet Record IDs for Object Type
+
+GETGet Current Schema for Object Type
+
+GETGet Current Schema ID for Object Type
+
+GETGet Draft Schema for Object Type
+
+GETGet Draft Schema ID for Object Type
+
+GETGet Schema Versions for Object Type
+
+GETGet Schema Version IDs for Object Type
+
+GETGet Object Type Relationships
+
+GETGet Profile Type Relationships
+
+GETGet Source Mapping for Object Schema
+
+GETGet Source Mapping ID for Object Schema
+
+GETGet Object Schema Relationships
+
+POSTCreate Object Schema Relationship
+
+PATCHUpdate Object Schema Relationship
+
+DELETEDelete Object Schema Relationship
+
+GETGet Profile Schema Relationships
+
+POSTCreate Profile Schema Relationship
+
+PATCHUpdate Profile Schema Relationship
+
+DELETEDelete Profile Schema Relationship
+
+Customer Agent
+
+Knowledge and Skills
+
+GETList Agent Knowledge
+
+GETGet Agent Knowledge
+
+POSTCreate Agent Knowledge
+
+PATCHUpdate Agent Knowledge
+
+DELETEDelete Agent Knowledge
+
+POSTCreate Agent Knowledge File
+
+GETGet Agent Skills
+
+GETGet Agent Skill
+
+POSTCreate Agent Skill
+
+PATCHUpdate Agent Skill
+
+DELETEDelete Agent Skill
+
+Conversations and Reports
+
+GETList Conversations
+
+GETRetrieve Conversation
+
+POSTCreate Conversation
+
+PATCHUpdate Conversation
+
+POSTQuery Customer Agent Skill Values
+
+POSTQuery Customer Agent Tool Values
+
+POSTQuery Customer Agent Conversation Metrics
+
+GETGet Agent Message IDs for Customer Agent Conversation
+
+GETGet Agent Messages for Customer Agent Conversation
+
+Customer Agents
+
+POSTCreate Conversation Context
+
+GETGet Customer Agents
+
+GETGet Customer Agent
+
+POSTCreate Customer Agent
+
+PATCHUpdate Customer Agent
+
+GETGet Customer Agent Training Runs
+
+POSTStart Customer Agent Training Run
+
+POSTGenerate Customer Agent Response
+
+GETGet Agent Conversation Context IDs for Customer Agent Conversation
+
+GETGet Agent Conversation Contexts for Customer Agent Conversation
+
+Connected Tools
+
+GETGet Agent Secrets
+
+GETGet Agent Secret
+
+POSTCreate Agent Secret
+
+PATCHUpdate Agent Secret
+
+DELETEDelete Agent Secret
+
+GETGet Agent Tools
+
+GETGet Agent Tool
+
+POSTCreate Agent Tool
+
+PATCHUpdate Agent Tool
+
+DELETEDelete Agent Tool
+
+GETGet Tool IDs for Agent Secret
+
+GETGet Tools for Agent Secret
+
+GETGet Skill IDs for Agent Tool
+
+GETGet Skills for Agent Tool
+
+GETGet Secret IDs for Agent Tool
+
+GETGet Secrets for Agent Tool
+
+Events
+
+GETGet Event Bulk Export Job
+
+POSTCreate Event Bulk Export Job
+
+GETGet Download for Event Bulk Export Job
+
+Forms
+
+GETGet Forms
+
+GETGet Form
+
+POSTCreate Form
+
+PATCHUpdate Form
+
+POSTPublish Form
+
+POSTUnpublish Form
+
+Location Hub
+
+Live Events
+
+GETGet Location Live Events
+
+GETGet Location Live Event
+
+POSTCreate Location Live Event
+
+PATCHUpdate Location Live Event
+
+DELETEDelete Location Live Event
+
+GETGet Segment IDs for Location Live Event
+
+POSTAdd Segments to Location Live Event
+
+DELETERemove Segments from Location Live Event
+
+GETGet Segments for Location Live Event
+
+Locations
+
+GETGet Locations
+
+GETGet Location
+
+POSTCreate Location
+
+PATCHUpdate Location
+
+DELETEDelete Location
+
+GETGet Location Hub Setting
+
+PATCHUpdate Location Hub Setting
+
+POSTCreate Proximity Segment Definition
+
+GETGet Segment IDs for Location
+
+POSTAdd Segments to Location
+
+DELETERemove Segments from Location
+
+GETGet Segments for Location
+
+Profiles
+
+GETGet Profile Bulk Export Job
+
+POSTCreate Profile Bulk Export Job
+
+GETGet Download for Profile Bulk Export Job
+
+GETGet Object Records for Profile
+
+GETGet Object Types for Profile
+
+GETGet Object Type IDs for Profile
+
+Reporting
+
+POSTQuery Location Values
+
+POSTQuery Location Series
+
+POSTAsk Analytics Question
+
+POSTQuery Social Series
+
+POSTQuery Social Values
+
+Sending Domains
+
+GETGet Sending Domains
+
+GETGet Sending Domain
+
+POSTCreate Sending Domain
+
+DELETEDelete Sending Domain
+
+GETGet Managed Dns Record List Job
+
+POSTCreate Managed Dns Record List Job
+
+GETGet Managed Dns Record Change Job
+
+POSTCreate Managed Dns Record Change Job
+
+POSTCreate Sending Domain Verification Job
+
+POSTCreate Sending Domain Activation Job
+
+Service
+
+Messages
+
+GETGet Service Message
+
+POSTCreate Service Message
+
+GETGet Service Note
+
+POSTCreate Service Note
+
+Settings
+
+GETGet Service Setting
+
+PATCHUpdate Service Setting
+
+Teams
+
+GETGet Service Teams
+
+GETGet Service Team
+
+GETGet Ticket IDs for Service Team
+
+GETGet Tickets for Service Team
+
+Tickets
+
+GETGet Service Tickets
+
+GETGet Service Ticket
+
+POSTCreate Service Ticket
+
+PATCHUpdate Service Ticket
+
+GETGet Service Ticket Csat Response
+
+POSTCreate Service Ticket Csat Response
+
+GETGet Service Ticket Csat Surveys
+
+GETGet Service Ticket Csat Survey
+
+GETGet Service Ticket ID for Customer Agent Conversation
+
+GETGet Service Ticket for Customer Agent Conversation
+
+GETGet Message IDs for Service Ticket
+
+GETGet Messages for Service Ticket
+
+GETGet Note IDs for Service Ticket
+
+GETGet Notes for Service Ticket
+
+Browse by resource
+
+Accounts
+
+GETGet Accounts
+
+GETGet Account
+
+Billing
+
+GETList Billing Usage
+
+GETGet Billing Usage
+
+Brands
+
+GETGet Brand Logos
+
+GETGet Brand Logo
+
+POSTCreate Brand Logo
+
+PATCHUpdate Brand Logo
+
+DELETEDelete Brand Logo
+
+GETGet Brand Buttons
+
+GETGet Brand Button
+
+POSTCreate Brand Button
+
+PATCHUpdate Brand Button
+
+DELETEDelete Brand Button
+
+GETGet Brand Colors
+
+GETGet Brand Color
+
+POSTCreate Brand Color
+
+PATCHUpdate Brand Color
+
+DELETEDelete Brand Color
+
+GETGet Brand Voice
+
+PATCHUpdate Brand Voice
+
+GETGet Brand Social Groups
+
+GETGet Brand Social Group
+
+POSTCreate Brand Social Group
+
+PATCHUpdate Brand Social Group
+
+DELETEDelete Brand Social Group
+
+GETGet Brand Email Defaults
+
+GETGet Brand Email Default
+
+PATCHUpdate Brand Email Default
+
+Campaigns
+
+Campaigns
+
+GETGet Campaigns
+
+GETGet Campaign
+
+POSTCreate Campaign
+
+PATCHUpdate Campaign
+
+DELETEDelete Campaign
+
+GETGet Campaign Recipient Estimation
+
+POSTClone Campaign
+
+GETGet Tags for Campaign
+
+GETGet Tag IDs for Campaign
+
+GETGet Translation for Campaign Variation
+
+GETGet Translation ID for Campaign Variation
+
+Messages
+
+GETGet Campaign Messages
+
+GETGet Campaign Message
+
+POSTCreate Campaign Message
+
+PATCHUpdate Campaign Message
+
+DELETEDelete Campaign Message
+
+POSTAssign Template to Campaign Message
+
+POSTClone Campaign Message
+
+GETGet Messages for Campaign
+
+GETGet Message IDs for Campaign
+
+GETGet Campaign for Campaign Message
+
+GETGet Campaign ID for Campaign Message
+
+GETGet Template for Campaign Message
+
+GETGet Template ID for Campaign Message
+
+GETGet Image for Campaign Message
+
+GETGet Image ID for Campaign Message
+
+PATCHUpdate Image for Campaign Message
+
+GETGet Audience for Campaign Message
+
+GETGet Audience ID for Campaign Message
+
+GETGet Tags for Campaign Message
+
+GETGet Tag IDs for Campaign Message
+
+GETGet Variations for Campaign Message
+
+GETGet Variation IDs for Campaign Message
+
+Jobs
+
+GETGet Campaign Send Job
+
+POSTSend Campaign
+
+PATCHCancel Campaign Send
+
+GETGet Campaign Recipient Estimation Job
+
+POSTRefresh Campaign Recipient Estimation
+
+Audiences
+
+GETGet Campaign Audience
+
+POSTCreate Campaign Audience
+
+PATCHUpdate Campaign Audience
+
+DELETEDelete Campaign Audience
+
+POSTClone Campaign Audience
+
+GETGet Campaign Audiences for Campaign
+
+GETGet Audience IDs for Campaign
+
+GETGet Campaign for Campaign Audience
+
+GETGet Campaign ID for Campaign Audience
+
+GETGet Campaign Messages for Campaign Audience
+
+GETGet Message IDs for Campaign Audience
+
+Variations
+
+GETGet Campaign Variation
+
+POSTCreate Campaign Variation
+
+PATCHUpdate Campaign Variation
+
+DELETEDelete Campaign Variation
+
+GETGet Message for Campaign Variation
+
+GETGet Message ID for Campaign Variation
+
+GETGet Image for Campaign Variation
+
+GETGet Image ID for Campaign Variation
+
+Scheduling
+
+POSTSchedule Campaign Message
+
+PATCHUpdate Campaign Message Schedule
+
+Catalogs
+
+Items
+
+GETGet Catalog Items
+
+GETGet Catalog Item
+
+POSTCreate Catalog Item
+
+PATCHUpdate Catalog Item
+
+DELETEDelete Catalog Item
+
+GETGet Bulk Create Catalog Items Jobs
+
+GETGet Bulk Create Catalog Items Job
+
+POSTBulk Create Catalog Items
+
+GETGet Bulk Update Catalog Items Jobs
+
+GETGet Bulk Update Catalog Items Job
+
+POSTBulk Update Catalog Items
+
+GETGet Bulk Delete Catalog Items Jobs
+
+GETGet Bulk Delete Catalog Items Job
+
+POSTBulk Delete Catalog Items
+
+GETGet Category IDs for Catalog Item
+
+POSTAdd Categories to Catalog Item
+
+PATCHUpdate Categories for Catalog Item
+
+DELETERemove Categories from Catalog Item
+
+GETGet Items for Catalog Category
+
+Variants
+
+GETGet Catalog Variants
+
+GETGet Catalog Variant
+
+POSTCreate Catalog Variant
+
+PATCHUpdate Catalog Variant
+
+DELETEDelete Catalog Variant
+
+GETGet Bulk Create Variants Jobs
+
+GETGet Bulk Create Variants Job
+
+POSTBulk Create Catalog Variants
+
+GETGet Bulk Update Variants Jobs
+
+GETGet Bulk Update Variants Job
+
+POSTBulk Update Catalog Variants
+
+GETGet Bulk Delete Variants Jobs
+
+GETGet Bulk Delete Variants Job
+
+POSTBulk Delete Catalog Variants
+
+GETGet Variants for Catalog Item
+
+GETGet Variant IDs for Catalog Item
+
+Categories
+
+GETGet Catalog Categories
+
+GETGet Catalog Category
+
+POSTCreate Catalog Category
+
+PATCHUpdate Catalog Category
+
+DELETEDelete Catalog Category
+
+GETGet Bulk Create Categories Jobs
+
+GETGet Bulk Create Categories Job
+
+POSTBulk Create Catalog Categories
+
+GETGet Bulk Update Categories Jobs
+
+GETGet Bulk Update Categories Job
+
+POSTBulk Update Catalog Categories
+
+GETGet Bulk Delete Categories Jobs
+
+GETGet Bulk Delete Categories Job
+
+POSTBulk Delete Catalog Categories
+
+GETGet Categories for Catalog Item
+
+GETGet Item IDs for Catalog Category
+
+POSTAdd Items to Catalog Category
+
+PATCHUpdate Items for Catalog Category
+
+DELETERemove Items from Catalog Category
+
+Back In Stock
+
+POSTCreate Back In Stock Subscription
+
+Conversations
+
+POSTCreate Conversation Message
+
+Coupons
+
+GETGet Coupons
+
+GETGet Coupon
+
+POSTCreate Coupon
+
+PATCHUpdate Coupon
+
+DELETEDelete Coupon
+
+GETGet Coupon Codes
+
+GETGet Coupon Code
+
+POSTCreate Coupon Code
+
+PATCHUpdate Coupon Code
+
+DELETEDelete Coupon Code
+
+GETGet Bulk Create Coupon Code Jobs
+
+GETGet Bulk Create Coupon Codes Job
+
+POSTBulk Create Coupon Codes
+
+GETGet Coupon Codes for Coupon
+
+GETGet Coupon Code IDs for Coupon
+
+GETGet Coupon For Coupon Code
+
+GETGet Coupon ID for Coupon Code
+
+Custom Objects
+
+Data Sources
+
+GETGet Data Sources
+
+GETGet Data Source
+
+POSTCreate Data Source
+
+DELETEDelete Data Source
+
+Source Mappings
+
+GETGet Source Mapping
+
+PATCHUpdate Source Mapping
+
+Object Types
+
+GETGet Object Types
+
+GETGet Object Type
+
+POSTCreate Object Type
+
+DELETEDelete Object Type
+
+GETGet Current Schema for Object Type
+
+GETGet Current Schema ID for Object Type
+
+GETGet Draft Schema for Object Type
+
+GETGet Draft Schema ID for Object Type
+
+GETGet Schema Versions for Object Type
+
+GETGet Schema Version IDs for Object Type
+
+GETGet Object Type Relationships
+
+GETGet Profile Type Relationships
+
+Object Schemas
+
+GETGet Object Schema
+
+POSTCreate Object Schema
+
+PATCHUpdate Object Schema
+
+GETGet Source Mapping for Object Schema
+
+GETGet Source Mapping ID for Object Schema
+
+GETGet Object Schema Relationships
+
+POSTCreate Object Schema Relationship
+
+PATCHUpdate Object Schema Relationship
+
+DELETEDelete Object Schema Relationship
+
+GETGet Profile Schema Relationships
+
+POSTCreate Profile Schema Relationship
+
+PATCHUpdate Profile Schema Relationship
+
+DELETEDelete Profile Schema Relationship
+
+Object Records
+
+GETGet Object Record
+
+POSTBulk Delete Object Records
+
+GETGet Records for Object Type
+
+GETGet Record IDs for Object Type
+
+Data Source Records
+
+POSTBulk Create Data Source Records
+
+POSTCreate Data Source Record
+
+Ingestion Logs
+
+GETGet Ingestion Logs for Object Type
+
+GETGet Ingestion Log IDs for Object Type
+
+Data Privacy
+
+POSTRequest Profile Deletion
+
+Events
+
+GETGet Events
+
+GETGet Event
+
+POSTCreate Event
+
+POSTBulk Create Events
+
+GETGet Metric for Event
+
+GETGet Metric ID for Event
+
+GETGet Profile for Event
+
+GETGet Profile ID for Event
+
+Flows
+
+GETGet Flows
+
+GETGet Flow
+
+POSTCreate Flow
+
+PATCHUpdate Flow Status
+
+DELETEDelete Flow
+
+GETGet Flow Action
+
+POSTCreate Flow Action
+
+PATCHUpdate Flow Action
+
+DELETEDelete Flow Action
+
+GETGet Flow Message
+
+GETGet Actions for Flow
+
+GETGet Action IDs for Flow
+
+GETGet Tags for Flow
+
+GETGet Tag IDs for Flow
+
+GETGet Flow for Flow Action
+
+GETGet Flow ID for Flow Action
+
+GETGet Messages For Flow Action
+
+GETGet Message IDs for Flow Action
+
+GETGet Action for Flow Message
+
+GETGet Action ID for Flow Message
+
+GETGet Template for Flow Message
+
+GETGet Template ID for Flow Message
+
+Forms
+
+GETGet Forms
+
+GETGet Form
+
+POSTCreate Form
+
+PATCHUpdate Form
+
+DELETEDelete Form
+
+GETGet Form Version
+
+POSTPublish Form
+
+POSTUnpublish Form
+
+GETGet Versions for Form
+
+GETGet Version IDs for Form
+
+GETGet Form for Form Version
+
+GETGet Form ID for Form Version
+
+Images
+
+GETGet Images
+
+GETGet Image
+
+POSTUpload Image From URL
+
+PATCHUpdate Image
+
+POSTUpload Image From File
+
+Lists
+
+GETGet Lists
+
+GETGet List
+
+POSTCreate List
+
+PATCHUpdate List
+
+DELETEDelete List
+
+GETGet Tags for List
+
+GETGet Tag IDs for List
+
+GETGet Profiles for List
+
+GETGet Profile IDs for List
+
+POSTAdd Profiles to List
+
+DELETERemove Profiles from List
+
+GETGet Flows Triggered by List
+
+GETGet IDs for Flows Triggered by List
+
+Metrics
+
+Metrics
+
+GETGet Metrics
+
+GETGet Metric
+
+GETGet Metric Property
+
+POSTQuery Metric Aggregates
+
+GETGet Flows Triggered by Metric
+
+GETGet IDs for Flows Triggered by Metric
+
+GETGet Properties for Metric
+
+GETGet Property IDs for Metric
+
+GETGet Metric for Metric Property
+
+GETGet Metric ID for Metric Property
+
+Custom Metrics
+
+GETGet Custom Metrics
+
+GETGet Custom Metric
+
+POSTCreate Custom Metric
+
+PATCHUpdate Custom Metric
+
+DELETEDelete Custom Metric
+
+GETGet Metrics for Custom Metric
+
+GETGet Metric IDs for Custom Metric
+
+Mapped Metrics
+
+GETGet Mapped Metrics
+
+GETGet Mapped Metric
+
+PATCHUpdate Mapped Metric
+
+GETGet Metric for Mapped Metric
+
+GETGet Metric ID for Mapped Metric
+
+GETGet Custom Metric for Mapped Metric
+
+GETGet Custom Metric ID for Mapped Metric
+
+Profiles
+
+Profiles
+
+GETGet Profiles
+
+GETGet Profile
+
+POSTCreate Profile
+
+PATCHUpdate Profile
+
+POSTCreate or Update Profile
+
+POSTMerge Profiles
+
+GETGet Push Tokens for Profile
+
+GETGet Push Token IDs for Profile
+
+GETGet Lists for Profile
+
+GETGet List IDs for Profile
+
+GETGet Segments for Profile
+
+GETGet Segment IDs for Profile
+
+Bulk Import Profiles
+
+GETGet Bulk Import Profiles Jobs
+
+GETGet Bulk Import Profiles Job
+
+POSTBulk Import Profiles
+
+GETGet List for Bulk Import Profiles Job
+
+GETGet List IDs for Bulk Import Profiles Job
+
+GETGet Profiles for Bulk Import Profiles Job
+
+GETGet Profile IDs for Bulk Import Profiles Job
+
+GETGet Errors for Bulk Import Profiles Job
+
+Consent
+
+GETGet Bulk Suppress Profiles Jobs
+
+GETGet Bulk Suppress Profiles Job
+
+POSTBulk Suppress Profiles
+
+GETGet Bulk Unsuppress Profiles Jobs
+
+GETGet Bulk Unsuppress Profiles Job
+
+POSTBulk Unsuppress Profiles
+
+POSTBulk Subscribe Profiles
+
+POSTBulk Unsubscribe Profiles
+
+Push Tokens
+
+GETGet Push Tokens
+
+GETGet Push Token
+
+POSTCreate or Update Push Token
+
+DELETEDelete Push Token
+
+GETGet Profile for Push Token
+
+GETGet Profile ID for Push Token
+
+Conversations
+
+GETGet Conversation for Profile
+
+GETGet Conversation ID for Profile
+
+GETGet Conversations for Profile
+
+GETGet Conversation IDs for Profile
+
+Reporting
+
+POSTQuery Campaign Values
+
+POSTQuery Flow Values
+
+POSTQuery Flow Series
+
+POSTQuery Form Values
+
+POSTQuery Form Series
+
+POSTQuery Segment Values
+
+POSTQuery Segment Series
+
+Reviews
+
+GETGet Reviews
+
+GETGet Review
+
+PATCHUpdate Review
+
+Segments
+
+GETGet Segments
+
+GETGet Segment
+
+POSTCreate Segment
+
+PATCHUpdate Segment
+
+DELETEDelete Segment
+
+GETGet Tags for Segment
+
+GETGet Tag IDs for Segment
+
+GETGet Profiles for Segment
+
+GETGet Profile IDs for Segment
+
+GETGet Flows Triggered by Segment
+
+GETGet IDs for Flows Triggered by Segment
+
+Tags
+
+Tags
+
+GETGet Tags
+
+GETGet Tag
+
+POSTCreate Tag
+
+PATCHUpdate Tag
+
+DELETEDelete Tag
+
+GETGet Flow IDs for Tag
+
+POSTTag Flows
+
+DELETERemove Tag from Flows
+
+GETGet Campaign IDs for Tag
+
+POSTTag Campaigns
+
+DELETERemove Tag from Campaigns
+
+GETGet List IDs for Tag
+
+POSTTag Lists
+
+DELETERemove Tag from Lists
+
+GETGet Segment IDs for Tag
+
+POSTTag Segments
+
+DELETERemove Tag from Segments
+
+GETGet Tag Group for Tag
+
+GETGet Tag Group ID for Tag
+
+Tag Groups
+
+GETGet Tag Groups
+
+GETGet Tag Group
+
+POSTCreate Tag Group
+
+PATCHUpdate Tag Group
+
+DELETEDelete Tag Group
+
+GETGet Tags for Tag Group
+
+GETGet Tag IDs for Tag Group
+
+Templates
+
+Templates
+
+GETGet Templates
+
+GETGet Template
+
+POSTCreate Template
+
+PATCHUpdate Template
+
+DELETEDelete Template
+
+GETGet Template Conversion Jobs
+
+GETGet Template Conversion Job
+
+POSTCreate Template Conversion Job
+
+POSTRender Template
+
+POSTClone Template
+
+POSTCreate Template Preview Send Job
+
+Universal Content
+
+GETGet All Universal Content
+
+GETGet Universal Content
+
+POSTCreate Universal Content
+
+PATCHUpdate Universal Content
+
+DELETEDelete Universal Content
+
+POSTClone Universal Content
+
+Text Messaging
+
+GETGet Text Messaging Configuration
+
+POSTCreate Text Messaging Configuration
+
+GETGet Text Messaging Senders
+
+GETGet Text Messaging Sender
+
+POSTCreate Text Messaging Sender
+
+GETGet Text Messaging Sender Registration
+
+POSTCreate Text Messaging Sender Registration
+
+GETGet Messaging Sender Registration for Text Messaging Sender
+
+GETGet Messaging Sender Registration ID for Text Messaging Sender
+
+Tracking Settings
+
+GETGet Tracking Settings
+
+GETGet Tracking Setting
+
+PATCHUpdate Tracking Setting
+
+Translations
+
+GETGet Translations
+
+GETGet Translation
+
+POSTCreate Translation
+
+PATCHUpdate Translation
+
+DELETEDelete Translation
+
+GETGet Campaign Variation for Translation
+
+GETGet Campaign Variation ID for Translation
+
+GETGet Flow Message for Translation
+
+GETGet Flow Message ID for Translation
+
+GETGet Template for Translation
+
+GETGet Template ID for Translation
+
+GETGet Template Universal Content for Translation
+
+GETGet Template Universal Content ID for Translation
+
+Web Feeds
+
+GETGet Web Feeds
+
+GETGet Web Feed
+
+POSTCreate Web Feed
+
+PATCHUpdate Web Feed
+
+DELETEDelete Web Feed
+
+Webhooks
+
+GETGet Webhooks
+
+GETGet Webhook
+
+POSTCreate Webhook
+
+PATCHUpdate Webhook
+
+DELETEDelete Webhook
+
+GETGet Webhook Topics
+
+GETGet Webhook Topic
+
+Client
+
+GETGet Client Review Values Reports
+
+GETGet Client Reviews
+
+POSTCreate Client Review
+
+GETGet Client Geofences
+
+POSTCreate Client Subscription
+
+POSTCreate or Update Client Push Token
+
+POSTUnregister Client Push Token
+
+POSTCreate Client Event
+
+POSTCreate or Update Client Profile
+
+POSTBulk Create Client Events
+
+POSTCreate Client Back In Stock Subscription
+
+GETGet Client IP Allowlist
+
+On this page
+
+Quickstart
+
+OpenAPI and Postman
+
+Authentication
+
+Private key authentication
+
+OAuth
+
+Public key authentication
+
+API key scopes
+
+Versioning and deprecation
+
+Status codes and errors
+
+Rate limiting
+
+JSON:API feature guides
+
+Relationships
+
+Filtering
+
+Sorting
+
+Sparse fieldsets
+
+Pagination
+
+Datetimes
+
+Datetime formatting
+
+Beta APIs
+
+Browse by resource
+
+Power smarter digital relationships
+
+Sign up for our developer newsletter
+
+Get the latest API updates, product announcements, developer tool updates, and more sent right to your inbox.
+
+By entering your information and clicking “Sign up,” you consent to receive marketing emails (such as newsletters, blog posts, webinars, event invitations and new product updates) from Klaviyo from time to time. You can unsubscribe at any time by clicking on the “Unsubscribe” link at the bottom of our emails. For more information on how we process your personal information and what rights you have in this respect, please see our Privacy Policy.
+
+API docs
+
+API overview
+
+Events
+
+Profiles
+
+Lists
+
+Metrics
+
+Flows
+
+Resources
+
+Developer forum (opens in a new tab)
+
+Changelog
+
+SDK overview
+
+Help center (opens in a new tab)
+
+Contact us (opens in a new tab)
+
+About Klaviyo (opens in a new tab)
+
+Privacy Policy (opens in a new tab)
+
+Guides
+
+Get started
+
+Install SDKs
+
+Set up your AI agent
+
+For agents
+
+llms.txt
+
+llms-full.txt
+
+OpenAPI spec
+
+MCP server
+
+Agent skills
+
+Terms and Privacy (opens in a new tab)
+
+Trademarks (opens in a new tab)
+
+Security (opens in a new tab)

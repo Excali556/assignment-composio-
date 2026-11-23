@@ -1,0 +1,183 @@
+Skip to main content
+
+Skip to Ask Learn chat experience
+
+This browser is no longer supported.
+
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+
+Download Microsoft Edge
+
+More info about Internet Explorer and Microsoft Edge
+
+Table of contents Exit editor mode
+
+Ask LearnAsk Learn
+Reading modeTable of contentsRead in EnglishAddAdd to PlansEditCopy MarkdownPrint
+
+Note
+
+Access to this page requires authorization. You can try signing in or changing directories.
+
+Access to this page requires authorization. You can try changing directories.
+
+LinkedIn Marketing Developer Platform - Overview
+
+Feedback
+
+Summarize this article for me
+
+In this article
+
+Warning
+
+Deprecation Notice:
+The Marketing Version 202601 (Marketing January 2026) will be sunset on January 15, 2027. We recommend that you migrate to the latest versioned APIs to avoid disruptions. For information on all the supported versions, refer to the migrations documentation.
+If you haven’t yet migrated and have questions, submit a request on the LinkedIn Developer Support Portal.
+
+Build technology to grow B2B communities and businesses.
+
+Introduction to LinkedIn Marketing Solutions
+
+Advertising on LinkedIn helps businesses of any size achieve their goals.
+
+Target a unique audience - There are millions of active professionals on LinkedIn. Target them by job title, function, industry, and more.
+
+Easy and effective ads - Whether your goal is leads, brand awareness, or even event registrations, LinkedIn ads can help.
+
+Control your budget - Control your spend with flexible pricing options. Start with any budget and stop your ads at any time.
+
+Check out the Brand and Demand playbook to learn more about the tools and tactics marketers can use to engage their target audience on LinkedIn.
+
+LinkedIn Marketing API Products
+
+Advertising API
+
+Enable ads management at scale: Build functionality for scalable ads management with Ad Campaigns and Creatives APIs. For more information, see Ad Campaigns and Creatives.
+
+Reporting: Build holistic view of marketing performance. Use the Ad Analytics API to pull campaign analytics data for measuring their performance.
+
+Event Management API
+
+Streamline event operations, amplify visibility, and drive meaningful connections within the professional landscape with Events APIs (Management & Ads).
+
+Event Management: Create and manage events and event posts.
+
+Event Ads: Promote events to a targeted audience
+
+Community Management API
+
+Engage in conversations around a brand: Monitor @mentions of your brand and respond to comments with Social Actions Notifications API. @mention members for richer conversation using the People Typeahead API.
+
+Page Management: Build a brand presence. Share content and track posts that drive the most engagement using the Posts API and Social Actions or Comments API.
+
+Brand Engagement: Engage in conversations around a brand.
+Monitor @mentions of your brand and respond to comments on your posts using the PeopleTypeahead API.
+
+Lead Sync API
+
+Automate lead delivery: Use the Lead Sync API to efficiently manage and route leads
+
+Conversions API
+
+Attribute offline and online marketing data to a LinkedIn campaign with Conversions API.
+
+Matched Audiences
+
+Enhance LinkedIn targeting: Easily create audience segments and target on LinkedIn with DMP Segments API.
+
+Audience Insights
+
+Discover audiences: Learn who your target audience is, their interest, and content they’re engaging with to plan your campaign.
+
+Media Planning
+
+Plan your Marketing Campaigns: Plan your campaigns against your marketing objectives and target audience.
+
+Company Intelligence
+
+Gain account-level insights: Use the Company Intelligence API to retrieve company-level paid and organic engagement data across your ad accounts, enabling account-based marketing and attribution reporting.
+
+Note
+
+Matched Audiences, Audience Insights, Media Planning API, and Company Intelligence API are private APIs and require additional approval. Learn more
+
+Stay Informed and Get Support
+
+These resources can help you stay on top of new features, migrations, and deprecations:
+
+Check out the Recent Changes page to see the latest API releases.
+
+Check out the Developer Portal to know more about our developer products.
+
+Use the Migrations page to stay on top of breaking changes.
+
+Read our Developer Blog to stay on top of the latest features.
+
+Need help? Refer to LinkedIn API Partner Support for how to reach Developer Support.
+
+Interested in Joining the LinkedIn Marketing Partner Program?
+
+The LinkedIn Marketing Partner Program is a global community of qualified technology and service providers that help marketers achieve more on LinkedIn.
+
+Important
+
+Notwithstanding anything to the contrary in the Microsoft Terms of Use and Microsoft Privacy Statement (please find the relevant links in the footer below), your use of the LinkedIn programmatic web APIs, software, and other functionality and their associated tools and documentation that LinkedIn makes available to developers are governed by the LinkedIn API Terms of Use unless you have executed a separate signed partnership agreement, in which case that agreement shall apply.
+
+Feedback
+
+Was this page helpful?
+
+YesNoNo
+
+Need help with this topic?
+
+Want to try using Ask Learn to clarify or guide you through this topic?
+
+Ask LearnAsk Learn
+Suggest a fix?
+
+Additional resources
+
+Last updated on
+2026-05-15
+
+In this article
+
+Was this page helpful?
+
+Need help with this topic?
+
+Want to try using Ask Learn to clarify or guide you through this topic?
+
+Ask LearnAsk Learn
+Suggest a fix?
+
+en-us
+Your Privacy Choices
+
+Theme
+
+Light
+
+Dark
+
+High contrast
+
+AI Disclaimer
+
+Previous Versions
+
+Blog
+
+Contribute
+
+Privacy
+
+Consumer Health Privacy
+
+Terms of Use
+
+Trademarks
+
+© Microsoft 2026

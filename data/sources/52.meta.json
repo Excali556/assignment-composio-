@@ -1,0 +1,11 @@
+{
+  "id": 52,
+  "name": "SE Ranking",
+  "requested_url": "https://seranking.com/api/",
+  "final_url": "https://seranking.com/api.html",
+  "status": 200,
+  "chars": 22025,
+  "title": "SEO API by SE Ranking: SEO & AEO Data at Scale",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:53+00:00"
+}

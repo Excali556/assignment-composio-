@@ -1,0 +1,720 @@
+{
+  "benchmark_type": "Held-Out Untouched Test Set (Generalization Test)",
+  "sample_size": 15,
+  "total_fields": 105,
+  "correct_fields": 73,
+  "overall_accuracy": "69.5%",
+  "misses_count": 32,
+  "field_level_accuracy": {
+    "category": {
+      "score": "15/15",
+      "accuracy": "100.0%"
+    },
+    "auth_methods": {
+      "score": "14/15",
+      "accuracy": "93.3%"
+    },
+    "access_model": {
+      "score": "9/15",
+      "accuracy": "60.0%"
+    },
+    "api_types": {
+      "score": "14/15",
+      "accuracy": "93.3%"
+    },
+    "existing_mcp": {
+      "score": "3/15",
+      "accuracy": "20.0%"
+    },
+    "buildable_today": {
+      "score": "9/15",
+      "accuracy": "60.0%"
+    },
+    "main_blocker": {
+      "score": "9/15",
+      "accuracy": "60.0%"
+    }
+  },
+  "apps_breakdown": [
+    {
+      "id": 4,
+      "name": "Attio",
+      "category": "CRM and Sales",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 4,
+          "app_name": "Attio",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Close",
+      "category": "CRM and Sales",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 8,
+          "app_name": "Close",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 17,
+          "app_name": "Plain",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Gorgias",
+      "category": "Support and Helpdesk",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 19,
+          "app_name": "Gorgias",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Twilio",
+      "category": "Communications and Messaging",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 22,
+          "app_name": "Twilio",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "GoHighLevel",
+      "category": "Marketing, Ads, Email and Social",
+      "score": "3/7",
+      "accuracy": "42.9%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 34,
+          "app_name": "GoHighLevel",
+          "field": "access_model",
+          "expected": "Paid Plan Required",
+          "agent_predicted": "Free Trial",
+          "root_cause": "GoHighLevel offers 14-day app trial on landing page, but API access strictly requires paid Agency account ($97-$497/mo)."
+        },
+        {
+          "app_id": 34,
+          "app_name": "GoHighLevel",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        },
+        {
+          "app_id": 34,
+          "app_name": "GoHighLevel",
+          "field": "buildable_today",
+          "expected": "Partial",
+          "agent_predicted": "Yes",
+          "root_cause": "Agent assumed turnkey buildability without accounting for mandatory paid subscription barrier."
+        },
+        {
+          "app_id": 34,
+          "app_name": "GoHighLevel",
+          "field": "main_blocker",
+          "expected": "Paid Plan Required",
+          "agent_predicted": "None",
+          "root_cause": "Failed to register paid subscription plan requirement as an architectural blocker."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "score": "3/7",
+      "accuracy": "42.9%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 44,
+          "app_name": "Salesforce Commerce Cloud",
+          "field": "access_model",
+          "expected": "Enterprise / Contact Sales",
+          "agent_predicted": "Free Trial",
+          "root_cause": "Confused standard Salesforce CRM Developer Edition with B2C Commerce Cloud SCAPI, which requires enterprise realm contract."
+        },
+        {
+          "app_id": 44,
+          "app_name": "Salesforce Commerce Cloud",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        },
+        {
+          "app_id": 44,
+          "app_name": "Salesforce Commerce Cloud",
+          "field": "buildable_today",
+          "expected": "Partial",
+          "agent_predicted": "Yes",
+          "root_cause": "Marked turnkey buildable, ignoring lack of self-serve developer sandbox for Commerce Cloud."
+        },
+        {
+          "app_id": 44,
+          "app_name": "Salesforce Commerce Cloud",
+          "field": "main_blocker",
+          "expected": "Enterprise Gate / Paywall",
+          "agent_predicted": "None",
+          "root_cause": "Missed enterprise sales contract requirement for SCAPI provisioning."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "fanbasis",
+      "category": "Ecommerce",
+      "score": "2/7",
+      "accuracy": "28.6%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 50,
+          "app_name": "fanbasis",
+          "field": "auth_methods",
+          "expected": [
+            "None"
+          ],
+          "agent_predicted": [
+            "API Key"
+          ],
+          "root_cause": "Hallucinated standard API Key for closed platform with no public developer docs."
+        },
+        {
+          "app_id": 50,
+          "app_name": "fanbasis",
+          "field": "access_model",
+          "expected": "Enterprise / Contact Sales",
+          "agent_predicted": "Free Self-Serve",
+          "root_cause": "Assumed self-serve access because landing page allows user signup."
+        },
+        {
+          "app_id": 50,
+          "app_name": "fanbasis",
+          "field": "api_types",
+          "expected": [
+            "None"
+          ],
+          "agent_predicted": [
+            "REST"
+          ],
+          "root_cause": "Hallucinated REST API endpoints for platform that has zero public developer endpoints."
+        },
+        {
+          "app_id": 50,
+          "app_name": "fanbasis",
+          "field": "buildable_today",
+          "expected": "No",
+          "agent_predicted": "Yes",
+          "root_cause": "Declared buildable due to hallucinated API surface."
+        },
+        {
+          "app_id": 50,
+          "app_name": "fanbasis",
+          "field": "main_blocker",
+          "expected": "No Public API",
+          "agent_predicted": "None",
+          "root_cause": "Failed to flag 'No Public API' as blocker."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 51,
+          "app_name": "DataForSEO",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Clay",
+      "category": "Data, SEO and Scraping",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 60,
+          "app_name": "Clay",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Cloudflare",
+      "category": "Developer, Infra and Data platforms",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 64,
+          "app_name": "Cloudflare",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Jira",
+      "category": "Productivity and Project Management",
+      "score": "6/7",
+      "accuracy": "85.7%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 74,
+          "app_name": "Jira",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "score": "4/7",
+      "accuracy": "57.1%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 84,
+          "app_name": "Paygent Connect",
+          "field": "access_model",
+          "expected": "Enterprise / Contact Sales",
+          "agent_predicted": "Free Trial",
+          "root_cause": "Paygent marketing landing page mentions testing, but developer credentials require Japanese merchant vetting."
+        },
+        {
+          "app_id": 84,
+          "app_name": "Paygent Connect",
+          "field": "buildable_today",
+          "expected": "No",
+          "agent_predicted": "Yes",
+          "root_cause": "Declared buildable without merchant underwriting contract."
+        },
+        {
+          "app_id": 84,
+          "app_name": "Paygent Connect",
+          "field": "main_blocker",
+          "expected": "Enterprise Gate / Paywall",
+          "agent_predicted": "None",
+          "root_cause": "Missed enterprise commercial contract requirement."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "iPayX",
+      "category": "Finance and Fintech",
+      "score": "4/7",
+      "accuracy": "57.1%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 85,
+          "app_name": "iPayX",
+          "field": "access_model",
+          "expected": "Enterprise / Contact Sales",
+          "agent_predicted": "Free Trial",
+          "root_cause": "iPayX is in closed enterprise beta with 'Request Access' gate, mistaken for free trial."
+        },
+        {
+          "app_id": 85,
+          "app_name": "iPayX",
+          "field": "buildable_today",
+          "expected": "No",
+          "agent_predicted": "Yes",
+          "root_cause": "Over-optimistic verdict on gated closed-beta platform."
+        },
+        {
+          "app_id": 85,
+          "app_name": "iPayX",
+          "field": "main_blocker",
+          "expected": "Partner / Admin Approval",
+          "agent_predicted": "None",
+          "root_cause": "Missed partner approval requirement for closed beta access."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Consensus",
+      "category": "AI, Research and Media-native",
+      "score": "3/7",
+      "accuracy": "42.9%",
+      "needs_human_review": true,
+      "misses": [
+        {
+          "app_id": 94,
+          "app_name": "Consensus",
+          "field": "access_model",
+          "expected": "Enterprise / Contact Sales",
+          "agent_predicted": "Free Self-Serve",
+          "root_cause": "Consensus academic search API is strictly enterprise partnership; user forum mentions of OAuth mistaken for live self-serve API."
+        },
+        {
+          "app_id": 94,
+          "app_name": "Consensus",
+          "field": "existing_mcp",
+          "expected": false,
+          "agent_predicted": true,
+          "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+        },
+        {
+          "app_id": 94,
+          "app_name": "Consensus",
+          "field": "buildable_today",
+          "expected": "Partial",
+          "agent_predicted": "Yes",
+          "root_cause": "Over-optimistic buildability on enterprise-only data partnership."
+        },
+        {
+          "app_id": 94,
+          "app_name": "Consensus",
+          "field": "main_blocker",
+          "expected": "Enterprise Gate / Paywall",
+          "agent_predicted": "None",
+          "root_cause": "Missed enterprise gate blocker."
+        }
+      ]
+    }
+  ],
+  "misses_taxonomy": [
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 8,
+      "app_name": "Close",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 17,
+      "app_name": "Plain",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 19,
+      "app_name": "Gorgias",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "access_model",
+      "expected": "Paid Plan Required",
+      "agent_predicted": "Free Trial",
+      "root_cause": "GoHighLevel offers 14-day app trial on landing page, but API access strictly requires paid Agency account ($97-$497/mo)."
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "buildable_today",
+      "expected": "Partial",
+      "agent_predicted": "Yes",
+      "root_cause": "Agent assumed turnkey buildability without accounting for mandatory paid subscription barrier."
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "main_blocker",
+      "expected": "Paid Plan Required",
+      "agent_predicted": "None",
+      "root_cause": "Failed to register paid subscription plan requirement as an architectural blocker."
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "access_model",
+      "expected": "Enterprise / Contact Sales",
+      "agent_predicted": "Free Trial",
+      "root_cause": "Confused standard Salesforce CRM Developer Edition with B2C Commerce Cloud SCAPI, which requires enterprise realm contract."
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "buildable_today",
+      "expected": "Partial",
+      "agent_predicted": "Yes",
+      "root_cause": "Marked turnkey buildable, ignoring lack of self-serve developer sandbox for Commerce Cloud."
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "main_blocker",
+      "expected": "Enterprise Gate / Paywall",
+      "agent_predicted": "None",
+      "root_cause": "Missed enterprise sales contract requirement for SCAPI provisioning."
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "auth_methods",
+      "expected": [
+        "None"
+      ],
+      "agent_predicted": [
+        "API Key"
+      ],
+      "root_cause": "Hallucinated standard API Key for closed platform with no public developer docs."
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "access_model",
+      "expected": "Enterprise / Contact Sales",
+      "agent_predicted": "Free Self-Serve",
+      "root_cause": "Assumed self-serve access because landing page allows user signup."
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "api_types",
+      "expected": [
+        "None"
+      ],
+      "agent_predicted": [
+        "REST"
+      ],
+      "root_cause": "Hallucinated REST API endpoints for platform that has zero public developer endpoints."
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "buildable_today",
+      "expected": "No",
+      "agent_predicted": "Yes",
+      "root_cause": "Declared buildable due to hallucinated API surface."
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "main_blocker",
+      "expected": "No Public API",
+      "agent_predicted": "None",
+      "root_cause": "Failed to flag 'No Public API' as blocker."
+    },
+    {
+      "app_id": 51,
+      "app_name": "DataForSEO",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 60,
+      "app_name": "Clay",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 64,
+      "app_name": "Cloudflare",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 74,
+      "app_name": "Jira",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "field": "access_model",
+      "expected": "Enterprise / Contact Sales",
+      "agent_predicted": "Free Trial",
+      "root_cause": "Paygent marketing landing page mentions testing, but developer credentials require Japanese merchant vetting."
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "field": "buildable_today",
+      "expected": "No",
+      "agent_predicted": "Yes",
+      "root_cause": "Declared buildable without merchant underwriting contract."
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "field": "main_blocker",
+      "expected": "Enterprise Gate / Paywall",
+      "agent_predicted": "None",
+      "root_cause": "Missed enterprise commercial contract requirement."
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "field": "access_model",
+      "expected": "Enterprise / Contact Sales",
+      "agent_predicted": "Free Trial",
+      "root_cause": "iPayX is in closed enterprise beta with 'Request Access' gate, mistaken for free trial."
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "field": "buildable_today",
+      "expected": "No",
+      "agent_predicted": "Yes",
+      "root_cause": "Over-optimistic verdict on gated closed-beta platform."
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "field": "main_blocker",
+      "expected": "Partner / Admin Approval",
+      "agent_predicted": "None",
+      "root_cause": "Missed partner approval requirement for closed beta access."
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "access_model",
+      "expected": "Enterprise / Contact Sales",
+      "agent_predicted": "Free Self-Serve",
+      "root_cause": "Consensus academic search API is strictly enterprise partnership; user forum mentions of OAuth mistaken for live self-serve API."
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "existing_mcp",
+      "expected": false,
+      "agent_predicted": true,
+      "root_cause": "Complex enterprise gating or ambiguous landing page wording."
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "buildable_today",
+      "expected": "Partial",
+      "agent_predicted": "Yes",
+      "root_cause": "Over-optimistic buildability on enterprise-only data partnership."
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "main_blocker",
+      "expected": "Enterprise Gate / Paywall",
+      "agent_predicted": "None",
+      "root_cause": "Missed enterprise gate blocker."
+    }
+  ]
+}

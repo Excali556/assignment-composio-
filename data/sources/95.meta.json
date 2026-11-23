@@ -1,0 +1,11 @@
+{
+  "id": 95,
+  "name": "Reducto",
+  "requested_url": "https://reducto.ai",
+  "final_url": "https://reducto.ai",
+  "status": 200,
+  "chars": 13106,
+  "title": "Reducto: The Agentic Document Platform for AI Teams X Hugging Face",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:38+00:00"
+}

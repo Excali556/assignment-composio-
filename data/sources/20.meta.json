@@ -1,0 +1,11 @@
+{
+  "id": 20,
+  "name": "Gladly",
+  "requested_url": "https://gladly.com/docs.md",
+  "final_url": "https://www.gladly.ai/docs.md",
+  "status": 404,
+  "chars": 54266,
+  "title": "",
+  "transport": "curl",
+  "fetched_at": "2026-11-23T14:29:29+00:00"
+}

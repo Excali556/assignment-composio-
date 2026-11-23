@@ -1,0 +1,977 @@
+{
+  "sample_size": 25,
+  "field_checks": 125,
+  "hits": 41,
+  "misses": 24,
+  "abstentions": 60,
+  "agreement_on_decided": 63.1,
+  "agreement_on_all_checks": 32.8,
+  "rows": [
+    {
+      "id": 1,
+      "name": "Salesforce",
+      "fields": {
+        "category": {
+          "pass1": "CRM and Sales",
+          "pass2": "CRM and Sales",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2"
+          ],
+          "pass2": null,
+          "verdict": "unverifiable"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "hit"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "Intro page only: 'REST API provides you with programmatic access'. No auth or pricing sentence on this page, so abstaining is correct here; auth lives on a different page."
+    },
+    {
+      "id": 2,
+      "name": "HubSpot",
+      "fields": {
+        "category": {
+          "pass1": "CRM and Sales",
+          "pass2": "CRM and Sales",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2"
+          ],
+          "pass2": null,
+          "verdict": "unverifiable"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "12 usable sentences. Page is a JS shell; API root path is the only fact. Abstentions are right."
+    },
+    {
+      "id": 7,
+      "name": "Zoho CRM",
+      "fields": {
+        "category": {
+          "pass1": "CRM and Sales",
+          "pass2": "CRM and Sales",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2"
+          ],
+          "pass2": [
+            "OAuth2"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "OAuth overview only. No REST/access statement on this page; abstaining is correct."
+    },
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "fields": {
+        "category": {
+          "pass1": "Support and Helpdesk",
+          "pass2": "Support and Helpdesk",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "238 sentences, all Gatsby sidebar/JSON chrome. Nothing quotable. Abstentions correct."
+    },
+    {
+      "id": 21,
+      "name": "Slack",
+      "fields": {
+        "category": {
+          "pass1": "Communications and Messaging",
+          "pass2": "Communications and Messaging",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "Token",
+            "Bearer Token"
+          ],
+          "pass2": [
+            "OAuth2",
+            "Token"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "Auth hub page: OAuth 2.0, token rotation, PKCE. Says nothing about plans or pricing."
+    },
+    {
+      "id": 26,
+      "name": "Discord",
+      "fields": {
+        "category": {
+          "pass1": "Communications and Messaging",
+          "pass2": "Communications and Messaging",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "Bearer Token",
+            "Basic",
+            "Token"
+          ],
+          "pass2": [
+            "Token",
+            "OAuth2",
+            "Basic"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "SDK"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "Three documented methods: bot token, OAuth2 bearer, basic auth with client_id:client_secret. Access not stated on page."
+    },
+    {
+      "id": 27,
+      "name": "Telegram",
+      "fields": {
+        "category": {
+          "pass1": "Communications and Messaging",
+          "pass2": "Communications and Messaging",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "Token"
+          ],
+          "pass2": [
+            "Token"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "Webhooks"
+          ],
+          "pass2": null,
+          "verdict": "unverifiable"
+        },
+        "existing_mcp": {
+          "pass1": false,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "'Each bot is given a unique authentication token when it is created.' Page never uses REST/GraphQL wording about its own surface."
+    },
+    {
+      "id": 36,
+      "name": "Klaviyo",
+      "fields": {
+        "category": {
+          "pass1": "Marketing, Ads, Email and Social",
+          "pass2": "Marketing, Ads, Email and Social",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "API Key"
+          ],
+          "pass2": [
+            "API Key",
+            "OAuth2"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "hit"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "Private key auth, OAuth, public key auth; '/api endpoints use private API keys with API key scopes'."
+    },
+    {
+      "id": 38,
+      "name": "Pinterest",
+      "fields": {
+        "category": {
+          "pass1": "Marketing, Ads, Email and Social",
+          "pass2": "Marketing, Ads, Email and Social",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "Next.js payload, no documentation prose. Abstentions correct."
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "fields": {
+        "category": {
+          "pass1": "Marketing, Ads, Email and Social",
+          "pass2": "Marketing, Ads, Email and Social",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": [
+            "API Key"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "Webhooks",
+            "SDK"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": false,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "API Keys section is explicit; 'v3 Web API provides a REST interface'. No plan statement."
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "fields": {
+        "category": {
+          "pass1": "Ecommerce",
+          "pass2": "Ecommerce",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass2": [
+            "OAuth2",
+            "Access Token"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Mixed",
+          "verdict": "miss"
+        },
+        "api_types": {
+          "pass1": [
+            "GraphQL",
+            "CLI / Library"
+          ],
+          "pass2": [
+            "GraphQL",
+            "REST",
+            "Webhooks"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": true,
+          "verdict": "hit"
+        }
+      },
+      "note": "PASS 1 WAS WRONG: access was demoted to 'Not Stated'. The page shows plan-gating errors ('This shop's plan does not have access to this feature'), so 'Mixed' is correct."
+    },
+    {
+      "id": 47,
+      "name": "Ecwid",
+      "fields": {
+        "category": {
+          "pass1": "Ecommerce",
+          "pass2": "Ecommerce",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "Raw JSON payload from the docs origin. Abstentions correct."
+    },
+    {
+      "id": 48,
+      "name": "Gumroad",
+      "fields": {
+        "category": {
+          "pass1": "Ecommerce",
+          "pass2": "Ecommerce",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "Saved text has no decision-relevant sentences at all (help-centre shell). Full abstention is the only honest row."
+    },
+    {
+      "id": 52,
+      "name": "SE Ranking",
+      "fields": {
+        "category": {
+          "pass1": "Data, SEO and Scraping",
+          "pass2": "Data, SEO and Scraping",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "API Key"
+          ],
+          "pass2": [
+            "API Key"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Free Trial",
+          "pass2": "Paid Plan Required",
+          "verdict": "miss"
+        },
+        "api_types": {
+          "pass1": [
+            "REST"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "hit"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": true,
+          "verdict": "hit"
+        }
+      },
+      "note": "PASS 1 WAS WRONG TWICE: the page says 'integration is done via the REST API reference' (so REST is supported) and 'connect via SEO MCP' (so an MCP exists). Pass 1 published neither."
+    },
+    {
+      "id": 55,
+      "name": "Apify",
+      "fields": {
+        "category": {
+          "pass1": "Data, SEO and Scraping",
+          "pass2": "Data, SEO and Scraping",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "Bearer Token"
+          ],
+          "pass2": [
+            "Token"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "Webhooks",
+            "CLI / Library",
+            "SDK"
+          ],
+          "pass2": [
+            "REST",
+            "Webhooks"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "'create an API token on the Integrations page'; RESTful endpoints and a webhooks section."
+    },
+    {
+      "id": 56,
+      "name": "Firecrawl",
+      "fields": {
+        "category": {
+          "pass1": "Data, SEO and Scraping",
+          "pass2": "Data, SEO and Scraping",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "API Key",
+            "Bearer Token",
+            "None"
+          ],
+          "pass2": [
+            "API Key"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Free Self-Serve",
+          "pass2": "Free Self-Serve",
+          "verdict": "hit"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "CLI / Library",
+            "SDK"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": true,
+          "verdict": "hit"
+        }
+      },
+      "note": "'No account or API key is required for this request' plus 'Create a free account for direct API access and higher limits', and an MCP server section."
+    },
+    {
+      "id": 61,
+      "name": "GitHub",
+      "fields": {
+        "category": {
+          "pass1": "Developer, Infra and Data platforms",
+          "pass2": "Developer, Infra and Data platforms",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "hit"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "Overview page says 'authenticate to the REST API' without naming a method; abstaining on the method is correct."
+    },
+    {
+      "id": 64,
+      "name": "Cloudflare",
+      "fields": {
+        "category": {
+          "pass1": "Developer, Infra and Data platforms",
+          "pass2": "Developer, Infra and Data platforms",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "API Key",
+            "Token",
+            "Bearer Token"
+          ],
+          "pass2": [
+            "API Key",
+            "Token"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "GraphQL",
+            "Webhooks"
+          ],
+          "pass2": [
+            "REST",
+            "Webhooks"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": true,
+          "verdict": "hit"
+        }
+      },
+      "note": "PASS 1 WAS WRONG: the source does say 'User API tokens can list and create Organizations' and shows webhook endpoints; both claims were demoted by the binder because the hint was longer than the 600-char sentence cap."
+    },
+    {
+      "id": 71,
+      "name": "Notion",
+      "fields": {
+        "category": {
+          "pass1": "Productivity and Project Management",
+          "pass2": "Productivity and Project Management",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "Bearer Token"
+          ],
+          "pass2": [
+            "Bearer Token"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "'send an Authorization: Bearer header with your token and a Notion-Version header'."
+    },
+    {
+      "id": 73,
+      "name": "Linear",
+      "fields": {
+        "category": {
+          "pass1": "Productivity and Project Management",
+          "pass2": "Productivity and Project Management",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "OAuth2",
+            "API Key"
+          ],
+          "pass2": [
+            "OAuth2",
+            "API Key"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "GraphQL",
+            "Webhooks",
+            "SDK"
+          ],
+          "pass2": [
+            "GraphQL"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "'Use OAuth 2.0 or personal API keys'; GraphQL API plus TypeScript SDK."
+    },
+    {
+      "id": 81,
+      "name": "Stripe",
+      "fields": {
+        "category": {
+          "pass1": "Finance and Fintech",
+          "pass2": "Finance and Fintech",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "API Key",
+            "Basic",
+            "Bearer Token"
+          ],
+          "pass2": [
+            "API Key"
+          ],
+          "verdict": "miss"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [
+            "REST",
+            "CLI / Library",
+            "SDK"
+          ],
+          "pass2": [
+            "REST"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "'The Stripe API uses API keys to authenticate requests'; resource-oriented URLs described as REST conventions."
+    },
+    {
+      "id": 82,
+      "name": "Plaid",
+      "fields": {
+        "category": {
+          "pass1": "Finance and Fintech",
+          "pass2": "Finance and Fintech",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [
+            "API Key"
+          ],
+          "pass2": [
+            "API Key"
+          ],
+          "verdict": "hit"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Free Self-Serve",
+          "verdict": "miss"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": [
+            "REST",
+            "Webhooks"
+          ],
+          "verdict": "miss"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "client_id + secret via Dashboard; Sandbox vs Production. Pass 1 matches."
+    },
+    {
+      "id": 87,
+      "name": "Xero",
+      "fields": {
+        "category": {
+          "pass1": "Finance and Fintech",
+          "pass2": "Finance and Fintech",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "Saved Xero page yielded no usable sentences for this check; abstention."
+    },
+    {
+      "id": 88,
+      "name": "Brex",
+      "fields": {
+        "category": {
+          "pass1": "Finance and Fintech",
+          "pass2": "Finance and Fintech",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Not Stated",
+          "verdict": "correct-abstention"
+        },
+        "api_types": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "existing_mcp": {
+          "pass1": null,
+          "pass2": null,
+          "verdict": "correct-abstention"
+        }
+      },
+      "note": "222 sentences of CSS/application shell. Abstentions correct."
+    },
+    {
+      "id": 96,
+      "name": "Devin",
+      "fields": {
+        "category": {
+          "pass1": "AI, Research and Media-native",
+          "pass2": "AI, Research and Media-native",
+          "verdict": "hit"
+        },
+        "auth_methods": {
+          "pass1": [],
+          "pass2": null,
+          "verdict": "correct-abstention"
+        },
+        "access_model": {
+          "pass1": "Not Stated",
+          "pass2": "Paid Plan Required",
+          "verdict": "miss"
+        },
+        "api_types": {
+          "pass1": [
+            "CLI / Library"
+          ],
+          "pass2": null,
+          "verdict": "unverifiable"
+        },
+        "existing_mcp": {
+          "pass1": true,
+          "pass2": null,
+          "verdict": "unverifiable"
+        }
+      },
+      "note": "'Individual and Teams plans are available' is the only access signal; no auth or API detail on the page."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 35,
+  "name": "Mailchimp",
+  "requested_url": "https://mailchimp.com/developer/marketing/api/",
+  "final_url": "https://mailchimp.com/developer/marketing/api/root/list",
+  "status": 200,
+  "chars": 11689,
+  "title": "List API root resources | Mailchimp | Developer",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:40+00:00"
+}

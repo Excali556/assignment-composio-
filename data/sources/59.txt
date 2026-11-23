@@ -1,0 +1,389 @@
+Documentation Index
+
+Fetch the complete documentation index at:/llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+
+Waterfall.io API Documentation home page
+
+Search...
+
+⌘K
+
+Waterfall.io
+
+Support
+
+Search...
+
+Navigation
+
+Get started
+
+Waterfall API introduction
+
+API Reference
+
+Explore Waterfall
+
+Get started
+
+Introduction
+
+Quickstart
+
+Integration guides
+
+Authentication
+
+Rate limits
+
+Errors
+
+Usage Tracking
+
+Webhook Verification
+
+Prospector
+
+POST
+
+Prospector Launcher
+
+GET
+
+Prospector Finder
+
+Launcher guides
+
+Search Contact
+
+POST
+
+Search Contact Launcher
+
+GET
+
+Search Contact Finder
+
+Launcher guides
+
+Search Company
+Preview
+
+POST
+
+Search Company Launcher
+
+GET
+
+Search Company Finder
+
+Contact Enrichment
+
+POST
+
+Contact Enrichment Launcher
+
+GET
+
+Contact Enrichment Finder
+
+Phone Enrichment
+
+POST
+
+Phone Enrichment Launcher
+
+GET
+
+Phone Enrichment Finder
+
+Company Enrichment
+
+POST
+
+Company Enrichment Launcher
+
+GET
+
+Company Enrichment Finder
+
+Job Change
+
+POST
+
+Job Change Launcher
+
+GET
+
+Job Change Finder
+
+Company Reveal
+
+POST
+
+Company Reveal Launcher
+
+GET
+
+Company Reveal Finder
+
+Company Titles
+Preview
+
+POST
+
+Company Titles Launcher
+
+GET
+
+Company Titles Finder
+
+Email Verification
+
+POST
+
+Email Verifier
+
+Webhooks
+
+GET
+
+Webhook JWKS
+
+Account
+
+GET
+
+Account Reporter v2
+
+API Keys Management
+
+GET
+
+API Keys - List
+
+POST
+
+API Keys - Create
+
+PUT
+
+API Keys - Modify
+
+Specification
+
+Open API Specification
+
+On this page
+Back to top
+Endpoints
+
+Find people and contact details
+
+Find and enrich companies
+
+Check a contact’s employment
+
+When do results arrive?
+
+Manage your integration
+
+Get started
+
+Waterfall API introduction
+
+Copy pageCopy page
+
+Explore Waterfall’s APIs and compare their inputs, results, and use cases to choose the right endpoint for your workflow.
+
+Copy pageCopy page
+
+The Waterfall API is available at https://api.waterfall.io. Send your API key in the x-api-key header. See Authentication.
+Endpoints
+
+API
+
+Type
+
+Description
+
+Prospector
+
+Async
+
+Find people at a company by domain and title filters, with available emails and optional phones.
+
+Search Contact
+
+Sync
+
+Find profiles by LinkedIn, company, or supported company-set and role filters. Emails and phones are excluded.
+
+Search Company
+
+Sync
+
+Find companies by industry, headquarters country, or headcount range. Preview.
+
+Contact Enrichment
+
+Async
+
+Find profile data and available contact details from an email, LinkedIn identifier, or name and company domain.
+
+Phone Enrichment
+
+Async
+
+Find available phone numbers for a known person.
+
+Company Enrichment
+
+Async
+
+Find company details from a domain, LinkedIn identifier, or company name.
+
+Company Reveal
+
+Sync
+
+Look up company context from an IPv4 address, with entity type and confidence.
+
+Company Titles
+
+Sync
+
+Retrieve active job titles at a company by domain or LinkedIn identifier. Preview; requires access on your key.
+
+Job Change
+
+Sync
+
+Check a contact’s company information and return an employment-change outcome with an available profile.
+
+Email Verification
+
+Sync
+
+Check a specific email address and return its verification status.
+
+Webhook JWKS
+
+Sync
+
+Fetch public Ed25519 keys for verifying signed webhook deliveries.
+
+Account Reporting
+
+Sync
+
+Read usage for the account and authenticated key, plus the current account balance.
+
+API Key Management
+
+Sync
+
+List account keys and create or update sub-keys using a master key.
+
+Choose an API based on what you already know and what you want to find. The guidance below separates search, enrichment, verification, and employment checks.
+Find people and contact details
+
+API
+
+What you have
+
+What you get
+
+Prospector
+
+Company domain + title filter
+
+Matching people, with available emails and optional phones
+
+Search Contact
+
+Person’s LinkedIn, company identifiers, or company-set filters
+
+Professional profiles; no emails or phones
+
+Contact Enrichment
+
+Email, person’s LinkedIn, or name + company domain
+
+Profile and available contact details
+
+Phone Enrichment
+
+Email, person’s LinkedIn, or name + company domain
+
+Available phone numbers
+
+Email Verification
+
+Email address
+
+Email verification status
+
+Search Contact or Prospector? Use Search Contact when you need profile search and structured filters. Use Prospector when you have a target account and want to find people and contact details by title. To enrich someone found through Search Contact, pass their LinkedIn identifier to Contact Enrichment. See account prospecting for the workflow.
+Find and enrich companies
+
+API
+
+What you have
+
+What you get
+
+Company Enrichment
+
+Company domain, LinkedIn identifier, or name
+
+Available company details
+
+Search Company (Preview)
+
+Industry, headquarters country, or headcount filters
+
+Matching company profiles
+
+Company Titles (Preview)
+
+Company domain or LinkedIn identifier
+
+Active job titles for title targeting
+
+Company Reveal
+
+Website visitor’s IPv4 address
+
+Company match, entity type, and confidence
+
+For existing CRM records, use CRM enrichment. For website traffic, start with website company identification.
+Check a contact’s employment
+Job Change checks a contact’s company information and returns a status with an available profile snapshot. Start with a supported company-and-contact identifier combination or a professional email. If you need recurring checks, your workflow schedules the requests and compares the results. See job changes.
+When do results arrive?
+For async APIs, the launcher returns a job_id. Retrieve the result with the matching Finder or receive it through webhook_url.For sync data APIs, read the result in the POST response. Where a Finder exists, use it to retrieve the saved result later. Email Verification has no Finder.The job’s status describes processing. Inspect the returned data to decide whether it is useful for your task. A SUCCEEDED job does not promise that every requested field was found.
+
+Search Company and Company Titles are Preview APIs. Their behavior may change. Check the relevant reference before building a critical workflow around a Preview API.
+
+Manage your integration
+
+API Keys Management: create and manage keys for your workflows.
+
+Usage Tracking: inspect a job’s returned cost and balance snapshot.
+
+Account Reporting: read usage across a date range.
+
+Webhook Verification: verify the origin and integrity of signed deliveries.
+Ready to try a contact lookup? Follow the quickstart. If you are comparing providers, use the evaluation guide.Working with an agent? Start with Use Waterfall with an agent to run a lookup or build an integration.
+
+Enrich your first contact
+
+Next
+
+linkedin
+
+Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform

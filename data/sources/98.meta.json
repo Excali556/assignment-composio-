@@ -1,0 +1,11 @@
+{
+  "id": 98,
+  "name": "Mermaid CLI",
+  "requested_url": "https://github.com/mermaid-js/mermaid-cli",
+  "final_url": "https://github.com/mermaid-js/mermaid-cli",
+  "status": 200,
+  "chars": 10009,
+  "title": "GitHub - mermaid-js/mermaid-cli: Command line tool for the Mermaid library \u00b7 GitHub",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:39+00:00"
+}

@@ -1,0 +1,112 @@
+{
+  "github": {
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "one_line_description": "Cloud-based hosting service for software development and version control using Git.",
+    "auth_methods": ["API Key"],
+    "access_model": "Free Self-Serve",
+    "api_types": ["REST"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/some/mcp-github",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.github.com/en/rest",
+      "auth_quote": "To authenticate with the GitHub REST API, you must provide a token in the Authorization header of your HTTP request.",
+      "access_quote": "GitHub accounts are free to create and use.",
+      "api_quote": "GitHub REST API allows developers to automate workflows."
+    },
+    "confidence": "High",
+    "run_notes": "Untuned prompt labeled PAT as generic API Key instead of recognizing OAuth2 + Bearer; missed GraphQL API."
+  },
+  "salesforce": {
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_line_description": "Customer relationship management platform for enterprise sales and support.",
+    "auth_methods": ["OAuth2"],
+    "access_model": "Paid Plan Required",
+    "api_types": ["REST"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "Enterprise Gate / Paywall",
+    "evidence": {
+      "docs_url": "https://www.salesforce.com/editions-pricing/sales-cloud/",
+      "auth_quote": "Users must log in using OAuth 2.0 connected applications.",
+      "access_quote": "Salesforce plans start at $25/user/month for Starter Suite up to Unlimited Edition.",
+      "api_quote": "Salesforce provides REST APIs for integrating customer data."
+    },
+    "confidence": "Medium",
+    "run_notes": "Mistake: Read main pricing page instead of developer docs; failed to discover free permanent Developer Edition; falsely marked access as Paid Plan Required and missed official Salesforce CLI MCP."
+  },
+  "sherlock": {
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_line_description": "Social media username reconnaissance tool.",
+    "auth_methods": ["API Key"],
+    "access_model": "Paid Plan Required",
+    "api_types": ["REST"],
+    "api_breadth": "Limited",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "No",
+    "main_blocker": "No Public API",
+    "evidence": {
+      "docs_url": "https://github.com/sherlock-project/sherlock",
+      "auth_quote": "An API key is required to connect to the service endpoints.",
+      "access_quote": "Subscription packages are available for commercial use.",
+      "api_quote": "Sherlock REST API provides endpoint access."
+    },
+    "confidence": "Low",
+    "run_notes": "Major Failure: Model hallucinated a REST API and pricing plans for an open-source Python CLI tool! Quotes were fabricated. Classic AI hallucination when encountering CLI/OSS projects."
+  },
+  "telegram": {
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_line_description": "Instant messaging app with cross-platform synchronization.",
+    "auth_methods": ["API Key"],
+    "access_model": "Free Self-Serve",
+    "api_types": ["REST", "Webhooks"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/chigwell/telegram-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://core.telegram.org/bots/api",
+      "auth_quote": "Once successfully created, BotFather will reply with a confirmation message containing your HTTP API Token.",
+      "access_quote": "The Bot API is free for all developers.",
+      "api_quote": "All queries to the Telegram Bot API must be served over HTTPS and structured using your token in the URL path."
+    },
+    "confidence": "High",
+    "run_notes": "Accurate on Bot API, though missed specifying Bearer token / MTProto protocol option."
+  },
+  "pitchbook": {
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_line_description": "Financial market research database for venture capital and private equity.",
+    "auth_methods": ["API Key"],
+    "access_model": "Free Trial",
+    "api_types": ["REST"],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://pitchbook.com",
+      "auth_quote": "Developers receive an API key upon account registration.",
+      "access_quote": "Start a free trial today to experience PitchBook data.",
+      "api_quote": "PitchBook API delivers real-time private market intelligence."
+    },
+    "confidence": "Low",
+    "run_notes": "Mistake: Confused web UI 'request a free trial demo' with self-serve API access. PitchBook Direct Data API is strictly enterprise contract gated; not self-serve buildable."
+  }
+}

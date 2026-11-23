@@ -1,0 +1,11 @@
+{
+  "id": 72,
+  "name": "Airtable",
+  "requested_url": "https://airtable.com/developers",
+  "final_url": "https://airtable.com/developers/agents",
+  "status": 200,
+  "chars": 4121,
+  "title": "Overview - Airtable Developers",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:07+00:00"
+}

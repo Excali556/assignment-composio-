@@ -1,0 +1,107 @@
+Documentation Index
+
+Fetch the complete documentation index at:/llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+
+Bright Data Docs home page
+English
+
+Search...
+
+⌘K
+
+Support
+
+Sign up
+
+Sign up
+
+Search...
+
+Navigation
+
+Page Not Found
+
+Documentation
+
+API reference
+
+Integrations
+
+Account Management
+
+Get started
+
+Introduction
+
+Quickstart
+
+For humans
+
+For your coding agent
+
+Choose a product
+
+Concepts
+
+Tutorials
+
+CLI
+
+Bright Data MCP
+
+Python SDK
+
+JavaScript SDK
+
+Data extraction
+
+Scraper API
+
+Scraper Studio
+
+Dataset
+
+Web Unlocker API
+
+Browser API
+
+SERP API
+
+Web search
+
+Business Search
+
+AI training data
+
+Web Archive
+
+Media Data API
+
+Proxy networks
+
+Residential proxies
+
+ISP proxies
+
+Datacenter proxies
+
+Proxy Manager
+
+Browser Extension
+
+Reference
+
+Managed services
+
+Overview
+
+How it works
+
+FAQs
+
+404
+Page Not Found

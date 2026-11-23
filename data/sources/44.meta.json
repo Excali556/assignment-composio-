@@ -1,0 +1,12 @@
+{
+  "id": 44,
+  "name": "Salesforce Commerce Cloud",
+  "requested_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/scapi-get-started.html",
+  "final_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/scapi-get-started.html",
+  "status": 200,
+  "chars": 9121,
+  "title": "",
+  "transport": "proxy",
+  "rendered_via": "r.jina.ai",
+  "fetched_at": "2026-11-23T15:47:49+00:00"
+}

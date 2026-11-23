@@ -1,0 +1,11 @@
+{
+  "id": 13,
+  "name": "Freshdesk",
+  "requested_url": "https://developers.freshdesk.com/api/",
+  "final_url": "https://developers.freshdesk.com/api/",
+  "status": 200,
+  "chars": 534987,
+  "title": "Freshdesk",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:21+00:00"
+}

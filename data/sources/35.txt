@@ -1,0 +1,974 @@
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+
+Mailchimp Marketing API
+
+Mailchimp Marketing API
+
+Power timely, relevant marketing campaigns with custom data pulled directly from your app.
+
+Search
+/
+
+ToolsRelease NotesSign Up
+
+OverviewMailchimp core conceptsAPI core conceptsBuilding with MailchimpAPI Reference
+
+Skip to navigation
+
+This page is for Mailchimp Marketing API.
+
+API ReferenceRoot
+
+List API root resources
+
+Copy page
+
+GET
+https://api.mailchimp.com/3.0/
+
+GET
+/3.0/
+
+cURL
+
+curl https://api.mailchimp.com/3.0/ \
+
+-H "Authorization: Bearer <token>"
+
+Try it
+
+200Retrieved
+
+{
+
+"_links": [
+
+{
+
+"href": "string",
+
+"method": "GET",
+
+"rel": "string",
+
+"schema": "string",
+
+"targetSchema": "string"
+
+}
+
+],
+
+"account_id": "string",
+
+"account_industry": "string",
+
+"account_name": "string",
+
+"account_timezone": "string",
+
+"avatar_url": "string",
+
+"contact": {
+
+"addr1": "string",
+
+"addr2": "string",
+
+"city": "string",
+
+"company": "string",
+
+"country": "string",
+
+"state": "string",
+
+"zip": "string"
+
+},
+
+"email": "string",
+
+"first_name": "string",
+
+"first_payment": "2010-01-01T23:59:59Z",
+
+"industry_stats": {
+
+"bounce_rate": 1.1,
+
+"click_rate": 1.1,
+
+"open_rate": 1.1
+
+},
+
+"last_login": "2024-01-15T09:30:00Z",
+
+"last_name": "string",
+
+"login_id": "string",
+
+"member_since": "2010-01-01T23:59:59Z",
+
+"pricing_plan_type": "monthly",
+
+"pro_enabled": true,
+
+"role": "string",
+
+"total_subscribers": 1,
+
+"username": "freddie2000"
+
+}
+
+Get links to all other resources available in the API.
+
+Authentication
+
+AuthorizationBearer
+
+Authorization using a Mailchimp API key (a.k.a. Bearer token)
+
+OR
+
+AuthorizationBearer
+
+Authorization using OAuth
+
+Query parameters
+
+fieldslist of stringsOptional
+
+A comma-separated list of fields to return. Reference parameters of sub-objects with dot notation.
+
+exclude_fieldslist of stringsOptional
+
+A comma-separated list of fields to exclude. Reference parameters of sub-objects with dot notation.
+
+Response
+
+_linkslist of objectsOptionalRead-only
+
+A list of link types and descriptions for the API schema documents.
+
+Show 5 properties
+
+account_idstringOptionalRead-only
+
+The Mailchimp account ID.
+
+account_industrystringOptionalRead-only
+
+The user-specified industry associated with the account.
+
+account_namestringOptionalRead-only
+
+The name of the account.
+
+account_timezonestringOptionalRead-only
+
+The timezone currently set for the account.
+
+avatar_urlstringOptionalRead-only
+
+URL of the avatar for the user.
+
+contactobjectOptionalRead-only
+
+Information about the account contact.
+
+Show 7 properties
+
+emailstringOptionalRead-only
+
+The account email address.
+
+first_namestringOptionalRead-only
+
+The first name tied to the account.
+
+first_paymentdatetime or ""OptionalRead-only
+
+Date of first payment for monthly plans.
+
+Show 2 variants
+
+industry_statsobjectOptionalRead-only
+
+The average campaign statistics for all campaigns in the account’s specified industry.
+
+Show 3 properties
+
+last_logindatetimeOptionalRead-only
+
+The date and time of the last login for this account in ISO 8601 format.
+
+last_namestringOptionalRead-only
+
+The last name tied to the account.
+
+login_idstringOptionalRead-only
+
+The ID associated with the user who owns this API key. If you can login to multiple accounts, this ID will be the same for each account.
+
+member_sincedatetimeOptionalRead-only
+
+The date and time that the account was created in ISO 8601 format.
+
+pricing_plan_typeenumOptionalRead-only
+
+The type of pricing plan the account is on.
+
+Allowed values:monthlypay_as_you_goforever_free
+
+pro_enabledbooleanOptionalRead-only
+
+Legacy - whether the account includes Mailchimp Pro.
+
+rolestringOptionalRead-only
+
+The user role for the account.
+
+total_subscribersintegerOptionalRead-only
+
+The total number of subscribers across all lists in the account.
+
+usernamestringOptionalRead-only
+
+The username tied to the account.
+
+Was this page helpful?
+YesNo
+
+Next
+
+List account exports
+
+Built with
+
+OverviewMailchimp core conceptsAPI core conceptsBuilding with MailchimpAPI Reference
+
+API Reference
+
+Root
+GETList API root resources
+
+Account Exports
+
+Activity Feed
+
+Audiences
+
+Authorized Apps
+
+Automations
+
+Batch Webhooks
+
+Batches
+
+Campaign Folders
+
+Campaigns
+
+Connected Sites
+
+Conversations
+
+Customer Journeys
+
+E-commerce
+
+Facebook Ads
+
+File manager
+
+Landing Pages
+
+Lists
+
+Ping
+
+Reporting
+
+Reports
+
+Search Campaigns
+
+SMS Campaigns
+
+Search Members
+
+Template Folders
+
+Templates
+
+Verified Domains
+
+List API root resources
+
+List account exports
+
+Add export
+
+Get account export info
+
+List activity feed resources
+
+Get latest chimp chatter
+
+Contacts
+
+A collection of Audience Contacts
+
+Add Contact
+
+Get a contact record
+
+Update Contact
+
+Delete a contact
+
+Archive Contact
+
+Forget Contact
+
+List Segments
+
+Add Segment
+
+Get Segment
+
+Update Segment
+
+Delete Segment
+
+Get Segment Member Count
+
+Snapshot a Segment
+
+Get Segment Snapshot
+
+Get Snapshot Member Contact IDs
+
+List authorized apps
+
+Get authorized app info
+
+List automations
+
+Add automation
+
+Get automation info
+
+Archive automation
+
+Pause automation emails
+
+Start automation emails
+
+List automated emails
+
+Get workflow email info
+
+Update workflow email
+
+Delete workflow email
+
+Pause automated email
+
+Start automated email
+
+List automated email subscribers
+
+Add subscriber to workflow email
+
+Get automated email subscriber
+
+List subscribers removed from workflow
+
+Remove subscriber from workflow
+
+Get subscriber removed from workflow
+
+List batch webhooks
+
+Add batch webhook
+
+Get batch webhook info
+
+Delete batch webhook
+
+Update batch webhook
+
+List batch requests
+
+Start batch operation
+
+Get batch operation status
+
+Delete batch request
+
+List campaign folders
+
+Add campaign folder
+
+Get campaign folder
+
+Delete campaign folder
+
+Update campaign folder
+
+List campaigns
+
+Add campaign
+
+Get campaign info
+
+Update campaign settings
+
+Delete campaign
+
+Cancel campaign
+
+Resend campaign
+
+Pause rss campaign
+
+Replicate campaign
+
+Resume rss campaign
+
+Schedule campaign
+
+Send campaign
+
+Send test email
+
+Unschedule campaign
+
+Get campaign content
+
+Set campaign content
+
+Get campaign send checklist
+
+List campaign feedback
+
+Add campaign feedback
+
+Get campaign feedback message
+
+Update campaign feedback message
+
+Delete campaign feedback message
+
+List connected sites
+
+Add connected site
+
+Get connected site
+
+Delete connected site
+
+Update connected site
+
+Verify connected site script
+
+Enable pixel for connected site
+
+Disable pixel for connected site
+
+List conversations
+
+Get conversation
+
+List messages
+
+Get message
+
+Automation flows API trigger for a contact
+
+List e-commerce api resources
+
+List account orders
+
+List stores
+
+Add store
+
+Get store info
+
+Update store
+
+Delete store
+
+List carts
+
+Add cart
+
+Get cart info
+
+Update cart
+
+Delete cart
+
+List cart line items
+
+Add cart line item
+
+Get cart line item
+
+Update cart line item
+
+Delete cart line item
+
+List customers
+
+Add customer
+
+Get customer info
+
+Update customer
+
+Add or update customer
+
+Delete customer
+
+List orders
+
+Add order
+
+Get order info
+
+Update order
+
+Delete order
+
+List order line items
+
+Add order line item
+
+Get order line item
+
+Update order line item
+
+Delete order line item
+
+List product
+
+Add product
+
+Get product info
+
+Update product
+
+Create or update product
+
+Delete product
+
+List product images
+
+Add product image
+
+Get product image info
+
+Update product image
+
+Delete product image
+
+List product variants
+
+Add product variant
+
+Get product variant info
+
+Update product variant
+
+Add or update product variant
+
+Delete product variant
+
+List promo rules
+
+Add promo rule
+
+Get promo rule
+
+Update promo rule
+
+Delete promo rule
+
+List promo codes
+
+Add promo code
+
+Get promo code
+
+Update promo code
+
+Delete promo code
+
+List facebook ads
+
+Get facebook ad info
+
+List file manager resources
+
+List stored files
+
+Add file
+
+Get file
+
+Update file
+
+Delete file
+
+List folders
+
+Add folder
+
+Get folder
+
+Update folder
+
+Delete folder
+
+List stored files
+
+List landing pages
+
+Add landing page
+
+Get landing page info
+
+Delete landing page
+
+Update landing page
+
+Publish landing page
+
+Unpublish landing page
+
+Get landing page content
+
+Get lists info
+
+Add list
+
+Get list info
+
+Update lists
+
+Batch subscribe or unsubscribe
+
+Delete list
+
+List recent activity
+
+List top email clients
+
+List growth history data
+
+Get growth history by month
+
+List locations
+
+Search for tags on a list by name.
+
+List signup forms
+
+Customize signup form
+
+List abuse reports
+
+Get abuse report
+
+List interest categories
+
+Add interest category
+
+Get interest category info
+
+Update interest category
+
+Delete interest category
+
+List interests in category
+
+Add interest in category
+
+Get interest in category
+
+Update interest in category
+
+Delete interest in category
+
+List members info
+
+Add member to list
+
+Get member info
+
+Update list member
+
+Add or update list member
+
+Archive list member
+
+Delete list member
+
+View recent activity 50
+
+View recent activity
+
+List member events
+
+Add event
+
+List member goal events
+
+List recent member notes
+
+Add member note
+
+Get member note
+
+Update note
+
+Delete note
+
+List member tags
+
+Add or remove member tags
+
+List merge fields
+
+Add merge field
+
+Get merge field
+
+Update merge field
+
+Delete merge field
+
+List segments
+
+Add segment
+
+Get segment info
+
+Update segment
+
+Batch add or remove members
+
+Delete segment
+
+List members in segment
+
+Add member to segment
+
+Remove list member from segment
+
+Get information about all surveys for a list
+
+Create survey
+
+Get survey
+
+Update survey
+
+Delete survey
+
+Create a Survey Campaign
+
+Publish a Survey
+
+Replicate survey
+
+Unpublish a Survey
+
+List webhooks
+
+Add webhook
+
+Get webhook info
+
+Update webhook
+
+Delete webhook
+
+Ping
+
+List reporting resources
+
+List facebook ads reports
+
+Get facebook ad report
+
+List facebook ecommerce report
+
+List landing pages reports
+
+Get landing page report
+
+List survey reports
+
+Get survey report
+
+List survey question reports
+
+Get survey question report
+
+List answers for question
+
+List survey responses
+
+Get survey response
+
+List campaign reports
+
+Get campaign report
+
+List abuse reports
+
+Get abuse report
+
+List campaign feedback
+
+List campaign details
+
+Get campaign link details
+
+List clicked link subscribers
+
+Get clicked link subscriber
+
+List domain performance stats
+
+List campaign product activity
+
+List EepURL activity
+
+List email activity
+
+Get subscriber email activity
+
+List top open activities
+
+List campaign open details
+
+Get opened campaign subscriber
+
+List campaign recipients
+
+Get campaign recipient info
+
+List child campaign reports
+
+List unsubscribed members
+
+Get unsubscribed member
+
+Search campaigns
+
+List SMS campaigns
+
+Add SMS campaign
+
+Get SMS campaign info
+
+Delete SMS campaign
+
+Update an SMS campaign
+
+Cancel SMS campaign send
+
+Schedule SMS campaign
+
+Send SMS campaign
+
+Get SMS campaign content
+
+Set SMS campaign content
+
+Search members
+
+List template folders
+
+Add template folder
+
+Get template folder
+
+Delete template folder
+
+Update template folder
+
+List templates
+
+Add template
+
+Get template info
+
+Delete template
+
+Update template
+
+View default content
+
+List sending domains
+
+Add domain to account
+
+Get domain info
+
+Delete domain
+
+Verify domain
+
+Mailchimp Marketing API
+
+Mailchimp Transactional
+
+Tools
+
+Release Notes
+
+Blog
+
+Integration Partner Program
+
+Products
+Mailchimp Marketing API
+
+Mailchimp Transactional
+
+Resources
+Tools
+
+Release Notes
+
+API Status
+
+Partnerships
+
+Contact Us
+
+Join Mailchimp
+
+Explore how Mailchimp can bring together your customer data, marketing channels, and audience insights in a single platform.
+
+Create Account
+
+Visit Mailchimp
+
+Careers
+
+Privacy & Terms
+
+Help
+
+© 2001 – 2026 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group.

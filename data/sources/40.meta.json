@@ -1,0 +1,11 @@
+{
+  "id": 40,
+  "name": "SendGrid",
+  "requested_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+  "final_url": "https://www.twilio.com/docs/sendgrid/api-reference",
+  "status": 200,
+  "chars": 16129,
+  "title": "SendGrid v3 API reference | SendGrid Docs | Twilio Go to the Twilio SendGrid Docs home page Positive Feedback Negative Feedback additional-resources page anchor Positive Feedback Negative Feedback onboarding-guide page anchor Positive Feedback Negative Feedback email-api-quickstarts page anchor Positive Feedback Negative Feedback sdks-and-tools page anchor Positive Feedback Negative Feedback (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page) (link takes you to an external page)",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:46+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 12,
+  "name": "Intercom",
+  "requested_url": "https://developers.intercom.com/docs",
+  "final_url": "https://developers.intercom.com/docs",
+  "status": 200,
+  "chars": 5489,
+  "title": "Overview | Intercom and Fin Developer Platform",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:20+00:00"
+}

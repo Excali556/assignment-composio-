@@ -1,0 +1,218 @@
+{
+  "sample_size": 15,
+  "app_ids": [
+    4,
+    8,
+    17,
+    19,
+    22,
+    34,
+    44,
+    50,
+    51,
+    60,
+    64,
+    74,
+    84,
+    85,
+    94
+  ],
+  "total_score": 83,
+  "total_possible": 105,
+  "overall_accuracy": "79.0%",
+  "field_accuracy": {
+    "category": {
+      "score": "15/15",
+      "accuracy": "100.0%"
+    },
+    "auth_methods": {
+      "score": "14/15",
+      "accuracy": "93.3%"
+    },
+    "access_model": {
+      "score": "9/15",
+      "accuracy": "60.0%"
+    },
+    "api_types": {
+      "score": "14/15",
+      "accuracy": "93.3%"
+    },
+    "existing_mcp": {
+      "score": "13/15",
+      "accuracy": "86.7%"
+    },
+    "buildable_today": {
+      "score": "9/15",
+      "accuracy": "60.0%"
+    },
+    "main_blocker": {
+      "score": "9/15",
+      "accuracy": "60.0%"
+    }
+  },
+  "misses_count": 22,
+  "misses": [
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "access_model",
+      "predicted": "Free Trial",
+      "expected": "Paid Plan Required"
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "buildable_today",
+      "predicted": "Yes",
+      "expected": "Partial"
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "field": "main_blocker",
+      "predicted": "None",
+      "expected": "Paid Plan Required"
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "access_model",
+      "predicted": "Free Trial",
+      "expected": "Enterprise / Contact Sales"
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "buildable_today",
+      "predicted": "Yes",
+      "expected": "Partial"
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "field": "main_blocker",
+      "predicted": "None",
+      "expected": "Enterprise Gate / Paywall"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "auth_methods",
+      "predicted": [
+        "API Key"
+      ],
+      "expected": [
+        "None"
+      ]
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "access_model",
+      "predicted": "Free Self-Serve",
+      "expected": "Closed Platform"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "api_types",
+      "predicted": [
+        "REST"
+      ],
+      "expected": [
+        "None"
+      ]
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "buildable_today",
+      "predicted": "Yes",
+      "expected": "No"
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "field": "main_blocker",
+      "predicted": "None",
+      "expected": "No Public API"
+    },
+    {
+      "app_id": 64,
+      "app_name": "Cloudflare",
+      "field": "existing_mcp",
+      "predicted": false,
+      "expected": true
+    },
+    {
+      "app_id": 74,
+      "app_name": "Jira",
+      "field": "existing_mcp",
+      "predicted": false,
+      "expected": true
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "field": "access_model",
+      "predicted": "Free Trial",
+      "expected": "Enterprise / Contact Sales"
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "field": "buildable_today",
+      "predicted": "Yes",
+      "expected": "No"
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "field": "main_blocker",
+      "predicted": "None",
+      "expected": "Enterprise Gate / Paywall"
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "field": "access_model",
+      "predicted": "Free Trial",
+      "expected": "Enterprise / Contact Sales"
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "field": "buildable_today",
+      "predicted": "Yes",
+      "expected": "No"
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "field": "main_blocker",
+      "predicted": "None",
+      "expected": "Partner / Admin Approval"
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "access_model",
+      "predicted": "Free Self-Serve",
+      "expected": "Enterprise / Contact Sales"
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "buildable_today",
+      "predicted": "Yes",
+      "expected": "Partial"
+    },
+    {
+      "app_id": 94,
+      "app_name": "Consensus",
+      "field": "main_blocker",
+      "predicted": "None",
+      "expected": "Enterprise Gate / Paywall"
+    }
+  ]
+}

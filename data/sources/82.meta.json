@@ -1,0 +1,11 @@
+{
+  "id": 82,
+  "name": "Plaid",
+  "requested_url": "https://plaid.com/docs/api/",
+  "final_url": "https://plaid.com/docs/api/",
+  "status": 200,
+  "chars": 6353,
+  "title": "API - Overview | Plaid Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:12+00:00"
+}

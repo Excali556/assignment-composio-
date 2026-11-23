@@ -1,0 +1,1099 @@
+Skip to main content
+
+Ads API
+
+/
+
+English
+
+Deutsch
+
+Español
+
+Español – América Latina
+
+Français
+
+Indonesia
+
+Italiano
+
+Polski
+
+Português – Brasil
+
+Tiếng Việt
+
+Türkçe
+
+Русский
+
+עברית
+
+العربيّة
+
+فارسی
+
+हिंदी
+
+বাংলা
+
+ภาษาไทย
+
+中文 – 简体
+
+中文 – 繁體
+
+日本語
+
+한국어
+Sign in
+
+Guides
+
+Reference
+
+Libraries and samples
+
+Policies
+
+Support
+
+Ads API
+
+Guides
+
+Reference
+
+Libraries and samples
+
+Policies
+
+Support
+
+Google Ads API overview
+
+Release notes
+
+Feature deprecations
+
+Get started
+
+Introduction
+
+Quickstart
+
+Handle errors
+
+Common errors
+
+Next steps
+
+Developer toolkit
+
+Google Ads MCP server
+
+Google Ads API AI agent skills
+
+Google Ads API Developer Assistant
+
+Overview
+
+Install and use
+
+Google Ads API Explorer
+
+Google Ads Query Builder
+
+Google Ads Query Validator
+
+Authentication and authorization
+
+Overview
+
+Access model overview
+
+Service account workflow
+
+User authentication workflow
+
+Overview
+
+Single-user authentication workflow
+
+Multi-user authentication workflow
+
+Security requirements
+
+OAuth 2.0 internals
+
+Set up a Google API Console project for authorization
+
+Credential management
+
+Multi-party approvals
+
+Basic concepts
+
+Overview
+
+Account types
+
+API structure
+
+Versioning
+
+Changing objects
+
+Retrieving objects
+
+Resource metadata
+
+Call structure
+
+Mutates
+
+Overview
+
+Resource mutates
+
+Bulk mutates
+
+Best practices
+
+Google Ads management
+
+Manage accounts
+
+Overview
+
+Create an account
+
+Link to manager accounts
+
+List accessible accounts
+
+Get account hierarchy
+
+Manage user access
+
+Manage user access invitations
+
+Link product accounts
+
+Link YouTube
+
+Change status
+
+Change event
+
+Advertiser identity verification
+
+Manage assets
+
+Overview
+
+Creation and usage
+
+Location assets
+
+Automated assets
+
+Asset automation settings
+
+Business message assets
+
+Upload videos
+
+Reporting
+
+Create assets with generative AI (closed beta)
+
+Asset generation (closed beta)
+
+Asset generation errors (closed beta)
+
+Asset generation code examples (closed beta)
+
+Manage billing
+
+Billing overview
+
+Billing setup
+
+Account budget
+
+Invoice
+
+Incentives (allowlisted)
+
+Create and manage campaigns
+
+Explore campaign types
+
+Overview
+
+Create campaigns
+
+Create ad groups
+
+Ad management
+
+Overview
+
+Ad types
+
+Upgraded URLs
+
+URL tracking and templates
+
+Upgraded URL fields
+
+Supported entities
+
+ValueTrack parameters for Upgraded URLs
+
+URL and tracking fields in reports
+
+Serving URL expansion rules
+
+Dynamic Search Ads
+
+Overview
+
+Create DSAs
+
+DSA page feeds
+
+Reporting
+
+Hotel Ads
+
+Overview
+
+Create campaign
+
+Create ad group
+
+Create ad
+
+Create listing groups
+
+Bidding
+
+Overview
+
+Assign strategy
+
+Set bids
+
+Adjust bids
+
+Reporting
+
+Travel Feeds for Search Ads
+
+Things to do ads
+
+Overview
+
+Create campaign
+
+Create ad group
+
+Create ad
+
+Create listing groups
+
+Reporting
+
+Responsive display ads
+
+Overview
+
+Create ads
+
+Retrieve ads
+
+Responsive search ads
+
+Overview
+
+Create ads
+
+Mutate ads
+
+Ad customization
+
+Retrieve ads
+
+Shopping Ads
+
+Overview
+
+Link Merchant Center
+
+Create campaign
+
+Create ad group
+
+Create ad
+
+Create listing groups
+
+Reporting
+
+Uploaded display ads
+
+Overview
+
+Create uploaded display ads
+
+Uploaded HTML5 ads
+
+Budgets
+
+Overview
+
+Create budget
+
+Share budget
+
+Assign budget
+
+Remove budget
+
+Track performance
+
+Restrictions & errors
+
+Bidding
+
+Overview
+
+Strategy types
+
+Strategy status
+
+Portfolio and standard bidding strategies
+
+Cross-account bidding strategies
+
+Ad group level target overrides
+
+Set bids manually
+
+Manage bid modifiers
+
+Create seasonality adjustments
+
+Create data exclusions
+
+Campaign Drafts
+
+Targeting
+
+Overview
+
+Criteria
+
+Shared sets
+
+Bid modifiers
+
+Location targeting
+
+Targeting settings
+
+Performance Max campaigns
+
+Overview
+
+Get started
+
+Business goals
+
+Online sales or lead generation
+
+Online sales with a product feed
+
+Travel goals
+
+Pay-per-lead goals
+
+Concepts
+
+Campaign setup
+
+Create a budget
+
+Create a campaign
+
+Conversion goals
+
+Create campaign criteria
+
+ValueTrack parameters
+
+Asset group setup
+
+Assets
+
+Asset requirements
+
+Asset groups
+
+Asset group signals
+
+Listing groups
+
+Reporting
+
+Overview
+
+Campaign Reporting
+
+Asset Group Reporting
+
+Asset Reporting
+
+Retail Campaign Reporting
+
+Campaign Criterion Reporting
+
+Upgrade to Performance Max
+
+Overview
+
+Check upgrade eligibility
+
+Create a campaign based on an existing campaign
+
+Enhance a campaign
+
+Compare performance with an existing campaign
+
+Complete the upgrade
+
+Best practices
+
+Structure requests
+
+Batch processing
+
+Optimizations
+
+Troubleshooting
+
+Common errors when working with Performance Max
+
+Resources and examples
+
+Code examples
+
+Add performance max campaign
+
+Add performance max retail campaign
+
+Add performance max product listing group tree
+
+Add performance max for travel goals campaign
+
+App campaigns
+
+Overview
+
+Create campaign
+
+Create ad group & ad
+
+Code example
+
+Reporting
+
+Demand Gen campaigns
+
+Overview
+
+Create campaign
+
+Audience targeting
+
+Campaigns with product feeds
+
+Channel controls
+
+Reporting & optimization
+
+Local Services campaigns
+
+Smart campaigns
+
+Overview
+
+Convert smart campaigns to PMax campaigns
+
+Get suggestions
+
+Create budget
+
+Create campaign and campaign setting
+
+Create campaign criteria
+
+Create ad group and ad group ad
+
+Send mutate request
+
+Reporting
+
+Search campaigns
+
+Get started with Search campaigns
+
+AI Max for Search campaigns
+
+Get started with AI Max for Search campaigns
+
+Reporting for AI Max for Search campaigns
+
+Vertical ads controls and inventory filtering
+
+Video campaigns
+
+Manage conversions
+
+Overview
+
+Conversion action categories
+
+Get started with conversions
+
+Manage offline conversions
+
+Manage online conversions
+
+Manage call conversions
+
+Manage store sales conversions
+
+Modify uploaded conversions
+
+Upload conversion adjustments
+
+Conversion value rules
+
+Custom conversion variables
+
+Conversion goals
+
+Overview
+
+Customer goals
+
+Campaign goals
+
+Lifecycle goals
+
+Monitor Upload Health
+
+Reporting
+
+Troubleshooting
+
+Manage audiences
+
+Overview
+
+Audiences
+
+Get started with audience segments
+
+Visitors to your website
+
+Visitors to specific pages
+
+Visitors who took specific actions
+
+Multiple user lists
+
+Customer match
+
+Get started
+
+Manage
+
+Troubleshoot
+
+Custom audiences
+
+Lookalike segments
+
+Sample scenario
+
+Overview
+
+Creating the rule item groups
+
+Creating the user list
+
+Dynamic Remarketing
+
+Overview
+
+Prerequisites
+
+Asset-based Dynamic Remarketing
+
+Merchant center-based Dynamic Remarketing
+
+Batch processing
+
+Overview
+
+Usage flow
+
+Using temporary IDs
+
+Listing group filters
+
+Best practices & limitations
+
+Optimize your ads
+
+Optimization & recommendations
+
+Keyword planning
+
+Overview
+
+Generate keyword ideas
+
+Generate ad group themes
+
+Generate historical metrics
+
+Generate forecast metrics
+
+Experiments
+
+Overview
+
+System-managed experiments
+
+Intra-campaign experiments
+
+Asset optimization experiments
+
+Campaign Mix experiments
+
+Reporting
+
+Lift reporting
+
+Pull geo data
+
+Asynchronous errors
+
+Reach forecasting
+
+Overview
+
+Concepts
+
+Authenticate
+
+Specify a media plan
+
+Generate a curve
+
+Bid simulations
+
+Overview
+
+Prerequisites
+
+Retrieve bid simulations
+
+Report and monitor performance
+
+Reporting
+
+Overview
+
+Use case
+
+Criteria metrics
+
+Track ad placement and performance
+
+Segmentation
+
+Zero metrics
+
+Labels
+
+Streaming
+
+Paging
+
+Reports in the UI
+
+Mapping valuetrack parameters with report fields
+
+Query language
+
+Overview
+
+Query grammar
+
+Query structure
+
+Date ranges
+
+Case sensitivity
+
+Ordering and limiting results
+
+Interactive query builder
+
+Query Validator
+
+Query Cookbook
+
+Audience and creator insights
+
+Overview
+
+Audience insights
+
+YouTube creator insights
+
+YouTube benchmarks
+
+Develop applications
+
+Test and troubleshoot your application
+
+Best practices
+
+Overview
+
+API limits and quotas
+
+System limits
+
+Troubleshooting
+
+Testing
+
+Test accounts
+
+Error debugging
+
+Error types
+
+Understand API errors
+
+Common errors
+
+Partial failures
+
+Warnings
+
+Policy exemption request
+
+Overview
+
+Ads
+
+Keywords
+
+Productionize your application
+
+Overview
+
+Secure credentials
+
+Access levels
+
+Logging
+
+Monitoring
+
+Manage data efficiently
+
+Rate limits
+
+Shared aliases
+
+Stay updated
+
+Home
+
+Products
+
+Google Ads API
+
+Send feedback
+
+Introduction to the Google Ads API
+
+Stay organized with collections
+
+Save and categorize content based on your preferences.
+
+Page Summary
+
+outlined_flag
+
+The Google Ads API is a programmatic interface for managing Google Ads accounts and campaigns, suitable for large or complex setups.
+
+Typical uses of the Google Ads API include automated account management, custom reporting, ad management based on inventory, and Smart Bidding strategy management.
+
+The Google Ads API is recommended for developers comfortable with writing code and managing their own software infrastructure.
+
+Google Ads scripts, BigQuery Data Transfer service, automated rules, bulk uploads, and Google Ads Editor are alternative tools for automating Google Ads for different needs and technical skill levels.
+
+The Google Ads API is the programmatic interface to Google Ads, used for managing large or
+complex Google Ads accounts and campaigns. You can build software that manages
+accounts from the customer level down to the keyword level. Typical use cases
+include:
+
+Automated account management:
+Create and link accounts, manage account hierarchies, and automate user
+access.
+
+Custom reporting: Query performance metrics,
+segments, and resource attributes using the
+Google Ads Query Language (GAQL).
+
+Campaign and inventory-based ad management:
+Create and update Performance Max,
+Search,
+Demand Gen,
+Shopping,
+Video, and
+App campaigns,
+budgets, and
+assets.
+
+Conversion measurement and
+Smart Bidding strategy management:
+Upload click, call, and enhanced conversions and configure automated bidding
+strategies.
+
+Is the Google Ads API the right product for me?
+
+Google provides multiple products to help automate Google Ads accounts. Use the
+following table to identify the product that best fits your requirements:
+
+Scenario
+
+Recommendation
+
+I am a developer who wants to build custom software or integrate with
+the Google Ads API, and I am comfortable managing server and database
+infrastructure.
+
+Use the Google Ads API. Start with the
+Quickstart to configure
+access and make your first API call.
+
+I am a developer who wants to write custom logic, but I prefer not to
+manage server infrastructure.
+
+Use Google Ads scripts.
+
+I am not a developer, but I want to learn basic programming to automate
+Google Ads.
+
+Use Google Ads scripts.
+
+I am a data analyst who needs to download Google Ads reports for offline or
+warehouse analysis.
+
+Use the
+BigQuery
+Data Transfer Service for
+Google
+Ads transfers.
+
+I am building Marketing Mix Models (MMM) and need Google Ads data.
+
+Use the MMM Data Platform. While many
+advertisers rely on the Google Ads API for data pulls, the Google Ads API is not ideal for
+MMM development.
+
+I want to manage Google Ads in bulk without writing code.
+
+Use
+automated
+rules,
+bulk
+uploads, or
+Google
+Ads Editor.
+
+Get started and explore key topics
+
+If the Google Ads API is the right fit for your project, use the following task guide
+to configure access, install a client library, and build your integration:
+
+Goal
+
+Primary guide
+
+Related resources
+
+Make your first API call
+
+Quickstart
+
+Google Cloud project setup,
+Access levels,
+Test accounts,
+Basic concepts,
+Next steps
+
+Configure OAuth 2.0 and credentials
+
+Authentication and authorization overview
+
+Access model overview,
+Service account workflow,
+User authentication workflow,
+Brand verification,
+Developer token sunset
+
+Install a client library or call REST
+
+Client libraries
+
+Java,
+.NET,
+PHP,
+Python,
+Ruby,
+Perl,
+Code samples,
+REST interface
+
+Query reports and build GAQL queries
+
+Reporting overview
+
+Google Ads Query Language (GAQL),
+Interactive Query Builder,
+Query Validator,
+Query Cookbook,
+Reporting reference (v26)
+
+Use AI tools and interactive explorers
+
+Google Ads MCP server
+
+Google Ads API AI agent skills,
+Google Ads API Developer Assistant,
+Install the Developer Assistant,
+API Explorer
+
+Troubleshoot errors and plan upgrades
+
+Handle errors
+
+Common errors,
+Understand API errors,
+Release notes,
+Upgrade your API version,
+Deprecation and sunset schedule
+
+Next
+
+Quickstart
+
+arrow_forward
+
+Send feedback
+
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
+
+Last updated 2026-11-18 UTC.
+
+Blog
+
+Visit our blog for important announcements.
+
+Client Libraries
+
+Use our officially supported client libraries.
+
+YouTube
+
+Watch developer videos and release highlights.
+
+Discord
+
+Join the Google Ads Discord server.
+
+Android
+
+Chrome
+
+Firebase
+
+Google Cloud Platform
+
+Google AI
+
+All products
+
+Terms
+
+Privacy
+
+Manage cookies
+
+English
+
+Deutsch
+
+Español
+
+Español – América Latina
+
+Français
+
+Indonesia
+
+Italiano
+
+Polski
+
+Português – Brasil
+
+Tiếng Việt
+
+Türkçe
+
+Русский
+
+עברית
+
+العربيّة
+
+فارسی
+
+हिंदी
+
+বাংলা
+
+ภาษาไทย
+
+中文 – 简体
+
+中文 – 繁體
+
+日本語
+
+한국어

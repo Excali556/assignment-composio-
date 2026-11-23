@@ -1,0 +1,135 @@
+{
+  "total_apps": 100,
+  "auth": {
+    "oauth2_count": 57,
+    "bearer_count": 57,
+    "token_or_oauth_count": 83,
+    "token_or_oauth_pct": "83.0%",
+    "api_key_count": 49,
+    "basic_count": 14,
+    "none_count": 3,
+    "distribution": {
+      "OAuth2": 57,
+      "Bearer Token": 57,
+      "API Key": 49,
+      "Basic": 14,
+      "None": 3
+    }
+  },
+  "access_reality": {
+    "self_serve_count": 73,
+    "self_serve_pct": "73.0%",
+    "commercial_gated_count": 24,
+    "commercial_gated_pct": "24.0%",
+    "local_cli_no_api_count": 3,
+    "local_cli_no_api_pct": "3.0%",
+    "category_breakdown": {
+      "CRM and Sales": {
+        "self_serve": 9,
+        "gated": 1,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "Support and Helpdesk": {
+        "self_serve": 8,
+        "gated": 2,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "Communications and Messaging": {
+        "self_serve": 9,
+        "gated": 1,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "Marketing, Ads, Email and Social": {
+        "self_serve": 6,
+        "gated": 4,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "Ecommerce": {
+        "self_serve": 6,
+        "gated": 3,
+        "local_or_closed": 1,
+        "total": 10
+      },
+      "Data, SEO and Scraping": {
+        "self_serve": 6,
+        "gated": 3,
+        "local_or_closed": 1,
+        "total": 10
+      },
+      "Developer, Infra and Data platforms": {
+        "self_serve": 10,
+        "gated": 0,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "Productivity and Project Management": {
+        "self_serve": 10,
+        "gated": 0,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "Finance and Fintech": {
+        "self_serve": 5,
+        "gated": 5,
+        "local_or_closed": 0,
+        "total": 10
+      },
+      "AI, Research and Media-native": {
+        "self_serve": 4,
+        "gated": 5,
+        "local_or_closed": 1,
+        "total": 10
+      }
+    },
+    "models_distribution": {
+      "Free Self-Serve": 59,
+      "Free Trial": 14,
+      "Enterprise / Contact Sales": 11,
+      "Paid Plan Required": 9,
+      "Partner / Admin Approval": 4,
+      "Open Source / Local CLI": 2,
+      "Closed Platform": 1
+    }
+  },
+  "mcp": {
+    "official_count": 13,
+    "community_confirmed_count": 7,
+    "total_confirmed": 20,
+    "total_confirmed_pct": "20.0%",
+    "none_confirmed_count": 80,
+    "none_confirmed_pct": "80.0%"
+  },
+  "buildability": {
+    "yes": 75,
+    "partial": 18,
+    "no": 7,
+    "summary": {
+      "Yes": 75,
+      "Partial": 18,
+      "No": 7
+    }
+  },
+  "blockers": {
+    "distribution": {
+      "None": 73,
+      "Enterprise Gate / Paywall": 9,
+      "Paid Plan Required": 8,
+      "Partner / Admin Approval": 7,
+      "No Hosted API (Local CLI)": 2,
+      "No Public API": 1
+    }
+  },
+  "easy_wins_count": 73,
+  "hard_gated_count": 17,
+  "headline_insights": [
+    "OAuth2 & Bearer Tokens account for 83% of all apps, establishing the dominant token-based auth envelope for agent callers.",
+    "73% of apps are Free Self-Serve or offer instant trials, representing immediate turnkey targets for Composio toolkits.",
+    "24% of platforms are commercially gated (9 Enterprise sales walls, 8 mandatory paid plans, 7 partner approvals), requiring developer sandboxes or customer-provided credentials.",
+    "3% are local open-source CLIs or closed platforms (Sherlock, Mermaid CLI, fanbasis) that lack cloud REST APIs and must be wrapped as containerized local subprocess tools.",
+    "20% of apps now have verified Model Context Protocol (MCP) servers (13 official/hosted remote + 7 verified community), led by developer tools (GitHub, Cloudflare, Linear, Sentry, Devin) and productivity giants (Notion, Jira, Airtable)."
+  ]
+}

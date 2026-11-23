@@ -1,0 +1,11 @@
+{
+  "id": 21,
+  "name": "Slack",
+  "requested_url": "https://api.slack.com/authentication",
+  "final_url": "https://docs.slack.dev/authentication/",
+  "status": 200,
+  "chars": 2813,
+  "title": "Authentication overview | Slack Developer Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:31+00:00"
+}

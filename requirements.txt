@@ -1,0 +1,8 @@
+# The research pipeline (fetch -> digest -> extract -> bind -> verify -> page) runs on
+# the Python 3.10+ standard library only: urllib, html.parser, json, re, argparse.
+# It also calls the system `curl` binary as a second transport for pages that reject
+# urllib's TLS fingerprint. No pip installs are required to reproduce the dataset.
+#
+# Optional, only needed to expose the pipeline to a Composio agent
+# (scripts/composio_pipeline.py --register):
+# composio>=0.6.0

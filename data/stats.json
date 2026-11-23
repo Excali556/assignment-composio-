@@ -1,0 +1,124 @@
+{
+  "apps_total_in_brief": 100,
+  "apps_researched": 99,
+  "apps_with_fetched_docs": 99,
+  "apps_fetch_failed": 1,
+  "apps_fetch_failed_ids": [
+    84
+  ],
+  "fields_determined": 180,
+  "fields_possible": 396,
+  "field_coverage_pct": 45.5,
+  "verified_quotes": 186,
+  "auth": {
+    "distribution": {
+      "API Key": 32,
+      "OAuth2": 31,
+      "Token": 15,
+      "Bearer Token": 13,
+      "Basic": 4,
+      "Access Token": 1
+    },
+    "unknown_apps": 40,
+    "known_apps": 59
+  },
+  "access": {
+    "distribution": {
+      "Not Stated": 82,
+      "Free Self-Serve": 6,
+      "Paid Plan Required": 5,
+      "Open Source / Local CLI": 2,
+      "Free Trial": 2,
+      "Mixed": 1,
+      "Enterprise / Contact Sales": 1
+    },
+    "known": 17,
+    "self_serve": 10,
+    "gated": 6
+  },
+  "by_category": {
+    "AI, Research and Media-native": {
+      "total": 10,
+      "self_serve": 3,
+      "gated": 2,
+      "undetermined": 5
+    },
+    "CRM and Sales": {
+      "total": 10,
+      "self_serve": 1,
+      "gated": 0,
+      "undetermined": 9
+    },
+    "Communications and Messaging": {
+      "total": 10,
+      "self_serve": 0,
+      "gated": 0,
+      "undetermined": 10
+    },
+    "Data, SEO and Scraping": {
+      "total": 10,
+      "self_serve": 2,
+      "gated": 2,
+      "undetermined": 6
+    },
+    "Developer, Infra and Data platforms": {
+      "total": 10,
+      "self_serve": 0,
+      "gated": 0,
+      "undetermined": 10
+    },
+    "Ecommerce": {
+      "total": 10,
+      "self_serve": 1,
+      "gated": 0,
+      "undetermined": 9
+    },
+    "Finance and Fintech": {
+      "total": 9,
+      "self_serve": 1,
+      "gated": 1,
+      "undetermined": 7
+    },
+    "Marketing, Ads, Email and Social": {
+      "total": 10,
+      "self_serve": 0,
+      "gated": 0,
+      "undetermined": 10
+    },
+    "Productivity and Project Management": {
+      "total": 10,
+      "self_serve": 1,
+      "gated": 0,
+      "undetermined": 9
+    },
+    "Support and Helpdesk": {
+      "total": 10,
+      "self_serve": 1,
+      "gated": 1,
+      "undetermined": 8
+    }
+  },
+  "mcp": {
+    "verified": 11,
+    "none_confirmed": 84,
+    "mentioned": 4
+  },
+  "blockers": {
+    "None": 69,
+    "Insufficient info": 8,
+    "Unknown": 6,
+    "Insufficient documentation": 3,
+    "Insufficient API details": 2,
+    "Lack of API details": 1,
+    "No data": 1,
+    "Insufficient documentation to assess buildability": 1,
+    "Not enough information": 1,
+    "No information available": 1,
+    "Authentication method not specified": 1,
+    "Insufficient information": 1,
+    "Insufficient information to determine buildability": 1,
+    "Requires installing the Airtable MCP plugin": 1,
+    "Documentation incomplete": 1,
+    "No API": 1
+  }
+}

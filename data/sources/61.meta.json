@@ -1,0 +1,11 @@
+{
+  "id": 61,
+  "name": "GitHub",
+  "requested_url": "https://docs.github.com/en/rest",
+  "final_url": "https://docs.github.com/en/rest",
+  "status": 200,
+  "chars": 6095,
+  "title": "GitHub REST API documentation - GitHub Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:58+00:00"
+}

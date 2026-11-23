@@ -1,0 +1,251 @@
+For the complete documentation index, see llms.txt. Markdown versions of documentation pages are available by appending .md to page URLs.
+Skip to content
+
+⌘Ctrlk
+
+Knowledge BaseWebsiteChangelogBook a DemoLogin
+More
+
+Getting Started
+
+Introduction
+
+Quick Start
+
+Setup
+
+Channel Configuration
+
+User Guide
+
+Pylonboarding
+
+Agents
+
+Assist Agent
+
+Automations
+
+Slack Agent
+
+Skills
+
+Connectors
+
+User Memories
+
+Support Agent
+
+Support Workflows
+
+Omnichannel Support
+
+Issues
+
+SLAs and Timers
+
+Support Hours
+
+CSAT
+
+Ticket Forms
+
+Assignment Rules
+
+Email
+
+Phone Support
+
+User QA
+
+Platform
+
+Custom Fields
+
+Tags
+
+Taxonomy
+
+Teams
+
+Triggers
+
+Macros
+
+Command Search
+
+Roles & User Management
+
+Resources
+
+AI Reports
+
+Surveys
+
+Audit Logs
+
+Languages & Localization
+
+Custom Objects
+
+Knowledge Base
+
+Overview
+
+Articles & Collections
+
+Translations
+
+Missing Content
+
+Analytics
+
+Styling & Customization
+
+Custom Authentication
+
+Search
+
+Redirects
+
+SEO & AI Crawlers
+
+Customer Portal
+
+Overview
+
+Styling & Customization
+
+Portal Experience
+
+Access Control
+
+Custom Authentication
+
+Chat Widget
+
+Overview
+
+Styling
+
+Functionality
+
+Chat Experience
+
+Chat Setup
+
+Custom Domain
+
+Identity Verification
+
+JavaScript API
+
+Mobile SDKs
+
+Account Intelligence
+
+Customer Overview
+
+Accounts
+
+Opportunities
+
+Notebooks
+
+Tasks & Projects
+
+Activities
+
+Fields
+
+Product Intelligence
+
+Feature Requests
+
+Closing the Loop
+
+Reporting & Analytics
+
+Analytics
+
+Default Dashboards
+
+Custom Dashboards
+
+Broadcasts
+
+Overview
+
+Create a Broadcast
+
+Analytics
+
+Integrations
+
+CRM
+
+Ticketing
+
+Alerting
+
+Chat
+
+Incident Management
+
+Call Recording
+
+Calendar
+
+Data Warehouse
+
+Codebase
+
+Pylon MCP
+
+Security
+
+Security Overview
+
+IP Addresses
+
+Developer
+
+API
+
+Custom Apps
+
+Embedded Iframes
+
+Webhooks
+
+Powered by GitBook
+
+On this page
+
+Copy
+On this page
+
+Getting Started
+
+Introduction
+
+Pylon is the first agentic support platform built for B2B.
+
+Track customer issues across any channel and orchestrate agents and Automations to investigate, take action, and resolve customer issues.
+
+What is Agentic Support?
+
+Agentic Support is a new way of working where people and AI work together across the entire support operation.
+
+Instead of doing every task yourself, agents can work directly with customers, while Automations run repeatable workflows when specific events happen or on a recurring schedule. Skills define how agents handle specific scenarios and take action.
+
+Your team stays in control, providing the judgment and direction while AI handles more of the repetitive work.
+Assist AgentAutomationsSkillsConnectorsSupport AgentOmnichannel SupportCustomer PortalChat WidgetTriggersAccount IntelligenceProduct IntelligenceReporting & AnalyticsBroadcastsAPI
+
+NextQuick Start
+
+Last updated 26 days ago
+
+Was this helpful?
+
+Was this helpful?

@@ -1,0 +1,11 @@
+{
+  "id": 34,
+  "name": "GoHighLevel",
+  "requested_url": "https://marketplace.gohighlevel.com/docs.md",
+  "final_url": "https://marketplace.gohighlevel.com/docs.md",
+  "status": 200,
+  "chars": 8235,
+  "title": "",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T15:44:14+00:00"
+}

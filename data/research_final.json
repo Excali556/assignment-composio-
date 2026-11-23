@@ -1,0 +1,3889 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_liner": "Programmatic access to Salesforce data via REST API",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/salesforcecli/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing are not specified in the documentation.",
+    "quotes": {
+      "auth": "* **[Authorization Through External Client Apps or Connected Apps and OAuth 2.0](https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html)** For a client application to access REST API resources, it must be authorized as a safe visitor.",
+      "api": "Title: Salesforce Developers URL Source: https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html Published Time: Fri, 20 Nov 2026 01:23:32 GMT Markdown Content: ## Introduction to REST API REST API provides you with programmatic access to your data in Salesforce."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+      "fetched_at": "2026-11-23T15:47:46+00:00",
+      "transport": "proxy",
+      "chars": 4422
+    },
+    "verified": false,
+    "mcp_status": "verified-url"
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": null,
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "confidence": "Low",
+    "notes": "Documentation snippet provides only limited details; many fields are unspecified.",
+    "quotes": {
+      "auth": "Settings App Management App Uninstalls Feature Flags Authentication API Guide OAuth tokens Automation Email templates Sequences Workflow actions CMS Blogs Content audit Domains HubDB Media Bridge Pages Site Search Source code URL mappings URL redirects Communication preferences API"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 2879
+    },
+    "verified": false,
+    "corrections": [
+      {
+        "field": "api_types",
+        "pass1": [],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_liner": "Pipedrive is a Web-based Sales CRM.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "ID is arbitrarily set as 0 due to lack of source data.",
+    "quotes": {
+      "auth": "The API token can be obtained manually from the Pipedrive app. OpenAPI 3 You can click on the \"Run in Postman\" button below to interact with our API.",
+      "api": "Client libraries We offer two official Pipedrive API client libraries: Node.js and PHP. Subscribe to Pipedrive’s Developer Newsletter Your email address Subscribe We promise not to send you any marketing materials or spam, just developer news."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 2863
+    },
+    "verified": false
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "one_liner": "Revolutionary, highly customisable, powerful data-driven CRM platform.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Authentication methods are not specified in the provided documentation.",
+    "quotes": {
+      "api": "You can also subscribe to events in realtime using webhooks. MCP Manage Attio via AI."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.attio.com/docs/overview",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 1985
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "one_liner": "Build apps in TypeScript, connect tools via APIs, and self‑host Twenty.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Open Source / Local CLI",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model is based on explicit open‑source wording, no marketplace details provided.",
+    "quotes": {
+      "auth": "API Read and write records over REST and GraphQL, get webhooks when records change, and connect apps with OAuth. Self-Host Run Twenty on your own infrastructure with Docker Compose, then secure and upgrade it.",
+      "access": "UI Library Twenty’s open-source React primitives, components, icons and theme tokens.",
+      "api": "API Read and write records over REST and GraphQL, get webhooks when records change, and connect apps with OAuth."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.twenty.com/developers/introduction",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 3068
+    },
+    "verified": true
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "one_liner": "Integrate with other services and build tools on top of Podio",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "Webhooks",
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "Medium",
+    "notes": "Access model and pricing details are not provided in the documentation.",
+    "quotes": {
+      "auth": "Podio Home Pricing What people say Blog About App Market Log in Getting started The core concepts of Podio API conventions and structure Rate limits FAQ Get an API key Authentication API Reference Tutorials Client Libraries Developer Forums Partner Extensions Terms of Use Getting started with Podio API The Podio API lets you integrate with other services and build tools and applications on top of Podio 1 Get an API Key Get started right away - generate your API key.",
+      "api": "If you want to build event-driven applications, you have the ability to register webhooks in your Podio apps. There are some sensible rate-limits in place, but if you need us to raise them for your app, get in touch.",
+      "mcp": "Developers Getting started Documentation Tutorials Client Libraries About Podio About Join the Team Partners In the News Terms & Conditions Privacy Policy Legal Note Cookie Preferences Contact Contact Help & Support Join a demo Media Resources Follow Blog Follow @Podio Go Mobile Download the Podio iPhone App Access your activity streams, apps, tasks, inbox and contacts with the Podio mobile app."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developers.podio.com/",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 2297
+    },
+    "verified": false
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_liner": "Zoho CRM API uses OAuth 2.0 for secure delegated access.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Low",
+    "notes": "Many fields (API type, access model, MCP) are not explicitly stated in the source.",
+    "quotes": {
+      "auth": "OAuth 2.0 for V8 APIs - An Overview The Zoho CRM API uses the OAuth 2.0 protocol for authentication. OAuth 2.0 is an industry-standard protocol specification that enables third-party applications (clients) to gain delegated access to protected resources in Zoho via an API.",
+      "access": "Clients are not required to support password authentication or store user credentials."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 2717
+    },
+    "verified": false
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "category": "CRM and Sales",
+    "one_liner": "Build integrations, automate workflows, and extend Close for your team.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the source.",
+    "quotes": {
+      "auth": "Authentication API keys for scripts or OAuth 2.0 for user-facing integrations.",
+      "api": "REST API Reference Full endpoint docs with schemas, examples, and an interactive API explorer.",
+      "mcp": "Power AI agents — Give Claude, ChatGPT, Cursor, and other tools direct access to Close data via the MCP server — no code required."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developer.close.com/",
+      "fetched_at": "2026-11-23T14:29:20+00:00",
+      "transport": "urllib",
+      "chars": 2958
+    },
+    "verified": false,
+    "mcp_status": "mentioned-in-docs-url-unresolved"
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "one_liner": "Provides a RESTful interface with JSON-formatted responses to access most Copper resources.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and marketplace details are not provided in the source.",
+    "quotes": {
+      "auth": "Collection Import and Use the Environment Authentication Authentication Overview OAuth2.0 OAuth2.0 Overview Quickstart Guide Documentation Requests Responses Search Paginating search results Best practices Embedded Apps Appendix Getting Support Change Policy Changelog Account and",
+      "api": "The Copper Developer API (\"Dev API\") provides a RESTful interface with JSON-formatted responses to access most Copper resources."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.copper.com/",
+      "fetched_at": "2026-11-23T14:29:19+00:00",
+      "transport": "urllib",
+      "chars": 5754
+    },
+    "verified": false
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation",
+    "confidence": "Low",
+    "notes": "Documentation only lists sections without details.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://api.docs.dealcloud.com/",
+      "fetched_at": "2026-11-23T14:29:20+00:00",
+      "transport": "urllib",
+      "chars": 3482
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation",
+    "confidence": "Low",
+    "notes": "Documentation snippet incomplete, provides no details.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.zendesk.com/api-reference.md",
+      "fetched_at": "2026-11-23T14:29:23+00:00",
+      "transport": "urllib",
+      "chars": 87473
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "one_liner": "Suite of SDKs and APIs for building apps that connect with Intercom.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model (pricing) is not explicitly stated in the documentation.",
+    "quotes": {
+      "auth": "You are also required to set up OAuth so that your app has permission to access and interact with customers' data.",
+      "access": "You can build a private app using your Access Token and it does not require a review.",
+      "api": "Build your own integration If you aren't able to find an existing app that solves the problem you're facing, you can build your own using our REST APIs and Canvas Kit framework. Go to the Developer Hub and create a new app.",
+      "mcp": "Help Center Reporting Using the APIs Webhooks Fin Agent API News Center Domains Model Context Protocol (MCP) References Object Model REST API Reference Canvas Kit Reference Webhook Topics Public Apps & App Store Configure OAuth Build and Publish Apps App Store Guidelines Home/ Overview Overview Copy The"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developers.intercom.com/docs",
+      "fetched_at": "2026-11-23T14:29:20+00:00",
+      "transport": "urllib",
+      "chars": 5489
+    },
+    "verified": true
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Freshdesk provides RESTful APIs for helpdesk ticket management.",
+    "auth_methods": [
+      "API Key",
+      "Basic"
+    ],
+    "access_model": "Free Trial",
+    "access_basis": "explicit",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Marketplace information not provided.",
+    "quotes": {
+      "auth": "You can use your personal API key to authenticate the request. If you use the API key, there is no need for a password.",
+      "access": "For all trial users, there is a default API limit of 50 calls/minute. If your account hasn't been switched to the new minute level APIs, please contact support@freshdesk.com to get the new rate limits enabled for your account."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "hint-not-found",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.freshdesk.com/api/",
+      "fetched_at": "2026-11-23T14:29:21+00:00",
+      "transport": "urllib",
+      "chars": 534987
+    },
+    "verified": false
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "one_liner": "Connect external agents to Front as teammates with full governance.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not stated in the documentation.",
+    "quotes": {
+      "api": "Partnering With Front Create, manage, and publish apps Join our Developer Community Core API Overview Getting Started with the Core API Authentication OAuth API tokens Fundamentals API Terminology 101 Base URL Rate limits Pagination Search Query object 'q' Resource Aliases Attachments",
+      "mcp": "Learn more MCP Server Access Front data and actions through the MCP protocol, allowing AI agents like Claude and ChatGPT to read and reply to conversations and other Front resources."
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://dev.frontapp.com/docs/welcome",
+      "fetched_at": "2026-11-23T14:29:21+00:00",
+      "transport": "urllib",
+      "chars": 10622
+    },
+    "verified": false,
+    "auth_demoted": true,
+    "mcp_status": "mentioned-in-docs-url-unresolved"
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "one_liner": "Pylon is the first agentic support platform built for B2B.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Lack of API details",
+    "confidence": "Low",
+    "notes": "The documentation snippet provides no concrete authentication, access model, or API specifications, making the integration feasibility unclear.",
+    "quotes": {
+      "api": "Security Overview IP Addresses Developer API Custom Apps Embedded Iframes Webhooks Powered by GitBook On this page Copy On this page Getting Started Introduction Pylon is the first agentic support platform built for B2B. Track customer issues across any channel and orchestrate agents",
+      "mcp": "Alerting Chat Incident Management Call Recording Calendar Data Warehouse Codebase Pylon MCP Security Security Overview IP Addresses Developer API Custom Apps Embedded Iframes Webhooks Powered by GitBook On this page Copy On this page Getting Started Introduction Pylon is the first"
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.usepylon.com/pylon-docs",
+      "fetched_at": "2026-11-23T14:29:22+00:00",
+      "transport": "urllib",
+      "chars": 2756
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "one_liner": "LiveAgent support platform offering REST API for agents, customers, and tickets.",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the documentation.",
+    "quotes": {
+      "auth": "Error messages formats 400 - Bad request error You can get this in case your athentification with API key failed because of problem with API key in application.",
+      "api": "My tickets Submit ticket Login Complete API reference Home>Technical Support>LiveAgent API>REST API>API v1>Documentation>Complete API reference Data fields formats Return messages formats Error messages formats Api v.1 Agents Retrieves agent info and auth token Application Return application installation date and latest version Companies"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://support.liveagent.com/840770-Complete-API-reference",
+      "fetched_at": "2026-11-23T15:44:14+00:00",
+      "transport": "urllib",
+      "chars": 124497
+    },
+    "verified": false
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "confidence": "Low",
+    "notes": "The source page lacks details on authentication, access model, and API.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.plain.com/docs/product/what-is-plain",
+      "fetched_at": "2026-11-23T15:44:14+00:00",
+      "transport": "urllib",
+      "chars": 181036
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "one_liner": "Help Scout offers inbox, docs, and beacon APIs with tiered rate limits.",
+    "auth_methods": [],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Authentication methods not specified in the source.",
+    "quotes": {
+      "access": "Plan Rate Limit Endpoint Access Standard Up to 200 calls per minute No access to reporting endpoints Plus Up to 400 calls per minute All endpoints available Pro Up to 800 calls per minute All endpoints available The Free plan does not include access to the API or integrations. Links to Specific Documentation The developer documentation is your definitive source for complete information.",
+      "api": "Below you'll find direct links to some of the most often asked about bits: Authentication Status Codes Endpoints Change Log Rate limits Our developer documentation also includes information on: Webhooks - have Help Scout send out notifications of events. Apps - build your own conversation sidebar apps to quickly access information from other tools your team uses."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+      "fetched_at": "2026-11-23T15:44:16+00:00",
+      "transport": "urllib",
+      "chars": 2545
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "one_liner": "Helpdesk platform offering a REST API for managing customers and settings.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Low",
+    "notes": "Documentation lacks details on authentication methods, access model, and MCP availability.",
+    "quotes": {
+      "api": "The Gorgias API is structured with REST in mind. Our API has predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.gorgias.com/reference/introduction",
+      "fetched_at": "2026-11-23T14:29:27+00:00",
+      "transport": "urllib",
+      "chars": 5028
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "No data",
+    "confidence": "Low",
+    "notes": "Source contains only an error page, no details about Gladly.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.gladly.ai/docs.md",
+      "fetched_at": "2026-11-23T14:29:29+00:00",
+      "transport": "curl",
+      "chars": 54266
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "one_liner": "Slack is a collaboration platform for messaging and workflow automation.",
+    "auth_methods": [
+      "OAuth2",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "API type not specified in the source.",
+    "quotes": {
+      "auth": "Key concepts​ OAuth 2.0: Learn how to use OAuth 2.0 to securely authenticate users and request access tokens.",
+      "access": "Slack apps use OAuth scopes to govern what they can access."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "not-stated",
+      "mcp": "hint-not-found"
+    },
+    "source": {
+      "url": "https://docs.slack.dev/authentication/",
+      "fetched_at": "2026-11-23T14:29:31+00:00",
+      "transport": "urllib",
+      "chars": 2813
+    },
+    "verified": false,
+    "mcp_status": "verified-url",
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "OAuth2",
+          "Token",
+          "Bearer Token"
+        ],
+        "pass2": [
+          "OAuth2",
+          "Token"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "one_liner": "Twilio provides APIs for voice, messaging, and authentication.",
+    "auth_methods": [
+      "Basic",
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and MCP information are not provided in the source.",
+    "quotes": {
+      "auth": "Authentication To authenticate requests to the Twilio APIs, Twilio supports HTTP Basic authentication. Use your API key SID as the username and your API key secret as the password.",
+      "api": "Build with AI Connect your AI agentInstall Twilio Skills Our API: the basics The Twilio REST API allows you to query metadata about your account, phone numbers, calls, text messages, and recordings. You can also do some fancy things like make outbound phone calls and send text messages. Base URL All URLs referenced in the"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.twilio.com/docs/iam/api",
+      "fetched_at": "2026-11-23T14:29:30+00:00",
+      "transport": "urllib",
+      "chars": 4860
+    },
+    "verified": false
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "one_liner": "Zoho Cliq is a team communication platform offering REST APIs.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access pricing or plan details are not provided.",
+    "quotes": {
+      "auth": "If your organization is on a different domain, replace \".com\" with the appropriate domain for the API endpoints on this page before using them Note: You can find out which domain you're accessing Zoho Cliq by checking the URL while accessing Zoho Cliq Authentication Zoho Cliq's Rest API's follows the OAuth 2.0 protocol to authorize and authenticate requests.",
+      "access": "Each API request must include an OAuth token in order to receive a success response.",
+      "api": "API Root Endpoint API Root End Point https://cliq.zoho.com Cliq API is standardized around REST, allowing you to perform read and write operations that you do with our web client."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+      "fetched_at": "2026-11-23T14:29:30+00:00",
+      "transport": "urllib",
+      "chars": 277495
+    },
+    "verified": true
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "one_liner": "Feishu access tokens authenticate API calls for apps and users.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation to assess buildability",
+    "confidence": "Low",
+    "notes": "The source provides token description but lacks details on auth methods, API type, access model, and MCP availability.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://open.feishu.cn/document/server-docs/api-call-guide/calling-process/get-access-token?lang=en-US.md",
+      "fetched_at": "2026-11-23T15:44:13+00:00",
+      "transport": "urllib",
+      "chars": 7449
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "one_liner": "Pumble SDK offers an ApiClient for easy interaction with the Pumble API.",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Medium",
+    "notes": "Access model and MCP details are not provided in the documentation.",
+    "quotes": {
+      "auth": "Every Request to Pumble API must be sent with two headers: x-app-token: Your app token that you receive when app is created. See manifest.",
+      "api": "Skip to content Pumble SDK Search docsK Main Navigation HomeGetting Started Appearance Menu Return to top Sidebar Navigation Guide Getting started Authorization Basic Concepts Interactivity Modals & Views Advanced Concepts Pumble CLI Production deployment Publishing to CAKE.com Marketplace Reference Manifest Triggers API Client Blocks Modals & Views Rate Limits On this page API Client ​ pumble-sdk provides an API client (ApiClient) for easier interaction the Pumble API. ApiClient contains methods that perform respective API calls, which can be done on behalf of either a user or a bot."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://cake-com.github.io/pumble-node-sdk/api-client.html",
+      "fetched_at": "2026-11-23T15:44:12+00:00",
+      "transport": "urllib",
+      "chars": 5958
+    },
+    "verified": false
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "one_liner": "Discord API provides REST endpoints for interacting with Discord data.",
+    "auth_methods": [
+      "Token",
+      "OAuth2",
+      "Basic"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not stated in the documentation.",
+    "quotes": {
+      "auth": "Using an OAuth2 bearer token gained through the OAuth2 API. Using basic authentication with credentials as the client ID and client secret found on the OAuth2 page of your app’s settings in the format client_id:client_secret as a Base64 encoded string.",
+      "api": "ation Encryption Snowflakes Convert Snowflake to DateTime Snowflake IDs in Pagination ID Serialization ISO8601 Date/Time Nullable and Optional Resource Fields Consistency HTTP API User Agent Content Type Rate Limiting Boolean Query Strings Array Query Strings Gateway (WebSocket) API Message Formatting Image Formatting Image Data Signed Attachment CDN URLs Uploading Files Editing Message Attachments File Type Filtering Locales API Reference API Reference Copy pageCopy page The Discord API is a REST API that allows you to interact with Discord data from your own applications."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.discord.com/developers/reference",
+      "fetched_at": "2026-11-23T14:29:31+00:00",
+      "transport": "urllib",
+      "chars": 24381
+    },
+    "verified": false,
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "OAuth2",
+          "Bearer Token",
+          "Basic",
+          "Token"
+        ],
+        "pass2": [
+          "Token",
+          "OAuth2",
+          "Basic"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "REST",
+          "SDK"
+        ],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_liner": "HTTP-based interface for building bots on Telegram.",
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing are not explicitly stated in the documentation.",
+    "quotes": {
+      "auth": "See earlier changes » Authorizing your bot Each bot is given a unique authentication token when it is created.",
+      "api": "Telegram Bots Telegram Bot API Telegram Bot API The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://core.telegram.org/bots/api",
+      "fetched_at": "2026-11-23T14:29:33+00:00",
+      "transport": "urllib",
+      "chars": 536523
+    },
+    "verified": false
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "one_liner": "Guide to using System User and Business Integration access tokens for WhatsApp Business API",
+    "auth_methods": [
+      "Bearer Token",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "ID is inferred as placeholder; no explicit ID provided.",
+    "quotes": {
+      "auth": "When making API requests, include your token in an authorization request header, preceded by `Bearer`. For example: ``` curl 'https://graph.facebook.com/v27.0/102290129340398/message_templates' \\ -H 'Authorization: Bearer EAAJB...' ``` Access tokens are opaque strings.",
+      "api": "In the window that appears, select your app, choose a token expiration preference, and assign your app these three Graph API permissions: * `business_management` * `whatsapp_business_management` * `whatsapp_business_messaging` You can search for `business` to find these permissions quickly: ![Image 6: Token generation dialog showing"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "hint-not-found",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.facebook.com/docs/whatsapp/access-tokens",
+      "fetched_at": "2026-11-23T15:47:52+00:00",
+      "transport": "proxy",
+      "chars": 14509
+    },
+    "verified": false
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "one_liner": "Aircall offers a cloud phone system with a REST API for calls, users, and teams.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Basic",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Existing marketplace connector status is unclear",
+    "quotes": {
+      "auth": "Request GET https://api.aircall.io Response { \"resource\": \"Aircall Documentation\", \"contact\": \"support@aircall.io\" } Authentication Introduction With Aircall Public API, Authentication can be done through OAuth or Basic Auth. If you want to build an App for companies using Aircall - this is mainly the case for Technology Partners - please use the OAuth flow.",
+      "access": "Request curl -X GET https://api.aircall.io/v1/ping \\ -H \"Authorization: Bearer {YOUR_ACCESS_TOKEN}\" Response Status: 200 OK { \"ping\": \"pong\" } Basic Auth ﹣ Aircall customers As an Aircall customer, an api_id and api_token are needed to use Aircall Public API: go to your Company's Settings page.",
+      "api": "REST API Aircall Public API is a classic REST API. It can be used with any programming languages and offers a fast, reliable and secure access to an Aircall account information."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.aircall.io/api-references",
+      "fetched_at": "2026-11-23T14:29:34+00:00",
+      "transport": "urllib",
+      "chars": 463308
+    },
+    "verified": true
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "one_liner": "Vonage provides communications APIs for messaging, voice, and video.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Not enough information",
+    "confidence": "Low",
+    "notes": "Documentation snippet contains no details on authentication, access model, or API types.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.vonage.com/en/api/messages.md",
+      "fetched_at": "2026-11-23T14:29:36+00:00",
+      "transport": "urllib",
+      "chars": 45190
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Programmatic interface for managing Google Ads campaigns and data",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model not explicitly stated in the documentation.",
+    "quotes": {
+      "auth": "and use Google Ads API Explorer Google Ads Query Builder Google Ads Query Validator Authentication and authorization Overview Access model overview Service account workflow User authentication workflow Overview Single-user authentication workflow Multi-user authentication workflow Security requirements OAuth 2.0 internals",
+      "api": "Client Libraries Use our officially supported client libraries. YouTube Watch developer videos and release highlights.",
+      "mcp": "Introduction Quickstart Handle errors Common errors Next steps Developer toolkit Google Ads MCP server Google Ads API AI agent skills Google Ads API Developer Assistant Overview Install and use Google Ads API Explorer Google Ads Query Builder Google Ads Query Validator Authentication and authorization"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developers.google.com/google-ads/api/docs/get-started/introduction",
+      "fetched_at": "2026-11-23T14:29:37+00:00",
+      "transport": "urllib",
+      "chars": 12930
+    },
+    "verified": false
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Get Started with Marketing API",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "confidence": "Medium",
+    "notes": "Most fields are not explicitly stated in the provided snippet.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.facebook.com/docs/marketing-api/get-started/authentication",
+      "fetched_at": "2026-11-23T15:47:52+00:00",
+      "transport": "proxy",
+      "chars": 170406
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "LinkedIn Ads platform provides APIs for ad management, reporting, events, and lead sync.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "confidence": "Medium",
+    "notes": "Key details like authentication method and API type are not specified.",
+    "quotes": {
+      "mcp": "Interested in Joining the LinkedIn Marketing Partner Program? The LinkedIn Marketing Partner Program is a global community of qualified technology and service providers that help marketers achieve more on LinkedIn."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://learn.microsoft.com/en-us/linkedin/marketing/overview?view=li-lms-2026-11",
+      "fetched_at": "2026-11-23T14:29:36+00:00",
+      "transport": "urllib",
+      "chars": 5797
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Low",
+    "notes": "Documentation snippet is incomplete, providing no details on auth, API, or access.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://marketplace.gohighlevel.com/docs.md",
+      "fetched_at": "2026-11-23T15:44:14+00:00",
+      "transport": "urllib",
+      "chars": 8235
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Power timely, relevant marketing campaigns with custom data pulled directly from your app.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "No explicit access model or MCP info provided.",
+    "quotes": {
+      "auth": "Authentication AuthorizationBearer Authorization using a Mailchimp API key (a.k.a.",
+      "api": "API ReferenceRoot List API root resources Copy page GET https://api.mailchimp.com/3.0/ GET /3.0/ cURL curl https://api.mailchimp.com/3.0/ \\ -H \"Authorization: Bearer <token>\" Try it 200Retrieved { \"_links\": [ { \"href\": \"string\", \"method\": \"GET\", \"rel\": \"string\", \"schema\": \"string\", \"targetSchema\": \"string\" } ], \"account_id\": \"string\", \"account_industry\": \"string\", \"account_name\": \"string\", \"account_timezone\": \"string\", \"avatar_url\": \"string\", \"contact\": { \"addr1\": \"string\", \"addr2\": \"string\", \"city\": \"string\", \"company\": \"string\", \"country\": \"string\", \""
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://mailchimp.com/developer/marketing/api/root/list",
+      "fetched_at": "2026-11-23T14:29:40+00:00",
+      "transport": "urllib",
+      "chars": 11689
+    },
+    "verified": false
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Klaviyo provides marketing automation APIs for email, SMS, and social campaigns.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not stated in the documentation.",
+    "quotes": {
+      "auth": "Authentication Klaviyo provides 3 methods of authentication including private key authentication and OAuth (used to call server-side APIs) and public key authentication (used to call client-side APIs).",
+      "access": "Private key authentication All /api endpoints use private API keys with API key scopes to authenticate requests.",
+      "api": "ChatGPT about this page Open in Cursor↗(opens in a new tab)Ask Cursor about this page Every endpoint in the Klaviyo REST API, with its authentication, parameters, request and response bodies, and an example request. This reference covers API revision 2026-10-15. Jumpstart your Klaviyo API journey with our YouTube tutorials. Dive"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.klaviyo.com/en/reference",
+      "fetched_at": "2026-11-23T14:29:40+00:00",
+      "transport": "urllib",
+      "chars": 30592
+    },
+    "verified": true,
+    "mcp_status": "verified-url"
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Systeme.io provides a RESTful public API for automation, booking, subscriptions and more.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model is not explicitly stated in the documentation.",
+    "quotes": {
+      "auth": "Authentication To authenticate with the Systeme.io Public API, your only option right now is to attach your API key to the X-API-Key header of each request.",
+      "access": "Getting Started To begin using the Systeme.io Public API, you must first obtain an authentication key. This key is your ticket to unlocking the API's capabilities."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "hint-not-found",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.systeme.io/reference/api",
+      "fetched_at": "2026-11-23T14:29:49+00:00",
+      "transport": "urllib",
+      "chars": 14375
+    },
+    "verified": false
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "No information available",
+    "confidence": "Low",
+    "notes": "Source contains only HTML script tags, no API details.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.pinterest.com/",
+      "fetched_at": "2026-11-23T14:29:59+00:00",
+      "transport": "urllib",
+      "chars": 90165
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Threads API lets apps publish, read, and manage Threads content via OAuth2 tokens.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "No pricing or MCP information is provided in the source.",
+    "quotes": {
+      "auth": "API authentication is handled by Threads user access tokens that conform to the OAuth 2.0 protocol."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "hint-not-found",
+      "api": "hint-not-found",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.facebook.com/docs/threads/get-started",
+      "fetched_at": "2026-11-23T15:47:47+00:00",
+      "transport": "proxy",
+      "chars": 9144
+    },
+    "verified": false
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "SendGrid v3 API provides a REST interface to send email at scale",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and MCP information are not provided in the source",
+    "quotes": {
+      "api": "s page Additional resources Onboarding guide Email API quickstarts SDKs and tools Looking for more inspiration?Visit the Developer Hub On this page Additional resources Onboarding guide Email API quickstarts SDKs and tools Copy as markdown Copy and view Copy as markdownView as markdown Open in assistant Open in ChatGPTOpen in ClaudeOpen in CursorOpen in Perplexity Build with AI Connect your AI agentInstall Twilio Skills SendGrid v3 API reference The SendGrid v3 Web API provides a REST interface to send email at scale and ensure your application can handle high volumes."
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.twilio.com/docs/sendgrid/api-reference",
+      "fetched_at": "2026-11-23T14:29:46+00:00",
+      "transport": "urllib",
+      "chars": 16129
+    },
+    "verified": false,
+    "auth_demoted": true,
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [],
+        "pass2": [
+          "API Key"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "REST",
+          "Webhooks",
+          "SDK"
+        ],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "one_liner": "Shopify Admin GraphQL API for building apps and integrations",
+    "auth_methods": [
+      "OAuth2",
+      "Access Token"
+    ],
+    "access_model": "Mixed",
+    "access_basis": "explicit",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://shopify.dev/docs/apps/build/storefront-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Pricing or access model is not mentioned in the source.",
+    "quotes": {
+      "auth": "[access.admin] embedded_app_direct_api_access = true Anchor to AuthenticationAuthentication Every GraphQL Admin API request carries an access token in the X-Shopify-Access-Token header. For most apps you don't fetch or set that token yourself: the Shopify CLI template and Direct API access authenticate each request for you.",
+      "access": "To keep the platform secure, apps need to request specific access scopes during the install process. Only request as much data access as your app needs to work.",
+      "api": "const response = await fetch('shopify:admin/api/2026-10/graphql.json', { method: 'POST', body: JSON.stringify({ query: `query { shop { name } }`, }), }); const { data } = await response.json(); console.log(data); Anchor to Endpoints and queriesEndpoints and queries GraphQL queries are executed by sending POST HTTP requests to the endpoint: https://{store_name}.myshopify.com/admin/api/2026-10/graphql.json Queries begin with one of the objects listed under QueryRoot."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "fetched_at": "2026-11-23T14:29:49+00:00",
+      "transport": "urllib",
+      "chars": 17632
+    },
+    "verified": true,
+    "mcp_status": "verified-url",
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "pass2": [
+          "OAuth2",
+          "Access Token"
+        ]
+      },
+      {
+        "field": "access_model",
+        "pass1": "Not Stated",
+        "pass2": "Mixed"
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "GraphQL",
+          "CLI / Library"
+        ],
+        "pass2": [
+          "GraphQL",
+          "REST",
+          "Webhooks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "one_liner": "The WooCommerce REST API connects your store to external systems and services.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model is not explicitly stated in the documentation.",
+    "quotes": {
+      "auth": "Generate API keys ↑ Back to top The WooCommerce REST API uses a key system to control access. Each set of keys is linked to a WordPress user on your site.",
+      "api": "/ WooCommerce / Site administration / WooCommerce REST API WooCommerce REST API The WooCommerce REST API connects your store to external systems and services. Most integrations require you to generate API keys in WooCommerce and enter them in the external service to establish the connection. This document covers how to generate and manage REST API keys from a"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "fetched_at": "2026-11-23T14:29:49+00:00",
+      "transport": "urllib",
+      "chars": 5621
+    },
+    "verified": false
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "one_liner": "Retrieve cart_id from abandoned cart token for headless storefronts.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Auth method not specified in the source text.",
+    "quotes": {
+      "api": "Use /abandoned-carts/{token} on headless storefronts to retrieve the cart_id using the abandoned cart token passed to the storefront when a shopper clicks an abandoned cart email link."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/management/abandoned-carts",
+      "fetched_at": "2026-11-23T14:29:52+00:00",
+      "transport": "urllib",
+      "chars": 82269
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "one_liner": "RESTful APIs for building storefronts, merchant tools, and integrations on B2C Commerce.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "SDK"
+    ],
+    "existing_mcp": false,
+    "mcp_url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/b2c-developer-tooling.html#connect-your-ai-assistant",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Auth method inferred as Bearer Token from access_token mention.",
+    "quotes": {
+      "auth": "(To create a SLAS client, see [Authorization for Shopper APIs](https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/authorization-for-shopper-apis.html).) The response includes an `access_token`: Use the `access_token` from Step 1 to fetch a product: A successful response returns product details as JSON: In addition to securing access to the Shopper API, SLAS can also turn on third-party identity providers, single sign-on, and personalization in your application.",
+      "access": "It also goes by “Salesforce Commerce API” or just “Commerce API.” For B2C Commerce customers, the API is available at no extra cost. To browse the endpoints, see the [API Reference](https://developer.salesforce.com/docs/commerce/commerce-api/references/about-commerce-api/about.html).",
+      "api": "Title: Salesforce Developers URL Source: https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/scapi-get-started.html Markdown Content: ## Get Started with the B2C Commerce API The B2C Commerce API (SCAPI) is a set of RESTful APIs for building storefronts, merchant tools, and integrations on the B2C Commerce platform."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "hint-not-found"
+    },
+    "source": {
+      "url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/scapi-get-started.html",
+      "fetched_at": "2026-11-23T15:47:49+00:00",
+      "transport": "proxy",
+      "chars": 9121
+    },
+    "verified": true
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "one_liner": "Adobe Commerce REST APIs enable integration with CRM, ERP, and mobile apps.",
+    "auth_methods": [
+      "Bearer Token",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "confidence": "Medium",
+    "notes": "Access model and MCP information are not provided in the documentation.",
+    "quotes": {
+      "auth": "In Adobe Commerce as a Cloud Service, you must use Adobe Identity Management Service (IMS) to authenticate your requests.",
+      "api": "Endpoints Adobe Commerce provides a wide range of REST API endpoints that allow you to perform actions on behalf of Commerce administrators, customers, and guest shoppers."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.adobe.com/commerce/webapi/rest/",
+      "fetched_at": "2026-11-23T14:29:50+00:00",
+      "transport": "urllib",
+      "chars": 3787
+    },
+    "verified": false
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "one_liner": "Manage commerce features of a Squarespace merchant site via APIs.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and MCP details are not specified in the documentation.",
+    "quotes": {
+      "api": "Structure and design All Commerce APIs are built on HTTPS and designed with REST principles in mind."
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.squarespace.com/commerce-apis/overview",
+      "fetched_at": "2026-11-23T14:29:50+00:00",
+      "transport": "urllib",
+      "chars": 2277
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "one_liner": "",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient documentation",
+    "confidence": "Low",
+    "notes": "Documentation snippet insufficient to determine details.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.ecwid.com/",
+      "fetched_at": "2026-11-23T14:29:51+00:00",
+      "transport": "urllib",
+      "chars": 521796
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Low",
+    "notes": "The source provides no details on API, authentication, or access requirements.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://gumroad.com/help",
+      "fetched_at": "2026-11-23T14:29:52+00:00",
+      "transport": "urllib",
+      "chars": 49288
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "one_liner": "Amazon Selling Partner API enables programmatic access to Amazon marketplace data and operations.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Pricing and access model are not specified in the documentation.",
+    "quotes": {
+      "auth": "Request a Login with Amazon access token A Login with Amazon (LWA) access token authorizes your application to take certain actions on behalf of a selling partner.",
+      "access": "Get the application authorized by a selling partner or, if you're a private developer, authorize it yourself.",
+      "api": "for a Browse Node Customer Feedback API Rate Limits Data Kiosk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Explorer User Guide Data Kiosk Query Processing Finished Notification Building Data Kiosk workflows guide Vendor Analytics Dataset Use Case"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer-docs.amazon/sp-api/docs/connecting-to-the-selling-partner-api",
+      "fetched_at": "2026-11-23T14:29:51+00:00",
+      "transport": "urllib",
+      "chars": 27866
+    },
+    "verified": true
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "one_liner": "Collect payments, manage subscriptions, and automate business with Commas.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model is not explicitly described in the documentation.",
+    "quotes": {
+      "auth": "### Authentication Every API request must include your API key in the `x-api-key` header. There are no usernames or passwords — just your key."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "hint-not-found",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://apidocs.fan/",
+      "fetched_at": "2026-11-23T15:47:51+00:00",
+      "transport": "proxy",
+      "chars": 318061
+    },
+    "verified": false
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "DataForSEO provides REST APIs for SEO data, including SERP, screenshots, maps, and more.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Partial",
+    "main_blocker": "Authentication method not specified",
+    "confidence": "Medium",
+    "notes": "Auth details and pricing/access model are ambiguous in the source.",
+    "quotes": {
+      "api": "Sandbox Best Practices REST technology DataForSEO API is using the REST technology for interchanging data between your application and our service."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.dataforseo.com/v3/",
+      "fetched_at": "2026-11-23T14:29:53+00:00",
+      "transport": "urllib",
+      "chars": 13826
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "AI-powered SEO platform with API and MCP integration",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "The exact MCP endpoint URL is not provided.",
+    "quotes": {
+      "auth": "Just log in to your SE Ranking account, navigate to the API tab under the Settings section, and retrieve your unique API key. Once you have your API key, you can use it for different purposes.",
+      "access": "You can even test it in the free trial account. For higher volume, the API Add-On starts at $149/month and can be added to any existing subscription.",
+      "api": "SE Ranking doesn’t currently offer first-party SDKs and integration is done via the REST API reference and a Postman collection for endpoint testing.",
+      "mcp": "SE Ranking’s MCP server connects SE Ranking’s data directly to AI assistants like Claude, Codex, Gemini, Cursor, and any other client."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://seranking.com/api.html",
+      "fetched_at": "2026-11-23T14:29:53+00:00",
+      "transport": "urllib",
+      "chars": 22025
+    },
+    "verified": true,
+    "corrections": [
+      {
+        "field": "access_model",
+        "pass1": "Free Trial",
+        "pass2": "Paid Plan Required"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Access Ahrefs marketing and search data via APIs for custom integrations.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "The documentation does not provide a numeric identifier, so an arbitrary ID was used.",
+    "quotes": {
+      "auth": "Introduction Overview of the integration program How it works Architecture and data flow OAuth guide Implement OAuth 2.0 authorization How to apply Steps to join the program Introduction Overview of the integration program How it works Architecture and data flow OAuth guide Implement OAuth 2.0 authorization How to apply Steps to join the program © 2026 Ahrefs Pte.",
+      "access": "search and AI platforms. Introduction Overview, authentication, and rate limits Free test queries Try API endpoints without an Enterprise plan Explore endpoints Browse all available API endpoints API keys Create and manage your API keys Changelog Latest API updates and changes OpenAPI spec Full machine-readable spec for every endpoint",
+      "api": "DocsHomeREST APIMCPData StudioBot AnalyticsAhrefs Connect Search docs...⌘K ✕ Products HomeREST APIMCPData StudioBot AnalyticsAhrefs Connect Build with Ahrefs data Access Ahrefs marketing and search data through our APIs and developer tools to build custom integrations and workflows.",
+      "mcp": "API updates and changes OpenAPI spec Full machine-readable spec for every endpoint MCP Connect your Ahrefs data to AI assistants and agents to enhance their answers with real marketing insights. Introduction What is MCP and how to get started Claude Desktop / Web Connect Ahrefs to Claude on desktop or web ChatGPT setup Use Ahrefs"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.ahrefs.com/",
+      "fetched_at": "2026-11-23T14:29:54+00:00",
+      "transport": "urllib",
+      "chars": 3538
+    },
+    "verified": true
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "All-in-one scraping platform with AI agents, integrations, and APIs.",
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "SDK"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "MCP URL not specified in the documentation.",
+    "quotes": {
+      "auth": "Token Plan Learn how tokens work and create an API token for authentication. CLI Retrieve pages, search the web, and check usage from your terminal.",
+      "access": "Billing Understand subscription plans, token usage, and billing cycles. Features Explore MrScraper's key features and tools designed to make data extraction effortless.",
+      "api": "API Reference Explore every endpoint, authentication, pagination, and error handling. Residential Proxy Route your own tools and browsers through our proxy network.",
+      "mcp": "The MrScraper MCP server source code is available on GitHub for local setup, contributions, and issue reports."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.mrscraper.com/docs/getting-started/overview",
+      "fetched_at": "2026-11-23T14:29:57+00:00",
+      "transport": "urllib",
+      "chars": 5795
+    },
+    "verified": true
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "one_liner": null,
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Medium",
+    "notes": "Access model and buildability are not explicitly stated.",
+    "quotes": {
+      "auth": "To use your token in a request, either: (Recommended) Add the token to your request's Authorization header as Bearer <token>.",
+      "api": "The API is organized around RESTful HTTP endpoints. You can download the complete OpenAPI schema of Apify API in the YAML or JSON formats.",
+      "mcp": "Agents can also pay once with x402 or the Machine Payments Protocol (MPP) and receive a temporary API token with a fixed spend cap from the Apify Agent General Interface (AGI) at https://agi.apify.com."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.apify.com/api/v2",
+      "fetched_at": "2026-11-23T14:29:54+00:00",
+      "transport": "urllib",
+      "chars": 34797
+    },
+    "verified": false,
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "OAuth2",
+          "Bearer Token"
+        ],
+        "pass2": [
+          "Token"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "REST",
+          "Webhooks",
+          "CLI / Library",
+          "SDK"
+        ],
+        "pass2": [
+          "REST",
+          "Webhooks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Scrape, search, and interact with web pages via API",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Auth methods include optional API key and bearer token, but none is also allowed.",
+    "quotes": {
+      "auth": "cURL # No API key needed to get started — add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits:curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"url\": \"https://firecrawl.dev\", \"formats\": [\"markdown\", \"html\"] }' Add an API key when you need higher limits.",
+      "access": "No account or API key is required for this request.",
+      "api": "cURL # No API key needed to get started — add -H \"Authorization: Bearer $FIRECRAWL_API_KEY\" for higher rate limits:curl -s -X POST \"https://api.firecrawl.dev/v2/scrape\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"url\": \"https://firecrawl.dev\", \"formats\": [\"markdown\", \"html\"] }' Add an API key when you need higher limits.",
+      "mcp": "MCP Server: Connect Firecrawl to any AI tool via the Model Context Protocol. Bounty: 5,000 credit reward for solid feedback on Alexandria To qualify, complete a high-signal interview (thoughtful, concrete use cases, etc) with our Firecrawl Feedback Assistant."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.firecrawl.dev/introduction",
+      "fetched_at": "2026-11-23T14:29:54+00:00",
+      "transport": "urllib",
+      "chars": 12650
+    },
+    "verified": true,
+    "mcp_status": "verified-url",
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "API Key",
+          "Bearer Token",
+          "None"
+        ],
+        "pass2": [
+          "API Key"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "REST",
+          "CLI / Library",
+          "SDK"
+        ],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Secure API and proxy authentication for data extraction services",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/brightdata/brightdata-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "ID and MCP information not provided in the documentation",
+    "quotes": {
+      "access": "Usage is charged according to your pricing plan for each Bright Data product."
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "verified",
+      "api": "hint-not-found",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "fetched_at": "2026-11-23T14:29:55+00:00",
+      "transport": "urllib",
+      "chars": 10506
+    },
+    "verified": false,
+    "auth_demoted": true,
+    "mcp_status": "verified-url"
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Low",
+    "notes": "Source contains no details about Sherlock's API or access.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "fetched_at": "2026-11-23T14:29:56+00:00",
+      "transport": "urllib",
+      "chars": 7047
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "confidence": "Low",
+    "notes": "Insufficient detail; many fields are missing or ambiguous.",
+    "quotes": {
+      "api": "Send your API key in the x-api-key header. See Authentication."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.waterfall.io/v1/introduction",
+      "fetched_at": "2026-11-23T14:29:58+00:00",
+      "transport": "urllib",
+      "chars": 6673
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Clay provides a proprietary GTM database with a public API and CLI for developers.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Documentation does not specify pricing or access model.",
+    "quotes": {
+      "auth": "Requests authenticate with a Clay API key in the clay-api-key header. API reference Endpoint paths, request bodies, response schemas, and an interactive try-it console.",
+      "access": "Create one yourself in Clay under API and CLI → API keys. Keep keys server-side.",
+      "api": "API Use the Public API to call Clay from your own applications and services — backend jobs, internal tools, queues, and product features."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.clay.com/quickstart",
+      "fetched_at": "2026-11-23T15:44:16+00:00",
+      "transport": "urllib",
+      "chars": 2658
+    },
+    "verified": true
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/github/github-mcp-server",
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient information",
+    "confidence": "Medium",
+    "notes": "Auth methods not explicitly listed; access model not stated.",
+    "quotes": {
+      "auth": "Authenticating to the REST API You can authenticate to the REST API to access more endpoints and have a higher rate limit.",
+      "api": "Articles Category:All categories Learn about the REST API About the OpenAPI description for the REST API The GitHub REST API is fully described in an OpenAPI compliant document. Learn about the REST API About the REST API Get oriented to the REST API documentation."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.github.com/en/rest",
+      "fetched_at": "2026-11-23T14:29:58+00:00",
+      "transport": "urllib",
+      "chars": 6095
+    },
+    "verified": false,
+    "mcp_status": "verified-url"
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Programmatic access to Vercel via REST API using Bearer tokens",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "MCP URL not provided in the source",
+    "quotes": {
+      "access": "Authentication Vercel Access Tokens are required to authenticate and use the Vercel API.",
+      "api": "All endpoints live under the URLhttps://api.vercel.com and follow the REST architecture. Authentication Vercel Access Tokens are required to authenticate and use the Vercel API."
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://vercel.com/docs/rest-api",
+      "fetched_at": "2026-11-23T14:29:58+00:00",
+      "transport": "urllib",
+      "chars": 5016
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Netlify API enables managing sites, deploys, environment variables, and more.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and MCP information are not provided in the source.",
+    "quotes": {
+      "auth": "To authenticate API requests, include the token in the authorization header: Authorization: Bearer <YOUR_PERSONAL_ACCESS_TOKEN> To authenticate in shell scripts, refer to the code sample above for an example of how to use this token in a curl request.",
+      "api": "API And CLI Guides / API Guides Get started with the Netlify API Copy pageView as Markdown Copy as Markdown View as Markdown Use the Netlify REST API to manage atomic deploys of your sites and apps, manage form submissions, inject JavaScript snippets, manage DNSDNSThe system that translates a domain name like yoursite.com into the address computers use to find your site.×, and so much more."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "fetched_at": "2026-11-23T14:29:59+00:00",
+      "transport": "urllib",
+      "chars": 32207
+    },
+    "verified": false
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Comprehensive API for managing Cloudflare accounts, services, and security features.",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/cloudflare/mcp-server-cloudflare",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Auth methods are inferred from token‑related endpoints; exact OAuth flow details are not explicit.",
+    "quotes": {
+      "auth": "List Cloudflare Tunnel connections Clean up Cloudflare Tunnel connections TokenToken Get a Cloudflare Tunnel token ConnectorsConnectors Get Cloudflare Tunnel connector ManagementManagement Get a Cloudflare Tunnel management token WARP ConnectorWARP Connector List Mesh nodes Get a Mesh node Create a Mesh node Update a",
+      "api": "an event Create events in bulk AggregateAggregate Aggregate events GraphqlGraphql Run a GraphQL aggregation over events GraphGraph Query graph neighborhood from R2 Data Catalog QueriesQueries List saved event queries Create a saved event query Get a saved event query Update a saved event query Delete a saved event query",
+      "mcp": "SeatsSeats Update a user seat AccessAccess AI ControlsAI Controls McpMcp PortalsPortals List MCP Portals Create a new MCP Portal Read details of an MCP Portal Update an MCP Portal Delete an MCP Portal ServersServers List MCP Servers Create a new MCP Server Read the details of an MCP Server Update an MCP"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developers.cloudflare.com/api/",
+      "fetched_at": "2026-11-23T14:30:00+00:00",
+      "transport": "urllib",
+      "chars": 193102
+    },
+    "verified": false,
+    "mcp_status": "verified-url",
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "OAuth2",
+          "API Key",
+          "Token",
+          "Bearer Token"
+        ],
+        "pass2": [
+          "API Key",
+          "Token"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "REST",
+          "GraphQL",
+          "Webhooks"
+        ],
+        "pass2": [
+          "REST",
+          "Webhooks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Supabase auto-generates a RESTful API from your database schema",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/supabase/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the source.",
+    "quotes": {
+      "auth": "You can find the API Keys in the Settings > API Keys section of the Dashboard.",
+      "api": "Features Supabase provides a RESTful API using PostgREST, a thin API layer on top of Postgres."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://supabase.com/docs/guides/api",
+      "fetched_at": "2026-11-23T14:29:59+00:00",
+      "transport": "urllib",
+      "chars": 3636
+    },
+    "verified": false,
+    "mcp_status": "verified-url"
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "REST API designed with discoverability, supporting Cypher queries.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "No authentication details provided in source.",
+    "quotes": {
+      "api": "The Neo4j REST API is designed with discoverability in mind, so that you can start with a GET on the Service root and from there discover URIs to perform other requests."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://neo4j.com/docs/rest-docs/current/",
+      "fetched_at": "2026-11-23T15:44:24+00:00",
+      "transport": "urllib",
+      "chars": 145605
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "REST API to access and update data in Snowflake databases.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Key Pair authentication does not map cleanly to listed auth method options.",
+    "quotes": {
+      "auth": "Authenticating to the server Use OAuth or Key Pair to authenticate with the Snowflake server.",
+      "api": "Workday Live Data Query for Snowflake About Workday Data Cloud and Snowflake Data engineering Data loading Dynamic tables Streams and tasks Row timestamps DCM Projects Pipeline Builder dbt Projects on Snowflake Data Unloading Storage lifecycle policies Migrations Queries Collaboration Snowflake AI & ML Snowflake Postgres Alerts & Notifications Security Organizations & Accounts Business continuity & data recovery Performance optimization Cost & Billing Snowflake SQL API¶ The Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+      "fetched_at": "2026-11-23T14:30:01+00:00",
+      "transport": "urllib",
+      "chars": 3090
+    },
+    "verified": false
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Atlas Administration API provides programmatic access to admin features",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient information to determine buildability",
+    "confidence": "Medium",
+    "notes": "The documentation does not specify pricing, access model, or MCP details, making several fields ambiguous.",
+    "quotes": {
+      "auth": "Authentication The Atlas Administration API uses one of two methods to authenticate requests: service accounts or API keys. This ensures that the access tokens and keys that serve as usernames and passwords are never sent over the network.",
+      "api": "API Atlas Administration API Reference Copy page The Atlas Administration API follows the principles of the REST architectural style to expose a number of internal resources that enable programmatic access to administrative features in Atlas. To view the full list of available Atlas Administration API endpoints, see the Atlas Administration"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/",
+      "fetched_at": "2026-11-23T14:30:03+00:00",
+      "transport": "urllib",
+      "chars": 21405
+    },
+    "verified": false
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "The integrated platform for monitoring & security",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "CLI / Library",
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model not explicitly stated in the documentation",
+    "quotes": {
+      "auth": "Getting started Authenticate to the API with an API key using the header DD-API-KEY. For some endpoints, you also need an Application key, which uses the header DD-APPLICATION-KEY.",
+      "access": "AI Security Labs Login GET STARTED FREEFree Trial HomeDocsAPI / Overview Authorization Scopes for OAuth Clients Rate Limits Using the API Changelog Action Connection Actions Datastores Agent Health Agent Observability Agentless Scanning AI Gateway AI Guard Annotations Anthropic Usage And Costs Integration",
+      "api": "Select one of our official client libraries languages in each endpoint to see code examples from that library."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.datadoghq.com/api/latest/",
+      "fetched_at": "2026-11-23T14:30:03+00:00",
+      "transport": "urllib",
+      "chars": 18130
+    },
+    "verified": true
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "The Sentry web API is used to access the Sentry platform programmatically.",
+    "auth_methods": [
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and pricing details are not provided in the source.",
+    "quotes": {
+      "auth": "Getting Started Authentication Pagination Permissions Rate Limits Requests Sentry API Tutorials Tutorial: Create a Sentry Authentication Token Tutorial: Create and List Teams with the Sentry API Choosing the Right API Base Domain While many of Sentry's APIs use sentry.io as the host for API endpoints, if you want to indicate a specific data storage location, you can use your region-specific domain.",
+      "api": "Users Product Changelog Sandbox More Home API Reference Copy page API Reference The Sentry web API is used to access the Sentry platform programmatically. You can use the APIs to manage account-level resources, like organizations and teams, as well as manage and export data. If you're looking for information about the API surface for Sentry's SDKs, see the SDK"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.sentry.io/api/",
+      "fetched_at": "2026-11-23T14:30:03+00:00",
+      "transport": "urllib",
+      "chars": 2111
+    },
+    "verified": false
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "one_liner": null,
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/makenotion/notion-mcp-server",
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient info",
+    "confidence": "Low",
+    "notes": "Documentation excerpt lacks details on access model and API specifics.",
+    "quotes": {
+      "auth": "Conventions For requests to pages, databases, and other workspace resources, send an Authorization: Bearer header with your token and a Notion-Version header."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.notion.com/reference/intro",
+      "fetched_at": "2026-11-23T14:30:03+00:00",
+      "transport": "urllib",
+      "chars": 2461
+    },
+    "verified": false,
+    "mcp_status": "verified-url",
+    "corrections": [
+      {
+        "field": "api_types",
+        "pass1": [],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "category": "Productivity and Project Management",
+    "one_liner": "Airtable provides structured fields, relational links, and automations for AI agents.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Partial",
+    "main_blocker": "Requires installing the Airtable MCP plugin",
+    "confidence": "Medium",
+    "notes": "Authentication methods are not specified in the provided text.",
+    "quotes": {
+      "api": "airtable-cli Teaches your agent about the Airtable CLI. Solution skills Description product-ops Teaches your AI tool sprint tracking, roadmap management, and prioritization workflows.",
+      "mcp": "View the quickstart What our MCP server allows agents to do The Airtable MCP server gives agents your base's full structure — field types, relationships, and views — so they can make context-aware decisions."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://airtable.com/developers/agents",
+      "fetched_at": "2026-11-23T14:30:07+00:00",
+      "transport": "urllib",
+      "chars": 4121
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "one_liner": "Linear is a project management tool for tracking issues and workflows.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "GraphQL"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model and marketplace details are not stated in the documentation.",
+    "quotes": {
+      "auth": "API Learn how to use the GraphQL API to query and mutate your data Authentication Use OAuth 2.0 or personal API keys to authenticate your requests to the Linear API Agents How to best integrate an AI agent into Linear TypeScript SDK Install the Linear SDK to use strongly typed models and operations Guides Upload a file Learn how to",
+      "api": "Getting Started GraphQL API Learn how to use the GraphQL API to query and mutate your data Authentication Use OAuth 2.0 or personal API keys to authenticate your requests to the Linear API Agents How to best integrate an AI agent into Linear TypeScript SDK Install the Linear SDK to use strongly typed models and operations Guides Upload a file Learn how to reference a file in markdown content, or upload with the API Create issues via URL Open issue creation with pre-filled fields from a URL CLI importer Import data from other services into Linear Resources Changelog Sta"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://linear.app/developers",
+      "fetched_at": "2026-11-23T14:30:06+00:00",
+      "transport": "urllib",
+      "chars": 1643
+    },
+    "verified": false,
+    "mcp_status": "none-confirmed",
+    "corrections": [
+      {
+        "field": "api_types",
+        "pass1": [
+          "GraphQL",
+          "Webhooks",
+          "SDK"
+        ],
+        "pass2": [
+          "GraphQL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "one_liner": "Jira Cloud platform REST API enables programmatic interaction with Jira.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "ID and MCP information not provided in the source.",
+    "quotes": {
+      "access": "The URIs for basic authentication REST API calls have this structure: https://<site-url>/rest/api/3/<resource-name> For example, https://your-domain.atlassian.net/rest/api/3/issue/DEMO-1 Permissions Operation permissions Most operations in this API require permissions. The calling user must have the required permissions for an operation to use it.",
+      "api": "Cloud Jira Cloud platform / Reference / REST API v3 About Postman Collection OpenAPI The Jira REST API enables you to interact with Jira programmatically. Use this API to build apps, script interactions with Jira, or develop any other type of integration. This page documents the REST resources available in Jira Cloud, including the HTTP response codes and"
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "fetched_at": "2026-11-23T14:30:07+00:00",
+      "transport": "urllib",
+      "chars": 13805
+    },
+    "verified": false,
+    "auth_demoted": true,
+    "mcp_status": "none-confirmed"
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "one_liner": "Asana provides a REST API, app components, and webhooks for building productivity apps.",
+    "auth_methods": [
+      "OAuth2",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model for end users is not explicitly stated in the documentation.",
+    "quotes": {
+      "auth": "Your app may ultimately use OAuth, but most developers test our API by creating a Personal Access Token (PAT) to make their first API calls.",
+      "access": "You can test in any of your existing workspaces, create a free account, or request a developer sandbox. The developer sandbox will allow you to test premium features not included in a free account.",
+      "api": "The primary feature of Asana’s platform is our rest API, so we recommend getting familiar with how our API works."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.asana.com/docs/overview",
+      "fetched_at": "2026-11-23T14:30:07+00:00",
+      "transport": "urllib",
+      "chars": 7874
+    },
+    "verified": true
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "one_liner": "The monday GraphQL API is part of the monday apps framework.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "GraphQL"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "ID and MCP URL not specified in the source.",
+    "quotes": {
+      "auth": "Admins and members have access to their own API tokens. Guests cannot access an API key but can utilize API features through other authentication methods, like OAuth or a shortLivedToken.",
+      "access": "For building and testing apps or API integrations without touching production data, use a free developer account. What monday products does the API support?",
+      "api": "The monday GraphQL API is part of the monday apps framework. It is an application layer that allows apps to read and update data inside a monday.com account.",
+      "mcp": "MCP server Authenticate with an API token Control MCP access with your own OAuth app Integrating monday MCP with Copilot Studio using a Custom App Integrating monday MCP with Claude using a Custom App Make your MCP integration publicly available Dynamic connectors Enterprise managed auth Set up enterprise-managed authorization for Claude Set up"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developer.monday.com/api-reference/docs/basics",
+      "fetched_at": "2026-11-23T14:30:07+00:00",
+      "transport": "urllib",
+      "chars": 7142
+    },
+    "verified": true
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "one_liner": "All-in-one productivity platform for tasks, docs, goals, and chat.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Documentation snippet incomplete but includes OAuth and REST endpoints.",
+    "quotes": {
+      "auth": "a message reactiondel Retrieve message repliesget Create a reply messagepost Retrieve message tagged usersget Get Post Subtype IDsget Docs Search for Docsget Create a Docpost Fetch a Docget Fetch PageListing for a Docget Fetch Pages belonging to a Docget Create a Pagepost Get pageget Edit a Pageput Tasks Move a task to a new Listput Update task time estimates by userpatch Replace task time estimatesput Copy Page Get Access Token post https://api.clickup.com/api/v2/oauth/token These are the routes for authing the API and going through the OAuth flow.",
+      "api": "Content HomeGuidesAPI Docs Get Access Token ClickUp API v2 Reference Authorization Get Access Tokenpost Get Authorized Userget Attachments Create Task Attachmentpost Comments Get Task Commentsget Create Task Commentpost Get Chat View Commentsget Create Chat View Commentpost Get List Commentsget Create"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.clickup.com/reference/getaccesstoken",
+      "fetched_at": "2026-11-23T14:30:08+00:00",
+      "transport": "urllib",
+      "chars": 6072
+    },
+    "verified": false
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "one_liner": "Coda's Superhuman Docs API lets you programmatically interact with docs.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Auth methods beyond Bearer token are not clearly specified.",
+    "quotes": {
+      "auth": "Request samples Python 3.13 Shell Copy import requests headers ={'Authorization':'Bearer <your API token>'} uri ='https://coda.io/apis/v1/folders' res = requests.get(uri, headers=headers).json()for folder in res['items']:print(f'Folder: {folder[\"name\"]}') Response samples 200 400 401 403 429 Content type",
+      "access": "Free and Paid Workspaces We make the Superhuman Docs API available to all of our users free of charge, in both free and paid workspaces.",
+      "api": "Developer TermsTerms of Service Introduction The Superhuman Docs API is a RESTful API that lets you programmatically interact with data in Superhuman Docs (formerly Coda): List and search documents Create new docs and copy existing ones Share and publish docs Discover pages, tables,",
+      "mcp": "to integrate Superhuman Docs with an AI tool, you may also want to consider using the Superhuman Docs MCP server. It's optimized for LLM usage patterns and often exposes more granular methods for accessing and modifying data. Getting Started Our Getting Started Guide helps you learn the basic of working with the API"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.superhuman.com/developers/apis/v1",
+      "fetched_at": "2026-11-23T14:30:08+00:00",
+      "transport": "urllib",
+      "chars": 143690
+    },
+    "verified": true
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "one_liner": "Collaboration and work management platform",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient API details",
+    "confidence": "Low",
+    "notes": "Documentation page lists resources but lacks specifics on auth, access, and API types.",
+    "quotes": {
+      "mcp": "Smartsheet AI & Smartsheet MCP Server Smartsheet MCP Server Tools Smartsheet API Guides Smartsheet API Reference Smartsheet SDKs Resources C# (smartsheet-csharp-sdk) Java (smartsheet-java-sdk) Node.js (smartsheet-javascript-sdk) Python (smartsheet-python-sdk) Smartsheet API Samples Resources Java (java-read-write-sheet) Node.js (node-read-write-sheet) Python (python-read-write-sheet) More Smartsheet samples repositories Brandfolder Brandfolder API Guides Brandfolder API Reference Brandfolder SDKs: Python Brandfolder SDKs: Panel UI SDK Resourc"
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://developers.smartsheet.com/",
+      "fetched_at": "2026-11-23T14:30:13+00:00",
+      "transport": "urllib",
+      "chars": 1673
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "one_liner": "Harvest API v2 Help Center",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Insufficient API details",
+    "confidence": "Low",
+    "notes": "Many required details such as authentication and API type are not provided.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://help.getharvest.com/api-v2/",
+      "fetched_at": "2026-11-23T14:30:08+00:00",
+      "transport": "urllib",
+      "chars": 2274
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Stripe provides a suite of payment APIs for online transactions.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://github.com/stripe/ai",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model not explicitly stated in documentation.",
+    "quotes": {
+      "auth": "Authentication Ask about this section Copy for LLM View as Markdown The Stripe API uses API keys to authenticate requests. You can view and manage your API keys in the Stripe Dashboard.",
+      "access": "In both test mode and live mode, you can create as many restricted API keys as you need for different use cases or components of your application.",
+      "api": "Sign in → API Reference Ask about this section Copy for LLM View as Markdown The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. You can use the Stripe"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.stripe.com/api",
+      "fetched_at": "2026-11-23T14:30:11+00:00",
+      "transport": "urllib",
+      "chars": 9500
+    },
+    "verified": true,
+    "mcp_status": "verified-url",
+    "corrections": [
+      {
+        "field": "auth_methods",
+        "pass1": [
+          "API Key",
+          "Basic",
+          "Bearer Token"
+        ],
+        "pass2": [
+          "API Key"
+        ]
+      },
+      {
+        "field": "api_types",
+        "pass1": [
+          "REST",
+          "CLI / Library",
+          "SDK"
+        ],
+        "pass2": [
+          "REST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "one_liner": "Plaid provides APIs for financial data aggregation and banking services.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Plaid's access model is not explicitly stated in the provided documentation.",
+    "quotes": {
+      "auth": "Almost all Plaid API endpoints require a client_id and secret. These may be sent either in the request body or in the headers PLAID-CLIENT-ID and PLAID-SECRET.",
+      "access": "Once you've completed the signup process and acknowledged our terms, we'll provide a live client_id and secret via the Dashboard."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "hint-not-found",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://plaid.com/docs/api/",
+      "fetched_at": "2026-11-23T14:30:12+00:00",
+      "transport": "urllib",
+      "chars": 6353
+    },
+    "verified": false,
+    "corrections": [
+      {
+        "field": "access_model",
+        "pass1": "Not Stated",
+        "pass2": "Free Self-Serve"
+      },
+      {
+        "field": "api_types",
+        "pass1": [],
+        "pass2": [
+          "REST",
+          "Webhooks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "one_liner": "General REST API Information",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model not explicitly stated",
+    "quotes": {
+      "api": "::span{#general-api-information} # General REST API Information ## General API Information - The following base endpoints are available."
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developers.binance.com/en/docs/products/spot/rest-api.md",
+      "fetched_at": "2026-11-23T15:44:17+00:00",
+      "transport": "urllib",
+      "chars": 40635
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "one_liner": "REST API for forensic FX audits, detecting hidden bank spreads.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "existing_mcp": true,
+    "mcp_url": "https://www.ipayx.ai/docs/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "OAuth2 usage not explicitly confirmed for API calls.",
+    "quotes": {
+      "access": "[Get an API key](https://www.ipayx.ai/pricing) [OpenAPI Spec](https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/fx-public-api-v1/openapi.json) 3 endpoints audit · rates · audit/document Signed webhooks HMAC-SHA256 · audit.completed Marketplace ready Zapier · n8n · MCP ## Authentication Every request requires a Bearer token in the `Authorization` header.",
+      "api": "[Get an API key](https://www.ipayx.ai/pricing) [OpenAPI Spec](https://hvujzsdwcoweirroubeh.supabase.co/functions/v1/fx-public-api-v1/openapi.json) 3 endpoints audit · rates · audit/document Signed webhooks HMAC-SHA256 · audit.completed Marketplace ready Zapier · n8n · MCP ## Authentication Every request requires a Bearer token in the `Authorization` header.",
+      "mcp": "templates · QuickBooks International Bills · CRM Deal Enrichment MCP Directories Live Listed on the official MCP Registry and Glama QuickBooks · Stripe Coming Q3 2026 OAuth2 apps, payout audits, international bill enrichment ## Error codes | Status | Code | Meaning | | --- | --- | --- | | 400 | validation\\_error | Missing or"
+    },
+    "binding": {
+      "auth": "hint-not-found",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://www.ipayx.ai/docs/api?lang=en",
+      "fetched_at": "2026-11-23T15:44:25+00:00",
+      "transport": "curl",
+      "chars": 6456
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Unknown",
+    "confidence": "Low",
+    "notes": "Source does not contain QuickBooks API details.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started.md",
+      "fetched_at": "2026-11-23T14:30:24+00:00",
+      "transport": "urllib",
+      "chars": 1336147
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "one_liner": "Developer portal for Xero integrations",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "confidence": "Low",
+    "notes": "Limited information available in source.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.xero.com/docs.md",
+      "fetched_at": "2026-11-23T14:30:29+00:00",
+      "transport": "curl",
+      "chars": 113747
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "confidence": "Low",
+    "notes": "Insufficient documentation provided.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://developer.brex.com/docs.md",
+      "fetched_at": "2026-11-23T14:30:25+00:00",
+      "transport": "curl",
+      "chars": 229929
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "one_liner": "Ramp API Documentation",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "confidence": "Low",
+    "notes": "Source contains only minimal HTML with no API details.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.ramp.com/developer-api/v1/overview.md",
+      "fetched_at": "2026-11-23T14:30:25+00:00",
+      "transport": "urllib",
+      "chars": 13034
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_liner": "RESTful API providing private market data for companies, investors, deals, and funds",
+    "auth_methods": [
+      "API Key",
+      "Token"
+    ],
+    "access_model": "Enterprise / Contact Sales",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": false,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Auth methods are inferred from mention of API key and token; no explicit list provided.",
+    "quotes": {
+      "auth": "Next steps Our team will work with you to understand the insights and data you’re looking for and help you establish the API connection through an API key or authentication token. Available data for each entity type is packaged across several endpoints so you can map the data to your desired format and structure.",
+      "access": "Our API is a separate offering from the PitchBook Platform that requires a standalone contract agreement. Table of contents Overview PitchBook’s API solution allows you to call specific PitchBook data into your internal business systems on demand.",
+      "api": "How the API works Accessing the API The PitchBook API is a RESTful implementation that most HTTP clients can easily access in your chosen language or via a web browser."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://pitchbook.com/help/PitchBook-api",
+      "fetched_at": "2026-11-23T15:44:22+00:00",
+      "transport": "curl",
+      "chars": 12165
+    },
+    "verified": true
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Generate insights and summaries from your documents.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Paid Plan Required",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST",
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "All authentication and API details are explicitly stated.",
+    "quotes": {
+      "auth": "In a local terminal or Cloud Shell, sign in to the Google Cloud CLI with your user credentials by running the gcloud auth login command: gcloudauthlogin Signing in with your user credentials ensures that gcloud auth print-access-token generates an access token for your user account.",
+      "access": "The projects.locations.notebooks REST API methods on this page require an authenticated user account with an active Gemini Notebook Enterprise license. Use the US multi-regional endpoint If your Gemini Notebook Enterprise subscription is in the US multi-region, you can send the requests on this page to the US multi-regional endpoint, discoveryengine.us.rep.googleapis.com.",
+      "api": "The projects.locations.notebooks REST API methods on this page require an authenticated user account with an active Gemini Notebook Enterprise license."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "fetched_at": "2026-11-23T15:44:23+00:00",
+      "transport": "urllib",
+      "chars": 15410
+    },
+    "verified": true
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "one_liner": null,
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "None",
+    "confidence": "Low",
+    "notes": "No developer documentation available for Otter AI.",
+    "quotes": {},
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://help.otter.ai/docs.md",
+      "fetched_at": "2026-11-23T14:30:33+00:00",
+      "transport": "curl",
+      "chars": 25316
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Public API provides meeting summaries, transcripts, and action items for integration.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "API type (REST/GraphQL) not specified in the source.",
+    "quotes": {
+      "auth": "Keep in mind API keys and access: API keys are created at the user level. Your key can access meetings recorded by you or shared to your Team.",
+      "access": "Who this is for Anyone can browse the API docs and start building! Partners can register an OAuth app to be eligible for a future marketplace listing as a Fathom‑approved integration.",
+      "api": "Privacy Policy Reject Accept In this article Who this is forHow to get startedKeep in mind Home FAQs Technology and Compatibility Public API Edited Fathom now has a public API that gives you developer‑friendly access to meeting insights so you can build workflows and integrations that connect Fathom with the rest of your tools.",
+      "mcp": "Partners can register an OAuth app to be eligible for a future marketplace listing as a Fathom‑approved integration. How to get started Looking for plug‑and‑play integrations?"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://help.fathom.video/en/articles/8368641-public-api",
+      "fetched_at": "2026-11-23T15:44:26+00:00",
+      "transport": "curl",
+      "chars": 1892
+    },
+    "verified": true
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Search 400+ million scholarly articles via REST API",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "access_basis": "explicit",
+    "api_types": [
+      "REST"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model based on explicit free plan statement",
+    "quotes": {
+      "auth": "query is the only required parameter, and the key goes in the x-api-key header. cURL Python JavaScript Go PHP Ruby Java curl \"https://api.consensus.app/v1/search?query=creatine%20and%20cognitive%20function\" \\ -H \"x-api-key: $CONSENSUS_API_KEY\" import osimport requestsresp = requests.get( \"https://api.consensus.app/v1/search\", headers={\"x-api-key\": os.environ[\"CONSENSUS_API_KEY\"]}, params={\"query\": \"creatine and cognitive function\"},)resp.raise_for_status()for paper in resp.json()[\"results\"]: print(paper[\"title\"], \"—\", paper[\"journal_name\"], paper[\"publish_year\"])",
+      "access": "Every plan includes API access, and the Free plan includes 30 calls a month. 1 Sign in to Consensus Create a free account or sign in at consensus.app.",
+      "api": "Copy pageCopy page The Consensus API lets you search 400+ million scholarly articles, including 350 million peer-reviewed research papers, over a single REST endpoint. Send a query and get back ranked papers with titles, authors, journals, publication years, citation counts, and direct links.",
+      "mcp": "Connect Consensus to Claude, ChatGPT, and other MCP clients."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.consensus.app/api-get-started",
+      "fetched_at": "2026-11-23T15:44:24+00:00",
+      "transport": "urllib",
+      "chars": 9559
+    },
+    "verified": true
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Read, edit and render Word, PowerPoint and Excel files in Node.js and the browser.",
+    "auth_methods": [],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "SDK"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "Medium",
+    "notes": "Access model not explicitly stated in documentation.",
+    "quotes": {
+      "api": "ProductIndustriesCustomersResourcesPricing Sign upContact sales Product Industries Customers Resources Pricing Introducing the Reducto Office SDK: read, edit and render Word, PowerPoint and Excel files in your product Turn documents intodata."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "not-stated",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://reducto.ai",
+      "fetched_at": "2026-11-23T14:30:38+00:00",
+      "transport": "urllib",
+      "chars": 13106
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI-powered assistant for research and media tasks.",
+    "auth_methods": [],
+    "access_model": "Paid Plan Required",
+    "access_basis": "not-stated",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Unknown",
+    "main_blocker": "Documentation incomplete",
+    "confidence": "Medium",
+    "notes": "ID not provided in documentation.",
+    "quotes": {
+      "auth": "Individual and Teams plans are available.You can also install Devin CLI to use Devin directly from your command line: curl -fsSL https://cli.devin.ai/install.sh | bash If your company is already working with Cognition, you can request permissions from your Administrator or Cognition directly and access Devin via the web application at app.devin.ai.",
+      "access": "Individual and Teams plans are available.You can also install Devin CLI to use Devin directly from your command line: curl -fsSL https://cli.devin.ai/install.sh | bash If your company is already working with Cognition, you can request permissions from your Administrator or Cognition directly and access Devin via the web application at app.devin.ai.",
+      "api": "Individual and Teams plans are available.You can also install Devin CLI to use Devin directly from your command line: curl -fsSL https://cli.devin.ai/install.sh | bash If your company is already working with Cognition, you can request permissions from your Administrator or Cognition directly and access Devin via the web application at app.devin.ai.",
+      "mcp": "Agent DeepWiki Devin Security Code Scans Hand off to cloud Devins Local Hands MCP (Model Context Protocol) Marketplace DeepWiki MCP Devin MCP Devin CLI Advanced Capabilities Dynamic Workflows Product Guides Skills Memory Plugins Plugin MCP servers Set up your plugin ecosystem Session Insights Secrets & Site"
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://docs.devin.ai/get-started/devin-intro",
+      "fetched_at": "2026-11-23T14:30:38+00:00",
+      "transport": "urllib",
+      "chars": 6879
+    },
+    "verified": true,
+    "mcp_status": "mentioned-in-docs-url-unresolved",
+    "corrections": [
+      {
+        "field": "access_model",
+        "pass1": "Not Stated",
+        "pass2": "Paid Plan Required"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Create images and videos directly from your prompts in any AI tool",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "MCP server URL not provided in documentation.",
+    "quotes": {
+      "auth": "Add the Higgsfield MCP server URL in your agent's settings and authenticate through your Higgsfield account. No API keys to manage or configure.",
+      "access": "Your existing Higgsfield plan credits work seamlessly through any connected agent. How long does generation take?",
+      "api": "Higgsfield Explore Image Video Audio MCP API Cinema Studio GenjutsuTop Short DramaNew MiracleSoon Contests Property StudioNew ShortsNew Ads StudioNew GPUNew Playable Supercomputer Community Academy Plugins Canvas HiggsfieldNew dropsDropsHome ImageVideoAudioMCPAgenticStudiosCommunityContestsLearnMore Higgsfield CLI for any AI Create images and videos directly from your prompts in any AI tool Claude CodeChatGPTOpenClawHermes MCPCLI 1 Copy and send this to Claude Code Set up Higgsfield for me so I can generate images and videos from here.",
+      "mcp": "Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://higgsfield.ai/cli",
+      "fetched_at": "2026-11-23T14:30:38+00:00",
+      "transport": "urllib",
+      "chars": 8891
+    },
+    "verified": true
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Command-line tool to convert Mermaid diagrams to SVG",
+    "auth_methods": [],
+    "access_model": "Open Source / Local CLI",
+    "access_basis": "explicit",
+    "api_types": [
+      "CLI / Library"
+    ],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Category listed as AI, Research and Media-native, but function is a CLI.",
+    "quotes": {
+      "access": "README Code of conduct Contributing MIT license Security More items mermaid-cli This is a command-line interface (CLI) for mermaid. It takes a mermaid definition file as input and generates an SVG/PNG/PDF file as output. There's basic support for converting mermaid code blocks embedded within Markdown files. Installation npm install -g",
+      "api": "You can restore this behaviour with the --workdir option: docker run [...] --workdir=/home/mermaidcli minlag/mermaid-cli [...] Use Node.JS API It's possible to call mermaid-cli via a Node.JS API. Please be aware that the NodeJS API is not covered by semver, as mermaid-cli follows mermaid's versioning."
+    },
+    "binding": {
+      "auth": "not-stated",
+      "access": "verified",
+      "api": "verified",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "fetched_at": "2026-11-23T14:30:39+00:00",
+      "transport": "urllib",
+      "chars": 10009
+    },
+    "verified": false,
+    "auth_demoted": true
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "one_liner": "REST API for YouTube transcripts, search, channels, playlists.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "explicit",
+    "api_types": [],
+    "existing_mcp": true,
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "confidence": "High",
+    "notes": "Access model not explicitly labeled, inferred from free credits and paid plans.",
+    "quotes": {
+      "auth": "Summarize videosStudy notesSearch indexesContent repurposing Request Copy curl \"https://transcriptapi.com/api/v2/youtube/transcript?video_url=dQw4w9WgXcQ&format=json\" \\ -H \"Authorization: Bearer API_KEY\" Response { \"language\": \"en\", \"length_seconds\": 1164, \"lengthText\": \"19:24\", \"metadata\": { \"title\": \"Do schools kill creativity?\" }, \"transcript\": [ { \"text\": \"Good morning.",
+      "access": "100 free credits to try the API — no card required. Get started free Monthly $5.00/month Includes: 1,000 credits per month Top-ups at $2.50 per 1K 1 Credit = 1 Successful Request MCP Access API Access 200 RPM Rate Limit Human support on paid plan Start Monthly Secure checkout by Stripe BEST VALUE Annual $4.50/month Billed $54.00/yearSave 10% Includes: 1,000 credits per month Top-ups at $1.50 per 1K(40% cheaper) 1 Credit = 1 Successful Request MCP Access API Access 300 RPM Rate Limit (more on request) Human support on paid p",
+      "mcp": "TranscriptAPI runs an MCP server at https://transcriptapi.com/mcp. The MCP docs have setup guides for Claude and ChatGPT, which connect with OAuth, and OpenAI Agent Builder, which uses an API key."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "verified",
+      "api": "hint-not-found",
+      "mcp": "verified"
+    },
+    "source": {
+      "url": "https://transcriptapi.com/",
+      "fetched_at": "2026-11-23T14:30:38+00:00",
+      "transport": "urllib",
+      "chars": 14440
+    },
+    "verified": false,
+    "mcp_status": "mentioned-in-docs-url-unresolved"
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "one_liner": "The AI notetaker for agents and teams",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Not Stated",
+    "access_basis": "not-stated",
+    "api_types": [],
+    "existing_mcp": null,
+    "mcp_url": null,
+    "buildable_today": "No",
+    "main_blocker": "No API",
+    "confidence": "Medium",
+    "notes": "Product offers free and paid plans, but API details are not disclosed.",
+    "quotes": {
+      "auth": "User authentication uses Google, Microsoft, SSO, or SAML. For more details, see https://grain.com/security."
+    },
+    "binding": {
+      "auth": "verified",
+      "access": "hint-not-found",
+      "api": "not-stated",
+      "mcp": "not-stated"
+    },
+    "source": {
+      "url": "https://grain.com/",
+      "fetched_at": "2026-11-23T14:30:38+00:00",
+      "transport": "urllib",
+      "chars": 10654
+    },
+    "verified": false
+  }
+]

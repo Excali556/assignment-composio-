@@ -1,0 +1,11 @@
+{
+  "id": 18,
+  "name": "Help Scout",
+  "requested_url": "https://docs.helpscout.com/article/1140-mailbox-api",
+  "final_url": "https://docs.helpscout.com/article/1140-mailbox-api",
+  "status": 200,
+  "chars": 2545,
+  "title": "Help Scout's Inbox API, Docs API, Beacon JavaScript, Apps, and Open Source Tools - Help Scout Support",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T15:44:16+00:00"
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html data-testid="site-root" lang="en">
+  <head data-testid="site-head">
+    <meta data-testid="site-charset" charset="UTF-8" />
+    
+    <!-- Security Headers -->
+    <meta data-testid="site-security-content-type-options" http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta data-testid="site-security-frame-options" http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    <meta data-testid="site-security-xss-protection" http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta data-testid="site-security-referrer-policy" http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <link data-testid="site-favicon" rel="icon" href="/favicon.ico?v=1.0.0" />
+    <meta data-testid="site-viewport" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta data-testid="site-google-site-verification" name="google-site-verification" content="DMtMdTh2XwcRc9VYjNDYSAsqGMAKUtNJuOxjvdMoOdM" />
+
+    <!-- Default meta tags (will be dynamically updated based on domain) -->
+    <title data-testid="site-default-title">App Marketplace | CRM Apps & Integrations</title>
+    <meta data-testid="site-default-description"
+      name="description"
+      content="Discover and install powerful apps and integrations. Browse 1500+ apps to enhance your CRM, marketing automation, and business workflows."
+    />
+    <meta data-testid="site-default-keywords"
+      name="keywords"
+      content="marketplace, apps, integrations, CRM, marketing automation, business tools, workflow automation"
+    />
+    <meta data-testid="site-default-robots" name="robots" content="index, follow" />
+
+    <!-- Open Graph meta tags -->
+    <meta data-testid="site-og-title" property="og:title" content="App Marketplace | CRM Apps & Integrations" />
+    <meta data-testid="site-og-description"
+      property="og:description"
+      content="Discover and install powerful apps and integrations. Browse 1500+ apps to enhance your CRM, marketing automation, and business workflows."
+    />
+    <meta data-testid="site-og-type" property="og:type" content="website" />
+    <meta data-testid="site-og-site-name" property="og:site_name" content="App Marketplace" />
+
+    <!-- Twitter Card meta tags -->
+    <meta data-testid="site-twitter-card" name="twitter:card" content="summary_large_image" />
+    <meta data-testid="site-twitter-title" name="twitter:title" content="App Marketplace | CRM Apps & Integrations" />
+    <meta data-testid="site-twitter-description"
+      name="twitter:description"
+      content="Discover and install powerful apps and integrations. Browse 1500+ apps to enhance your CRM, marketing automation, and business workflows."
+    />
+
+    <!-- Dynamic meta tag updater - runs after meta tags are defined -->
+    <script data-testid="site-meta-updater-script">
+      ;(function () {
+        const hostname = window.location.hostname
+        const isLeadConnector = hostname.includes('leadconnector')
+        const isGoHighLevel = hostname.includes('gohighlevel')
+        const isWhiteLabel = !isGoHighLevel && !isLeadConnector
+
+        let title, description, keywords, siteName
+
+        if (isLeadConnector) {
+          title = 'LeadConnector Marketplace | Apps & Integrations'
+          description =
+            'Discover and install powerful apps and integrations for LeadConnector. Browse 1500+ apps to enhance your CRM, marketing automation, and business workflows.'
+          keywords = 'LeadConnector, marketplace, apps, integrations, CRM, marketing automation, business tools'
+          siteName = 'LeadConnector Marketplace'
+        } else if (isGoHighLevel) {
+          title = 'GoHighLevel Marketplace | Apps & Integrations'
+          description =
+            'Discover and install powerful apps and integrations for GoHighLevel. Browse 1500+ apps to enhance your CRM, marketing automation, and business workflows.'
+          keywords = 'GoHighLevel, marketplace, apps, integrations, CRM, marketing automation, business tools'
+          siteName = 'GoHighLevel Marketplace'
+        } else {
+          // White-label instances
+          title = 'App Marketplace | CRM Apps & Integrations'
+          description =
+            'Discover and install powerful apps and integrations. Browse 1500+ apps to enhance your CRM, marketing automation, and business workflows.'
+          keywords = 'marketplace, apps, integrations, CRM, marketing automation, business tools, workflow automation'
+          siteName = 'App Marketplace'
+        }
+
+        // Set title
+        document.title = title
+
+        // Helper function to set meta tag content
+        function setMeta(selector, content) {
+          const meta = document.querySelector(selector)
+          if (meta) {
+            meta.setAttribute('content', content)
+          }
+        }
+
+        // Set all meta tags
+        setMeta('meta[name="description"]', description)
+        setMeta('meta[name="keywords"]', keywords)
+        setMeta('meta[property="og:title"]', title)
+        setMeta('meta[property="og:description"]', description)
+        setMeta('meta[property="og:site_name"]', siteName)
+        setMeta('meta[name="twitter:title"]', title)
+        setMeta('meta[name="twitter:description"]', description)
+      })()
+    </script>
+
+    <link data-testid="site-font-inter" rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <script type="module" crossorigin src="/assets/index.6f05a4d7.js"></script>
+    <link rel="stylesheet" href="/assets/index.9beb58a2.css">
+  </head>
+  <body data-testid="site-body">
+    <div id="app"></div>
+    
+    <script data-testid="site-canny-sdk-script">
+      !(function (w, d, i, s) {
+        function l() {
+          if (!d.getElementById(i)) {
+            var f = d.getElementsByTagName(s)[0],
+              e = d.createElement(s)
+            ;(e.type = 'text/javascript'),
+              (e.async = !0),
+              (e.src = 'https://canny.io/sdk.js'),
+              f.parentNode.insertBefore(e, f)
+          }
+        }
+        if ('function' != typeof w.Canny) {
+          var c = function () {
+            c.q.push(arguments)
+          }
+          ;(c.q = []),
+            (w.Canny = c),
+            'complete' === d.readyState
+              ? l()
+              : w.attachEvent
+              ? w.attachEvent('onload', l)
+              : w.addEventListener('load', l, !1)
+        }
+      })(window, document, 'canny-jssdk', 'script')
+      // Pendo install script injected
+      ;(function (apiKey) {
+        ;(function (p, e, n, d, o) {
+          var v, w, x, y, z
+          o = p[d] = p[d] || {}
+          o._q = o._q || []
+          v = ['initialize', 'identify', 'updateOptions', 'pageLoad', 'track']
+          for (w = 0, x = v.length; w < x; ++w)
+            (function (m) {
+              o[m] =
+                o[m] ||
+                function () {
+                  o._q[m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments, 0)))
+                }
+            })(v[w])
+          y = e.createElement(n)
+          y.async = !0
+          y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js'
+          z = e.getElementsByTagName(n)[0]
+          z.parentNode.insertBefore(y, z)
+        })(window, document, 'script', 'pendo')
+      })('c8f5a3d1-3b7c-48f9-bf79-fecfd3eb514d')
+    </script>
+    <!-- Login with Google -->
+    <script data-testid="site-google-auth-script" src="https://accounts.google.com/gsi/client" async></script>
+    <!-- Google tag (gtag.js) -->
+    <script data-testid="site-gtag-script" async src="https://www.googletagmanager.com/gtag/js?id=G-7WR7KWXYT8"></script>
+    <script data-testid="site-analytics-config-script">
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-7WR7KWXYT8')
+    </script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"ec935b945bc9482e9a42a7a0447b6540","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

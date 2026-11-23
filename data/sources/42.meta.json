@@ -1,0 +1,11 @@
+{
+  "id": 42,
+  "name": "WooCommerce",
+  "requested_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+  "final_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+  "status": 200,
+  "chars": 5621,
+  "title": "WooCommerce REST API Documentation - WooCommerce",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:49+00:00"
+}

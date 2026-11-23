@@ -1,0 +1,604 @@
+Skip to content
+
+Netlify Docs D o c s
+
+Start
+
+Build
+
+Fundamentals
+
+Build with AI
+
+Configure builds
+
+Git workflows
+
+Environment variables
+
+Frameworks
+
+Post-processing
+
+User-Agent categories
+
+Primitives
+
+AI Gateway
+
+Serverless Functions
+
+Edge Functions
+
+Server
+
+Image CDN
+
+Blobs
+
+Database
+
+Caching
+
+Async Workloads
+
+Deploy
+
+Manage
+
+Accounts & Billing
+
+Projects
+
+Domains
+
+Data & Storage
+
+Security & access
+
+Monitoring & Insights
+
+Preview Servers
+
+Forms
+
+Visual Editor
+
+Routing & Redirects
+
+Support Hub
+
+Extend
+
+Install & use
+
+Develop & share
+
+Netlify SDK for extensions
+
+Building code agents
+
+Framework adapter API
+
+Reference
+
+Error reference
+
+Netlify skills
+
+Request processing order
+
+CLI reference
+
+Netlify SDK for extensions
+
+Visual Editor reference
+
+APIs
+
+Netlify API
+
+Database API
+
+Server API
+
+Frameworks API
+
+Cache API
+
+Blobs API
+
+Serverless Functions API
+
+Edge Functions API
+
+Dev Tool Guides
+
+API and CLI guides
+
+Terraform provider
+
+Command Palette
+
+Resources
+
+Troubleshooting
+
+Changelog
+
+Migrate
+
+Support
+
+Checklists
+
+Release phases
+
+Enterprise credits
+
+AI
+
+Accounts & Billing
+
+Accounts & Billing
+
+Overview
+
+Manage your personal user settings
+
+Manage a Netlify team and team members
+Overview
+
+About collaboration workflows
+
+Manage team members
+
+Manage project access
+
+Roles and permissions
+
+Team-owned sites
+
+Team audit log
+
+Manage an organization
+
+Organization webhooks
+
+Billing
+Overview
+
+Manage payments
+
+Change your pricing plan
+
+Resume paused projects
+
+Credit-based plans
+How credits work
+
+Credit-based pricing plans
+
+How credits work for enterprise plans
+
+Pricing for AI features
+
+Buy credit packs
+
+Configure auto recharge
+
+Monitor usage for credit-based plans
+
+Billing FAQ for credit-based plans
+
+Legacy plans
+Billing for legacy plans
+
+Legacy pricing plans
+
+Billing FAQ for legacy plans
+
+Notifications
+
+On this page
+
+Overview
+
+Where can I find Legacy pricing plan information?
+
+Do I have a Legacy plan?
+
+Can I use Netlify’s AI features?
+
+How does team membership affect billing?
+Git Contributors and billing
+
+How do metered features work?
+Free tier limits
+
+What’s an extra usage package?
+
+When will I be charged?
+
+Are charges prorated?
+
+Why can’t I downgrade my add-on level?
+
+How will I know when metered feature usage has passed the level limit?
+
+When will I receive notifications about my usage?
+
+Can I set a limit on my usage?
+
+How can I make sure I never get charged?
+
+What can I do if my site usage went over a limit because of spammers?
+
+What will happen if I don’t enter my credit card?
+
+What can I do if I’ve been charged the wrong amount?
+
+Can I get a free trial?
+
+How do I cancel?
+
+How can I know if Netlify will start charging for a free service in the future?
+
+On this page
+
+Overview
+
+Where can I find Legacy pricing plan information?
+
+Do I have a Legacy plan?
+
+Can I use Netlify’s AI features?
+
+How does team membership affect billing?
+Git Contributors and billing
+
+How do metered features work?
+Free tier limits
+
+What’s an extra usage package?
+
+When will I be charged?
+
+Are charges prorated?
+
+Why can’t I downgrade my add-on level?
+
+How will I know when metered feature usage has passed the level limit?
+
+When will I receive notifications about my usage?
+
+Can I set a limit on my usage?
+
+How can I make sure I never get charged?
+
+What can I do if my site usage went over a limit because of spammers?
+
+What will happen if I don’t enter my credit card?
+
+What can I do if I’ve been charged the wrong amount?
+
+Can I get a free trial?
+
+How do I cancel?
+
+How can I know if Netlify will start charging for a free service in the future?
+
+For the complete Netlify documentation index, see llms.txt. Markdown versions of any documentation page are available by appending .md to its URL.
+
+The new Netlify experience is here. Learn more or join the waitlist.
+
+Manage
+/
+
+Accounts And Billing
+/
+
+Billing
+/
+
+Billing For Legacy Plans
+
+Billing FAQ for Legacy pricing plans
+
+Copy pageView as Markdown
+
+Copy as Markdown
+
+View as Markdown
+
+This page answers frequently asked questions about Netlify billing for our Legacy pricing plans. Visit our manage payments or Legacy billing docs for instructions on how to change your billing information, access payment history, and more. If you have questions that aren’t answered by the docs, you can reach out to Netlify Support.
+
+Legacy plans vs credit-based plans
+
+Starting on September 4, 2025, all new Netlify accounts will use the new credit-based pricing plans. Check out the Credit-based pricing plans docs or the Billing FAQ for Credit-based pricing plans.
+
+If you've created your Netlify account with a Free, Starter, or Pro plan before September 4, 2025, then your pricing plan is now considered a legacy pricing plan. No action is required of you and you have the option to switch to a credit-based pricing plan. You can check if your pricing plan is a Legacy or Credit-based plan from your Netlify team dashboard. Learn more about Usage & billing and how to check what type of Legacy plan you have.
+
+Enterprise plan questions?
+
+For credit-based billing details specific to Enterprise plans, see How credits work for enterprise plans. For the latest and most accurate billing information for your plan, reach out to your account manager or use this Sales form to share your questions.
+
+You cannot revert to a Legacy plan from a Credit-based plan
+
+You cannot revert to a Legacy plan from a Credit-based plan for a team. Once you transfer a project to a Credit-based plan, you also cannot transfer it back to a Legacy plan. This change is permanent and irreversible.
+
+Where can I find Legacy pricing plan information?
+Section titled “Where can I find Legacy pricing plan information?”
+
+For the most specific pricing plan information for your team account, check out your Usage & billing dashboard.
+
+Get more help below in Do I have a Legacy plan?.
+
+Do I have a Legacy plan?
+Section titled “Do I have a Legacy plan?”
+
+If you've created your Netlify team account with a Free, Starter, or Pro plan before September 4, 2025, then you have a Legacy pricing plan. Note that your Legacy pricing plan may be even older than the pricing plan information featured in our Legacy plans docs. For the most specific pricing plan information for your team account, check out your Usage & billing dashboard.
+
+To check what kind of pricing plan you have, follow these steps:
+
+From your Netlify team dashboard, go to Usage & billing.
+
+Under Plan, you will see your pricing plan details.
+
+If you have the latest Legacy pricing plans, you can find info about them in these docs as well:
+
+Billing for Legacy plans
+
+Legacy pricing plans
+
+Can I use Netlify’s AI features?
+Section titled “Can I use Netlify’s AI features?”
+
+If you have a Legacy pricing plan, you can use Ask Netlify AI and the Why did it fail? AI-assisted troubleshooting feature.
+
+The following Netlify AI features are only available for Credit-based plans:
+
+AI Gateway
+
+Agent RunnersAgent RunnersAn AI coding tool that makes changes to your site on your behalf, right from the Netlify dashboard.×
+
+How does team membership affect billing?
+Section titled “How does team membership affect billing?”
+
+The Team Owner is billed based on the number of active members, your team plan’s member limit, and your team’s usage. Teams will not be charged for the Netlify Reviewer role.
+
+Netlify will send a notification email to Team Owners when teams approach the member limit for their current team plan.
+
+Git Contributors and billing
+Section titled “Git Contributors and billing”
+
+You will only be charged for Git Contributors if you are on a Legacy Pro or Enterprise plan.
+
+Once a Git Contributor is added to your team manually or through the auto-approval setting, they will contribute to your total member count and will be added to your bill. Visit our documentation on deploy permissions for more information.
+
+Team Owners are only charged for Git Contributors who have triggered a deploy during your team’s billing period.
+
+How do metered features work?
+Section titled “How do metered features work?”
+
+For legacy paid plans, metered features are priced based on your usage. When a site’s usage of a metered feature reaches the limit of the current level, it triggers an automatic upgrade to the next level, or purchase of an extra usage package.
+
+Free tier limits
+Section titled “Free tier limits”
+
+Accounts on the legacy free tier also have metered features, but they work differently than paid plans.
+
+You will receive email notifications when your site usage is approaching the free tier limits. Notifications are sent when your usage is at 50%, 75%, 90%, and 100% to the limit.
+
+If the build limit is reached, your sites will still be served to visitors, but new builds will be disabled for all sites on your account.
+
+For all other metered features, when reaching 100% of the limit, new builds will be disabled and all sites on your account will be paused. You will need to add a payment method and upgrade to a paid plan to restore the account and your sites.
+
+Note that deleting the site with overages will not restore the account. Once a limit is reached on the free tier, the account must be upgraded to restore service.
+
+What’s an extra usage package?
+Section titled “What’s an extra usage package?”
+
+With metered features on paid plans, some usage thresholds trigger an automatic upgrade to the next level, and others trigger purchase of an extra usage package.
+
+Extra usage packages increase your allowance for all metered features in the package — including ones that are still below their limit. Multiple packages can be added in a single billing period as package limits are reached. They are one-time purchases, meaning they will not be prorated, and will not be added in the next billing cycle unless usage in that month requires it.
+
+Free tier accounts do not have extra usage packages.
+
+When will I be charged?
+Section titled “When will I be charged?”
+
+For teams linked to an organization, Netlify billing runs on a monthly cycle which starts on the day the organization was created. To find the billing dates for your organization, Organization Owners can go to Organization overview and check the billing period dates.
+
+For teams that aren't linked to an organization, billing runs on a monthly cycle starting on the day you create your team. Billing period dates for specific teams can be found on the team's Billing page and on the team's Projects page.
+
+Different payment timing patterns apply to our products as described below:
+
+Charged annually: payment timing pattern that applies to domaindomainThe web address people use to visit your site, such as yoursite.com.× registrations, which renew on a yearly cycle. Registration fees are charged to the team payment method immediately on purchase or renewal.
+
+Charged monthly, in advance: payment timing pattern that applies to team plans, team member seats, extra concurrent builds, and Web Analytics. Recurring fees are charged in a combined payment on the billing date to cover future usage in the new billing cycle that has just started. When you add a team plan or Web Analytics, fees for the first month are prorated for the number of days left in the billing cycle and charged immediately to the team payment method. When you add team member seats or extra concurrent builds, fees for the first month are prorated for the number of days left in the billing cycle and charged on the next billing date.
+
+Charged once per purchase: payment timing pattern that applies to extra usage packages for bandwidth, build minutes, edge functions, and project add-ons (formerly called site add-ons). Each package purchase is applied to a running balance for the team and combined in a single payment at the end of the billing cycle. These one-time purchases are not prorated.
+
+Are charges prorated?
+Section titled “Are charges prorated?”
+
+We prorate team plan, extra capacity, and add-on level fees based on the number of days with that plan, team member seat count, extra concurrent build count, or level in the current billing cycle. This can happen in the following situations:
+
+Usage-triggered automatic level upgrade for a site add-on
+
+Manual upgrade of a team plan or site add-on level
+
+Manual downgrade of a team plan or site add-on level
+
+Addition or removal of a team member seat
+
+Addition or removal of an extra concurrent build
+
+Note
+
+When usage triggers an add-on level upgrade, the site add-on will remain at the higher level at the start of the next billing cycle.
+
+For items charged monthly in advance, downgrading or removing the item mid-cycle results in a prorated credit applied to any other charges in the invoice. For Web Analytics removals, the invoice is processed immediately. For scheduled team plan downgrades, the downgrade is scheduled to take effect at the end of your billing cycle. For extra capacity reductions, the invoice is processed on the next billing date.
+
+Extra usage packages are one-time purchases and are neither prorated nor carried to the next billing cycle.
+
+Why can’t I downgrade my add-on level?
+Section titled “Why can’t I downgrade my add-on level?”
+
+You cannot downgrade to a lower level for a metered feature if your current usage is above the limits of the lower level. If you wait until the start of the next billing cycle, you can downgrade the add-on level before usage reaches the lower level limits. Remember that if site usage does pass a level limit, it will automatically upgrade back to the higher level.
+
+This does not apply to free tier accounts, which do not have add-on levels. Learn more about free tier limits.
+
+How will I know when metered feature usage has passed the level limit?
+Section titled “How will I know when metered feature usage has passed the level limit?”
+
+You can check a site’s usage of an add-on by going to the configuration page for that add-on. For example, you can find Functions usage at Cloud compute > Functions > Usage. You can check the usage of all project add-ons (formerly called site add-ons) across a team by going to Billing > Current services > Project add-ons with fees and selecting All Project add-ons in the menu.
+
+You can find your team’s usage of bandwidth, build minutes, and edge functions under Billing . You can also find bandwidth and build minutes usage on your team’s Projects page. Learn more about these options in our team plans and usage docs.
+
+More detailed information about build minutes used, including a chart of the sites that have accrued the most build time, is available under Builds > Usage & insights.
+
+Organization Owners can monitor usage for all of the teams linked to their organization on the Organization overview.
+
+For teams on a Legacy Starter or Legacy Pro plan, we also send notification emails when metered feature usage is approaching the limit of the current level, and when it triggers an upgrade or extra usage package.
+
+When will I receive notifications about my usage?
+Section titled “When will I receive notifications about my usage?”
+
+For legacy free tier accounts, you will begin receiving notification emails when your site usage reaches 50%. Learn more about free tier limits.
+
+If your team is on a Legacy Starter or Legacy Pro plan, Netlify will send usage notification emails to your team’s billing email. Netlify sends a notification email when any site add-on is enabled, as usage for a metered feature approaches allowance limits, when usage triggers a level upgrade or extra usage package, and when the team payment method is charged at the end of the billing cycle.
+
+Below is an example of the notifications sent at different stages of usage.
+
+New service enabled:
+
+You add a form to a site and form detection is enabled. Netlify sends a notification email that the site is now on Forms Level 0, which includes 100 form submissions per month and 10 MB of uploaded files per month.
+
+Usage is approaching the Level 0 limit:
+
+The site reaches 50 form submissions a week later. Netlify sends a notification that form submissions are at 50% of the Forms Level 0 submissions limit.
+
+The site reaches 75 form submissions a few days later. Netlify sends a notification that form submissions are now at 75% of the Forms Level 0 submissions limit.
+
+The site reaches 90 form submissions the next day. Netlify sends a notification that form submissions are now at 90% of the Forms Level 0 submissions limit.
+
+Usage triggers a level upgrade:
+
+The site reaches 100 form submissions halfway through the first month. This triggers an upgrade to Forms Level 1, increasing the allowance to 1000 submissions and 1GB of uploads. Netlify will send a notification email, but the team payment method will not be charged until the end of the billing cycle.
+
+Usage is approaching the Level 1 limit:
+
+The site has a sudden spike in traffic and reaches 500 submissions a few days later. Netlify sends a notification that form submissions are now at 50% of the Forms Level 1 limit.
+
+The traffic spike continues and reaches 750 submissions a couple of days later. Netlify sends a notification that form submissions are now at 75% of the Forms Level 1 limit.
+
+The site reaches 900 submissions the next day. Netlify sends a notification that form submissions are now at 90% of the Forms Level 1 limit.
+
+Usage triggers an extra usage package:
+
+The site reaches 1000 submissions the next day. Netlify adds an extra usage package to the site, which adds 500 submissions and 500 MB of uploads to that site’s monthly allowance. Netlify sends an email confirming this purchase, but the team payment method won’t be charged yet.
+
+Billing cycle ends:
+
+At the end of the billing period, the team payment method is charged a single amount including a prorated charge for Forms Level 1 (because the site was at Forms Level 1 for only half the month), plus one extra usage package. Netlify will email a receipt.
+
+The following month, the site continues on Forms Level 1. Netlify will send the first usage notification email when the site reaches 50% of the Forms Level 1 limits (500 form submissions or 500 MB of file uploads).
+
+Can I set a limit on my usage?
+Section titled “Can I set a limit on my usage?”
+
+By using the Free plan, you can ensure you won’t incur charges.
+
+On other plans, there is no direct way to set limits on metered feature usage, aside from not using a feature at all.
+
+For serverless functions, you can reduce usage by adding the durable cache control directive to allow edge nodes to share a cached response.
+
+How can I make sure I never get charged?
+Section titled “How can I make sure I never get charged?”
+
+Legacy Free tier accounts are not charged, but have metered limits. For paid plans, we will send you notifications based on your usage, as described above.
+
+For details about your team’s metered usage, including bandwidth and build minutes, check out the following:
+
+your team’s Projects page for a brief usage summary
+
+the Account usage insights section on your team’s Billing page for more in-depth details
+
+Organization Owners can monitor usage details for organizations on the Organization overview.
+
+If you are approaching your allowance limit and want to avoid being charged, you can change your site code to remove the metered feature functionality. To prevent build minute usage from exceeding your current allowance, you can stop builds. Remember that a sudden spike in usage may cause your site to pass the free level limit before you have a chance to change your site.
+
+What can I do if my site usage went over a limit because of spammers?
+Section titled “What can I do if my site usage went over a limit because of spammers?”
+
+We recommend taking measures to help prevent abuse of your project add-ons (formerly called site add-ons). For example, form submission spam can be reduced by adding a reCAPTCHA 2 challenge and honeypot field. To help prevent bot registrations for your Identity add-on, you can require email confirmation for new users.
+
+What will happen if I don’t enter my credit card?
+Section titled “What will happen if I don’t enter my credit card?”
+
+You can get started with most Netlify add-ons for free without a credit card, including the features with metered pricing. When you start using a metered feature, you'll receive notifications as you approach the free tier limits.
+
+At 100% of the limit, new builds will be disabled and all sites on your account will be paused. You will need to add a payment method and upgrade to a paid plan to restore the account and your sites.
+
+What can I do if I’ve been charged the wrong amount?
+Section titled “What can I do if I’ve been charged the wrong amount?”
+
+If you find a problem with your billing, please contact our support team and we’ll do our best to make it right!
+
+Can I get a free trial?
+Section titled “Can I get a free trial?”
+
+Most paid features include a free tier of service for evaluation and smaller projects. When upgrading to a paid account, most charges are prorated.
+
+How do I cancel?
+Section titled “How do I cancel?”
+
+To learn how to delete a team or delete your Netlify user, and the impact of either action, check out our Support Guide on how to cancel an account.
+
+How can I know if Netlify will start charging for a free service in the future?
+Section titled “How can I know if Netlify will start charging for a free service in the future?”
+
+We may find we need to change pricing to best match customer needs with company goals. Though we can’t make promises about what the future will bring, we fundamentally believe that composability is the best approach to building web projects, and we want to make it simple and free for developers everywhere to try it. That’s why our metered features have a free tier.
+
+For a general guideline, you can expect that any feature marked as “beta” will usually undergo pricing changes on release.
+
+Last updated: Oct 3, 2026
+
+Previous Legacy pricing plans Next Notifications
+
+Did you find this doc useful?
+
+Your feedback helps us improve our docs.
+
+Yes
+
+No
+
+Do not fill in this field
+
+Email (optional)
+
+What else would you like to tell us about this doc?
+
+I consent to being contacted regarding my feedback
+
+Send
+
+Netlify
+
+Careers
+
+Blog
+
+Terms
+
+Privacy
+
+Reading these docs with an AI agent? Append .md to any docs URL for its Markdown source, or start from the
+full llms.txt index.
+
+© 2026 Netlify
+
+Ask Netlify

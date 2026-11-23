@@ -1,0 +1,507 @@
+For AI agents: the docs index is at https://developer.clickup.com/llms.txt. Append .md to any documentation page URL to get its markdown version.
+
+Jump to Content
+
+HomeGuidesAPI Docs
+
+API Docs
+
+Jump to Content
+
+HomeGuidesAPI Docs
+
+Get Access Token
+
+ClickUp API v2 Reference
+
+Authorization
+Get Access Tokenpost
+
+Get Authorized Userget
+
+Attachments
+Create Task Attachmentpost
+
+Comments
+Get Task Commentsget
+
+Create Task Commentpost
+
+Get Chat View Commentsget
+
+Create Chat View Commentpost
+
+Get List Commentsget
+
+Create List Commentpost
+
+Update Commentput
+
+Delete Commentdel
+
+Get Threaded Commentsget
+
+Create Threaded Commentpost
+
+Custom Task Types
+Get Custom Task Typesget
+
+Custom Fields
+Get List Custom Fieldsget
+
+Get Folder Custom Fieldsget
+
+Get Space Custom Fieldsget
+
+Get Workspace Custom Fieldsget
+
+Set Custom Field Valuepost
+
+Remove Custom Field Valuedel
+
+Folders
+Get Foldersget
+
+Create Folderpost
+
+Get Folderget
+
+Update Folderput
+
+Delete Folderdel
+
+Create Folder from templatepost
+
+Move Folderput
+
+Goals
+Get Goalsget
+
+Create Goalpost
+
+Get Goalget
+
+Update Goalput
+
+Delete Goaldel
+
+Create Key Resultpost
+
+Edit Key Resultput
+
+Delete Key Resultdel
+
+Guests
+Invite Guest To Workspacepost
+
+Get Guestget
+
+Edit Guest On Workspaceput
+
+Remove Guest From Workspacedel
+
+Add Guest To Taskpost
+
+Remove Guest From Taskdel
+
+Add Guest To Listpost
+
+Remove Guest From Listdel
+
+Add Guest To Folderpost
+
+Remove Guest From Folderdel
+
+Lists
+Get Listsget
+
+Create Listpost
+
+Get Folderless Listsget
+
+Create Folderless Listpost
+
+Get Listget
+
+Update Listput
+
+Delete Listdel
+
+Add Task To Listpost
+
+Remove Task From Listdel
+
+Create List From Template in Folderpost
+
+Create List From Template in Spacepost
+
+Members
+Get Task Membersget
+
+Get List Membersget
+
+Roles
+Get Custom Rolesget
+
+Shared Hierarchy
+Shared Hierarchyget
+
+Spaces
+Get Spacesget
+
+Create Spacepost
+
+Get Spaceget
+
+Update Spaceput
+
+Delete Spacedel
+
+Tags
+Get Space Tagsget
+
+Create Space Tagpost
+
+Edit Space Tagput
+
+Delete Space Tagdel
+
+Add Tag To Taskpost
+
+Remove Tag From Taskdel
+
+Tasks
+Get Tasksget
+
+Create Taskpost
+
+Get Taskget
+
+Update Taskput
+
+Delete Taskdel
+
+Get Filtered Team Tasksget
+
+Merge Taskspost
+
+Get Task's Time in Statusget
+
+Get Bulk Tasks' Time in Statusget
+
+Create Task From Templatepost
+
+Task Checklists
+Create Checklistpost
+
+Edit Checklistput
+
+Delete Checklistdel
+
+Create Checklist Itempost
+
+Edit Checklist Itemput
+
+Delete Checklist Itemdel
+
+Task Relationships
+Add Dependencypost
+
+Delete Dependencydel
+
+Add Task Linkpost
+
+Delete Task Linkdel
+
+Templates
+Get Task Templatesget
+
+Get List Templatesget
+
+Get Folder Templatesget
+
+Workspaces
+Get Authorized Workspacesget
+
+Get Workspace seatsget
+
+Get Workspace Planget
+
+User Groups
+Create Grouppost
+
+Update Groupput
+
+Delete Groupdel
+
+Get Groupsget
+
+Time Tracking
+Get time entries within a date rangeget
+
+Create a time entrypost
+
+Get singular time entryget
+
+Delete a time Entrydel
+
+Update a time Entryput
+
+Get time entry historyget
+
+Get running time entryget
+
+Remove tags from time entriesdel
+
+Get all tags from time entriesget
+
+Add tags from time entriespost
+
+Change tag names from time entriesput
+
+Start a time Entrypost
+
+Stop a time Entrypost
+
+Time Tracking (Legacy)
+Get tracked timeget
+
+Track timepost
+
+Edit time trackedput
+
+Delete time trackeddel
+
+Users
+Invite User To Workspacepost
+
+Get Userget
+
+Edit User On Workspaceput
+
+Remove User From Workspacedel
+
+Views
+Get Workspace (Everything level) Viewsget
+
+Create Workspace (Everything level) Viewpost
+
+Get Space Viewsget
+
+Create Space Viewpost
+
+Get Folder Viewsget
+
+Create Folder Viewpost
+
+Get List Viewsget
+
+Create List Viewpost
+
+Get Viewget
+
+Update Viewput
+
+Delete Viewdel
+
+Get View Tasksget
+
+Webhooks
+Get Webhooksget
+
+Create Webhookpost
+
+Update Webhookput
+
+Delete Webhookdel
+
+ClickUp Public API v3
+
+Privacy and access
+Update privacy and access of an object or locationpatch
+
+Attachments
+Get Attachmentsget
+
+Create an Attachmentpost
+
+Audit Logs
+Create Workspace-level audit logspost
+
+Chat
+Retrieve Channelsget
+
+Create a Channelpost
+
+Create a Channel on a Space, Folder, or Listpost
+
+Create a Direct Messagepost
+
+Retrieve a Channelget
+
+Update a Channelpatch
+
+Delete a Channeldel
+
+Retrieve Channel followersget
+
+Retrieve Channel membersget
+
+Retrieve Channel messagesget
+
+Send a messagepost
+
+Update a messagepatch
+
+Delete a messagedel
+
+Retrieve message reactionsget
+
+Create a message reactionpost
+
+Delete a message reactiondel
+
+Retrieve message repliesget
+
+Create a reply messagepost
+
+Retrieve message tagged usersget
+
+Get Post Subtype IDsget
+
+Docs
+Search for Docsget
+
+Create a Docpost
+
+Fetch a Docget
+
+Fetch PageListing for a Docget
+
+Fetch Pages belonging to a Docget
+
+Create a Pagepost
+
+Get pageget
+
+Edit a Pageput
+
+Tasks
+Move a task to a new Listput
+
+Update task time estimates by userpatch
+
+Replace task time estimatesput
+
+Copy Page
+
+Get Access Token
+
+post
+https://api.clickup.com/api/v2/oauth/token
+
+These are the routes for authing the API and going through the OAuth flow.
+
+Applications utilizing a personal API token don't use this endpoint.
+
+Note: OAuth tokens are not supported when using the Try It feature of our Reference docs. You can't try this endpoint from your web browser.
+
+Recent Requests
+
+Log in to see full request history
+
+Time
+
+Status
+
+User Agent
+
+Retrieving recent requests…
+
+Loading…
+
+Body Params
+application/jsonapplication/x-www-form-urlencoded
+
+client_id
+string
+
+required
+
+OAuth app client id
+
+client_secret
+string
+
+required
+
+OAuth app client secret
+
+code
+string
+
+required
+
+Code given in redirect url
+
+Headers
+
+content-type
+string
+
+enum
+
+Defaults to application/json
+
+Generated from available request content types
+
+application/jsonapplication/x-www-form-urlencoded
+
+Allowed:
+application/jsonapplication/x-www-form-urlencoded
+
+Response
+
+200
+
+Updated5 months ago
+
+Get Authorized User
+
+Did this page help you?
+
+Yes
+
+No
+
+Language
+
+ShellNodeRubyPHPPython
+
+Loading…
+
+Response
+
+Click Try It! to start a request and see the response here! Or choose an example:
+
+application/json
+
+200
+
+Updated5 months ago
+
+Get Authorized User
+
+Did this page help you?
+
+Yes
+
+No
+
+© 2026 ClickUp
+
+Security
+
+Your Privacy
+
+Terms

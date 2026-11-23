@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "name": "Salesforce",
+  "requested_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+  "final_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest.html",
+  "status": 200,
+  "chars": 4422,
+  "title": "",
+  "transport": "proxy",
+  "rendered_via": "r.jina.ai",
+  "fetched_at": "2026-11-23T15:47:46+00:00"
+}

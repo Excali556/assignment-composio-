@@ -1,0 +1,11 @@
+{
+  "id": 91,
+  "name": "NotebookLM",
+  "requested_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+  "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+  "status": 200,
+  "chars": 15410,
+  "title": "Create and manage notebooks (API) \u00a0|\u00a0 Gemini Notebook Enterprise \u00a0|\u00a0 Google Cloud Documentation",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T15:44:23+00:00"
+}

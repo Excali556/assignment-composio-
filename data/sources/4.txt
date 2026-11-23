@@ -1,0 +1,118 @@
+Documentation Index
+
+Fetch the complete documentation index at:/llms.txt
+
+Use this file to discover all available pages before exploring further.
+
+Skip to main content
+
+Assistant
+
+Responses are generated using AI and may contain mistakes.
+
+Attio Docs home page
+
+Search...
+
+⌘KAsk Assistant⌘I
+
+Search...
+
+Navigation
+
+Get started
+
+Overview
+
+Overview
+
+App SDK
+
+REST API
+
+MCP
+
+SQL
+
+Share
+
+Changelog
+
+Developer console
+
+Support
+
+Get started
+
+Overview
+
+Core concepts
+
+Objects and lists
+
+Users and workspaces
+
+Standard objects
+
+Further reading
+
+Actors
+
+Slugs and IDs
+
+Default values
+
+Archiving vs deleting
+
+Activities
+
+On this page
+Back to top
+Security
+
+Get started
+
+Overview
+
+Copy pageCopy page
+
+Start building Attio Apps
+
+Copy pageCopy page
+
+Attio is a revolutionary CRM platform which is highly customisable, incredibly powerful and
+data-driven. In these guides, you can find everything you need to build powerful integrations,
+automations and data pipelines on top of Attio.Our docs cover guides, examples, references and code to help you build apps and share them with
+Attio’s customers or for your own workspace.The Attio Developer Platform consists of four parts:
+
+App SDK
+
+This allows developers to embed Typescript React applications within the Attio interface and run
+server functions with access to our REST API.
+
+REST API
+
+This allows developers to build apps that read and write information to and from Attio workspaces.
+You can also subscribe to events in realtime using webhooks.
+
+MCP
+
+Manage Attio via AI. Connect Claude, ChatGPT or your AI tool of choice to search, update and
+manage your Attio workspace.
+
+SQL
+
+Run SQL queries against your workspace data.
+
+Security
+If you suspect a security issue with your app, such as a leaked client secret or access token, email security@attio.com. See Security for more details.
+
+Was this page helpful?
+
+YesNo
+
+Objects and lists
+
+xwebsite
+
+Powered byThis documentation is built and hosted on Mintlify, a developer documentation platform

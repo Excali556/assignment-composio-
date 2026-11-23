@@ -1,0 +1,11 @@
+{
+  "id": 81,
+  "name": "Stripe",
+  "requested_url": "https://docs.stripe.com/api",
+  "final_url": "https://docs.stripe.com/api",
+  "status": 200,
+  "chars": 9500,
+  "title": "Stripe API Reference",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:11+00:00"
+}

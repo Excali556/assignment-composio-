@@ -1,0 +1,11 @@
+{
+  "id": 79,
+  "name": "Smartsheet",
+  "requested_url": "https://smartsheet.com/developers",
+  "final_url": "https://developers.smartsheet.com/",
+  "status": 200,
+  "chars": 1673,
+  "title": "Smartsheet Developers & API",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:30:13+00:00"
+}

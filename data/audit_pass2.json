@@ -1,0 +1,305 @@
+{
+  "method": "Two passes. Pass 2 is an independent re-read of the saved page text with pass-1 answers hidden, plus targeted search where the page was silent.",
+  "reviewed_at": "2026-11-23",
+  "apps": [
+    {
+      "id": 1,
+      "category": "CRM and Sales",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "Intro page only: 'REST API provides you with programmatic access'. No auth or pricing sentence on this page, so abstaining is correct here; auth lives on a different page."
+    },
+    {
+      "id": 2,
+      "category": "CRM and Sales",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "12 usable sentences. Page is a JS shell; API root path is the only fact. Abstentions are right."
+    },
+    {
+      "id": 7,
+      "category": "CRM and Sales",
+      "auth_methods": [
+        "OAuth2"
+      ],
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "OAuth overview only. No REST/access statement on this page; abstaining is correct."
+    },
+    {
+      "id": 11,
+      "category": "Support and Helpdesk",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "238 sentences, all Gatsby sidebar/JSON chrome. Nothing quotable. Abstentions correct."
+    },
+    {
+      "id": 21,
+      "category": "Communications and Messaging",
+      "auth_methods": [
+        "OAuth2",
+        "Token"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "Auth hub page: OAuth 2.0, token rotation, PKCE. Says nothing about plans or pricing."
+    },
+    {
+      "id": 26,
+      "category": "Communications and Messaging",
+      "auth_methods": [
+        "Token",
+        "OAuth2",
+        "Basic"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "Three documented methods: bot token, OAuth2 bearer, basic auth with client_id:client_secret. Access not stated on page."
+    },
+    {
+      "id": 27,
+      "category": "Communications and Messaging",
+      "auth_methods": [
+        "Token"
+      ],
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "'Each bot is given a unique authentication token when it is created.' Page never uses REST/GraphQL wording about its own surface."
+    },
+    {
+      "id": 36,
+      "category": "Marketing, Ads, Email and Social",
+      "auth_methods": [
+        "API Key",
+        "OAuth2"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "Private key auth, OAuth, public key auth; '/api endpoints use private API keys with API key scopes'."
+    },
+    {
+      "id": 38,
+      "category": "Marketing, Ads, Email and Social",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "Next.js payload, no documentation prose. Abstentions correct."
+    },
+    {
+      "id": 40,
+      "category": "Marketing, Ads, Email and Social",
+      "auth_methods": [
+        "API Key"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "API Keys section is explicit; 'v3 Web API provides a REST interface'. No plan statement."
+    },
+    {
+      "id": 41,
+      "category": "Ecommerce",
+      "auth_methods": [
+        "OAuth2",
+        "Access Token"
+      ],
+      "access_model": "Mixed",
+      "api_types": [
+        "GraphQL",
+        "REST",
+        "Webhooks"
+      ],
+      "existing_mcp": true,
+      "note": "PASS 1 WAS WRONG: access was demoted to 'Not Stated'. The page shows plan-gating errors ('This shop's plan does not have access to this feature'), so 'Mixed' is correct."
+    },
+    {
+      "id": 47,
+      "category": "Ecommerce",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "Raw JSON payload from the docs origin. Abstentions correct."
+    },
+    {
+      "id": 48,
+      "category": "Ecommerce",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "Saved text has no decision-relevant sentences at all (help-centre shell). Full abstention is the only honest row."
+    },
+    {
+      "id": 52,
+      "category": "Data, SEO and Scraping",
+      "auth_methods": [
+        "API Key"
+      ],
+      "access_model": "Paid Plan Required",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": true,
+      "note": "PASS 1 WAS WRONG TWICE: the page says 'integration is done via the REST API reference' (so REST is supported) and 'connect via SEO MCP' (so an MCP exists). Pass 1 published neither."
+    },
+    {
+      "id": 55,
+      "category": "Data, SEO and Scraping",
+      "auth_methods": [
+        "Token"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST",
+        "Webhooks"
+      ],
+      "existing_mcp": null,
+      "note": "'create an API token on the Integrations page'; RESTful endpoints and a webhooks section."
+    },
+    {
+      "id": 56,
+      "category": "Data, SEO and Scraping",
+      "auth_methods": [
+        "API Key"
+      ],
+      "access_model": "Free Self-Serve",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": true,
+      "note": "'No account or API key is required for this request' plus 'Create a free account for direct API access and higher limits', and an MCP server section."
+    },
+    {
+      "id": 61,
+      "category": "Developer, Infra and Data platforms",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "Overview page says 'authenticate to the REST API' without naming a method; abstaining on the method is correct."
+    },
+    {
+      "id": 64,
+      "category": "Developer, Infra and Data platforms",
+      "auth_methods": [
+        "API Key",
+        "Token"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST",
+        "Webhooks"
+      ],
+      "existing_mcp": true,
+      "note": "PASS 1 WAS WRONG: the source does say 'User API tokens can list and create Organizations' and shows webhook endpoints; both claims were demoted by the binder because the hint was longer than the 600-char sentence cap."
+    },
+    {
+      "id": 71,
+      "category": "Productivity and Project Management",
+      "auth_methods": [
+        "Bearer Token"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "'send an Authorization: Bearer header with your token and a Notion-Version header'."
+    },
+    {
+      "id": 73,
+      "category": "Productivity and Project Management",
+      "auth_methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "GraphQL"
+      ],
+      "existing_mcp": null,
+      "note": "'Use OAuth 2.0 or personal API keys'; GraphQL API plus TypeScript SDK."
+    },
+    {
+      "id": 81,
+      "category": "Finance and Fintech",
+      "auth_methods": [
+        "API Key"
+      ],
+      "access_model": "Not Stated",
+      "api_types": [
+        "REST"
+      ],
+      "existing_mcp": null,
+      "note": "'The Stripe API uses API keys to authenticate requests'; resource-oriented URLs described as REST conventions."
+    },
+    {
+      "id": 82,
+      "category": "Finance and Fintech",
+      "auth_methods": [
+        "API Key"
+      ],
+      "access_model": "Free Self-Serve",
+      "api_types": [
+        "REST",
+        "Webhooks"
+      ],
+      "existing_mcp": null,
+      "note": "client_id + secret via Dashboard; Sandbox vs Production. Pass 1 matches."
+    },
+    {
+      "id": 87,
+      "category": "Finance and Fintech",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "Saved Xero page yielded no usable sentences for this check; abstention."
+    },
+    {
+      "id": 88,
+      "category": "Finance and Fintech",
+      "auth_methods": null,
+      "access_model": "Not Stated",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "222 sentences of CSS/application shell. Abstentions correct."
+    },
+    {
+      "id": 96,
+      "category": "AI, Research and Media-native",
+      "auth_methods": null,
+      "access_model": "Paid Plan Required",
+      "api_types": null,
+      "existing_mcp": null,
+      "note": "'Individual and Teams plans are available' is the only access signal; no auth or API detail on the page."
+    }
+  ]
+}

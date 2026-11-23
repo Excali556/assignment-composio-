@@ -1,0 +1,11 @@
+{
+  "id": 43,
+  "name": "BigCommerce",
+  "requested_url": "https://developer.bigcommerce.com/docs/rest-management",
+  "final_url": "https://docs.bigcommerce.com/developer/api-reference/rest/admin/management/abandoned-carts",
+  "status": 200,
+  "chars": 82269,
+  "title": "Abandoned carts | BigCommerce Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:52+00:00"
+}

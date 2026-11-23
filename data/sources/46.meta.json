@@ -1,0 +1,11 @@
+{
+  "id": 46,
+  "name": "Squarespace",
+  "requested_url": "https://developers.squarespace.com/commerce-apis/overview",
+  "final_url": "https://developers.squarespace.com/commerce-apis/overview",
+  "status": 200,
+  "chars": 2277,
+  "title": "Squarespace Developer Platform: APIs, Apps, and Docs",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:50+00:00"
+}

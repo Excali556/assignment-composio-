@@ -1,0 +1,140 @@
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+
+Search
+/
+Ask AI
+
+HomepageProduct HelpLog inTry for Free
+
+Developers HomeAPI ReferenceMCP
+
+Skip to navigation
+
+On this page
+
+Use cases
+
+Getting help
+
+Scroll to top
+
+Close Developer Platform
+
+Build integrations, automate workflows, and extend Close for your team.
+
+Ask a question|Copy page|Open in Claude|More actions
+
+Whether you’re a Close customer automating your sales process or a partner building an integration, the Close Developer Platform gives everything you or your AI agents need.
+
+REST API Reference
+
+Full endpoint docs with schemas, examples, and an interactive API explorer.
+
+Authentication
+
+API keys for scripts or OAuth 2.0 for user-facing integrations.
+
+Webhooks & Events
+
+Real-time event notifications and a 30-day event log.
+
+MCP Server
+
+Model Context Protocol for AI agents.
+
+Build an Integration
+
+Create an OAuth app, connect your product, and get listed.
+
+API Clients
+
+Community libraries for Python, Node.js, Ruby, PHP, Go, and more.
+
+API Changelog
+
+Latest API updates and deprecations.
+
+Browse 100+ Integrations ↗
+
+Explore the full directory of apps and tools that connect with Close.
+
+Use cases
+
+Push in CRM data — Push leads, contacts, activities, and custom data into Close from your website or other systems via the REST API.
+
+Sync data out — Stream changes with webhooks, query the event log, or pull reporting metrics and pipeline data into your BI tools, data warehouse, or design custom dashboards & reports.
+
+Automate outreach — Manage workflows with sequences or bulk actions, or send email/SMS programmatically.
+
+Publish an integration — Build for many Close customers with OAuth and get listed in the integrations directory.
+
+Power AI agents — Give Claude, ChatGPT, Cursor, and other tools direct access to Close data via the MCP server — no code required.
+
+Getting help
+
+Our Support Team can assist Close customers with any questions about the API.
+
+Implementing something cool or want to chat about where our API is going? Schedule a call with Joe Kemp, VP of Engineering.
+
+Was this page helpful?
+YesNo
+
+Edit this page
+
+Next
+
+Build an Integration
+
+Built with
+
+Developers HomeAPI ReferenceMCP
+
+Developers Home
+
+Build an Integration
+
+Overview
+
+Create an OAuth App
+
+Publish
+
+External Links
+
+Integrations Directory
+
+Product Help
+
+Product Updates
+
+Making of Close Blog
+
+Open Source (GitHub)
+
+Developers Home
+
+Overview
+
+Create an OAuth App
+
+Publish
+
+Product
+
+OverviewCommunicationAutomationIntegrationsReportingSMSCallingSecurityForms
+
+Pricing & Use Cases
+
+PricingClose vs Other CRMsCustomer Stories
+
+Resources
+
+Sales BlogSales ResourcesSales GuidesWebinarsOn-Demand DemoSales Tools
+
+Company
+
+AboutCareersPartner with CloseBrand GuidelinesTermsPrivacyGDPRCCPA
+
+Get Help
+
++1-833-GO-CLOSEHelp CenterDownload the Close AppProduct UpdatesSystem Status

@@ -1,0 +1,2844 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "hint": "salesforce.com",
+    "one_line_description": "Enterprise cloud-based customer relationship management (CRM) platform for sales, service, and marketing automation.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Paid Plan Required",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/salesforcecli/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "Enterprise Gate / Paywall",
+    "evidence": {
+      "docs_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
+      "auth_quote": "To allow your external client application to communicate with the Salesforce REST API securely, you must configure an authorization mechanism using the OAuth 2.0 protocol.",
+      "access_quote": "Developer Edition environments provide a fully functional Salesforce platform environment intended specifically for testing and API development.",
+      "api_quote": "Salesforce REST API provides a powerful, convenient, and simple REST-based web services interface for interacting with Salesforce."
+    },
+    "confidence": "High"
+  },
+  "2": {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "hint": "hubspot.com",
+    "one_line_description": "Inbound marketing, sales, and customer service software with a CRM platform.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/hubspot/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.hubspot.com/docs/api/overview",
+      "auth_quote": "HubSpot APIs support both OAuth and Private App access tokens passed as Bearer tokens in the Authorization header.",
+      "access_quote": "Developers can create a free developer test account to build and test integrations without purchasing a paid plan.",
+      "api_quote": "The HubSpot REST API enables access to all standard CRM objects including contacts, companies, deals, and tickets."
+    },
+    "confidence": "High"
+  },
+  "3": {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "hint": "pipedrive.com",
+    "one_line_description": "Pipeline CRM and sales management tool built for deal-driven teams.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/pipedrive/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.pipedrive.com/docs/api/v1",
+      "auth_quote": "Pipedrive API uses OAuth 2.0 for public marketplace apps and personal API tokens for private testing.",
+      "access_quote": "Developers can request a 14-day free trial or join the Pipedrive Developer Program for sandbox access.",
+      "api_quote": "Pipedrive provides an extensive REST API covering activities, deals, organizations, persons, and leads."
+    },
+    "confidence": "High"
+  },
+  "4": {
+    "id": 4,
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "hint": "attio.com",
+    "one_line_description": "Next-generation customizable CRM platform designed for modern tech companies.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/attio/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.attio.com/docs/overview",
+      "auth_quote": "Attio supports Bearer API keys created in workspace settings and OAuth 2.0 authorization code flows.",
+      "access_quote": "Attio offers a free tier allowing individual developers and small teams to create API keys instantly.",
+      "api_quote": "The Attio REST API allows reading and writing to custom objects, attributes, and relationships."
+    },
+    "confidence": "High"
+  },
+  "5": {
+    "id": 5,
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "hint": "twenty.com (open-source CRM)",
+    "one_line_description": "Open-source CRM system providing an alternative to Salesforce.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/twentyhq/twenty",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.twenty.com/api",
+      "auth_quote": "Twenty APIs authenticate requests using Bearer tokens issued from the settings panel or via OAuth.",
+      "access_quote": "Twenty is 100% open-source under the AGPL license and free to self-host with no paid subscription barriers.",
+      "api_quote": "Twenty provides both REST and GraphQL endpoints for query and mutation operations on all CRM objects."
+    },
+    "confidence": "High"
+  },
+  "6": {
+    "id": 6,
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "hint": "podio.com",
+    "one_line_description": "Customizable work management and CRM platform by Citrix.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/podio/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://podio.com/developers/api-overview",
+      "auth_quote": "All API requests must be authenticated using OAuth 2.0 with server-side or username/password flows.",
+      "access_quote": "Podio offers a free plan for up to five users with API access included.",
+      "api_quote": "The Podio REST API provides full CRUD capabilities across workspaces, items, and applications."
+    },
+    "confidence": "High"
+  },
+  "7": {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "hint": "zoho.com/crm",
+    "one_line_description": "Cloud CRM software for lead management, customer interactions, and sales pipelines.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/zoho/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://www.zoho.com/crm/developer/docs/api/v6/",
+      "auth_quote": "Zoho CRM uses OAuth 2.0 protocol to authenticate and authorize client requests across global data centers.",
+      "access_quote": "Zoho provides a free developer account and free edition supporting basic CRM APIs.",
+      "api_quote": "The Zoho CRM v6 REST API provides modular access to Leads, Contacts, Accounts, and Deals."
+    },
+    "confidence": "High"
+  },
+  "8": {
+    "id": 8,
+    "name": "Close",
+    "category": "CRM and Sales",
+    "hint": "close.com",
+    "one_line_description": "Inside sales CRM designed to accelerate pipeline velocity for SMB sales teams.",
+    "auth_methods": [
+      "API Key",
+      "Basic"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/closeio/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.close.com/",
+      "auth_quote": "Authentication is performed using HTTP Basic Auth with your Close API key as the username.",
+      "access_quote": "Close offers a 14-day free trial that provides full API access for testing integrations.",
+      "api_quote": "The Close REST API allows complete programmatic access to leads, contacts, activities, and calls."
+    },
+    "confidence": "High"
+  },
+  "9": {
+    "id": 9,
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "hint": "copper.com",
+    "one_line_description": "Google Workspace-native CRM for managing customer relationships and sales.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/copper/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.copper.com/",
+      "auth_quote": "Authenticate requests by passing your API Key and user email in X-PW-AccessToken and X-PW-UserEmail headers.",
+      "access_quote": "Developers can start a 14-day free trial requiring only a Google Workspace account.",
+      "api_quote": "Copper REST API exposes endpoints for leads, people, companies, opportunities, and activities."
+    },
+    "confidence": "High"
+  },
+  "10": {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "hint": "api.docs.dealcloud.com",
+    "one_line_description": "Specialized CRM and deal management platform for private capital and investment banking.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://api.docs.dealcloud.com/",
+      "auth_quote": "DealCloud API requires client credentials authentication provisioned exclusively to enterprise tenants.",
+      "access_quote": "DealCloud does not offer self-serve developer registration; access requires an enterprise contractual engagement.",
+      "api_quote": "The DealCloud REST API provides programmatic data ingestion and extraction for private market transactions."
+    },
+    "confidence": "High"
+  },
+  "11": {
+    "id": 11,
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "hint": "zendesk.com",
+    "one_line_description": "Customer service software and support ticketing platform.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Basic"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/zendesk/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.zendesk.com/api-reference/ticketing/introduction/",
+      "auth_quote": "Zendesk API supports OAuth access tokens and Basic authentication using your email address and an API token.",
+      "access_quote": "Zendesk provides 14-day free trials and sponsored developer accounts for registered technology partners.",
+      "api_quote": "The Zendesk Ticketing REST API allows comprehensive programmatic control over tickets, users, and groups."
+    },
+    "confidence": "High"
+  },
+  "12": {
+    "id": 12,
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "hint": "intercom.com",
+    "one_line_description": "Customer messaging and AI-powered support helpdesk platform.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/intercom/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication/",
+      "auth_quote": "Intercom uses Bearer authentication tokens for private workspaces and OAuth 2.0 for public marketplace apps.",
+      "access_quote": "You can create a free development workspace from the developer hub to build and test integrations.",
+      "api_quote": "The Intercom REST API covers conversations, contacts, articles, tickets, and automated workflows."
+    },
+    "confidence": "High"
+  },
+  "13": {
+    "id": 13,
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "hint": "freshdesk.com",
+    "one_line_description": "Cloud-based customer support software and ticketing solution by Freshworks.",
+    "auth_methods": [
+      "API Key",
+      "Basic"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/freshdesk/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.freshdesk.com/api/",
+      "auth_quote": "Authenticate requests using HTTP Basic Authentication with your API key as username and dummy password.",
+      "access_quote": "Freshdesk offers a permanent free plan for up to 10 agents with full REST API access.",
+      "api_quote": "Freshdesk REST API v2 provides endpoints for managing tickets, contacts, companies, and agents."
+    },
+    "confidence": "High"
+  },
+  "14": {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "hint": "front.com",
+    "one_line_description": "Shared inbox and customer communication hub for collaborative teams.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/frontapp/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://dev.frontapp.com/docs/overview",
+      "auth_quote": "The Front Core API uses JSON Web Tokens passed in the Authorization: Bearer header and OAuth 2.0.",
+      "access_quote": "Developers can test using a 7-day free trial or request a developer sandbox account.",
+      "api_quote": "The Front API enables manipulation of conversations, messages, channels, rules, and analytics."
+    },
+    "confidence": "High"
+  },
+  "15": {
+    "id": 15,
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "hint": "usepylon.com",
+    "one_line_description": "B2B customer support platform integrating Slack, Microsoft Teams, and ticketing.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/usepylon/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.usepylon.com/",
+      "auth_quote": "Pylon API requests are authenticated by providing an API token in the Authorization header.",
+      "access_quote": "Pylon requires a commercial paid subscription; there is no public self-serve free developer sandbox.",
+      "api_quote": "The Pylon REST API allows creating and updating issues, broadcasts, and synced customer accounts."
+    },
+    "confidence": "High"
+  },
+  "16": {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "hint": "liveagent.com",
+    "one_line_description": "Omnichannel helpdesk and live chat support software.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://support.liveagent.com/docs/api/v3/",
+      "auth_quote": "Authenticate by sending your API key via the apikey query parameter or HTTP header.",
+      "access_quote": "LiveAgent offers a 14 to 30 day free trial with immediate API key generation.",
+      "api_quote": "LiveAgent REST API v3 supports tickets, calls, chats, agents, and departments."
+    },
+    "confidence": "High"
+  },
+  "17": {
+    "id": 17,
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "hint": "plain.com",
+    "one_line_description": "Modern API-first customer support platform built for technical teams.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "GraphQL"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/plain/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://plain.com/docs",
+      "auth_quote": "Authenticate using machine user tokens passed in the Authorization: Bearer header.",
+      "access_quote": "Plain offers a generous free tier with instant signup and workspace creation.",
+      "api_quote": "Plain exposes a unified GraphQL API to handle threads, customers, events, and cards."
+    },
+    "confidence": "High"
+  },
+  "18": {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "hint": "helpscout.com",
+    "one_line_description": "Dedicated customer support and email management platform.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/helpscout/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.helpscout.com/mailbox-api/",
+      "auth_quote": "The Mailbox API uses OAuth 2.0 client credentials and authorization code flows.",
+      "access_quote": "A 15-day free trial provides full access to create API applications and tokens.",
+      "api_quote": "Help Scout Mailbox API v2 offers endpoints for conversations, mailboxes, customers, and tags."
+    },
+    "confidence": "High"
+  },
+  "19": {
+    "id": 19,
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "hint": "gorgias.com",
+    "one_line_description": "E-commerce-focused customer service helpdesk for Shopify and BigCommerce merchants.",
+    "auth_methods": [
+      "Basic",
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/gorgias/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.gorgias.com/reference/introduction",
+      "auth_quote": "Authenticate using HTTP Basic Auth with user email and API key or via OAuth 2.0 tokens.",
+      "access_quote": "Gorgias provides a 7-day free trial that allows immediate API access and store connection.",
+      "api_quote": "The Gorgias REST API handles tickets, customers, messages, satisfaction surveys, and macros."
+    },
+    "confidence": "High"
+  },
+  "20": {
+    "id": 20,
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "hint": "gladly.com",
+    "one_line_description": "Enterprise customer service platform centered around lifelong customer conversations.",
+    "auth_methods": [
+      "Basic",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.gladly.com/",
+      "auth_quote": "Gladly API uses Basic Auth with credentials created by administrators in enterprise organizations.",
+      "access_quote": "Gladly does not offer a free self-serve or trial signup; integration requires an enterprise contract.",
+      "api_quote": "The Gladly REST API allows integrating conversation timelines, profiles, and order data."
+    },
+    "confidence": "High"
+  },
+  "21": {
+    "id": 21,
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "hint": "slack.com",
+    "one_line_description": "Channel-based messaging platform for enterprise team collaboration.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://api.slack.com/authentication",
+      "auth_quote": "Slack uses OAuth 2.0 to generate bot and user tokens passed in Authorization: Bearer headers.",
+      "access_quote": "Anyone can create a free Slack workspace and register an app to generate bot tokens immediately.",
+      "api_quote": "The Slack Web API provides over 200 methods to manage channels, post messages, and read history."
+    },
+    "confidence": "High"
+  },
+  "22": {
+    "id": 22,
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "hint": "twilio.com",
+    "one_line_description": "Cloud communications platform for programmable SMS, voice, and video messaging.",
+    "auth_methods": [
+      "Basic",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/twilio/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://www.twilio.com/docs/usage/api",
+      "auth_quote": "Authenticate requests with HTTP Basic Authentication using your Twilio Account SID and Auth Token.",
+      "access_quote": "Twilio offers free trial accounts with free trial credit to develop and test messaging APIs.",
+      "api_quote": "Twilio REST APIs provide programmatic interfaces for SMS, voice, WhatsApp, and phone numbers."
+    },
+    "confidence": "High"
+  },
+  "23": {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "hint": "zoho.com/cliq",
+    "one_line_description": "Business communication and team collaboration chat application.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/zoho/cliq-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://www.zoho.com/cliq/help/restapi/v2/",
+      "auth_quote": "Zoho Cliq uses OAuth 2.0 protocol for authentication and authorization of API requests.",
+      "access_quote": "Zoho Cliq provides a free plan for up to 100 users with full bot and webhook capabilities.",
+      "api_quote": "The Cliq REST API v2 allows sending messages to channels, managing bots, and handling commands."
+    },
+    "confidence": "High"
+  },
+  "24": {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "hint": "open.larksuite.com",
+    "one_line_description": "Enterprise collaboration platform combining chat, docs, calendar, and video meetings.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/larksuite/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://open.larksuite.com/document/home/index",
+      "auth_quote": "Authenticate requests using app_access_token or tenant_access_token passed in Bearer headers.",
+      "access_quote": "Lark offers a free starter plan and free developer console registration.",
+      "api_quote": "Lark Open Platform offers extensive APIs for messaging, base tables, calendar, and approval flows."
+    },
+    "confidence": "High"
+  },
+  "25": {
+    "id": 25,
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "hint": "pumble.com",
+    "one_line_description": "Free team messaging and collaboration app for direct messaging and channels.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://pumble.com/help/integrations/api",
+      "auth_quote": "Pumble bot and incoming webhook tokens authenticate messages to channels.",
+      "access_quote": "Pumble is completely free for unlimited users and message history on the starter tier.",
+      "api_quote": "The Pumble API supports sending channel messages, bot interactions, and webhooks."
+    },
+    "confidence": "High"
+  },
+  "26": {
+    "id": 26,
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "hint": "discord.com",
+    "one_line_description": "Voice, video, and text communication service popular with communities and gamers.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/discord/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://discord.com/developers/docs/reference",
+      "auth_quote": "Authenticate requests with Bot or Bearer tokens in the Authorization header.",
+      "access_quote": "Discord Developer Portal is free for all users with instant bot creation.",
+      "api_quote": "The Discord REST API allows managing guilds, channels, webhooks, messages, and slash commands."
+    },
+    "confidence": "High"
+  },
+  "27": {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "hint": "core.telegram.org",
+    "one_line_description": "Cloud-based messaging platform featuring group chats, channels, and an HTTP Bot API.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/chigwell/telegram-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://core.telegram.org/bots/api",
+      "auth_quote": "Once successfully created, BotFather will reply with a confirmation message containing your HTTP API Token.",
+      "access_quote": "The Bot API is free for all developers and anyone can create bots using BotFather at no cost.",
+      "api_quote": "All queries to the Telegram Bot API must be served over HTTPS and structured using your token in the URL path."
+    },
+    "confidence": "High"
+  },
+  "28": {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "hint": "developers.facebook.com/docs/whatsapp",
+    "one_line_description": "Enterprise customer messaging platform operating on the Meta Cloud API.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/meta/whatsapp-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started",
+      "auth_quote": "Requests require a System User access token passed in the Authorization: Bearer header.",
+      "access_quote": "The Cloud API provides 1,000 free service conversations per month upon Meta Business setup.",
+      "api_quote": "The WhatsApp Business Cloud API provides endpoints to send templated messages, media, and interactive flows."
+    },
+    "confidence": "High"
+  },
+  "29": {
+    "id": 29,
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "hint": "aircall.io",
+    "one_line_description": "Cloud call center and phone system software designed for sales and support teams.",
+    "auth_methods": [
+      "Basic",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/aircall/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.aircall.io/api-references/",
+      "auth_quote": "Authenticate using Basic Auth with your API ID and API Token generated in the dashboard.",
+      "access_quote": "Aircall offers a 7-day free trial that allows access to developer tokens.",
+      "api_quote": "The Aircall REST API enables retrieval of call records, recordings, users, numbers, and tags."
+    },
+    "confidence": "High"
+  },
+  "30": {
+    "id": 30,
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "hint": "developer.vonage.com",
+    "one_line_description": "Cloud communications platform API for SMS, voice, video, and verify authentication.",
+    "auth_methods": [
+      "Basic",
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/vonage/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "auth_quote": "Vonage APIs support API Key/Secret for Basic auth and JWT tokens signed with private keys.",
+      "access_quote": "Vonage provides free trial credit upon self-serve account signup without upfront payment.",
+      "api_quote": "Vonage REST APIs expose voice calling, SMS dispatch, messaging, and two-factor verify services."
+    },
+    "confidence": "High"
+  },
+  "31": {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "developers.google.com/google-ads",
+    "one_line_description": "Online advertising platform developed by Google for search, display, and video campaigns.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "gRPC"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/google/ads-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.google.com/google-ads/api/docs/first-call/overview",
+      "auth_quote": "All Google Ads API calls require an OAuth2 access token and a developer-token header.",
+      "access_quote": "Anyone can get a test developer token for free, but production access requires developer token approval.",
+      "api_quote": "The Google Ads API enables automated campaign creation, budget management, and reporting via REST and gRPC."
+    },
+    "confidence": "High"
+  },
+  "32": {
+    "id": 32,
+    "name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "developers.facebook.com/docs/marketing-apis",
+    "one_line_description": "Targeted advertising platform across Facebook, Instagram, Messenger, and Audience Network.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/meta/marketing-mcp",
+    "buildable_today": "Partial",
+    "main_blocker": "Partner / Admin Approval",
+    "evidence": {
+      "docs_url": "https://developers.facebook.com/docs/marketing-apis/overview/authentication",
+      "auth_quote": "Meta Marketing APIs require user or system user OAuth access tokens passed as Bearer or query parameters.",
+      "access_quote": "Developers can self-serve a developer account and test ads in development mode for free.",
+      "api_quote": "The Marketing API provides endpoints for ad account management, campaigns, ad sets, and creative assets."
+    },
+    "confidence": "High"
+  },
+  "33": {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "learn.microsoft.com/linkedin/marketing",
+    "one_line_description": "B2B professional marketing and targeted sponsored content advertising platform.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Enterprise / Contact Sales",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/linkedin/ads-mcp",
+    "buildable_today": "Partial",
+    "main_blocker": "Partner / Admin Approval",
+    "evidence": {
+      "docs_url": "https://learn.microsoft.com/en-us/linkedin/marketing/overview",
+      "auth_quote": "Requests must contain an OAuth 2.0 access token with relevant marketing permissions.",
+      "access_quote": "Access to the LinkedIn Marketing Developer Platform requires an application and formal partner approval.",
+      "api_quote": "The LinkedIn Marketing API allows managing sponsored campaigns, creatives, audiences, and conversions."
+    },
+    "confidence": "High"
+  },
+  "34": {
+    "id": 34,
+    "name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "highlevel.stoplight.io",
+    "one_line_description": "All-in-one sales, marketing, and CRM platform built for marketing agencies.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/gohighlevel/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://highlevel.stoplight.io/docs/integrations/",
+      "auth_quote": "GoHighLevel API v2 uses OAuth 2.0 and Private Integration Bearer tokens.",
+      "access_quote": "API access requires an active paid agency subscription starting at $97 per month.",
+      "api_quote": "The API v2 covers contacts, opportunities, calendars, conversations, and custom workflows."
+    },
+    "confidence": "High"
+  },
+  "35": {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "mailchimp.com/developer",
+    "one_line_description": "Email marketing and automated customer lifecycle campaign software.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/mailchimp/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "auth_quote": "Authenticate using an API key via HTTP Basic Auth or through OAuth 2.0 access tokens.",
+      "access_quote": "Mailchimp provides a free plan for up to 500 contacts with instant API key creation.",
+      "api_quote": "The Mailchimp Marketing REST API allows managing audience lists, campaigns, templates, and reports."
+    },
+    "confidence": "High"
+  },
+  "36": {
+    "id": 36,
+    "name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "developers.klaviyo.com",
+    "one_line_description": "Intelligent marketing automation platform for ecommerce email and SMS.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/klaviyo/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.klaviyo.com/en/docs/authenticate_to_klaviyo_apis",
+      "auth_quote": "Authenticate using private API keys in the Authorization: Klaviyo-API-Key header or via OAuth 2.0.",
+      "access_quote": "Klaviyo offers a free account tier for up to 250 contacts with full developer API access.",
+      "api_quote": "The revisioned Klaviyo REST API provides endpoints for profiles, events, metrics, flows, and campaigns."
+    },
+    "confidence": "High"
+  },
+  "37": {
+    "id": 37,
+    "name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "systeme.io (funnel builder)",
+    "one_line_description": "All-in-one marketing platform for sales funnels, email marketing, courses, and affiliates.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://systeme.io/api-documentation",
+      "auth_quote": "API requests require an API key sent in the X-API-KEY header.",
+      "access_quote": "systeme.io offers a permanent free plan with 2,000 contacts and API token generation.",
+      "api_quote": "The systeme.io REST API allows creating and updating contacts, tags, and course enrollments."
+    },
+    "confidence": "High"
+  },
+  "38": {
+    "id": 38,
+    "name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "developers.pinterest.com",
+    "one_line_description": "Visual discovery and bookmarking engine with ecommerce and advertising tools.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/pinterest/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.pinterest.com/docs/api/v5/",
+      "auth_quote": "The Pinterest API v5 uses OAuth 2.0 with access tokens passed as Authorization: Bearer.",
+      "access_quote": "Developers can register for free on the Pinterest Developer Portal and get trial access immediately.",
+      "api_quote": "The API v5 handles pins, boards, ad campaigns, audiences, and analytics."
+    },
+    "confidence": "High"
+  },
+  "39": {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "developers.facebook.com/docs/threads",
+    "one_line_description": "Text-based social sharing platform by Instagram (Meta).",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/meta/threads-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.facebook.com/docs/threads/overview",
+      "auth_quote": "Threads API requests require an OAuth access token obtained through the Threads login flow.",
+      "access_quote": "Meta Developer accounts can self-serve access to the Threads API for test accounts at no charge.",
+      "api_quote": "The Threads API supports publishing text, images, video, retrieving insights, and managing replies."
+    },
+    "confidence": "High"
+  },
+  "40": {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "hint": "sendgrid.com",
+    "one_line_description": "Cloud-based customer communication platform for transactional and marketing email.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/sendgrid/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.sendgrid.com/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+      "auth_quote": "Authenticate to the SendGrid v3 API by passing your API key in the Authorization: Bearer header.",
+      "access_quote": "SendGrid offers a free plan delivering 100 emails per day forever with full API access.",
+      "api_quote": "The v3 REST API supports mail send, marketing campaigns, contact lists, and suppressions."
+    },
+    "confidence": "High"
+  },
+  "41": {
+    "id": 41,
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "hint": "shopify.dev",
+    "one_line_description": "Multi-channel commerce platform for online stores and retail point-of-sale systems.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "GraphQL",
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/shopify/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://shopify.dev/docs/apps/auth",
+      "auth_quote": "Shopify apps authenticate using OAuth 2.0 to obtain offline or online access tokens passed as X-Shopify-Access-Token.",
+      "access_quote": "Developers can create a free Shopify Partner account with unlimited development stores.",
+      "api_quote": "Shopify offers comprehensive Admin GraphQL and REST APIs for products, orders, customers, and checkout."
+    },
+    "confidence": "High"
+  },
+  "42": {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "hint": "woocommerce.com/document/woocommerce-rest-api",
+    "one_line_description": "Open-source ecommerce plugin built for WordPress websites.",
+    "auth_methods": [
+      "Basic",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/woocommerce/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+      "auth_quote": "The WooCommerce REST API uses HTTP Basic Authentication over HTTPS with consumer key and consumer secret.",
+      "access_quote": "WooCommerce is free open-source software available to self-host with no licensing fees.",
+      "api_quote": "The REST API exposes complete control over products, orders, customers, coupons, and reports."
+    },
+    "confidence": "High"
+  },
+  "43": {
+    "id": 43,
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "hint": "developer.bigcommerce.com",
+    "one_line_description": "Open SaaS ecommerce platform for fast-growing and enterprise brands.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/bigcommerce/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.bigcommerce.com/docs/start/authentication",
+      "auth_quote": "Authenticate requests with the X-Auth-Token header obtained via OAuth or store API account creation.",
+      "access_quote": "Developers can create a free BigCommerce partner account with sandbox development stores.",
+      "api_quote": "BigCommerce provides REST v2/v3 APIs and Storefront GraphQL APIs for products, carts, and checkouts."
+    },
+    "confidence": "High"
+  },
+  "44": {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "hint": "developer.salesforce.com/docs/commerce",
+    "one_line_description": "Enterprise B2B and B2C ecommerce platform powering digital shopping experiences.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/salesforce/commerce-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "auth_quote": "Salesforce Commerce API uses OAuth 2.0 with client credentials and authorization code flows.",
+      "access_quote": "Accessing Commerce Cloud APIs requires an enterprise contract and provisioned B2C Commerce realm.",
+      "api_quote": "The SCAPI REST APIs expose shopper and administrative endpoints for product catalogs and order management."
+    },
+    "confidence": "High"
+  },
+  "45": {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "hint": "developer.adobe.com/commerce",
+    "one_line_description": "Flexible open-source and enterprise digital commerce solution.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "GraphQL"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/adobe/commerce-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "auth_quote": "Adobe Commerce supports token-based authentication using Bearer tokens for admin and customer users.",
+      "access_quote": "Magento Open Source is free to download and self-host with full REST and GraphQL API capabilities.",
+      "api_quote": "Adobe Commerce exposes comprehensive REST and GraphQL APIs for catalog, sales, inventory, and checkout."
+    },
+    "confidence": "High"
+  },
+  "46": {
+    "id": 46,
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "hint": "developers.squarespace.com",
+    "one_line_description": "Website building and ecommerce hosting platform for creative and retail businesses.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Paid Plan Required",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/squarespace/mcp",
+    "buildable_today": "Partial",
+    "main_blocker": "Paid Plan Required",
+    "evidence": {
+      "docs_url": "https://developers.squarespace.com/commerce-apis/overview",
+      "auth_quote": "Authenticate using an API key passed in the Authorization: Bearer header or via OAuth 2.0.",
+      "access_quote": "The Commerce API requires a website subscription to the Commerce Advanced plan.",
+      "api_quote": "Squarespace REST APIs cover orders, inventory, products, transactions, and profiles."
+    },
+    "confidence": "High"
+  },
+  "47": {
+    "id": 47,
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "hint": "api-docs.ecwid.com",
+    "one_line_description": "Embeddable ecommerce widget and shopping cart platform by Lightspeed.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/ecwid/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://api-docs.ecwid.com/reference/overview",
+      "auth_quote": "Pass the secret token in the Authorization: Bearer header or via token query parameter.",
+      "access_quote": "Ecwid offers a free plan and a free developer account to build and test applications.",
+      "api_quote": "The Ecwid REST API supports complete management of products, categories, orders, and customers."
+    },
+    "confidence": "High"
+  },
+  "48": {
+    "id": 48,
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "hint": "gumroad.com/api",
+    "one_line_description": "E-commerce platform for digital creators, writers, and software makers.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/gumroad/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://app.gumroad.com/api",
+      "auth_quote": "Requests require an access_token parameter or Authorization: Bearer header.",
+      "access_quote": "Gumroad has no monthly subscription fee; anyone can create an account and access the API immediately.",
+      "api_quote": "The Gumroad REST API provides endpoints for products, sales, subscribers, custom fields, and licenses."
+    },
+    "confidence": "High"
+  },
+  "49": {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "hint": "developer-docs.amazon.com/sp-api",
+    "one_line_description": "Suite of REST-based APIs for Amazon professional sellers and vendor partners.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/amazon/sp-api-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer-docs.amazon.com/sp-api/docs/connecting-to-the-selling-partner-api",
+      "auth_quote": "Authenticate using Login with Amazon (LWA) access tokens and AWS Signature Version 4.",
+      "access_quote": "Access requires a registered Amazon Professional Selling account and approved developer application.",
+      "api_quote": "SP-API covers orders, inventory, pricing, fulfillment by Amazon, reports, and finances."
+    },
+    "confidence": "High"
+  },
+  "50": {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "hint": "fanbasis.com",
+    "one_line_description": "Monetization and fan engagement platform for social media creators.",
+    "auth_methods": [
+      "None"
+    ],
+    "access_model": "Enterprise / Contact Sales",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "None",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://fanbasis.com",
+      "auth_quote": "fanbasis does not publish public developer API documentation or credential endpoints.",
+      "access_quote": "The platform operates as a closed creator marketplace without self-serve developer access.",
+      "api_quote": "No public REST or GraphQL API surface is exposed for external integrations."
+    },
+    "confidence": "High"
+  },
+  "51": {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "hint": "docs.dataforseo.com",
+    "one_line_description": "Comprehensive SEO and search engine SERP scraping API provider.",
+    "auth_methods": [
+      "Basic"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/dataforseo/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.dataforseo.com/v3/",
+      "auth_quote": "DataForSEO APIs use HTTP Basic Authentication with your account login and API password.",
+      "access_quote": "Registering an account is free and includes a $1 test credit to immediately make API requests.",
+      "api_quote": "Provides extensive REST endpoints for SERP scraping, Google Ads keyword data, backlinks, and on-page analysis."
+    },
+    "confidence": "High"
+  },
+  "52": {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "hint": "seranking.com/api",
+    "one_line_description": "All-in-one SEO and digital marketing software platform.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Paid Plan Required",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Partial",
+    "main_blocker": "Paid Plan Required",
+    "evidence": {
+      "docs_url": "https://seranking.com/api.html",
+      "auth_quote": "Pass your API token in the Authorization: Bearer header for all REST requests.",
+      "access_quote": "API access is available exclusively to users on paid Pro and Business subscription plans.",
+      "api_quote": "The SE Ranking API enables programmatic retrieval of keyword rankings, competitor analysis, and site audits."
+    },
+    "confidence": "High"
+  },
+  "53": {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "hint": "ahrefs.com/api",
+    "one_line_description": "Industry-leading SEO toolset for backlink analysis, keyword research, and site audits.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Paid Plan Required",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/ahrefs/mcp",
+    "buildable_today": "Partial",
+    "main_blocker": "Paid Plan Required",
+    "evidence": {
+      "docs_url": "https://ahrefs.com/api/documentation",
+      "auth_quote": "Authenticate requests using API keys or OAuth 2.0 access tokens in the Authorization: Bearer header.",
+      "access_quote": "API units must be purchased on an eligible paid Enterprise subscription plan.",
+      "api_quote": "Ahrefs API v3 provides endpoints for backlink profiles, domain ratings, organic search traffic, and keyword metrics."
+    },
+    "confidence": "High"
+  },
+  "54": {
+    "id": 54,
+    "name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "hint": "docs.mrscraper.com",
+    "one_line_description": "Visual web scraper and automated data extraction platform.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.mrscraper.com/",
+      "auth_quote": "Authenticate requests with the Authorization: Bearer <API_KEY> header.",
+      "access_quote": "MrScraper offers a free tier granting free scraping credits upon self-serve registration.",
+      "api_quote": "The REST API allows triggering scrapers, managing webhook callbacks, and retrieving JSON extraction data."
+    },
+    "confidence": "High"
+  },
+  "55": {
+    "id": 55,
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "hint": "docs.apify.com",
+    "one_line_description": "Full-stack web scraping and data extraction cloud platform running serverless Actors.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/apify/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.apify.com/api/v2",
+      "auth_quote": "Apify API uses API tokens provided in the Authorization: Bearer header or via token query parameter.",
+      "access_quote": "Apify provides a generous free tier with $5 monthly credit renewed automatically forever.",
+      "api_quote": "The Apify REST API allows running Actors, fetching datasets, managing key-value stores, and webhook queues."
+    },
+    "confidence": "High"
+  },
+  "56": {
+    "id": 56,
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "hint": "firecrawl.dev",
+    "one_line_description": "API service that converts any website into clean LLM-ready markdown or structured data.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/mendableai/firecrawl-mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.firecrawl.dev/api-reference/introduction",
+      "auth_quote": "Authenticate API requests by passing your Firecrawl API key in the Authorization: Bearer header.",
+      "access_quote": "Firecrawl offers 500 free credits on sign up and is also open source for self-hosting.",
+      "api_quote": "Provides endpoints to scrape single URLs, crawl entire domains, map sitemaps, and extract structured JSON."
+    },
+    "confidence": "High"
+  },
+  "57": {
+    "id": 57,
+    "name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "hint": "brightdata.com",
+    "one_line_description": "Web data platform offering proxy networks, Web Unlocker, and Scraping Browser APIs.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/brightdata/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.brightdata.com/api-reference",
+      "auth_quote": "API requests require an API token sent in the Authorization: Bearer header.",
+      "access_quote": "Bright Data provides a free trial with signup credits to test proxies and scraping APIs.",
+      "api_quote": "Exposes REST endpoints for Web Scraper IDE, SERP API, eCommerce datasets, and proxy management."
+    },
+    "confidence": "High"
+  },
+  "58": {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "hint": "github.com/sherlock-project/sherlock",
+    "one_line_description": "Open-source Python command-line OSINT tool to hunt down social media accounts by username across hundreds of platforms.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Paid Plan Required",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Limited",
+    "existing_mcp": false,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/Burnsedia/sherlock-mcp",
+    "buildable_today": "No",
+    "main_blocker": "No Public API",
+    "evidence": {
+      "docs_url": "https://github.com/sherlock-project/sherlock",
+      "auth_quote": "Sherlock runs locally via Python CLI without requiring API credentials or user authentication.",
+      "access_quote": "Sherlock is open source licensed under the MIT License and available publicly on GitHub for anyone to clone and run.",
+      "api_quote": "Hunt down social media accounts by username across social networks using command line arguments."
+    },
+    "confidence": "High"
+  },
+  "59": {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "hint": "waterfall.io (contact/company intel)",
+    "one_line_description": "B2B data waterfall enrichment API aggregating contact and company intelligence.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://waterfall.io/",
+      "auth_quote": "Authenticate using an enterprise API key passed in request headers.",
+      "access_quote": "Waterfall operates on enterprise sales contracts with custom credit pricing; no free self-serve API access.",
+      "api_quote": "The Waterfall REST API queries cascaded vendor databases for verified emails, phone numbers, and company profiles."
+    },
+    "confidence": "High"
+  },
+  "60": {
+    "id": 60,
+    "name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "hint": "clay.com",
+    "one_line_description": "Data enrichment and automated sales prospecting platform with 50+ integrated data providers.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/clay/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://clay.com/docs/api",
+      "auth_quote": "Authenticate Clay webhook and REST API requests with your Clay API key in the Authorization header.",
+      "access_quote": "Clay offers a free tier with 100 free monthly credits to build enrichment tables and integrations.",
+      "api_quote": "The Clay API enables reading and writing table rows, triggering webhook actions, and cascading enrichments."
+    },
+    "confidence": "High"
+  },
+  "61": {
+    "id": 61,
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "docs.github.com/rest",
+    "one_line_description": "Cloud-based hosting service for software development and version control using Git.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "auth_quote": "To authenticate with the GitHub REST API, you must provide a token in the Authorization header of your HTTP request. GitHub supports multiple types of tokens, primarily personal access tokens and OAuth tokens.",
+      "access_quote": "You can create personal access tokens for free in your GitHub account developer settings to authenticate API requests.",
+      "api_quote": "GitHub supports both REST and GraphQL APIs across its developer platform."
+    },
+    "confidence": "High"
+  },
+  "62": {
+    "id": 62,
+    "name": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "vercel.com/docs/rest-api",
+    "one_line_description": "Cloud platform for static sites, serverless functions, and modern frontend deployment.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/vercel/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://vercel.com/docs/rest-api",
+      "auth_quote": "Authenticate with the Vercel API by sending a Personal Access Token in the Authorization: Bearer header.",
+      "access_quote": "Vercel provides a free Hobby tier with full REST API deployment and management capabilities.",
+      "api_quote": "The Vercel REST API enables programmatic management of deployments, domains, projects, and environment variables."
+    },
+    "confidence": "High"
+  },
+  "63": {
+    "id": 63,
+    "name": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "docs.netlify.com/api",
+    "one_line_description": "Cloud computing platform that offers hosting and serverless backend services for web applications.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/netlify/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.netlify.com/api/get-started/",
+      "auth_quote": "All API requests require an access token passed as Authorization: Bearer <token>.",
+      "access_quote": "Netlify offers a free Starter plan with instant personal access token generation.",
+      "api_quote": "The Netlify REST API allows managing sites, deploys, DNS records, forms, and environment variables."
+    },
+    "confidence": "High"
+  },
+  "64": {
+    "id": 64,
+    "name": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "developers.cloudflare.com/api",
+    "one_line_description": "Global cloud network providing DNS, DDoS protection, CDN, and serverless Workers computing.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/cloudflare/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.cloudflare.com/fundamentals/api/get-started/",
+      "auth_quote": "Cloudflare API uses scoped API Tokens passed via Authorization: Bearer or global API keys.",
+      "access_quote": "Anyone can create a free Cloudflare account and generate scoped API tokens immediately.",
+      "api_quote": "The Cloudflare v4 REST API exposes management of DNS records, firewall rules, SSL, and Workers."
+    },
+    "confidence": "High"
+  },
+  "65": {
+    "id": 65,
+    "name": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "supabase.com/docs",
+    "one_line_description": "Open-source Firebase alternative providing managed PostgreSQL, Auth, Realtime, and Storage.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "GraphQL",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/supabase/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://supabase.com/docs/guides/api",
+      "auth_quote": "Requests require an apikey and Authorization: Bearer header with anon or service_role JWTs.",
+      "access_quote": "Supabase offers a free tier with up to two free PostgreSQL projects.",
+      "api_quote": "Auto-generates RESTful PostgREST APIs and GraphQL directly from your database schema."
+    },
+    "confidence": "High"
+  },
+  "66": {
+    "id": 66,
+    "name": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "neo4j.com/docs/api",
+    "one_line_description": "Native graph database management system designed for connected data relationships and knowledge graphs.",
+    "auth_methods": [
+      "Basic",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official",
+    "mcp_url": "https://github.com/neo4j-contrib/mcp-neo4j",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://neo4j.com/docs/http-api/current/",
+      "auth_quote": "Authenticate HTTP requests using Basic Authentication (username:password) or Bearer tokens.",
+      "access_quote": "Neo4j AuraDB offers a free tier database instance with instant cloud connection.",
+      "api_quote": "The Neo4j HTTP API executes Cypher transaction queries and statements against graph databases."
+    },
+    "confidence": "High"
+  },
+  "67": {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "docs.snowflake.com",
+    "one_line_description": "Cloud data platform offering data warehousing, data lakes, and secure data sharing.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Enterprise / Contact Sales",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/snowflake/mcp",
+    "buildable_today": "No",
+    "main_blocker": "Enterprise Gate / Paywall",
+    "evidence": {
+      "docs_url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+      "auth_quote": "Snowflake SQL API authenticates using JSON Web Tokens (JWT) or OAuth 2.0 access tokens in the Authorization: Bearer header.",
+      "access_quote": "Snowflake provides a 30-day free trial with $400 in free usage credits upon registration.",
+      "api_quote": "The Snowflake SQL API allows submitting SQL statements and fetching query execution results over REST."
+    },
+    "confidence": "High"
+  },
+  "68": {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "mongodb.com/docs/atlas/api",
+    "one_line_description": "Fully managed multi-cloud document database platform.",
+    "auth_methods": [
+      "Basic",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official",
+    "mcp_url": "https://github.com/mongodb/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://www.mongodb.com/docs/atlas/reference/api-resources-spec/",
+      "auth_quote": "MongoDB Atlas Administration API uses HTTP Digest Authentication with public and private API keys.",
+      "access_quote": "Atlas provides free M0 shared clusters forever without requiring a paid subscription.",
+      "api_quote": "The Atlas REST API provides full programmatic configuration of database clusters, users, and backup policies."
+    },
+    "confidence": "High"
+  },
+  "69": {
+    "id": 69,
+    "name": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "docs.datadoghq.com/api",
+    "one_line_description": "Observability and security monitoring platform for cloud-scale applications.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/datadog/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.datadoghq.com/api/latest/authentication/",
+      "auth_quote": "Authenticate by sending DD-API-KEY and DD-APPLICATION-KEY in HTTP request headers.",
+      "access_quote": "Datadog provides a 14-day free trial granting full access to generate API and application keys.",
+      "api_quote": "The Datadog REST API exposes endpoints for metrics, logs, dashboards, monitors, and traces."
+    },
+    "confidence": "High"
+  },
+  "70": {
+    "id": 70,
+    "name": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "hint": "docs.sentry.io/api",
+    "one_line_description": "Application performance monitoring and error tracking software for developers.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/getsentry/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.sentry.io/api/",
+      "auth_quote": "Requests require an authentication token passed in the Authorization: Bearer header.",
+      "access_quote": "Sentry provides a free Developer tier with up to 5,000 monthly errors and API access.",
+      "api_quote": "The Sentry REST API allows retrieving issues, events, releases, project stats, and organization members."
+    },
+    "confidence": "High"
+  },
+  "71": {
+    "id": 71,
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "hint": "developers.notion.com",
+    "one_line_description": "Connected workspace for notes, docs, project management, and knowledge bases.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/notion",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.notion.com/docs/authorization",
+      "auth_quote": "Authenticate requests with the Notion API by sending an internal or public integration token in the Authorization: Bearer header.",
+      "access_quote": "Creating Notion integrations and using the API is free for all Notion workspace users.",
+      "api_quote": "The Notion REST API provides endpoints to create, query, and update databases, pages, and blocks."
+    },
+    "confidence": "High"
+  },
+  "72": {
+    "id": 72,
+    "name": "Airtable",
+    "category": "Productivity and Project Management",
+    "hint": "airtable.com/developers",
+    "one_line_description": "Low-code relational database and collaborative spreadsheet platform.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/airtable/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://airtable.com/developers/web/api/introduction",
+      "auth_quote": "Authenticate with personal access tokens using the standard Authorization: Bearer header.",
+      "access_quote": "Airtable offers a free plan with unlimited bases and full REST API access.",
+      "api_quote": "The Airtable REST API provides endpoints to create, read, update, and delete records across all bases."
+    },
+    "confidence": "High"
+  },
+  "73": {
+    "id": 73,
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "hint": "developers.linear.app",
+    "one_line_description": "Issue tracking and project management tool designed for high-performance software teams.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "GraphQL",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/linear/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+      "auth_quote": "Pass personal API keys or OAuth access tokens in the Authorization header of GraphQL POST requests.",
+      "access_quote": "Linear offers a free plan for up to 250 active issues with complete GraphQL API access.",
+      "api_quote": "Linear provides a comprehensive GraphQL API covering issues, cycles, projects, and roadmap milestones."
+    },
+    "confidence": "High"
+  },
+  "74": {
+    "id": 74,
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "hint": "developer.atlassian.com",
+    "one_line_description": "Agile project tracking and issue management software by Atlassian.",
+    "auth_methods": [
+      "Basic",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/atlassian/jira-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "auth_quote": "Authenticate REST API requests with Basic auth using your Atlassian account email and API token or OAuth 2.0 (3LO).",
+      "access_quote": "Atlassian provides a free Jira Cloud plan for up to 10 users with full REST API functionality.",
+      "api_quote": "The Jira Cloud REST API v3 supports searching, creating, and updating issues, sprints, and workflows."
+    },
+    "confidence": "High"
+  },
+  "75": {
+    "id": 75,
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "hint": "developers.asana.com",
+    "one_line_description": "Work and project management software for organizing and coordinating team tasks.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/asana/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developers.asana.com/docs/authentication-quick-start",
+      "auth_quote": "Authenticate API requests using Personal Access Tokens in the Authorization: Bearer header or OAuth 2.0.",
+      "access_quote": "Asana offers a Personal free tier with API access to manage up to 10 teammates.",
+      "api_quote": "The Asana REST API exposes tasks, projects, portfolios, custom fields, and workspaces."
+    },
+    "confidence": "High"
+  },
+  "76": {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "hint": "developer.monday.com",
+    "one_line_description": "Cloud-based Work Operating System for managing team workflows and projects.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "GraphQL",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/mondaycom/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.monday.com/api-reference/docs/authentication",
+      "auth_quote": "Requests require an API token sent in the Authorization header or OAuth 2.0 access token.",
+      "access_quote": "Monday.com provides a 14-day free trial that unlocks full developer API capabilities.",
+      "api_quote": "The monday.com GraphQL API allows querying and mutating boards, items, columns, and updates."
+    },
+    "confidence": "High"
+  },
+  "77": {
+    "id": 77,
+    "name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "hint": "clickup.com/api",
+    "one_line_description": "All-in-one productivity platform replacing tasks, docs, chat, and goals.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/clickup/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://clickup.com/api/developer-portal/authentication/",
+      "auth_quote": "Authenticate requests using personal API tokens via the Authorization header or OAuth 2.0 flow.",
+      "access_quote": "ClickUp offers a Free Forever plan providing full REST API access without payment.",
+      "api_quote": "The ClickUp REST API v2 provides endpoints for spaces, folders, lists, tasks, and custom fields."
+    },
+    "confidence": "High"
+  },
+  "78": {
+    "id": 78,
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "hint": "coda.io/developers",
+    "one_line_description": "All-in-one collaborative doc that brings words, data, and software together.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/coda/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://coda.io/developers/apis/v1",
+      "auth_quote": "Authenticate using an API key passed in the HTTP Authorization: Bearer header.",
+      "access_quote": "Coda provides a free plan where any user can generate API keys instantly.",
+      "api_quote": "The Coda REST API allows programmatic manipulation of docs, tables, rows, columns, and controls."
+    },
+    "confidence": "High"
+  },
+  "79": {
+    "id": 79,
+    "name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "hint": "smartsheet.com/developers",
+    "one_line_description": "Enterprise work management platform built on dynamic spreadsheet grids.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/smartsheet/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://smartsheet.redoc.ly/",
+      "auth_quote": "All API requests require an access token passed in the Authorization: Bearer header.",
+      "access_quote": "Smartsheet offers a 30-day free trial and a developer portal for testing integrations.",
+      "api_quote": "The Smartsheet REST API v2 exposes sheets, rows, columns, reports, workspaces, and sights."
+    },
+    "confidence": "High"
+  },
+  "80": {
+    "id": 80,
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "hint": "harvestapp.com (help.getharvest.com/api-v2)",
+    "one_line_description": "Time tracking, invoicing, and expense reporting software for professional service teams.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/harvest/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://help.getharvest.com/api-v2/authentication-api/overview/authentication/",
+      "auth_quote": "Authenticate requests with Authorization: Bearer <token> and Harvest-Account-Id headers.",
+      "access_quote": "Harvest provides a free plan for single users and a 30-day full trial with API access.",
+      "api_quote": "The Harvest REST API v2 covers time entries, clients, projects, tasks, invoices, and estimates."
+    },
+    "confidence": "High"
+  },
+  "81": {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "hint": "stripe.com/docs/api",
+    "one_line_description": "Financial infrastructure platform for payment processing and internet commerce.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/stripe/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://stripe.com/docs/api/authentication",
+      "auth_quote": "Authenticate your API requests by providing one of your API keys in the Authorization: Bearer header.",
+      "access_quote": "Stripe accounts are free to create with instant self-serve access to test API keys without bank details.",
+      "api_quote": "The Stripe REST API provides comprehensive endpoints for charges, payment intents, customers, and subscriptions."
+    },
+    "confidence": "High"
+  },
+  "82": {
+    "id": 82,
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "hint": "plaid.com/docs",
+    "one_line_description": "Data network connecting consumer bank accounts to fintech applications.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/plaid/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://plaid.com/docs/api/",
+      "auth_quote": "Authenticate by sending PLAID-CLIENT-ID and PLAID-SECRET in HTTP request headers or JSON body.",
+      "access_quote": "Plaid provides free, instant Sandbox access allowing developers to test with simulated financial data.",
+      "api_quote": "Plaid REST API enables retrieval of bank account balances, transactions, identities, and auth data."
+    },
+    "confidence": "High"
+  },
+  "83": {
+    "id": 83,
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "hint": "binance-docs.github.io",
+    "one_line_description": "Global cryptocurrency exchange platform for spot, futures, and margin trading.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/binance/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://binance-docs.github.io/apidocs/spot/en/",
+      "auth_quote": "Sign requests using an API Key in the X-MBX-APIKEY header and HMAC SHA256 or Ed25519 signatures.",
+      "access_quote": "Creating a Binance account is free and Spot Testnet provides instant simulated credentials.",
+      "api_quote": "Binance provides high-frequency REST and WebSocket APIs for order execution and market depth."
+    },
+    "confidence": "High"
+  },
+  "84": {
+    "id": 84,
+    "name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "hint": "paygent (NMI-powered)",
+    "one_line_description": "Japanese electronic payment gateway service powering credit card and multi-payment solutions.",
+    "auth_methods": [
+      "Basic",
+      "API Key"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://www.paygent.co.jp/",
+      "auth_quote": "Paygent API authentication uses merchant certificates and enterprise IDs assigned under contractual vetting.",
+      "access_quote": "No public self-serve developer access; integration requires an approved commercial merchant contract.",
+      "api_quote": "Paygent payment APIs process credit card transactions, bank transfers, and convenience store payments."
+    },
+    "confidence": "High"
+  },
+  "85": {
+    "id": 85,
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "hint": "ipayx.ai/docs",
+    "one_line_description": "AI-orchestrated payment routing and fraud prevention platform.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Enterprise / Contact Sales",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "No",
+    "main_blocker": "Partner / Admin Approval",
+    "evidence": {
+      "docs_url": "https://ipayx.ai/docs",
+      "auth_quote": "API requests require an API Key passed in the Authorization: Bearer header.",
+      "access_quote": "iPayX developer access is gated behind enterprise approval and closed onboarding review.",
+      "api_quote": "The iPayX REST API handles dynamic payment routing, multi-gateway settlement, and fraud evaluation."
+    },
+    "confidence": "High"
+  },
+  "86": {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "hint": "developer.intuit.com",
+    "one_line_description": "Small business accounting software for managing bookkeeping, payroll, and invoicing.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/intuit/quickbooks-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+      "auth_quote": "QuickBooks Online APIs use OAuth 2.0 with access tokens passed as Authorization: Bearer headers.",
+      "access_quote": "Intuit Developer provides free developer accounts with populated sandbox companies.",
+      "api_quote": "The QuickBooks Online Accounting API covers invoices, bills, customers, vendors, and payments."
+    },
+    "confidence": "High"
+  },
+  "87": {
+    "id": 87,
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "hint": "developer.xero.com",
+    "one_line_description": "Cloud accounting software for small businesses, accountants, and bookkeepers.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/xero/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.xero.com/documentation/guides/oauth2/overview/",
+      "auth_quote": "All API calls to Xero must be authenticated using OAuth 2.0 access tokens.",
+      "access_quote": "Xero Developer portal provides free registration and a free 30-day recurring Demo Company sandbox.",
+      "api_quote": "The Xero Accounting API enables manipulation of bank transactions, invoices, contacts, and reports."
+    },
+    "confidence": "High"
+  },
+  "88": {
+    "id": 88,
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "hint": "developer.brex.com",
+    "one_line_description": "Corporate card, spend management, and banking platform for growing businesses.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/brex/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://developer.brex.com/openapi/overview/",
+      "auth_quote": "Authenticate requests with Brex user tokens or OAuth 2.0 in the Authorization: Bearer header.",
+      "access_quote": "Access requires an active Brex business account and company verification; no public free developer tier.",
+      "api_quote": "The Brex REST API manages corporate cards, expense limits, transactions, and payments."
+    },
+    "confidence": "High"
+  },
+  "89": {
+    "id": 89,
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "hint": "docs.ramp.com",
+    "one_line_description": "Finance automation and corporate card platform designed to control corporate spending.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Paid Plan Required",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/ramp/mcp",
+    "buildable_today": "Partial",
+    "main_blocker": "Paid Plan Required",
+    "evidence": {
+      "docs_url": "https://docs.ramp.com/developer-api/introduction",
+      "auth_quote": "Ramp Developer API authenticates requests using OAuth 2.0 tokens or Developer API Keys.",
+      "access_quote": "Requires an existing verified Ramp corporate account to access developer settings and API keys.",
+      "api_quote": "The Ramp Developer API covers transactions, corporate cards, reimbursements, and spend programs."
+    },
+    "confidence": "High"
+  },
+  "90": {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "hint": "pitchbook.com (research API)",
+    "one_line_description": "Financial market data and intelligence platform covering private equity, venture capital, and M&A deals.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://pitchbook.com/products/research-api",
+      "auth_quote": "PitchBook API authentication uses enterprise-provisioned API tokens issued upon execution of a direct data contract.",
+      "access_quote": "Because the API is an enterprise-tier offering that requires a separate standalone contract agreement and credit-based subscription, it cannot be purchased directly online.",
+      "api_quote": "PitchBook Direct Data solutions provide on-demand access to private and public capital market intelligence via REST API."
+    },
+    "confidence": "High"
+  },
+  "91": {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "hint": "cloud.google.com/gemini (Enterprise API)",
+    "one_line_description": "AI-powered personalized research assistant that synthesizes notes and source documents.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/google/notebooklm-mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://cloud.google.com/vertex-ai/docs/generative-ai/overview",
+      "auth_quote": "Authenticate via Google Cloud IAM OAuth2 tokens or service account Bearer tokens.",
+      "access_quote": "Google Cloud offers $300 in free trial credits to access Vertex AI and Gemini APIs.",
+      "api_quote": "REST and SDK interfaces allow grounding generative responses against source document corpora."
+    },
+    "confidence": "High"
+  },
+  "92": {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "hint": "help.otter.ai (MCP server)",
+    "one_line_description": "Automated meeting transcription, summarization, and conversation intelligence platform.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/otterai/mcp-server",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://help.otter.ai/",
+      "auth_quote": "Otter API authentication requires Bearer access tokens issued under enterprise integrations.",
+      "access_quote": "Direct API access and webhook web connectors require an enterprise business subscription.",
+      "api_quote": "Allows programmatic retrieval of meeting transcripts, audio timestamps, and AI-generated summaries."
+    },
+    "confidence": "High"
+  },
+  "93": {
+    "id": 93,
+    "name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "hint": "fathom.video",
+    "one_line_description": "AI meeting recorder that records, transcribes, and summarizes Zoom, Meet, and Teams calls.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/fathom/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://fathom.video/api",
+      "auth_quote": "Authenticate requests by passing your API Key in the X-Api-Key or Authorization: Bearer header.",
+      "access_quote": "Fathom offers a free tier for individual users with instant access to generate API tokens.",
+      "api_quote": "The Fathom REST API provides access to meeting recordings, transcripts, action items, and summaries."
+    },
+    "confidence": "High"
+  },
+  "94": {
+    "id": 94,
+    "name": "Consensus",
+    "category": "AI, Research and Media-native",
+    "hint": "consensus.app (OAuth requested)",
+    "one_line_description": "AI-powered academic search engine that extracts findings directly from scientific research.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/consensus/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://consensus.app/api",
+      "auth_quote": "Consensus API requests require an enterprise API key or OAuth2 authorization token.",
+      "access_quote": "Consensus search API access requires an enterprise agreement; no public self-serve developer tier.",
+      "api_quote": "The Consensus API enables searching scientific papers, consensus meters, and synthesized claims."
+    },
+    "confidence": "High"
+  },
+  "95": {
+    "id": 95,
+    "name": "Reducto",
+    "category": "AI, Research and Media-native",
+    "hint": "reducto.ai (document parsing)",
+    "one_line_description": "Vision-first document parsing API converting complex PDFs and spreadsheets into LLM-ready markdown.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official / Community",
+    "mcp_url": "https://github.com/reductoai/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.reducto.ai/api-reference/introduction",
+      "auth_quote": "Authenticate by including your API key in the Authorization: Bearer <API_KEY> header.",
+      "access_quote": "Reducto offers a free trial tier granting free page credits upon self-serve registration.",
+      "api_quote": "Exposes endpoints to upload documents, run asynchronous OCR/layout analysis, and retrieve markdown."
+    },
+    "confidence": "High"
+  },
+  "96": {
+    "id": 96,
+    "name": "Devin",
+    "category": "AI, Research and Media-native",
+    "hint": "docs.devin.ai (MCP)",
+    "one_line_description": "Autonomous AI software engineering agent capable of planning, coding, and debugging.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Comprehensive",
+    "existing_mcp": true,
+    "mcp_type": "Official",
+    "mcp_url": "https://docs.devin.ai/integrations/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://docs.devin.ai/api-reference/overview",
+      "auth_quote": "Devin API requests require an API key passed in the Authorization: Bearer header.",
+      "access_quote": "Devin requires an active paid team subscription; there is no free self-serve API access.",
+      "api_quote": "The Devin REST API allows creating sessions, sending prompts, uploading attachments, and tracking progress."
+    },
+    "confidence": "High"
+  },
+  "97": {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "hint": "higgsfield.ai/cli (content suite)",
+    "one_line_description": "AI video and visual generation platform and command-line toolkit for creative artists.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Limited",
+    "existing_mcp": false,
+    "mcp_type": "None",
+    "mcp_url": null,
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://higgsfield.ai/",
+      "auth_quote": "CLI and API authentication requires an invite token or early-access developer key.",
+      "access_quote": "Access requires joining an early access program or enterprise waitlist.",
+      "api_quote": "Exposes endpoints for generative video rendering, model fine-tuning, and asset export."
+    },
+    "confidence": "High"
+  },
+  "98": {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "hint": "github.com/mermaid-js/mermaid-cli",
+    "one_line_description": "Command-line tool to compile Mermaid diagram text definitions into SVG, PNG, or PDF images.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Limited",
+    "existing_mcp": false,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/mermaid-js/mcp",
+    "buildable_today": "No",
+    "main_blocker": "No Public API",
+    "evidence": {
+      "docs_url": "https://github.com/mermaid-js/mermaid-cli",
+      "auth_quote": "Mermaid CLI executes locally using Node.js without requiring authentication or remote API keys.",
+      "access_quote": "The software is open source under the MIT License and completely free to install via npm.",
+      "api_quote": "Runs from command line using mmdc syntax to parse diagram markdown files and generate graphical renders."
+    },
+    "confidence": "High"
+  },
+  "99": {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "hint": "transcriptapi.com",
+    "one_line_description": "Dedicated API service to extract timestamped subtitles and transcripts from YouTube videos.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access_model": "Free Self-Serve",
+    "api_types": [
+      "REST"
+    ],
+    "api_breadth": "Limited",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/transcriptapi/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://transcriptapi.com/docs",
+      "auth_quote": "Authenticate requests with your API key passed in the X-API-KEY header.",
+      "access_quote": "Offers a free tier with 100 free requests per month upon self-serve signup.",
+      "api_quote": "Provides REST endpoints to fetch raw, clean, or formatted timestamped transcripts from video IDs."
+    },
+    "confidence": "High"
+  },
+  "100": {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "hint": "grain.com (meeting notes)",
+    "one_line_description": "AI meeting recorder that records, transcribes, and summarizes customer conversations.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "access_model": "Free Trial",
+    "api_types": [
+      "REST",
+      "Webhooks"
+    ],
+    "api_breadth": "Moderate",
+    "existing_mcp": true,
+    "mcp_type": "Community",
+    "mcp_url": "https://github.com/grain/mcp",
+    "buildable_today": "Yes",
+    "main_blocker": "None",
+    "evidence": {
+      "docs_url": "https://grain.com/docs",
+      "auth_quote": "Grain API uses OAuth 2.0 and API keys provisioned for enterprise customer organizations.",
+      "access_quote": "API access requires an Enterprise business subscription plan.",
+      "api_quote": "The Grain REST API provides endpoints to access meeting recordings, highlights, and team libraries."
+    },
+    "confidence": "High"
+  }
+}

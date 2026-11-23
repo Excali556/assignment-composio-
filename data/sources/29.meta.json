@@ -1,0 +1,11 @@
+{
+  "id": 29,
+  "name": "Aircall",
+  "requested_url": "https://developer.aircall.io/api-references/",
+  "final_url": "https://developers.aircall.io/api-references",
+  "status": 200,
+  "chars": 463308,
+  "title": "API References | Aircall icon-light icon-dark icon-light icon-dark",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:34+00:00"
+}

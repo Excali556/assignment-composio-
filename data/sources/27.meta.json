@@ -1,0 +1,11 @@
+{
+  "id": 27,
+  "name": "Telegram",
+  "requested_url": "https://core.telegram.org/bots/api",
+  "final_url": "https://core.telegram.org/bots/api",
+  "status": 200,
+  "chars": 536523,
+  "title": "Telegram Bot API",
+  "transport": "urllib",
+  "fetched_at": "2026-11-23T14:29:33+00:00"
+}

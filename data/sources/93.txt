@@ -1,0 +1,66 @@
+Help Center
+
+Security & Compliance
+
+Contact Support
+
+Welcome! We're here to help.
+
+Results
+
+No results found
+
+More results
+
+We use cookies to analyze website traffic and help improve our visitor experience. Privacy Policy
+
+Reject
+
+Accept
+
+In this article
+Who this is forHow to get startedKeep in mind
+
+Home
+
+FAQs
+
+Technology and Compatibility
+
+Public API
+
+Edited
+
+Fathom now has a public API that gives you developer‑friendly access to meeting insights so you can build workflows and integrations that connect Fathom with the rest of your tools.
+
+Build exactly what you need -bring meeting summaries, transcripts, and action items right into your own tools and workflows for a tailored experience.
+
+Save time with automation - automate repetitive post‑meeting tasks and cut out manual copy‑paste so work moves faster.
+
+Unlock more use cases - extend Fathom with third‑party apps and integrations, opening the door to new org‑wide use cases.
+
+Who this is for
+
+Anyone can browse the API docs and start building!
+
+Partners can register an OAuth app to be eligible for a future marketplace listing as a Fathom‑approved integration.
+
+How to get started
+
+Looking for plug‑and‑play integrations? Visit the Integration Hub.
+
+Building internal workflows? Start with the Quickstart Guide.
+
+Publishing an integration for customers? Create an OAuth app here.
+
+Keep in mind
+
+API keys and access: API keys are created at the user level. Your key can access meetings recorded by you or shared to your Team. Admin API keys do not grant access to other users’ unshared meetings.
+
+Rate Limiting: users can make 60 calls per minute across all of their API keys; this ensures system stability and reliability. With that in mind, we do not offer higher rate limits at this time.
+
+If you have any questions, reach out to help@fathom.video. We’re happy to assist!
+
+Cookie preferences
+
+Terms of ServicePrivacy Policy
